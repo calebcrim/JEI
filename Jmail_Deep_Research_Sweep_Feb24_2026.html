@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jmail.World Deep Research Sweep — Four Focus Areas</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --card: #181b24;
+    --card-hover: #1e2230;
+    --border: #2a2e3a;
+    --accent-red: #e84545;
+    --accent-blue: #3b82f6;
+    --accent-green: #22c55e;
+    --accent-amber: #f59e0b;
+    --accent-purple: #a855f7;
+    --text: #e2e4e9;
+    --text-dim: #9ca3af;
+    --text-bright: #ffffff;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+  
+  .container { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem; }
+  
+  /* Header */
+  .header { text-align: center; padding: 3rem 0 2rem; border-bottom: 1px solid var(--border); margin-bottom: 2.5rem; }
+  .header h1 { font-size: 2rem; color: var(--text-bright); font-weight: 700; letter-spacing: -0.02em; }
+  .header .sub { color: var(--text-dim); font-size: 0.95rem; margin-top: 0.5rem; }
+  .header .date { color: var(--accent-blue); font-size: 0.85rem; margin-top: 0.25rem; font-weight: 600; }
+  
+  /* Stats bar */
+  .stats-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 2.5rem; }
+  .stat { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1rem 1.25rem; text-align: center; }
+  .stat .num { font-size: 1.4rem; font-weight: 700; color: var(--accent-blue); }
+  .stat .label { font-size: 0.78rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; margin-top: 0.2rem; }
+  
+  /* Section nav */
+  .nav { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 2.5rem; }
+  .nav a { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 0.5rem 1rem; color: var(--text); text-decoration: none; font-size: 0.85rem; font-weight: 500; transition: all 0.2s; }
+  .nav a:hover { background: var(--card-hover); border-color: var(--accent-blue); color: var(--accent-blue); }
+  .nav a.red { border-left: 3px solid var(--accent-red); }
+  .nav a.blue { border-left: 3px solid var(--accent-blue); }
+  .nav a.green { border-left: 3px solid var(--accent-green); }
+  .nav a.purple { border-left: 3px solid var(--accent-purple); }
+  
+  /* Sections */
+  .section { margin-bottom: 3rem; }
+  .section-head { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.5rem; padding-bottom: 0.75rem; border-bottom: 1px solid var(--border); }
+  .section-num { font-size: 0.7rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px; text-transform: uppercase; letter-spacing: 0.08em; }
+  .section-num.red { background: rgba(232,69,69,0.15); color: var(--accent-red); }
+  .section-num.blue { background: rgba(59,130,246,0.15); color: var(--accent-blue); }
+  .section-num.green { background: rgba(34,197,94,0.15); color: var(--accent-green); }
+  .section-num.purple { background: rgba(168,85,247,0.15); color: var(--accent-purple); }
+  .section-head h2 { font-size: 1.4rem; color: var(--text-bright); font-weight: 700; }
+  
+  /* Cards */
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.25rem 1.5rem; margin-bottom: 1rem; }
+  .card h3 { color: var(--text-bright); font-size: 1.05rem; margin-bottom: 0.6rem; font-weight: 600; }
+  .card h4 { color: var(--accent-blue); font-size: 0.9rem; margin: 1rem 0 0.4rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; }
+  .card p, .card li { color: var(--text); font-size: 0.92rem; }
+  .card ul { padding-left: 1.25rem; margin-top: 0.4rem; }
+  .card li { margin-bottom: 0.4rem; }
+  
+  /* Alert boxes */
+  .alert { border-radius: 8px; padding: 1rem 1.25rem; margin: 1rem 0; font-size: 0.9rem; }
+  .alert.red { background: rgba(232,69,69,0.1); border-left: 3px solid var(--accent-red); }
+  .alert.blue { background: rgba(59,130,246,0.1); border-left: 3px solid var(--accent-blue); }
+  .alert.amber { background: rgba(245,158,11,0.1); border-left: 3px solid var(--accent-amber); }
+  .alert.green { background: rgba(34,197,94,0.1); border-left: 3px solid var(--accent-green); }
+  .alert strong { color: var(--text-bright); }
+  
+  /* Evidence tags */
+  .tag { display: inline-block; font-size: 0.7rem; font-weight: 600; padding: 0.15rem 0.5rem; border-radius: 4px; margin-right: 0.3rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .tag.email { background: rgba(59,130,246,0.2); color: var(--accent-blue); }
+  .tag.fbi { background: rgba(232,69,69,0.2); color: var(--accent-red); }
+  .tag.financial { background: rgba(34,197,94,0.2); color: var(--accent-green); }
+  .tag.video { background: rgba(168,85,247,0.2); color: var(--accent-purple); }
+  .tag.testimony { background: rgba(245,158,11,0.2); color: var(--accent-amber); }
+  .tag.breaking { background: rgba(232,69,69,0.35); color: #ff6b6b; animation: pulse 2s infinite; }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.7; } }
+  
+  /* Quote blocks */
+  .quote { background: rgba(59,130,246,0.08); border-left: 3px solid var(--accent-blue); padding: 0.75rem 1rem; margin: 0.75rem 0; border-radius: 0 6px 6px 0; font-style: italic; font-size: 0.9rem; }
+  .quote .attr { font-style: normal; color: var(--text-dim); font-size: 0.8rem; margin-top: 0.3rem; }
+  
+  /* EFTA refs */
+  code { background: rgba(59,130,246,0.15); color: var(--accent-blue); padding: 0.1rem 0.4rem; border-radius: 3px; font-size: 0.85rem; font-family: 'Consolas', 'Monaco', monospace; }
+  
+  /* Tables */
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.88rem; }
+  th { background: rgba(59,130,246,0.1); color: var(--accent-blue); padding: 0.6rem 0.75rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+  td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--border); }
+  tr:hover td { background: rgba(255,255,255,0.02); }
+  
+  /* Methodology note */
+  .methodology { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin: 2rem 0; }
+  .methodology h3 { color: var(--accent-purple); margin-bottom: 0.5rem; }
+  
+  /* Footer */
+  .footer { text-align: center; padding: 2rem 0; border-top: 1px solid var(--border); margin-top: 2rem; color: var(--text-dim); font-size: 0.8rem; }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .header h1 { font-size: 1.5rem; }
+    .stats-bar { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<!-- HEADER -->
+<div class="header">
+  <h1>Jmail.World Deep Research Sweep</h1>
+  <div class="sub">Comprehensive Synthesis Across Four Focus Areas — Integrating Jmail Email Archive, DOJ Releases, Community Research &amp; Breaking Investigations</div>
+  <div class="date">Compiled February 24, 2026</div>
+</div>
+
+<!-- STATS BAR -->
+<div class="stats-bar">
+  <div class="stat"><div class="num">1,412,250</div><div class="label">Files Indexed (Jmail)</div></div>
+  <div class="stat"><div class="num">1,038,603</div><div class="label">Emails Searchable</div></div>
+  <div class="stat"><div class="num">38,000+</div><div class="label">Trump/Melania Mentions</div></div>
+  <div class="stat"><div class="num">$1.5B+</div><div class="label">Suspicious Transactions</div></div>
+  <div class="stat"><div class="num">53</div><div class="label">Pages Missing (NPR)</div></div>
+</div>
+
+<!-- SECTION NAV -->
+<div class="nav">
+  <a href="#trump" class="red">1. Trump-Epstein Connections</a>
+  <a href="#financial" class="blue">2. Financial Networks</a>
+  <a href="#victim" class="green">3. Victim Testimony</a>
+  <a href="#death" class="purple">4. Death / MCC Surveillance</a>
+</div>
+
+<!-- METHODOLOGY -->
+<div class="methodology">
+  <h3>Methodology &amp; Platform Note</h3>
+  <p>Jmail.world (created by Riley Walz and Luke Igel) is a community-built Gmail-clone interface indexing 1,038,603 emails from Epstein's <code>jeevacation@gmail.com</code> and <code>jeeproject@yahoo.com</code> accounts, plus 1,412,250 total files from the DOJ's EFTA releases and House Oversight Committee documents. The platform includes sub-tools: <strong>JPhotos</strong> (images), <strong>JFlights</strong> (flight logs), <strong>JAmazon</strong> (purchase records), <strong>JeffTube</strong> (1,000+ DOJ-released videos), <strong>JDrive</strong> (document archive), and <strong>Jwiki</strong> (person profiles). Its AI tool <strong>Jemini</strong> provides cross-document search, countering the DOJ's claim that handwritten and scanned materials are unsearchable. As of February 19, 2026, Jmail has drawn 25+ million unique visitors and 450+ million page views. The <strong>Economist</strong> partnered with the Jmail team to produce an LLM-scored "alarm index" of all 1.4 million emails, flagging the most disturbing threads — including requests for nude photos from women with redacted names and references to avoiding parents.</p>
+  <p style="margin-top: 0.5rem; color: var(--text-dim); font-size: 0.85rem;"><strong>Important caveat:</strong> Jmail makes DOJ documents searchable but does not independently verify them. FBI 302 memos reflect tips and allegations, not conclusions. Epstein's own emails are self-serving statements by a convicted sex offender. All findings below should be cross-referenced against original DOJ PDFs at <code>justice.gov/epstein</code>.</p>
+</div>
+
+<!-- ================================================================ -->
+<!-- SECTION 1: TRUMP-EPSTEIN CONNECTIONS -->
+<!-- ================================================================ -->
+<div class="section" id="trump">
+  <div class="section-head">
+    <span class="section-num red">Focus Area 1</span>
+    <h2>Trump-Epstein Connections</h2>
+  </div>
+
+  <div class="alert red">
+    <span class="tag breaking">Breaking</span> <strong>NPR Investigation (Feb. 24, 2026):</strong> The DOJ has removed or withheld 53+ pages of FBI interviews with Trump accusers from the public Epstein database. Rep. Garcia confirms DOJ "appears to have illegally withheld FBI interviews with this survivor who accused President Trump of heinous crimes." House Oversight Democrats have opened a parallel investigation.
+  </div>
+
+  <div class="card">
+    <h3>The "Knew About the Girls" Emails (Searchable on Jmail)</h3>
+    <p>Three pivotal emails released by House Oversight Committee Democrats in November 2025, now fully searchable on Jmail:</p>
+    
+    <h4>Email 1 — Epstein to Maxwell (April 2, 2011)</h4>
+    <div class="quote">"I want you to realize that that dog that hasn't barked is trump.. [Victim] spent hours at my house with him,, he has never once been mentioned. police chief. etc. im 75% there."<div class="attr">Maxwell replied: "I have been thinking about that."</div></div>
+    <p><span class="tag email">Email</span> House Republicans identified the redacted victim as Virginia Giuffre, who did not accuse Trump of wrongdoing in her sworn testimony.</p>
+
+    <h4>Email 2 — Epstein to Michael Wolff (Jan. 31, 2019)</h4>
+    <div class="quote">"[Victim] mara lago. [identifier]. Trump said he asked me to resign, never a member ever. Of course he knew about the girls as he asked ghislaine to stop."</div>
+    <p><span class="tag email">Email</span> The most widely covered email in the releases. FactCheck.org noted this "could be interpreted multiple ways" and does not specify if Epstein meant underage girls or show definitive evidence of Trump's knowledge of criminal activity.</p>
+
+    <h4>Email 3 — Epstein-Wolff Exchange (Dec. 15, 2015)</h4>
+    <div class="quote">"If he says he hasn't been on the plane or to the house, then that gives you a valuable PR and political currency."<div class="attr">Wolff advising Epstein on how to exploit Trump's potential CNN denials</div></div>
+    <p><span class="tag email">Email</span> Sent the day of the 5th Republican primary debate. Epstein asked: "If we were able to craft an answer for him, what do you think it should be?"</p>
+  </div>
+
+  <div class="card">
+    <h3>Jmail Mention Frequency Analysis</h3>
+    <table>
+      <tr><th>Search Term</th><th>Jmail Results</th><th>Context</th></tr>
+      <tr><td>"Trump"</td><td>38,000+ mentions</td><td>Social, financial, abuse contexts; majority in news articles Epstein forwarded</td></tr>
+      <tr><td>Rep. Raskin's unredacted search</td><td>"More than a million" hits</td><td>Includes all document pages, not just emails</td></tr>
+      <tr><td>"Mar-a-Lago"</td><td>Hundreds</td><td>Abuse allegations, membership disputes, employee movement</td></tr>
+      <tr><td>"Melania" / "Milania"</td><td>Included in 38K+ total</td><td>Black book entries, social scheduling</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>Flight Records — Contradicting Trump's Denials</h3>
+    <p><span class="tag fbi">FBI</span> A January 2020 SDNY prosecutor email (found in DOJ Dataset 8): "the flight records we received yesterday reflect that Donald Trump traveled on Epstein's private jet many more times than we previously had reported or that we were aware of." Federal records now document at least 8 flights between 1993–1996:</p>
+    <ul>
+      <li><strong>May 15, 1994:</strong> Palm Beach → Teterboro via D.C. — with Marla Maples and infant Tiffany Trump</li>
+      <li><strong>Aug. 13, 1995:</strong> Palm Beach → Teterboro — with Eric Trump and Maxwell</li>
+      <li><strong>Jan. 5, 1997:</strong> Palm Beach → Newark</li>
+      <li><strong>1993 flight:</strong> Only Trump and Epstein listed as passengers</li>
+      <li>Maxwell was present on at least four flights</li>
+    </ul>
+    <p>All documented flights were domestic — no evidence places Trump on flights to Little St. James. Trump's 2024 statement: "I was never on Epstein's Plane."</p>
+  </div>
+
+  <div class="card">
+    <h3>Withheld FBI Interviews — The 53 Missing Pages</h3>
+    <p><span class="tag breaking">Breaking</span> <span class="tag fbi">FBI</span> NPR's February 24, 2026 investigation found via serial number analysis:</p>
+    <ul>
+      <li><strong>Accuser 1 (~1983 allegation):</strong> Claims that around age 13, Epstein introduced her to Trump, "who subsequently forced her head down to his exposed penis which she subsequently bit. In response, Trump punched her in the head and kicked her out." FBI interviewed her four times; only the first interview (July 24, 2019) is in the public database — and it does not mention Trump. Of 15 documents logged in Maxwell case discovery, only 7 are publicly available.</li>
+      <li><strong>Accuser 2 ("Jane" / Interlochen victim):</strong> A 14-year-old recruited at Interlochen music camp, taken to Mar-a-Lago in 1994. FBI 302 states Epstein "elbowed Trump playfully, asking him, 'This is a good one, right?'" Trump "smiled and nodded." She testified at Maxwell's trial but did not describe inappropriate behavior by Trump. Her FBI interview was temporarily removed from the DOJ database; an interview with her mother remains offline.</li>
+      <li><strong>Victim "presented" to Trump:</strong> A 2021 FBI memo describes Maxwell "presenting" a victim to Trump at a party, suggesting she was "available." The witness said "nothing happened" between her and Trump.</li>
+    </ul>
+    <div class="alert amber"><strong>Reliability note:</strong> FBI 302 memos document allegations — they are not conclusions. The DOJ noted the files "may include fake or falsely submitted images, documents or videos" because "everything that was sent to the FBI by the public" was included. Giuffre's consistent testimony that Trump did not engage in wrongdoing remains the strongest exculpatory evidence.</div>
+  </div>
+
+  <div class="card">
+    <h3>Bannon–Epstein Intelligence Channel (Jmail Searchable)</h3>
+    <p><span class="tag email">Email</span> Hundreds of emails and texts between Bannon and Epstein (Jan. 2018 – Jul. 2019), now fully searchable on Jmail. Key threads:</p>
+    <ul>
+      <li>Bannon relayed White House intelligence: "DJT now really down on Pence... thinks Pompeo would be better VP"</li>
+      <li>Bannon discussed Trump being close to a mental breakdown</li>
+      <li>Bannon texted: "Do u know anyone in Europe that wants to control the European Parliament" and "We are overthrowing May right now"</li>
+      <li>During Kavanaugh hearings, Epstein coached Bannon on attacking Christine Blasey Ford: "make sure they ask Ford about her medications"</li>
+      <li>Bannon offered PR rehabilitation strategy to "crush the pedo/trafficking narrative"</li>
+      <li>Bannon noted he was "mentioned in the Palm Beach house sale. Hopefully not anywhere else"</li>
+      <li>A photo of Trump and Maxwell was found on Bannon's iPhone (Dataset 8)</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Mar-a-Lago Abuse Thread</h3>
+    <p><span class="tag testimony">Testimony</span> Multiple convergent allegations found across Jmail emails and DOJ files:</p>
+    <ul>
+      <li>Michael Capponi reportedly sent shuttle buses of underage models to "casting parties" in the 1990s</li>
+      <li>Jane Doe 3 met Epstein in 1999 at Mar-a-Lago; a 15-year-old worker became a "sex slave"</li>
+      <li>FBI records reference a Trump party "for prostitutes" (EFTA00152984)</li>
+      <li>WSJ reported Mar-a-Lago "regularly sent employees — usually young women" to Epstein's Palm Beach home for massages</li>
+      <li>Jack O'Donnell (former Trump Plaza COO) stated Trump and Epstein brought underage girls onto the casino floor in the late 1980s</li>
+    </ul>
+    <p><strong>Competing ban narratives:</strong> Four distinct accounts exist for why Epstein was removed from Mar-a-Lago (real estate dispute, beautician complaint, pool incident, Trump's "stole employees" claim). Epstein's own email contradicts Trump: "Trump said he asked me to resign, never a member ever." Brad Edwards' 2009 summary quotes Trump saying Epstein "was not a member" but "had never been asked to leave."</p>
+  </div>
+</div>
+
+<!-- ================================================================ -->
+<!-- SECTION 2: FINANCIAL NETWORKS & MONEY LAUNDERING -->
+<!-- ================================================================ -->
+<div class="section" id="financial">
+  <div class="section-head">
+    <span class="section-num blue">Focus Area 2</span>
+    <h2>Financial Networks &amp; Money Laundering</h2>
+  </div>
+
+  <div class="card">
+    <h3>The $1.5 Billion Suspicious Transaction Map</h3>
+    <p><span class="tag financial">Financial</span> Rep. Raskin documented $1.5 billion in suspicious transactions across four banks. The financial documents — wire transfer records, SAR filings, and trust agreements — are indexed in Jmail's JDrive alongside the email correspondence:</p>
+    <table>
+      <tr><th>Bank</th><th>Amount</th><th>Key Detail</th></tr>
+      <tr><td>JPMorgan Chase</td><td>~$1.1B (4,725 wires)</td><td>Filed retroactive SAR after Epstein's death; only 7 SARs ($4.3M) while he was alive. Epstein on "Wall of Cash" list with $142M+ in balances by 2009</td></tr>
+      <tr><td>Bank of NY Mellon</td><td>$378M (270 wires)</td><td>18 round-dollar $1M wires in 2007; bank failed to identify legitimate purpose for any transfer. $7.4M transferred to Maxwell's account → "Air Ghislaine" → $7.3M Sikorsky helicopter purchase (single day chain)</td></tr>
+      <tr><td>Deutsche Bank</td><td>~$150M (40+ accounts)</td><td>Butterfly Trust funded 120+ wires ($2.65M) to women with Eastern European surnames; cash withdrawals structured at $7,500 to avoid CTR reporting</td></tr>
+      <tr><td>Bank of America</td><td>$170M+ (2 SARs)</td><td>Only 2 delayed SARs covering transactions between Epstein and Leon Black</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>The Treasury "Epstein File"</h3>
+    <p><span class="tag financial">Financial</span> Sen. Wyden's investigation identified a Treasury Department file containing the 4,725 JPMorgan wire transfers, including transfers through <strong>Russian banks now under sanctions</strong>. Women targeted from Russia, Belarus, Turkey, and Turkmenistan. Treasury Secretary Bessent has refused to comply with the Senate Finance Committee's request for these records.</p>
+  </div>
+
+  <div class="card">
+    <h3>Corporate Entity Network (Jmail + DOJ Files)</h3>
+    <p><span class="tag financial">Financial</span> The full corporate network enumerated in the Produce Epstein Treasury Records Act (S.2746):</p>
+    <ul>
+      <li><strong>Southern Trust Company:</strong> USVI-registered, 90% income tax exemption, generated $250M+ in revenues while employing only 13 people. No actual informatics work — a conduit for payments to foreign women, credit cards, and airplanes. Epstein received a $71.3M personal income tax exemption.</li>
+      <li><strong>$25M Rothschild contract:</strong> Oct. 5, 2015 agreement with Edmond de Rothschild Holding S.A. for "risk analysis and algorithm-related services," signed by Ariane de Rothschild</li>
+      <li><strong>Adfin:</strong> Co-investment vehicle with Howard Lutnick (Epstein signed for Southern Trust, Lutnick for CVAFH I)</li>
+      <li><strong>Butterfly Trust:</strong> Est. 2013/2014 at Deutsche Bank; compliance officer flagged co-conspirators as beneficiaries — overruled. Account chart at <code>EFTA00029805</code></li>
+      <li><strong>1953 Trust:</strong> Epstein's final will (signed Aug. 8, 2019 — two days before death). 40+ beneficiaries of ~$600M estate</li>
+    </ul>
+    <p>Full entity list: Financial Trust Co., Southern Trust Co., Southern Financial LLC, Haze Trust, The 1953 Trust, Plan D LLC, Great St. Jim LLC, Nautilus Inc., Hyperion Air LLC, Poplar Inc., J Epstein VI Foundation, Gratitude America Ltd., Butterfly Trust, La Hougue, HBRK Associates, Coatue Enterprises, C.O.U.Q. Foundation, Enhanced Education, JEGE Inc./LLC, NES LLC.</p>
+  </div>
+
+  <div class="card">
+    <h3>Cerberus/Feinberg Connection (POGO Investigation)</h3>
+    <p><span class="tag email">Email</span> <span class="tag financial">Financial</span> Project on Government Oversight (POGO) reported that DOD Deputy Secretary Steve Feinberg's former firm Cerberus has extensive Epstein file connections:</p>
+    <ul>
+      <li>Whistleblower Christopher DiIorio's emails allege "massive fraud" by Cerberus and Feinberg, with one email reading "Money laundering clean up GUARANTEED"</li>
+      <li>Deutsche Bank employees identified Cerberus as a "high risk" account; six guarantors were never identified through Know Your Client processes</li>
+      <li>Epstein-Andrew Farkas emails (2015) discuss Cerberus funds: "I have $200mm now from each of harvard and cerberus"</li>
+      <li>Feinberg remains financially entangled with Cerberus through administrative services contracts, per 2026 ethics filings</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Gratitude America: Phantom Donations</h3>
+    <p><span class="tag financial">Financial</span> NBC News contacted 56 listed grant recipients (2010–2017) and 10 denied receiving any donation — including the Metropolitan Museum of Art, Duke University, Ohio State, and the Elton John AIDS Foundation. The foundation received most of its funding from a $10M grant controlled by Leon Black. DOJ document <code>EFTA00009962</code> contains a WSJ journalist's email noting prosecutors were scrutinizing the foundation because transactions fell within the statute of limitations.</p>
+  </div>
+
+  <div class="card">
+    <h3>Trump-Specific Financial Threads in Emails</h3>
+    <p><span class="tag email">Email</span> Searchable on Jmail:</p>
+    <ul>
+      <li>Epstein explained Trump's money laundering to lawyer Kathy Ruemmler</li>
+      <li>Ruemmler sent Epstein an NYT op-ed referencing Michael Cohen; Epstein responded "you see, I know how dirty donald is"</li>
+      <li>The Rybolovlev mansion deal discussed: Trump sold a Palm Beach property to a Russian buyer for 3x its value with no competing bids; Epstein believed Trump was "fronting for someone else"</li>
+      <li>Tom Barrack tax evasion discussions in emails with Epstein</li>
+      <li>Casino chip schemes involving Trump's father referenced</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>DEA "Operation Chain Reaction"</h3>
+    <p><span class="tag fbi">Law Enforcement</span> A previously unreported DEA investigation (69-page law enforcement sensitive memo from 2015) examined Epstein for "$5.6 million in suspected narcotics-related" wire transfers in USVI and NYC. This document surfaced in the DOJ releases and is indexed in JDrive.</p>
+  </div>
+</div>
+
+<!-- ================================================================ -->
+<!-- SECTION 3: VICTIM TESTIMONY CORROBORATION -->
+<!-- ================================================================ -->
+<div class="section" id="victim">
+  <div class="section-head">
+    <span class="section-num green">Focus Area 3</span>
+    <h2>Victim Testimony Corroboration</h2>
+  </div>
+
+  <div class="alert green">
+    <strong>Key finding from declassified 2019 FBI investigation:</strong> Other victims did not corroborate Virginia Giuffre's specific allegation that Epstein operated a trafficking "ring" that "lent out" girls to powerful men. Evidence seized from Epstein's homes implicated only Epstein and Maxwell. However, the 302 interviews, now searchable via Jmail, document a systematic organized operation across multiple residences.
+  </div>
+
+  <div class="card">
+    <h3>FBI 302 Interview Records (Datasets 1–7, 9)</h3>
+    <p><span class="tag fbi">FBI</span> <span class="tag testimony">Testimony</span> The January 30, 2026 release included numerous FBI interview records from alleged victims spanning 2013–2021. These provide detailed accounts of the organized operation using private planes and multiple residences to facilitate sexual exploitation. Key patterns:</p>
+    <ul>
+      <li><strong>Recruitment pipeline:</strong> FBI identified 35+ girls with similar histories between 2002–2005 in Palm Beach alone</li>
+      <li><strong>Payment for recruitment:</strong> Multiple victims reported being paid hundreds of dollars to recruit other girls</li>
+      <li><strong>Maxwell's role documented across dozens of interviews:</strong> Consistent descriptions of her recruiting, grooming, and scheduling victims</li>
+      <li><strong>MC2 modeling agency:</strong> Former bookkeeper told FBI that Brunel flew in teenage models from around the world and "loaned them out to wealthy clients for up to $100,000 a night"</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Victim Names Exposed — Redaction Failures</h3>
+    <p><span class="tag testimony">Testimony</span> The DOJ's release process exposed numerous victims:</p>
+    <ul>
+      <li>WSJ review found at least <strong>43 victims' full names</strong> unredacted, including 24+ who were minors when abused; some names appeared 100+ times</li>
+      <li>Brad Edwards (victims' attorney): "literally thousands of mistakes" — his team had provided DOJ with a list of 350 victim names on December 4</li>
+      <li>Attorneys report victims' home addresses were visible in keyword searches</li>
+      <li>DOJ published dozens of unredacted nude images of young women; removed only after NYT notification</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>The Economist / Jmail "Alarm Index"</h3>
+    <p><span class="tag email">Email</span> The Economist partnered with the Jmail team to apply an LLM-scored "alarm index" across all 1.4 million emails. Key findings:</p>
+    <ul>
+      <li>Flagged many disturbing messages between Epstein and <strong>women with redacted names</strong>, often involving requests for nude photos</li>
+      <li>In some cases, references to "avoiding parents" were identified — a pattern consistent with contact with minors</li>
+      <li>A quarter of Epstein's top non-staff contacts have Wikipedia pages</li>
+      <li>He traded emails with at least 18 current or former billionaires</li>
+      <li>Bill Gates was an exception to normal patterns: Epstein bombarded him with emails despite few responses</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Maxwell Trial Testimony vs. Email Evidence</h3>
+    <p><span class="tag testimony">Testimony</span> <span class="tag email">Email</span> Jmail allows researchers to cross-reference trial testimony against Epstein's email communications:</p>
+    <ul>
+      <li><strong>"Jane" (Interlochen victim):</strong> Testified at Maxwell trial under pseudonym about being recruited at age 14 at summer camp, taken to Mar-a-Lago. Email records show scheduling and logistics around these visits.</li>
+      <li><strong>Juan Alessi (house manager):</strong> Deposition testimony naming visitors corroborated by email scheduling with Lesley Groff (157,613 mentions — the most-mentioned individual in the files)</li>
+      <li><strong>Maxwell depositions (2016, video released Jan. 2026):</strong> Asked "Did Jeffrey Epstein have a scheme to recruit underage girls to use them for sexual massages?" — video now available through JeffTube</li>
+      <li><strong>Virginia Giuffre:</strong> Died by suicide in 2025. Her consistent testimony that Trump did not engage in wrongdoing is contradicted only by Epstein's private emails (self-serving statements). Her brother Skye Roberts expressed outrage at DOJ's handling of file release.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>"Baby Stuff" Thread — Trafficking Evidence</h3>
+    <p><span class="tag email">Email</span> A disturbing cluster of documents searchable on Jmail that may connect to trafficking operations:</p>
+    <ul>
+      <li>Barnaby Marsh sending "baby smell" content to Epstein</li>
+      <li>Epstein wanting baby blankets for a "plan" — associate "Shelley" responds "not on God's earth"</li>
+      <li>"Baby girl 2013 — Taylor" document (<code>EFTA01414279</code>)</li>
+      <li>"Kidnapped as baby" reference in files</li>
+      <li>"JE Angels" emails sent to Karyna Shuliak</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>International Victim Investigations Triggered</h3>
+    <ul>
+      <li><strong>Turkey (Feb. 3, 2026):</strong> Prosecutors reviewing files for allegations of trafficking Turkish children</li>
+      <li><strong>Norway:</strong> Thorbjørn Jagland charged with "gross corruption" following documented contact with Epstein (2011–2018); hospitalized after apparent suicide attempt Feb. 24, 2026</li>
+      <li><strong>UK:</strong> Prince Andrew arrested Feb. 19, 2026 on suspicion of sharing confidential trade reports with Epstein</li>
+      <li><strong>UK:</strong> Peter Mandelson arrested Feb. 23, 2026, accused of passing market-sensitive government information to Epstein</li>
+      <li><strong>New Mexico:</strong> Legislature passed legislation for full bipartisan investigation ("truth commission" with subpoena power) into events at Zorro Ranch</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ================================================================ -->
+<!-- SECTION 4: DEATH / MCC SURVEILLANCE EVIDENCE -->
+<!-- ================================================================ -->
+<div class="section" id="death">
+  <div class="section-head">
+    <span class="section-num purple">Focus Area 4</span>
+    <h2>Death / MCC Surveillance Evidence</h2>
+  </div>
+
+  <div class="card">
+    <h3>The "Missing Minute" — Solved and Unsolved</h3>
+    <p><span class="tag video">Video</span> The mystery of the missing 62 seconds from the surveillance footage was explained by the February 2026 document releases, but the explanation itself raises questions:</p>
+    <ul>
+      <li><strong>June 2024:</strong> FBI agent granted authorization to <strong>destroy</strong> evidence item 1B60 — the master recording of MCC surveillance video — described as "no longer pertinent" to the case</li>
+      <li><strong>February 2025:</strong> Agent wrote justification: "case was already closed and [redacted prosecutor] concurred"</li>
+      <li><strong>May 2025:</strong> After public demand, DOJ needed the destroyed footage reconstructed. Agent used <strong>screen capture tool</strong> to re-record from a NiceVision system backup — but 62 seconds (11:58:58 to 12:00:00) couldn't be captured</li>
+      <li><strong>July 2025:</strong> The "missing minute" version was released publicly, sparking conspiracy theories</li>
+      <li><strong>Metadata analysis:</strong> Independent forensic analysts found artifacts consistent with Adobe Premiere Pro and evidence the "raw" file was assembled from at least two source clips, with ~2 minutes 53 seconds removed. The DOJ initially characterized this as "unaltered raw footage" — contradicted by the metadata</li>
+      <li><strong>Aspect ratio shift:</strong> Wired noted a shift after midnight. The FBI section chief responded: "The aspect ratio of the file was also corrected to create a more natural appearance"</li>
+    </ul>
+    <div class="alert amber"><strong>Assessment:</strong> Multiple investigations found Epstein's death was suicide. The technical anomalies do not prove tampering, but the DOJ's characterization of the release as "raw footage" was inaccurate, and the chain-of-custody explanation has not satisfied independent forensic experts.</div>
+  </div>
+
+  <div class="card">
+    <h3>The Orange Figure on the Stairs</h3>
+    <p><span class="tag video">Video</span> <span class="tag fbi">FBI</span> February 2026 DOJ documents revealed:</p>
+    <ul>
+      <li>Investigators reviewing footage observed an <strong>orange-colored shape moving up a staircase</strong> toward Epstein's isolated, locked tier at approximately <strong>10:39 p.m. on August 9, 2019</strong></li>
+      <li>An internal FBI memorandum described the figure as "possibly an inmate"</li>
+      <li>A separate DOJ OIG review concluded it may have been a corrections officer carrying orange linen</li>
+      <li>CBS News consulted independent video analysts who said the movement was "more consistent with an inmate — or someone wearing an orange prison uniform — than a corrections officer"</li>
+      <li>Official reviews of Epstein's death make no mention of this figure. AG Barr and Deputy FBI Director Bongino publicly stated no one entered Epstein's tier that night.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>MCC Protocol Failures</h3>
+    <p><span class="tag fbi">FBI</span> DOJ files document systematic failures:</p>
+    <ul>
+      <li>Warden explicitly recommended Epstein not be held alone and mandated rounds every 30 minutes plus unscheduled checks</li>
+      <li>Epstein's cellmate was released the day before his death, leaving him in <strong>solitary confinement contrary to explicit guidance</strong></li>
+      <li>Guards failed to conduct scheduled rounds at <strong>3:00 AM and 5:00 AM</strong> on the fatal night</li>
+      <li>Surveillance cameras in Epstein's cell block malfunctioned at the critical time</li>
+      <li>Body removal: Staff used boxes and sheets to simulate a loaded stretcher, placing it in a van labeled for the medical examiner — explicitly documented as an attempt to evade press</li>
+      <li>Medical examiner reviewed surveillance footage six days after death and concluded it was "too blurry to identify any individuals" — then ruled suicide hours later</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Epstein's Own Surveillance Operation (Hidden Cameras)</h3>
+    <p><span class="tag video">Video</span> Released DOJ documents and footage reveal Epstein operated his own extensive surveillance system:</p>
+    <ul>
+      <li><strong>2014 email:</strong> Epstein instructed employee to purchase "three motion detected hidden cameras" — employee replied two had already been bought and were being installed inside Kleenex boxes</li>
+      <li><strong>2019:</strong> At least three surveillance cameras mounted in Epstein's bedroom and adjoining rooms in his New York townhouse</li>
+      <li>A ground floor room with sign reading "24 Hour Video Surveillance" housed monitors displaying feeds</li>
+      <li><strong>Contradiction:</strong> Federal prosecutors in a 2025 memo claimed not to have found surveillance cameras in Epstein's bedroom or anywhere except the entryway</li>
+      <li>Grainy hidden camera footage from Epstein's Palm Beach home office has surfaced in the DOJ releases</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Autopsy and Death Circumstances</h3>
+    <p><span class="tag fbi">FBI</span> The January 30, 2026 release included:</p>
+    <ul>
+      <li>89-page official autopsy report from OCME</li>
+      <li>20 previously unseen autopsy/response photos (verified by BBC as never circulated before Jan. 30, 2026)</li>
+      <li>Dr. Michael Baden (retained by Epstein's brother): Body had "likely been dead for several hours" before discovery, but body had been moved, making time-of-death determination impossible</li>
+      <li>Evidence records: A shirt believed to have been cut from Epstein's body was returned from the hospital in a bag of personal belongings</li>
+      <li>Mark Epstein's position: Without recording from the actual tier camera, "it is unclear if the door to his brother's prison cell had been properly locked or if other prisoners could have had access." That tier housed up to 14 inmates; only 3 voluntarily spoke to investigators.</li>
+    </ul>
+    <div class="alert amber"><strong>DOJ draft statement anomaly:</strong> Documents included a draft DOJ statement noting Epstein's death on <strong>August 9</strong> — the day before his actual death on August 10. The DOJ said this was an "unfortunate typo."</div>
+  </div>
+
+  <div class="card">
+    <h3>Prison CCTV Footage (Datasets 8 &amp; 9, JeffTube)</h3>
+    <p><span class="tag video">Video</span> Extensive footage now available through Jmail's JeffTube:</p>
+    <ul>
+      <li>Multiple camera angles from 11pm through 10am covering the night before and morning of death (Aug 9–10)</li>
+      <li>Jail facility tour video from Aug 10 at 5pm</li>
+      <li>Whiteboard video from Aug 10</li>
+      <li>CBS News digitally reconstructed the Special Housing Unit using DOJ diagrams and found the video does little to support later claims by federal officials</li>
+      <li>Epstein's cell entrance and primary SHU entrance are both off-camera in the same direction — impossible to tell from video if he went to his cell or exited the SHU</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ================================================================ -->
+<!-- RESEARCH GAPS AND NEXT STEPS -->
+<!-- ================================================================ -->
+<div class="section" id="gaps">
+  <div class="section-head">
+    <span class="section-num" style="background: rgba(255,255,255,0.1); color: var(--text);">Gaps</span>
+    <h2>Critical Research Gaps &amp; Upcoming Events</h2>
+  </div>
+
+  <div class="card">
+    <h3>What Remains Hidden</h3>
+    <ul>
+      <li>~3 million of 6 million identified pages unreleased</li>
+      <li>Dataset 9 acknowledged as <strong>incomplete at source</strong></li>
+      <li>40 seized computers, 300+ GB of data, and wiretap discs from Maxwell's phone — unreleased</li>
+      <li>26 storage drives and 70+ CDs seized from Epstein's properties — contents unknown</li>
+      <li>Little St. James logbook and boat trip logs — referenced but not fully released</li>
+      <li>No passenger manifests exist after August 2013 despite 835 documented flights through 2019</li>
+      <li>The 53+ pages identified by NPR's serial number analysis (Trump accuser interviews)</li>
+      <li>Treasury Department "Epstein File" — Secretary Bessent blocking release</li>
+      <li>Complete contents of Epstein's encrypted communications (emails show he routinely asked contacts to move to encrypted apps)</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Upcoming Events</h3>
+    <ul>
+      <li><strong>Feb. 26–27, 2026:</strong> Clinton depositions scheduled</li>
+      <li><strong>March 2026:</strong> Federal prosecutors deadline to respond to Maxwell's motion to set aside her conviction</li>
+      <li><strong>Ongoing:</strong> Senate Finance Committee battle for Treasury records</li>
+      <li><strong>Ongoing:</strong> House Oversight Committee parallel investigation into DOJ's decision to withhold Trump-related files</li>
+      <li><strong>Ongoing:</strong> New Mexico "truth commission" investigation into Zorro Ranch</li>
+      <li><strong>Ongoing:</strong> UK investigation of Prince Andrew; Peter Mandelson prosecution</li>
+    </ul>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <p>Compiled February 24, 2026 | Sources: Jmail.world, DOJ Epstein Library (justice.gov/epstein), NPR, CBS News, Bloomberg, The Economist, POGO, Senate Finance Committee, House Oversight Committee, Wikipedia (Epstein files &amp; Death of Jeffrey Epstein)</p>
+  <p style="margin-top: 0.5rem;">This document synthesizes publicly available information for research purposes. Inclusion of allegations does not constitute verification. All findings should be cross-referenced against original DOJ documents.</p>
+</div>
+
+</div>
+</body>
+</html>

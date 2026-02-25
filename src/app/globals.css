@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    background-color: #0f1117;
+    color: #e8eaf0;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #0f1117;
+    color: #e8eaf0;
+    min-height: 100vh;
+  }
+
+  /* Prose styles for rendered markdown */
+  .prose-dark h2 {
+    @apply text-xl font-semibold text-text-primary mt-8 mb-3;
+  }
+  .prose-dark h3 {
+    @apply text-base font-semibold text-text-primary mt-6 mb-2;
+  }
+  .prose-dark p {
+    @apply text-sm leading-relaxed text-text-secondary mb-4;
+  }
+  .prose-dark ul {
+    @apply list-disc list-inside text-sm text-text-secondary mb-4 space-y-1;
+  }
+  .prose-dark ol {
+    @apply list-decimal list-inside text-sm text-text-secondary mb-4 space-y-1;
+  }
+  .prose-dark li {
+    @apply text-sm text-text-secondary leading-relaxed;
+  }
+  .prose-dark strong {
+    @apply font-semibold text-text-primary;
+  }
+  .prose-dark a {
+    @apply text-accent-blue hover:text-accent-blueHover underline;
+  }
+  .prose-dark table {
+    @apply w-full text-sm border-collapse mb-4;
+  }
+  .prose-dark th {
+    @apply text-left text-xs font-semibold text-text-muted uppercase tracking-wider
+           border-b border-surface-border px-3 py-2 bg-surface-card;
+  }
+  .prose-dark td {
+    @apply text-sm text-text-secondary border-b border-surface-border px-3 py-2;
+  }
+  .prose-dark blockquote {
+    @apply border-l-2 border-surface-border pl-4 text-text-muted italic mb-4;
+  }
+  .prose-dark hr {
+    @apply border-t border-surface-border my-6;
+  }
+  .prose-dark code {
+    @apply font-mono text-xs bg-surface-elevated px-1.5 py-0.5 rounded text-text-primary;
+  }
+
+  /* Line clamping utilities */
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}

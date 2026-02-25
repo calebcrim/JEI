@@ -1,0 +1,613 @@
+[
+  {
+    "id": "efta-release-framework-document-architecture",
+    "title": "EFTA Release Framework & Document Architecture",
+    "sectionNumber": 1,
+    "summary": "The House voted 427–1 (Rep. Clay Higgins sole dissent) on November 18, 2025; the Senate passed unanimously the same day. Trump signed it into law November 19, without reporters present, after reporting indicated he personally lobbied individual GOP members to oppose the bill but was outmaneuvered by bipartisan momentum. The Act required DOJ to release all files within 30 days.",
+    "content": "The DOJ ultimately released approximately **3.5 million pages, 2,000 videos, and 180,000 images** across multiple batches (December 19, 2025 through January 30, 2026). The DOJ gathered 6 million qualifying pages before filtering — approximately **half remain unreleased**.\n\n### Dataset Breakdown\n\n| Dataset | Size | Files | EFTA Range | Release Date | Contents |\n|---------|------|-------|------------|-------------|---------|\n| DS 1–7 | ~3.0 GB | 4,085 PDFs | EFTA00000001–00009664 | Dec 19, 2025 | FBI 302 interview summaries, Palm Beach police reports from 2005–2008 investigations |\n| DS 8 | 10.67 GB | 10,593 PDFs + MP4s | EFTA00009676–00039023 | Dec 22, 2025 | Prison CCTV footage (MCC New York), grand jury testimony 2007/2019, Austrian passport alias, call logs, Bannon iPhone photo |\n| DS 9 | ~179 GB | ~533,786 files | EFTA00039025–01262781 | Jan 30, 2026 | Private email correspondence — the main trove; internal DOJ memos on NPA; correspondence with high-profile individuals |\n| DS 10 | ~79 GB | ~50,403 files | EFTA01262782+ | Jan 30, 2026 | 180,000 images + 2,000 videos from Epstein's properties; self-recorded footage; Bannon interview (~15 hrs); DOJ initially published unredacted nude images, later removed |\n| DS 11 | ~26 GB | ~331,655 files | Various | Jan 30, 2026 | Financial ledgers, flight manifests, Little St. James logbooks, boat trip logs, Maxwell financial records, property records |\n| DS 12 | 114 MB | 154 files | Up to ~EFTA02731785 | Jan 30, 2026 | Supplemental late-production set; downloadable at justice.gov/epstein/files/DataSet%2012.zip |\n\n**Note on Dataset 9:** The DOJ pagination operates as an \"infinite loop\" — pages beyond approximately 13,000 contain no new documents. Community researchers flagged the dataset as **incomplete at source**.\n\n### Repository Structure (Four Pillars)\n- **Pillar I:** DOJ Disclosures — 3.5M pages across 12 datasets\n- **Pillar II:** Court Records — specific case filings (Doe v. Indyke, Maxwell trial, etc.)\n- **Pillar III:** House Oversight — 8,624 committee-released documents\n- **Pillar IV:** FBI Vault/FOIA — pre-existing, heavily redacted releases\n\n### Key Individual Mention Frequencies\n- Lesley Groff: **157,613** (Epstein's personal assistant — second-most mentioned person after Epstein)\n- Richard Kahn: **52,781** (accountant/estate manager)\n- Trump/Melania/Mar-a-Lago: **38,000+** references across 5,300+ files (NYT analysis)\n- Darren Indyke: **17,783** (Epstein's lawyer/will executor)\n- Ghislaine Maxwell: **13,163**\n- Les Wexner: **4,000+**\n- Jean-Luc Brunel: **4,727**\n- Sultan Ahmed bin Sulayem: **4,700+**\n- Miroslav Lajčák (\"Miro\"): **788**\n\n### Redaction Policy & Anomalies\n\nThe DOJ applied blanket visual redactions — every female depicted was treated as a potential victim — except Maxwell. Males were unredacted unless linked to a protected female. Critics note this policy simultaneously exposed at least **31 child victim identities** (failure to redact) and may have shielded perpetrators.\n\n**Faulty redaction discovery:** Community researchers found that blacked-out text in some PDFs could be recovered by copy-pasting. Using this method, researchers recovered trust beneficiary names (EFTA01296151: Maxwell; EFTA01297516: both Brunel and Maxwell) and other content including an unverified FBI tip about Trump allegedly witnessing the killing of an infant born to a trafficking victim (explicitly labeled by DOJ as an \"untrue and sensationalist claim submitted right before the 2020 election\").\n\n**Removed/missing documents:**\n- EFTA00000468 — Photo of Trump, Epstein, Maxwell (removed December 20, 2025, restored after public outcry)\n- EFTA01660679 — DOJ-compiled list of tips (removed)\n- Three large video files removed: EFTA00276494.ts (4.3 GB), EFTA01244748.wmv, EFTA01244749.wmv\n- Community-identified never-uploaded EFTA numbers: EFTA00709804–00709807, EFTA00770595, EFTA00774768, EFTA00823190–00823192, and others\n- ~16 files disappeared from DOJ site after initial December 19, 2025 posting; CBS News identified the gap by comparing day-one and day-two releases\n\n**DOJ O'Keefe recording (September 4, 2025):** James O'Keefe published a secret recording of DOJ acting Deputy Chief Joseph Schnitt, who stated: \"They'll redact every Republican or conservative person in those files, leave all the liberal, Democratic people.\" Schnitt also said Maxwell's minimum-security prison transfer was \"against BOP policy\" and that AG Bondi \"wants whatever Trump wants.\" DOJ said Schnitt had \"no role in the Department's internal review.\"\n\n**Democracy Defenders Fund** filed an OIG complaint and discovered DOJ \"quietly altered previously released documents\" — comparison on January 15, 2026 identified modified documents with additional redactions added post-publication.\n\n---",
+    "peopleIds": [
+      "ghislaine-maxwell",
+      "lesley-groff",
+      "darren-indyke",
+      "richard-kahn",
+      "melania-trump",
+      "sultan-ahmed-bin-sulayem",
+      "jean-luc-brunel",
+      "joseph-schnitt",
+      "james-okeefe"
+    ],
+    "timelineEventIds": [],
+    "sources": [
+      "CBS",
+      "NYT",
+      "DOJ",
+      "HO",
+      "Maxwell-trial",
+      "FBI"
+    ],
+    "tags": [
+      "trafficking",
+      "financial",
+      "legal",
+      "intelligence",
+      "media",
+      "academic",
+      "trump",
+      "maxwell"
+    ]
+  },
+  {
+    "id": "the-trafficking-operation",
+    "title": "The Trafficking Operation",
+    "sectionNumber": 2,
+    "summary": "The files document a structured recruitment network: - Victims were paid $200 per girl they brought to Epstein; recruiter Haley Robson was told by Epstein \"the younger the better\" when she brought a 23-year-old - Epstein told one victim he \"purchased\" Nadia Marcinkova at age 15 from her family in Yugoslavia to be his \"sex slave\" - Ghislaine Maxwell ran recruitment alongside Epstein, with Sarah Kel",
+    "content": "### MC2 Modeling Agency (Jean-Luc Brunel)\n\nJean-Luc Brunel founded MC2 with up to **$1 million in Epstein funding** (name reportedly referenced E=MC² with \"E\" for Epstein). A former MC2 bookkeeper told the FBI in 2010 that Brunel flew in teenage models from around the world, housed them in Epstein's Upper East Side apartments, and **\"loaned them out to wealthy clients for up to $100,000 a night.\"**\n\nBrunel was in **secret cooperation negotiations** with federal prosecutors in 2016. His lawyer said Brunel had \"recruited girls for Epstein and possessed incriminating photographs.\" A May 2016 email shows Epstein learned of the planned cooperation and alerted Kathy Ruemmler, claiming someone demanded \"$3 million so that Jean Luc would not go in.\" Brunel went silent and was found hanged in a Paris prison on **February 19, 2022**.\n\n### Scale of Victimization\n\nThe DOJ files documented:\n- **32-to-60-count draft federal indictment** naming **19 victims** (Jane Doe #1 through #19), youngest described as 14; approximately 11 attended the same Palm Beach County school\n- Palm Beach Police identified **27 girls and women aged 14–23** who visited Epstein's home for \"massage services\"; FBI grand jury testimony confirmed \"more than a majority would have been under the age of 18\"\n- December 2019 **86-page SDNY co-conspirators prosecution memo** contained statements from **24 women abused as minors and 14 abused as adults**, evaluated for charges against Maxwell, Groff, and others\n\n### Visa Applications & International Trafficking\n\nDataset 8 documents show Epstein served as point of contact for non-immigrant visa applicants from **Poland, Belarus, Ukraine, Russia, China, Croatia, and Slovakia** (2004–2005). American Express records (exclusively reported by CBS) revealed hundreds of Amex Black Card travel bookings arranging international flights for women and girls from Russia, Poland, Belarus, Latvia, and Ukraine between 2012 and 2019 — well after his conviction.\n\nA wire transfer of **330 gallons of sulfuric acid** (six 55-gallon drums) was made December 6, 2018 — the same day SDNY reportedly opened its new federal investigation. DOJ files also contain anonymous allegations of **bodies buried at Zorro Ranch** (unverified).\n\n### Virginia Giuffre\n\nThe most extensively documented victim. Recruited by Maxwell at age 16 at Mar-a-Lago. She described being trafficked to Prince Andrew (three occasions, including documented flight logs and the authenticated photo developed March 13, 2001 at a Florida Walgreens), Jean-Luc Brunel, **Glenn Dubin** (\"Ghislaine told me to go to Glenn Dubin and give him a massage, which means sex\"), Marvin Minsky, Bill Richardson, and others.\n\nGiuffre died by **suicide on April 25, 2025**, at age 41 at her farm in Western Australia. She was 16 when recruited from Mar-a-Lago. Her posthumous memoir \"Nobody's Girl\" (October 21, 2025) described meeting Trump at Mar-a-Lago (\"Trump couldn't have been friendlier\"), offering to help her find babysitting jobs; **the memoir contains no allegations of wrongdoing by Trump.**\n\nRegarding Trump, in a 2016 deposition (*Giuffre v. Maxwell*): \"Have you ever been in Donald Trump and Jeffrey Epstein's presence with one another?\" — **\"No.\"** \"Did you ever see Donald Trump at Jeffrey's home?\" — **\"Not that I can remember.\"** \"Donald Trump never flirted with me.\" \"I don't think Donald Trump participated in anything… I never saw or witnessed Donald Trump participate in those acts.\" — This remains the **strongest exculpatory evidence** regarding Trump.\n\nHer death removed the possibility of further testimony. Her family expressed shock at Trump's July 2025 statement that Epstein \"stole\" Giuffre from his spa; they said \"she wasn't stolen, she was preyed upon at his property.\"\n\n---",
+    "peopleIds": [
+      "jeffrey-epstein",
+      "ghislaine-maxwell",
+      "nadia-marcinkova",
+      "haley-robson",
+      "kathy-ruemmler",
+      "donald-trump",
+      "bill-richardson",
+      "glenn-dubin",
+      "marvin-minsky",
+      "jean-luc-brunel"
+    ],
+    "timelineEventIds": [],
+    "sources": [
+      "WSJ",
+      "DOJ",
+      "Palm-Beach-PD",
+      "FBI"
+    ],
+    "tags": [
+      "trafficking",
+      "financial",
+      "legal",
+      "intelligence",
+      "media",
+      "death",
+      "trump",
+      "maxwell"
+    ]
+  },
+  {
+    "id": "trumpepstein-connections",
+    "title": "Trump–Epstein Connections",
+    "sectionNumber": 3,
+    "summary": "- An FBI witness reported they \"saw Epstein and Trump together a lot including at the movies. Trump was always trying to impress Epstein.\" The same witness said they overheard Trump claiming \"he went to Israel and a sheik gave his virgin daughter to him.\" ([EFTA00095502](https://www.justice.gov/epstein/files/DataSet%209/EFTA00095502.pdf)) - 1992 \"calendar girl competition\" at Mar-a-Lago organized",
+    "content": "### Flight Records\n\nA January 2020 email from an SDNY prosecutor (released in December 2025 DOJ batch): **\"the flight records we reflect that Donald Trump traveled on Epstein's private jet many more times than we previously had reported or that we were aware of.\"** Document EFTA00016732.\n\nFederal records document at least **8 flights between 1993 and 1996**:\n- May 15, 1994: Palm Beach → Teterboro via D.C. — with Marla Maples and infant Tiffany Trump\n- August 13, 1995: Palm Beach → Teterboro — with Eric Trump and Maxwell\n- January 5, 1997: Palm Beach → Newark\n- One 1993 flight: only Trump and Epstein listed as passengers\n- Maxwell was present on at least four flights\n\nAll documented flights were **domestic routes** — no evidence places Trump on flights to Little St. James. Pilot Larry Visoski confirmed Trump as a passenger during Maxwell trial testimony in December 2021. **Trump's 2024 statement:** \"I was never on Epstein's Plane.\"\n\n### The \"Knew About the Girls\" Emails\n\nThree pivotal emails released by House Oversight Committee Democrats (November 12, 2025):\n\n**Email 1 (April 2, 2011, Epstein to Maxwell):** \"I want you to realize that that dog that hasn't barked is trump.. [VICTIM] spent hours at my house with him,, he has never once been mentioned. police chief. etc. im 75% there.\" Maxwell replied: \"I have been thinking about that.\" House Republicans identified the redacted victim as Virginia Giuffre — who did not accuse Trump in her sworn testimony.\n\n**Email 2 (January 31, 2019, Epstein to Michael Wolff):** \"[Victim] mara lago. [identifier]. Trump said he asked me to resign, never a member ever. Of course he knew about the girls as he asked ghislaine to stop.\" This is the most widely covered email in the releases. FactCheck.org noted it \"could be interpreted multiple ways\" and doesn't specify if Epstein was referring to underage girls or definitively show Trump had knowledge of criminal activity.\n\n**Email 3 (December 2015, Wolff to Epstein):** Wolff advised Epstein on how to exploit Trump's potential denials for \"valuable PR and political currency\" — \"if he says he hasn't been on the plane or to the house, then that gives you a valuable PR and political currency. You can hang him in a way that potentially generates a positive benefit for you.\" CNN planned to ask Trump about Epstein at a debate but did not ask the question.\n\nAdditional emails from the same November 2025 release (House Republicans, 23,000 pages): A **2018 Epstein email** stating \"I am the one able to take him down\" (referring to Trump); a **2017 email to Larry Summers**: \"I have met some very bad people, none as bad as trump. Not one decent cell in his body.\"\n\n### Fifth Amendment Exchange\n\nThe deposition occurred **March 17, 2010**, in *Edwards v. Epstein*. When asked: \"Have you ever socialized with Donald Trump in the presence of females under the age of 18?\" Epstein responded: \"Though I'd like to answer that question, at least today I'm going to have to assert my Fifth, Sixth, and 14th Amendment rights, sir.\" Epstein invoked the Fifth over **1,000 times** across his depositions, including about Clinton, Prince Andrew, and Maxwell. A 34-second clip went viral in July 2025.\n\nCourt record quote: *\"...conceivably it would be the same response in Mr. Trump's situation, as the proprietor of Mar-a-Lago, there could be numerous occasions where Mr. Epstein may have been an invited guest and Mr. Trump's own daughters, who may have been under the age of 18 at the time, were also invited guests...\"* ([EFTA00800982](https://www.justice.gov/epstein/files/DataSet%209/EFTA00800982.pdf))\n\n### The Mar-a-Lago Ban — Four Competing Narratives\n\nFour distinct accounts exist for why Epstein was removed from Mar-a-Lago:\n1. Real estate dispute over Maison de l'Amitié in 2004\n2. 18-year-old beautician complaint in 2003\n3. Harassment of a club member's teenage daughter at the pool circa October 2007 (when Mar-a-Lago records show Epstein's account \"closed\")\n4. Trump's July 2025 claim that Epstein \"stole\" spa employees\n\nEpstein's own email contradicts Trump's narrative: \"Trump said he asked me to resign, never a member ever.\" A 2009 email summarizing a call with Brad Edwards quoted Trump saying Epstein \"was not a member of his club at Mar-a-Lago, but he was a guest, and he had never been asked to leave.\"\n\n**Brad Edwards (victims' attorney)** stated Trump was \"the only person\" among Epstein's associates who cooperated voluntarily: \"the only person who, in my experience, worked with us, was Donald Trump\" — calling Trump \"very helpful.\"\n\n**July 2006:** Per FBI interview with Palm Beach Police Chief Michael Reiter (October 2019), Trump called Reiter saying: \"Thank goodness you're stopping him, **everyone has known he's been doing this.**\" Trump also told Reiter Maxwell was Epstein's \"operative\" and \"evil.\" This is significant because in July 2019, Trump told reporters he \"had no idea\" about Epstein's conduct.\n\n### Accusers & Allegations Involving Trump\n\n**The \"Jane\"/Interlochen victim:** Court documents describe a girl taken to Mar-a-Lago in **1994 when she was approximately 14**. Recruited by Epstein at Interlochen Center for the Arts. In her FBI 302, she stated Epstein introduced her to Trump, and Epstein \"elbowed Trump playfully, asking him, 'This is a good one, right?'\" Trump \"smiled and nodded.\" She testified at Maxwell's 2021 trial (as \"Jane\") but **did not describe inappropriate behavior by Trump**. Her FBI interview was temporarily removed from the DOJ database; her mother's interview — recalling hearing \"a prince and DONALD TRUMP visited EPSTEIN's house\" — remains offline.\n\n**~1983 accuser:** An FBI memo from the January 30, 2026 release detailed a woman's claim that around 1983, when she was approximately 13, Epstein introduced her to Trump, \"who subsequently forced her head down to his exposed penis which she subsequently bit. In response, Trump punched her in the head and kicked her out.\" The FBI interviewed this accuser **four times**. Only the first interview (July 24, 2019) is in the public database, and it does not mention Trump. Of 15 documents listed in Maxwell case discovery for this accuser, only 7 are publicly available. **53 pages of interview documents appear to be missing** (NPR, February 24, 2026). Her attorney said she \"was concerned about implicating additional individuals, and specifically any that were well known, due to fear of retaliation.\"\n\n**Maxwell \"presented\" a victim to Trump:** A 2021 FBI memo described an Epstein victim who told investigators Maxwell once \"presented\" her to Trump at a party in New York, with Maxwell saying: \"Oh I think he likes you. Aren't you lucky.\" The FBI memo noted it was \"set up very much like how Maxwell introduced her to Epstein.\" The woman told investigators **\"nothing happened\"** between her and Trump.\n\n**Stacey Williams (October 2024):** Former Sports Illustrated swimsuit model alleged Trump groped her when Epstein brought her to Trump Tower in the early 1990s. \"I felt so humiliated and so sick to my stomach.\" She said Epstein talked about Trump \"every time we spoke\" and that Trump sent her a handwritten postcard: \"Stacey — Your home away from home. Love Donald.\"\n\n**The \"Katie Johnson\" / Jane Doe Lawsuit:** Three filings in 2016; withdrawn November 4, 2016 (six days before the election) after plaintiff received threats. The suit alleged rape by Trump and Epstein in 1994 when plaintiff was 13. Attorney Cheney Mason told journalist Tara Palmeri in 2025 he \"still insists she told the truth.\" Michael Cohen confirmed Trump dispatched him to \"take care of it.\" Credibility note: promotion of the case traced to \"Norm Lubow,\" former Jerry Springer producer; Julie K. Brown said \"the woman just wouldn't talk.\" FBI complaint form in January 2026 release is consistent with the lawsuit.\n\n**NPR investigation (February 24, 2026):** Reporter Stephen Fowler found more than **50 pages of FBI interviews and notes** from conversations with women who accused Trump of sexual abuse as minors have been withheld from the public database despite the EFTA mandate. Identified through systematic serial number analysis.\n\n### Trump Administration Officials Named in Files\n\n- **Tom Barrack** (U.S. Ambassador to Turkey): 100+ text/email exchanges with Epstein from at least 2009 through 2018. Epstein regarded Barrack as a \"potential conduit for passing information to Mr. Trump,\" with Barrack replying \"on the bosses list\" in one exchange. Epstein forwarded Barrack the \"Katie Johnson\" lawsuit email in April 2016. On August 29, 2016, a lunch was listed with Barrack, Ehud Barak, and Russian UN Ambassador Vitaly Churkin; **the day after, Epstein purchased approximately $1 million in Colony Capital stock** (Barrack's company). After Trump's election, a senior Saudi official texted Epstein asking about protocol for King Salman to call Trump; Epstein replied: \"TOM barrack is your point person.\"\n- **Howard Lutnick** (Commerce Secretary): Co-signed business documents with Epstein for a company called **Adfin** in December 2012, contradicting his public claim of cutting ties in 2005. Confirmed December 23, 2012 island lunch. Epstein's assistant forwarded Lutnick documents about casino legislation in the U.S. Virgin Islands. Faces bipartisan calls for resignation.\n- **Steve Feinberg** (Deputy Defense Secretary): Named/correspondence in files.\n- **John Phelan** (Navy Secretary): Named/correspondence in files.\n- **Alexander Acosta** (Labor Secretary): Led the controversial 2008 non-prosecution agreement (see Section 14).\n- **Steve Bannon** (Chief Strategist): See Section 5.\n\n### Trump's Public Statements Timeline\n\n- **July 2006:** Called Palm Beach Police Chief Reiter: \"Thank goodness you're stopping him, everyone has known he's been doing this.\"\n- **2009:** Cooperation with Brad Edwards; described Epstein as \"not a member\" but noted \"he had never been asked to leave.\"\n- **July 2019 (post-arrest):** \"I had no idea\" about Epstein's conduct; called him \"not a friend\" and said he \"had a falling out with him a long time ago.\"\n- **July 12, 2025:** Defended AG Bondi and called Epstein \"somebody that nobody cares about.\"\n- **July 16, 2025:** Called the files \"a big hoax.\"\n- **July 28, 2025 (Scotland):** Shifted explanation for banning Epstein: \"He stole people that worked for me.\"\n- **November 14, 2025:** Asked about the \"knew about the girls\" email: \"I know nothing about that.\"\n- Truth Social posts: Called the case \"the Jeffrey Epstein Hoax\" and wrote \"My PAST supporters have bought into this 'bull—t,' hook, line, and sinker. I don't want their support anymore!\"\n- **October 2025 (Oval Office):** On a possible Maxwell pardon: \"I haven't heard the name in so long... I'd have to take a look at it.\"\n\n### Trump's Legal Actions\n\n- **July 18, 2025:** Filed **$10 billion defamation lawsuit** against Dow Jones, News Corp, Rupert Murdoch, and two WSJ reporters over the **birthday letter story** (see Section 16). WSJ filed to dismiss in September 2025, arguing the article is true — Epstein's estate produced the birthday book. The House Oversight Committee released the actual letter in September 2025, confirming WSJ's reporting. Case pending as of late 2025.\n- **September 15, 2025:** Filed **$15 billion lawsuit** against the New York Times, Penguin Random House, and four reporters. Judge Merryday dismissed the initial complaint as \"tediously and burdensomely\" improper September 19; Trump refiled within 28 days.\n\n### Trump's Black Book Entry\n\nEpstein's black book listed Trump with **16 phone numbers** — one of the highest counts — including emergency, car, security guard, and houseman numbers. His was among **five names circled or highlighted**. Also listed: Ivana Trump, Ivanka Trump, Robert Trump, Blaine Trump, and Melania (listed as \"Milania\").\n\n---",
+    "peopleIds": [
+      "jeffrey-epstein",
+      "william-barr",
+      "brad-edwards",
+      "cheney-mason",
+      "donald-trump",
+      "melania-trump",
+      "steve-bannon",
+      "tom-barrack",
+      "howard-lutnick",
+      "ehud-barak",
+      "larry-summers",
+      "vitaly-churkin",
+      "john-phelan",
+      "steve-feinberg",
+      "larry-cohen",
+      "michael-wolff",
+      "julie-k-brown",
+      "stacey-williams",
+      "katie-johnson-jane-doe",
+      "robert-maxwell",
+      "michael-reiter"
+    ],
+    "timelineEventIds": [],
+    "sources": [
+      "NPR",
+      "WSJ",
+      "NYT",
+      "CNN",
+      "DOJ",
+      "HO",
+      "Maxwell-trial",
+      "Palm-Beach-PD",
+      "FBI"
+    ],
+    "tags": [
+      "trafficking",
+      "financial",
+      "legal",
+      "political",
+      "intelligence",
+      "media",
+      "trump",
+      "maxwell"
+    ]
+  },
+  {
+    "id": "melania-trump-thread",
+    "title": "Melania Trump Thread",
+    "sectionNumber": 4,
+    "summary": "Melania email to Ghislaine Maxwell ([EFTA02332411](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02332411.pdf)), dated October 23, 2002: > \"Dear G! How are you? Nice story about JE in NY mag. You look great on the picture. I know you are very busy flying all over the world. How was Palm Beach? I cannot wait to go down. Give me a call when you are back in NY. Have a great time! Love, Melan",
+    "content": "Laura Isabel Woods noted that \"Ghislaine looks very much like Melania\" ([EFTA00032417](https://www.justice.gov/epstein/files/DataSet%208/EFTA00032417.pdf)).\n\nA Tatler magazine image in the files showed Maxwell, Donald Trump, and Melania together.\n\n### Third-Party References to Melania\n\n- Jonathan Farkas to Epstein: \"I gave [] your Jeffrey number between us I think Somers going to D.C. to work for Melania long story\" ([EFTA00673162](https://www.justice.gov/epstein/files/DataSet%209/EFTA00673162.pdf))\n- Epstein to Boris Nikolic: \"your friend Melani, really nuts\" — Nikolic replies: \"I agree. What is even worse than really nuts is that I do not know what to believe\" ([EFTA02651268](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02651268.pdf))\n- Michael Wolff to Epstein: journalists \"working a lead on a Melania boyfriend OY\" — Epstein replies \"makes sense\" ([EFTA02553567](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02553567.pdf))\n- Bannon in text message thread: **\"Melania? Not living with him.\"** ([EFTA01615888](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01615888.pdf))\n- Handwritten notes by girls asked to \"massage\" Epstein mention someone **introducing Melania to Trump** ([EFTA00105195](https://www.justice.gov/epstein/files/DataSet%209/EFTA00105195.pdf))\n\n### Madeleine Westerhout (Trump Personal Secretary)\n\nEpstein texted Bannon in December 2018–January 2019 suggesting Trump was having an affair with personal secretary Madeleine Westerhout. He called her \"Kneepads\" and \"Donalds new friend,\" texting: \"He's much more calm, but the sight of him in the residence in his undies is hard to fathom.\" Wolff shared a draft excerpt from \"Siege\" describing Westerhout finding Trump \"in his underwear\" in the residence — the passage was edited from the published book. Westerhout's lawyer called the claims \"absurd and defamatory.\" She was fired in August 2019. Sources: [EFTA02631674](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02631674.pdf), [EFTA01030600](https://www.justice.gov/epstein/files/DataSet%209/EFTA01030600.pdf).\n\n---",
+    "peopleIds": [
+      "jeffrey-epstein",
+      "ghislaine-maxwell",
+      "donald-trump",
+      "melania-trump",
+      "boris-nikolic",
+      "michael-wolff",
+      "madeleine-westerhout"
+    ],
+    "timelineEventIds": [],
+    "sources": [
+      "DOJ"
+    ],
+    "tags": [
+      "media",
+      "trump",
+      "maxwell"
+    ]
+  },
+  {
+    "id": "political-intelligence-network",
+    "title": "Political Intelligence Network",
+    "sectionNumber": 5,
+    "summary": "The files document hundreds of emails and text messages between Bannon and Epstein spanning January 2018 to July 2019. They were introduced in December 2017. This is among the most extensively documented relationships in the files.",
+    "content": "**White House intelligence shared:**\n- \"DJT now really down on Pence... thinks Pompeo would be better VP. Says Pence not really loyal... he did ask Kelly to get rid of Jared, and then Jared to get rid of Kelly.\" ([EFTA01615655](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01615655.pdf))\n- Bannon and Epstein discuss **Trump close to mental breakdown** ([EFTA02496013](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02496013.pdf))\n\n**European political operations:**\n- \"The Belgium govt fell 5 hours after my speech.\" — Bannon; Epstein: \"I had Miro withdraw his resignation over the immigration compact. He was the sponsor at the UN. I told him, sorry Charley, bad timing.\" ([EFTA01615497](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01615497.pdf))\n- **July 2018:** Bannon texted Epstein: \"Do u know anyone in Europe that wants to control the European Parliament and with it the EU— I need to get serious about taking on Soros.\" Also: \"in London with Boris\" and \"We are overthrowing May right now.\"\n- **Bannon iMessage, May 26, 2019:** \"Macron down, Boris up, Merkel down. You up GREAT.\" Travel plans to Mexico and Spain discussed. ([EFTA00507917](https://www.justice.gov/epstein/files/DataSet%209/EFTA00507917.pdf))\n\n**Kavanaugh hearings (September 2018):** Epstein coached Bannon on attacking Christine Blasey Ford: \"make sure they ask Ford about her medications… my guess is [her lawyer] won't let her answer.\" Bannon replied \"Roger.\"\n\n**PR rehabilitation offer (April 2019):** Bannon offered Epstein a strategy: \"first we need to push back on the lies; then crush the pedo/trafficking narrative; then rebuild your image as philanthropist.\"\n\n**Bannon documenting Epstein:** Bannon filmed approximately **15 hours of interviews** with Epstein for an unreleased documentary. After filming, he texted that his crew was \"mesmerized because they have been sold you are a 'monster.'\" Bannon told Epstein he was \"the one person I was truly afraid of coming forward during the campaign.\" Since the files revealed his extensive relationship, Bannon has been conspicuously silent on the topic on his \"War Room\" show.\n\n**Personal references:**\n- Bannon text message thread: \"Melania? Not living with him. Nikki Haley, Trump says blowjob but who can trust him... I'm mentioned in the Palm Beach house sale. Hopefully not anywhere else.\" ([EFTA01615888](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01615888.pdf))\n- A **photo of Trump and Maxwell was found on Bannon's iPhone 7** by FBI agents using Cellebrite forensic tools in June 2021 (EFTA00000468)\n- Bannon and Epstein discussed **China and NSA cybertools** ([EFTA01616076](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01616076.pdf))\n- Epstein: \"I convinced Harry Reid not to be Pelosi's bitch\" ([EFTA01211522](https://www.justice.gov/epstein/files/DataSet%209/EFTA01211522.pdf))\n\n### Wolff–Epstein Channel\n\nMichael Wolff (journalist, author of *Fire and Fury*) was a regular Epstein correspondent. Key exchanges:\n\n- **August 20, 2017:** Epstein to Wolff: \"Tillerson probably leaving, Ivanka wants Nikki Haley.\" ([EFTA02637845](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02637845.pdf))\n- **December 8, 2015:** Epstein emailed Wolff offering photos of \"Donald and girls in bikinis in my kitchen\" (the email was actually to NYT journalist Landon Thomas Jr.; Wolff received a separate but related thread)\n- **December 2015:** Wolff to Epstein, hearing CNN planned to ask Trump about Epstein at a debate: \"I think you should let him hang himself. If he says he hasn't been on the plane or to the house, then that gives you a valuable PR and political currency.\" CNN did not ask the question.\n- **December 2018 (after Miami Herald investigation):** Epstein asked Wolff for help pushing back: \"Im thinking what would trump do.\" Wolff replied: \"He never tries to explain. He denies, blames media, denigrates someone else.\"\n- Wolff to Epstein on Madeleine Westerhout: Trump claiming he was \"banging\" his 28-year-old personal secretary ([EFTA02631674](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02631674.pdf))\n- To Michael Wolff: **\"question about Jamie Dimon. whoops\"** ([EFTA02548441](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02548441.pdf))\n\n### Miro Lajčák / UN Thread\n\nMiro = **Miroslav Lajčák**, President of the UN General Assembly 2017–2018. Mentioned **788 times** in the files; Epstein appears to have had extensive influence over him.\n\nKey documents:\n- [EFTA01619725](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01619725.pdf) — Identification as Miroslav Lajcak\n- [EFTA02245731](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02245731.pdf) — **Apr 25, 2018:** Dinner with Miro and Steve Bannon, 7:15pm; Epstein mentions Sultan visiting DC and meetings with Wilbur Ross and Kevin McAleenan (Customs Commissioner/DHS)\n- [EFTA02231879](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02231879.pdf) — Dinner with Miro, Woody Allen, Soon-Yi Previn, and Deepak Chopra\n- [EFTA01616126](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01616126.pdf) — Bannon to Epstein: **\"I'm all over Miro\"**\n- [EFTA01619736](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01619736.pdf) — Miro and Epstein talking about **\"taking\" girls**, references \"Lavrov\" (Russian Foreign Minister Sergei Lavrov)\n- [EFTA01619744](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01619744.pdf) — Miro and Epstein on Saudis, \"Borge\" jokes (WEF president)\n- [EFTA00868657](https://www.justice.gov/epstein/files/DataSet%209/EFTA00868657.pdf) — Epstein to Ehud Barak: \"Miro, president of UN, can do dinner tomorrow\"\n- [EFTA00865258](https://www.justice.gov/epstein/files/DataSet%209/EFTA00865258.pdf) — Epstein to Sultan Bin Sulayem: \"Miro is expecting your contact — long term diplomat, Moscow, Balkans, now president of UN\"\n- [EFTA02668068](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02668068.pdf) — Epstein to Tom Pritzker: \"Miro, president of UN, tonight at 7\"\n- [EFTA02240153](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02240153.pdf) — **Late March 2018:** Bannon, Miro, Epstein Saturday lunch\n- Epstein claimed: \"I had Miro withdraw his resignation over the immigration compact. He was the sponsor at the UN.\" (from the Bannon exchange on Belgium)\n\n### Other Political Connections\n\n- Epstein met with **Wilbur Ross** (Commerce Secretary) and **Kevin McAleenan** (Customs Commissioner / Acting DHS Secretary) ([EFTA01615048](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01615048.pdf))\n- **Terje Rod-Larsen** (UN Middle East envoy) to Epstein about investigation and links to Trump ([EFTA00508805](https://www.justice.gov/epstein/files/DataSet%209/EFTA00508805.pdf))\n- **Ken Starr** to Epstein ([EFTA02629257](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02629257.pdf))\n- **Larry Summers** — beyond calling Trump Epstein's \"friend\": October 2016 — asked \"How plausible is idea that trump is real cocaine user?\"; December 21, 2018 — asked \"Will u be visiting Mara Lago?\"; after emails released, Summers issued a public apology, stepped back from public engagements, and **resigned from the OpenAI Board**\n- **Kathy Ruemmler** (former Obama White House Counsel, later Goldman Sachs partner) — Epstein shared legal intelligence with her; she called him \"Uncle Jeffrey,\" received Hermès bags and other gifts, and was listed as backup executor on his will. In February 2017, Ruemmler told Epstein the Acosta plea deal article \"was fed by David Boies.\" Resigned from Goldman Sachs after revelations.\n- **Brad Karp** (chairman of Paul Weiss) — stepped down February 4, 2026 after file revelations. Epstein discussed **extortion payments** with Karp ([EFTA02665413](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02665413.pdf))\n- Epstein stated **\"I convinced Harry Reid not to be Pelosi's bitch\"**\n\n---",
+    "peopleIds": [
+      "jeffrey-epstein",
+      "david-boies",
+      "kathy-ruemmler",
+      "brad-karp",
+      "donald-trump",
+      "melania-trump",
+      "steve-bannon",
+      "ehud-barak",
+      "larry-summers",
+      "wilbur-ross",
+      "kevin-mcaleenan",
+      "tom-pritzker",
+      "michael-wolff",
+      "landon-thomas-jr",
+      "ken-starr",
+      "madeleine-westerhout",
+      "deepak-chopra",
+      "woody-allen",
+      "michael-thomas"
+    ],
+    "timelineEventIds": [],
+    "sources": [
+      "NYT",
+      "CNN",
+      "FBI"
+    ],
+    "tags": [
+      "trafficking",
+      "legal",
+      "political",
+      "intelligence",
+      "media",
+      "trump",
+      "maxwell"
+    ]
+  },
+  {
+    "id": "maxwell-role-legal-history-current-status",
+    "title": "Maxwell: Role, Legal History & Current Status",
+    "sectionNumber": 6,
+    "summary": "Ghislaine Maxwell was second-in-command of the trafficking operation. Key functions: - Recruited victims (including Giuffre at Mar-a-Lago spa) - Managed household and staff: the household manual instructed staff to \"see nothing, hear nothing, say nothing\" and \"NEVER disclose Mr. Epstein or Ms. Maxwell's activities\" (Maxwell trial exhibit GX 606) - Coordinated girls for abuse by named clients: \"Ghi",
+    "content": "Three discs containing **wiretap results from Maxwell's phone number** have not been publicly released.\n\n### Maxwell Trial (November–December 2021)\n\nMaxwell convicted on five of six counts, including sex trafficking of a minor. Johanna Sjoberg testimony: Epstein told her \"Clinton likes them young.\" Key government exhibits: GX 52 (black book), GX 606 (household manual), GX 662 (flight records).\n\n### Giuffre v. Maxwell Unsealed Documents (January 2024)\n\nJudge Loretta Preska ordered eight batches released (January 3–9, 2024), revealing approximately **150 previously redacted names**. A **July 23, 2025 Second Circuit ruling** vacated parts of Preska's orders and remanded for additional unsealing review, potentially yielding further releases.\n\n### Maxwell Interrogations in DOJ Files\n\nNine interrogation/deposition videos in Datasets 9 & 10:\n- [EFTA01688339](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01688339.mp4), [01688337](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01688337.mp4), [01688338](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01688338.mp4), [01688321](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01688321.mp4) (DS 10)\n- [EFTA00087285](https://www.justice.gov/epstein/files/DataSet%209/EFTA00087285.mov), [00093695](https://www.justice.gov/epstein/files/DataSet%209/EFTA00093695.mp4), [00102123](https://www.justice.gov/epstein/files/DataSet%209/EFTA00102123.mov), [00093696](https://www.justice.gov/epstein/files/DataSet%209/EFTA00093696.mov) — mentions Annie Farmer (DS 9)\n- [EFTA00076840](https://www.justice.gov/epstein/files/DataSet%209/EFTA00076840.mov) — mentions three-way with Epstein (DS 9)\n\n### Maxwell's Current Situation\n\nAt her **February 10, 2026 House Oversight Committee** deposition, Maxwell invoked the Fifth Amendment and refused to answer questions. Her lawyer offered testimony **exonerating both Trump and Clinton** in exchange for clemency: \"Both President Trump and President Clinton are innocent of any wrongdoing. Ms. Maxwell alone can explain why.\" Maxwell has been transferred to a minimum-security prison camp, which DOJ official Schnitt (in the O'Keefe recording) said was \"against BOP policy because she's a convicted sex offender.\"\n\nMaxwell confirmed in her DOJ deposition that her father Robert Maxwell \"functioned as\" an intelligence officer \"throughout his life, passing on secrets to governments, including Israel.\"\n\n---",
+    "peopleIds": [
+      "ghislaine-maxwell",
+      "johanna-sjoberg",
+      "annie-farmer",
+      "robert-maxwell",
+      "judge-loretta-preska"
+    ],
+    "timelineEventIds": [],
+    "sources": [
+      "DOJ",
+      "HO",
+      "Maxwell-trial"
+    ],
+    "tags": [
+      "trafficking",
+      "financial",
+      "legal",
+      "political",
+      "intelligence",
+      "trump",
+      "maxwell"
+    ]
+  },
+  {
+    "id": "the-co-conspirators-immunity-grantees",
+    "title": "The Co-Conspirators & Immunity Grantees",
+    "sectionNumber": 7,
+    "summary": "The Non-Prosecution Agreement granted immunity to four named co-conspirators:",
+    "content": "**Sarah Kellen** (now Sarah Kellen Vickers): Appears on **364 documented flight legs**. \"Carolyn,\" testifying at Maxwell trial, stated Kellen called her at age 14 to schedule abuse: \"She knew what was happening.\" Judge Alison Nathan called her \"a knowing participant in the criminal conspiracy.\" Among the 10 co-conspirators discussed for grand jury subpoenas after Epstein's 2019 arrest. Never charged; now an interior designer.\n\n**Lesley Groff**: **157,613 mentions** — the second-most-mentioned person in the DOJ files after Epstein himself. Her February 2020 attorney proffer described scheduling massages as \"just part of his normal day. Akin to someone going daily to the gym.\" Coordinated meetings for Jes Staley, Bill Gates, and Leon Black (December 2010 emails). An August 2019 FBI email identifies a Connecticut-resident co-conspirator \"deciding whether to cooperate\" — matching Groff's biographical details. A November 5, 2020 \"DAG Meeting Overview\" email indicates DOJ was in plea negotiations with a possible co-conspirator during Trump's first term, with \"Anticipated Charges\" fully redacted.\n\n**Nadia Marcinkova** (now Nadia Marcinko): Per Palm Beach police reports, Epstein told one victim he had \"purchased\" Marcinkova at age 15 from her family in Yugoslavia to be his \"sex slave.\" She \"encouraged and engaged in sexual acts\" with young girls while Epstein watched. She refused to answer Fifth Amendment questions about Dershowitz. Now an FAA-certified commercial pilot; **reportedly missing since early January 2024**.\n\n**Adriana Ross** (née Adriana Mucinska): Invoked the Fifth Amendment over 100 times in her March 2010 deposition, including when asked about Sandy Berger allegedly tipping off Epstein about a raid. Former butler Janusz Banasiak testified Ross and an associate **removed computers from Epstein's Palm Beach mansion** weeks before police executed a search warrant in October 2005. Has 43 documented flight appearances. Frequently co-appeared with Maxwell and Clinton on flights. \"Employee-1\" in the Maxwell prosecution.\n\n### Key Individuals with Major File Presence\n\n**Les Wexner:** Wexner's name appears over **1,000–4,000+ times**. The 1991 power of attorney granted Epstein \"full power and authority to do and perform every act necessary\" over finances, investments, and property. FBI listed him among the \"10 co-conspirators\" and Rep. Ro Khanna revealed on February 10, 2026 that FBI documents identified him as an **\"unindicted co-conspirator\"**. The January 2026 release includes a 1998 purchase/sale agreement detailing the Manhattan townhouse transfer (9 East 71st Street, which Wexner bought for $13.2 million in 1989). A 2008 investigative memo shows Wexner's attorneys told investigators Epstein had repaid $100 million — \"thought to be just a portion of what he stole.\" House Oversight Democrats stated the total transferred was approximately **$1 billion**. Wexner testified before House Oversight on February 18, 2026, calling Epstein \"a con man\" and denying friendship despite a birthday card signed \"your friend Leslie.\" His lawyer was caught on camera whispering answers. Wexner said he visited Little St. James \"about an hour\" with family.\n\n**Leon Black:** Paid Epstein **$170 million between 2012 and 2017** via wire transfers to Southern Trust Company and Financial Trust Company Inc. — $12 million more than Apollo's own Dechert LLP investigation found. Payment timeline: $23.5M (2013), additional $56.5M agreed, $70M (2014, no written agreement), $30M (2015), $8M final (April 2017). Black also made $22.5M and $8M loans via BV70 LLC → Plan D LLC. The DOJ files include an October 16, 2018 message directly accusing Black of sexual harassment, trafficking, and rape. A **Jane Doe federal lawsuit** alleges Black raped her in 2002 at age 16 at Epstein's Manhattan residence. Epstein referred to Black as **\"Mr. Big\"** in emails. Black's $62.5M USVI settlement explicitly acknowledges \"Jeffrey Epstein used the money Black paid him to partially fund his operations in the Virgin Islands.\" Bank of America filed only 2 SARs covering $170M in transactions between Epstein and Black. Trial set for May 11, 2026.\n\n**Glenn Dubin:** Appears in 75+ documents across all datasets. Prosecution planning document EFTA00098755 formally lists him under \"Individuals Who Have Engaged in Massages with Epstein Girls.\" The FBI \"Prominent Names\" briefing (EFTA01660622, p. 17) shows a \"direct victim allegation of sexual abuse facilitated by Maxwell.\" Former Dubin household manager Rinaldo Rizzo testified about encountering a 15-year-old girl allegedly trafficked by Epstein at the Dubins' home in 2005. Flight logs document **34+ shared flights** and 18+ Dubin family flights. Eva Dubin's number appears on the staff phone sheet (EFTA00282489) alongside operational inner circle. A CEHTTF subpoena (EFTA00154007) from NYPD/FBI requested Eva Dubin's personal information.\n\n**Bill Clinton:** Flight logs show Clinton on Epstein's Boeing 727 for at least **26 flight legs (16+ distinct flights)** between 2002–2003 across Bangkok, Brunei, Rwanda, Russia, China, and Africa. Maxwell's initials appear on each trip. Clinton traveled **without Secret Service on at least five flight legs.** In a September 2016 deposition, Epstein invoked the Fifth when asked to describe all dinners with Clinton. Maxwell stated Clinton was \"my friend, not Epstein's friend\" and was \"sure\" he \"absolutely never went\" to the island. Both Clintons are scheduled for House Oversight depositions on February 26–27, 2026, after bipartisan contempt proceedings.\n\n**Ehud Barak:** 4,000+ records. He and his wife Nili Priell stayed extensively at **301 East 66th Street** (controlled by Epstein, technically owned by brother Mark) — staff called it \"Ehud's apartment.\" A January 2016 email chain shows Barak's security director coordinating with Epstein's staff to install **surveillance equipment** at the apartment including window sensors and remote access. Priell wrote: \"They can neutralize the system from far.\" Between 2004–2006, the **Wexner Foundation paid Barak approximately $2.3 million** for two research studies. In a December 2018 exchange, Barak wrote: \"you should make clear that i dont work for mossad :)\" — Epstein replied: \"unfortunately, not.\" Barak publicly apologized for his relationship with Epstein on February 13, 2026.\n\n**Bill Gates:** Multiple post-conviction meetings: dinner (December 2010), meetings (April and October 2011), Norway meeting (August 2012), possible February 2013 lunch. Two **unsent draft emails from July 18, 2013** (Dataset 9) contain unverified allegations that Gates had extramarital encounters \"with Russian girls\" and sought to \"surreptitiously give\" antibiotics to then-wife Melinda. Text messages from 2017 show a Gates adviser telling Epstein: \"He wants to talk to you but his wife won't let him\" and \"he loves you.\" Gates canceled his keynote at the India AI Summit on February 19, 2026, saying he was \"foolish\" to spend time with Epstein.\n\n**Elon Musk:** 2012–2014 emails about island visits; Google Calendar entry reading \"ELON MUSK TO ISLAND DEC. 6TH.\" Exchange about \"wildest party\" and \"ratio\" discussion about then-wife.\n\n**Kimbal Musk:** 300+ mentions; Epstein engineered an intimate relationship with a young woman via Boris Nikolic.\n\n**Noam Chomsky:** 50+ documents; **$270K transfer in 2018**; undated letter praising Epstein; 2019 advice not to comment on Giuffre accusations.\n\n**Peter Mandelson:** Emails suggesting he **leaked market-sensitive UK government information** to Epstein during the 2008 financial crisis; \"finally got him to go today\" on May 10, 2010 (day before PM Brown resigned). **Arrested February 23, 2026.**\n\n**Peter Thiel:** Meeting arranged via Ehud Barak in June 2014.\n\n**Tom Pritzker:** Epstein to Pritzker: \"Miro, president of UN, tonight at 7\"\n\n**Richard Branson:** 2013 \"bring your harem\" email; counseled Epstein on image rehabilitation via Gates endorsement.\n\n**Sarah Ferguson:** 2009 emails calling Epstein \"the brother I have always wished for.\"\n\n**Katie Couric:** 2010 dinner email; praised Epstein's lasagna party.\n\n**Mehmet Oz:** 2016 email to Epstein with redacted content.\n\n**Matt Groening:** Appearance in documents.\n\n**Crown Princess Mette-Marit of Norway:** Post-conviction correspondence with Epstein; Norwegian PM ordered investigation.\n\n**Sergey Brin:** 2003 dinner plans with Maxwell; visited island; photos at estate events.\n\n**Sultan Ahmed bin Sulayem** (CEO of Dubai's DP World): 4,700+ mentions. Epstein connected him to Miro Lajčák ([EFTA00865258](https://www.justice.gov/epstein/files/DataSet%209/EFTA00865258.pdf)); CBS reported his name appeared leading to his replacement at DP World.\n\n---",
+    "peopleIds": [
+      "jeffrey-epstein",
+      "sarah-kellen",
+      "lesley-groff",
+      "nadia-marcinkova",
+      "janusz-banasiak",
+      "rinaldo-rizzo",
+      "bill-clinton",
+      "ehud-barak",
+      "peter-mandelson",
+      "sandy-berger",
+      "rep-ro-khanna",
+      "leon-black",
+      "glenn-dubin",
+      "jes-staley",
+      "sultan-ahmed-bin-sulayem",
+      "tom-pritzker",
+      "noam-chomsky",
+      "boris-nikolic",
+      "elon-musk",
+      "kimbal-musk",
+      "bill-gates",
+      "sergey-brin",
+      "peter-thiel",
+      "richard-branson",
+      "matt-groening",
+      "mehmet-oz",
+      "katie-couric",
+      "mark-epstein",
+      "nili-priell",
+      "judge-alison-nathan"
+    ],
+    "timelineEventIds": [],
+    "sources": [
+      "DOJ",
+      "HO",
+      "Maxwell-trial",
+      "FBI"
+    ],
+    "tags": [
+      "trafficking",
+      "financial",
+      "legal",
+      "political",
+      "intelligence",
+      "media",
+      "academic",
+      "trump",
+      "maxwell"
+    ]
+  },
+  {
+    "id": "financial-crimes-money-laundering",
+    "title": "Financial Crimes & Money Laundering",
+    "sectionNumber": 8,
+    "summary": "Rep. Raskin documented $1.5 billion in suspicious transactions across four banks — every major bank that serviced Epstein filed its suspicious activity reports years late, typically only after his 2019 arrest or death.",
+    "content": "### JPMorgan Chase (~$1.1 Billion)\n\nMaintained **134 accounts for Epstein from 1998 to 2013**. Filed no SARs between 2003 and 2008 during peak trafficking activity; filed only 7 SARs ($4.3M total) while Epstein was alive. After Epstein's death, two retroactive SARs filed September 2019 covered **approximately 4,700 transactions totaling $1.1–1.3 billion** — roughly 300 times larger than pre-arrest filings.\n\nTwo accounts linked to Russian banks **Alfa Bank and Sberbank**. Epstein was on JPMorgan's \"Wall of Cash\" list with **$142M+ in balances by 2009**. Executive **Mary Erdoes** was in \"constant contact\" with Epstein; executive **John Duffy** counseled Epstein on evading cash reporting requirements. Flagged individuals included Leon Black, Glenn Dubin, Alan Dershowitz, and Les Wexner trusts (~$65M in wire transfers).\n\nJPMorgan settled with Epstein victims for **$290 million in 2023**. The Butterfly Trust account ([EFTA00029805](https://www.justice.gov/epstein/files/DataSet%208/EFTA00029805.pdf)) shows the JPMorgan brokerage structure.\n\n### Deutsche Bank (~$150 Million)\n\nOpened **40+ accounts for Epstein from August 2013** (immediately after JPMorgan relationship ended) through mid-2019, classifying Epstein as \"high-risk\" from onboarding but maintaining the relationship for five years.\n\nAttorney Darren Indyke made **97 cash withdrawals of exactly $7,500 each** — the bank's limit for third-party withdrawals — occurring 2–3 times monthly from 2013 to 2017 (textbook structuring). In one instance, Indyke asked about the $10,000 reporting threshold and, upon learning it would trigger a report, split the withdrawal over two days.\n\nThe **Butterfly Trust** (established 2013/2014) named co-conspirators 1–3 as beneficiaries — a compliance officer flagged this and was overruled. It funded 120+ wire transfers totaling $2.65M to beneficiaries including women with Eastern European surnames for \"hotel expenses, tuition, and rent.\"\n\nNYDFS fined Deutsche Bank **$150 million in July 2020** (Consent Order: nydfs.ny.gov).\n\n### Bank of New York Mellon (~$378 Million)\n\nProcessed $378 million through **270 wire transfers** without identifying a legitimate business purpose, including at least 18 round-dollar $1M wire transfers in 2007 alone. On June 15, 2007, Epstein transferred $7.4M from BNY to Maxwell's JPMorgan account; Maxwell moved it the same day to \"Air Ghislaine, Inc.\"; three days later $7.3M went to Sikorsky Aircraft for a helicopter.\n\n### Bank of America ($170 Million)\n\nFiled only 2 delayed SARs (2020) covering $170M in Epstein–Leon Black transactions — $12M more than Apollo's own investigation identified. Trial set for May 11, 2026.\n\n### The Treasury \"Epstein File\"\n\nA Treasury Department \"Epstein File\" identified by Sen. Ron Wyden's investigation contains **4,725 wire transfers totaling approximately $1.1 billion** from a single JPMorgan account, with additional hundreds of millions through other accounts. The file shows Epstein used **multiple Russian banks now under sanctions** to process payments correlated with movement of women and girls from Russia, Belarus, Turkey, and Turkmenistan. The Trump administration has refused to produce this file to the Senate; Sen. Wyden introduced the **\"Produce Epstein Treasury Records Act\" (S.2746)** to compel disclosure.\n\n### DEA \"Operation Chain Reaction\"\n\nA previously undisclosed DEA investigation (reported exclusively by CBS, February 23, 2026): a **69-page law enforcement sensitive memo from 2015** spanning a five-year DEA investigation (opened December 17, 2010), targeting Epstein and 14 others for **approximately $50 million in suspicious wire transfers** linked to narcotics and prostitution. Identified Epstein bank accounts in Switzerland, France, the Cayman Islands, and New York. Companies named included SLK Designs LLC and Hyperion Air (both controlled by Darren Indyke). SDNY prosecutors who later charged Epstein in 2019 told CBS they were **not aware** of the earlier DEA probe.\n\n### The Corporate Entity Network\n\n**Southern Trust Company, Inc.** (USVI, Epstein as president): Registered as a biomedical/financial informatics company, performed no such services. Grew from $198.5M in assets (2013) to $391.3M (2017) employing only 13 people (11 in administrative roles). Received a 10-year EDC tax incentive: **90% income tax exemption**. Generated $250M+ in revenues. Epstein personally received a **$71.3 million income tax exemption** through Southern Trust's S-Corp election. The USVI AG alleged it \"acted as a conduit for payment to foreign women, credit cards, airplanes and other instrumentalities\" of trafficking.\n\n**$25 million Edmond de Rothschild agreement (October 5, 2015):** Epstein's Southern Trust signed a contract with the Rothschild Group for \"risk analysis\" services, with wires of $25M hitting Epstein accounts on December 17 and 21, 2015 — payment triggered when the Rothschild Group completed a $45.2M DOJ Swiss Bank Program penalty. Approximately 50 meetings between Epstein and Ariane de Rothschild from 2013–2019. Howard Lutnick co-invested through **\"Adfin\"** with Epstein via this entity structure.\n\n**Complete corporate entity list (from Produce Epstein Treasury Records Act, S.2746):** Financial Trust Co., Southern Trust Co., Southern Financial LLC, Haze Trust, The 1953 Trust, Plan D LLC (Boeing 727 \"Lolita Express,\" Gulfstream G550), Great St. Jim LLC, Nautilus Inc., Hyperion Air LLC (helicopters; formerly Air Ghislaine → Shmitka Air → Freedom Air International → Hyperion Air), Poplar Inc., J Epstein VI Foundation, Gratitude America Ltd., Butterfly Trust, La Hougue, HBRK Associates, Coatue Enterprises, C.O.U.Q. Foundation, Enhanced Education, JEGE Inc./LLC, NES LLC.\n\n### Gratitude America — Phantom Donations\n\nNBC News contacted 56 listed grant recipients (2010–2017) — **10 denied receiving any donation**, including the Metropolitan Museum of Art, Duke University, Ohio State, and the Elton John AIDS Foundation. The foundation received most of its funding from a $10 million grant controlled by Leon Black. IRS filings available on ProPublica Nonprofit Explorer. A DOJ document (EFTA00009962.pdf) contains a WSJ journalist's email to SDNY noting prosecutors were scrutinizing Gratitude America because \"the transactions took place within the past five years.\"\n\n### The Rybolovlev Mansion Deal\n\nEpstein's emails to Wolff theorized that Russian oligarch Dmitry Rybolovlev's **$95 million purchase of a Palm Beach mansion from Trump** — more than double the $41.35 million purchase price, during the 2008 financial crisis, with no competing bids — was effectively Rybolovlev \"buying the house from himself\" through Trump as a front. Epstein explicitly questioned Trump's tax reporting: \"He should have had a 50 million plus capital gain… Key question how did he report the sale.\"\n\nPer Wolff's reporting, Epstein believed Trump was \"fronting for someone else\" (specifically Rybolovlev) in the original 2004 purchase. Sen. Ron Wyden in July 2025 sent a letter to AG Bondi referencing a Treasury \"Epstein file\" containing information that Epstein used **sanctioned Russian banks** for \"hundreds of millions of dollars in wire transfers\" correlated to movement of women/girls.\n\n### The 1953 Trust (Epstein's Will)\n\n**Will and Testament signed August 8, 2019 — two days before his death** ([EFTA02751207](https://www.justice.gov/epstein/files/Court%20Records/Doe%20v.%20Indyke,%20No.%20119-cv-08673%20(S.D.N.Y.%202019)/EFTA02751207.pdf)). Estate valued at **$577–600 million**. Named approximately 40+ beneficiaries: $100M to Karyna Shuliak, $50M to Darren Indyke, $25M to Richard Kahn, $10M each to Maxwell and brother Mark Epstein, $5M to Harvard professor Martin Nowak.\n\nExecutor Darren Indyke appears in the prison visitors log on **July 22, 2019** — just weeks before the will was signed and Epstein's death.\n\n### Financial Intelligence Connected to Trump\n\n- Epstein described explaining Trump's money laundering to Kathy Ruemmler\n- Casino chip scheme involving Trump's father (Trump had to borrow $11M from his brother and sister to survive 1990s financial crisis — [EFTA01211522](https://www.justice.gov/epstein/files/DataSet%209/EFTA01211522.pdf))\n- Tom Barrack tax evasion discussions appear in files\n\n---",
+    "peopleIds": [
+      "ghislaine-maxwell",
+      "darren-indyke",
+      "richard-kahn",
+      "karyna-shuliak",
+      "alan-dershowitz",
+      "kathy-ruemmler",
+      "tom-barrack",
+      "howard-lutnick",
+      "sen-ron-wyden",
+      "leon-black",
+      "glenn-dubin",
+      "mary-erdoes",
+      "ariane-de-rothschild",
+      "dmitry-rybolovlev",
+      "john-duffy",
+      "martin-nowak",
+      "mark-epstein"
+    ],
+    "timelineEventIds": [],
+    "sources": [
+      "WSJ",
+      "DOJ"
+    ],
+    "tags": [
+      "trafficking",
+      "financial",
+      "legal",
+      "political",
+      "intelligence",
+      "media",
+      "death",
+      "academic",
+      "trump",
+      "maxwell"
+    ]
+  },
+  {
+    "id": "intelligence-connections",
+    "title": "Intelligence Connections",
+    "sectionNumber": 9,
+    "summary": "Document EFTA00090314 is an FBI Confidential Human Source report (FD-1023 format) stating Epstein \"was a co-opted Mossad agent\" who was \"trained as a spy\" for Israel under Ehud Barak. The source recalled Dershowitz telling then-US Attorney Acosta that Epstein \"belonged to both U.S. and allied intelligence services\" and that Mossad would \"call Dershowitz to debrief\" after his calls with Epstein. Th",
+    "content": "Separately, journalist Vicky Ward reported Acosta told the Trump transition team he was told Epstein \"belonged to intelligence\" with a \"leave-it-alone\" status — Acosta denied this under oath.\n\n### Carbyne & Israeli Intelligence\n\nEpstein and Barak **co-founded Carbyne**, a cybersecurity/surveillance startup **staffed by ex-Israeli intelligence operatives**. Congressional statements from Rep. Thomas Massie (\"Epstein had close ties to our own intelligence agencies and Israel's\") and Rep. Nancy Mace (\"I believe Epstein was an intel asset\") reflect growing political scrutiny.\n\n### Barak Apartment Surveillance\n\nA January 2016 email chain shows Rafi Shlomo, director of protective service at the Israeli mission to the UN, coordinated with Epstein's staff to install **surveillance equipment** at the apartment (301 East 66th Street), including window sensors and remote access capabilities. Priell wrote: \"They can neutralize the system from far.\" Epstein replied: \"Jeffrey says he does not mind holes in the walls and this is all just fine!\" **Audio recordings** were published of conversations between Barak and Epstein, and between Barak and Larry Summers.\n\nBarak in December 2018: \"you should make clear that i dont work for mossad :)\" — Epstein: \"unfortunately, not.\"\n\n### Robert Maxwell & Historical Intelligence\n\nMaxwell confirmed in her DOJ deposition that her father Robert Maxwell \"functioned as\" an intelligence officer \"throughout his life, passing on secrets to governments, including Israel.\" A 2018 Epstein email about Robert Maxwell claims Maxwell threatened Mossad: \"unless they gave him £400 million to save his crumbling empire, he would expose all he had done for them.\"\n\nAn October 2005 email shows Ghislaine told Epstein she met a CIA operative who \"worked\" with her father and could \"find all, and reveal all (for a price).\"\n\n### DIA Connection\n\nA \"Whoops\" email from **Mike Huffman from the Defense Intelligence Agency (DIA)** ([EFTA00736184](https://www.justice.gov/epstein/files/DataSet%209/EFTA00736184.pdf)) — flagged in notes as significant.\n\n### Epstein's Expired Austrian Passport\n\nDataset 8 includes an **expired Austrian passport** under the alias **\"Marius Robert Fortelni\"** with a **Saudi Arabian residence address**. The use of this passport as an alias raises intelligence-connection questions.\n\n### Epstein's Hidden Cameras\n\nEpstein maintained a **hidden camera network** across his properties. The Telegraph reported on February 22, 2026 that Epstein leased secret **storage units** across the country where he relocated computers and electronic equipment, with emails showing instructions to wipe data in transit. The FBI's three-page evidence index catalogs 40 computers/electronic devices, 26 storage drives, 70+ CDs, 6 recording devices, and **300+ GB of data** from seized devices — much of it unreleased.\n\n---",
+    "peopleIds": [
+      "jeffrey-epstein",
+      "ghislaine-maxwell",
+      "ehud-barak",
+      "larry-summers",
+      "rep-thomas-massie",
+      "rep-nancy-mace",
+      "robert-maxwell",
+      "rafi-shlomo"
+    ],
+    "timelineEventIds": [],
+    "sources": [
+      "DOJ",
+      "FBI"
+    ],
+    "tags": [
+      "financial",
+      "political",
+      "intelligence",
+      "media",
+      "trump",
+      "maxwell"
+    ]
+  },
+  {
+    "id": "epsteins-death-mcc-anomalies",
+    "title": "Epstein's Death & MCC Anomalies",
+    "sectionNumber": 10,
+    "summary": "August 8, 2019: - Epstein signed the 1953 Trust (will), estate valued at $577.6 million — two days before his death - MCC staff first detected that DVR 2 had stopped recording on July 29 — meaning three of four cameras covering Epstein's tier were not functioning. Replacement hard drives obtained August 9, never installed.",
+    "content": "**10:39 PM (August 9):** An **\"orange-colored figure\"** was captured on the single working camera moving up the staircase toward Epstein's locked tier. The FBI described it as \"possibly an inmate.\" The DOJ Inspector General identified it as an \"unidentified corrections officer\" carrying orange linen. CBS News's independent video analysts said the movement was \"more consistent with an inmate — or someone wearing an orange prison uniform — than a corrections officer.\" Guard Noel told investigators she **never distributed linen.** Guard Ghitto Bonhomme (identified first by CBS) said he could not remember the period between 10 PM and midnight. Neither officer was specifically asked about the orange figure. The figure's identity **has never been determined**.\n\n**August 10, 2019:**\n- Guards Thomas and Noel failed to conduct required 30-minute checks, allegedly sleeping and browsing the internet\n- Failed mandatory counts at **3 AM and 5 AM**\n- At approximately **6:30 AM**, officer Michael Thomas discovered Epstein suspended from the top bunk by a homemade noose, legs straight out, buttocks roughly 1 to 1.5 inches off the floor\n- Internal BOP memos describe Epstein as \"cold\" with \"no palpable pulses\"\n- FBI agents did not arrive until **1:35 PM** — more than seven hours after the body was found\n- Senior members of AG Barr's staff arrived at MCC — described as \"highly unusual\"; one source said in 20+ years they had never seen AG senior staff investigate an inmate death\n- A **whiteboard video at 5pm the same day** ([EFTA00033221](https://www.justice.gov/epstein/files/DataSet%208/EFTA00033221.mp4))\n\n### Surveillance Footage\n\nThe DOJ released **419 MCC surveillance recordings** totaling approximately 412.5 hours across five camera positions in the 9 South Special Housing Unit. Of the **11 cameras** in the Special Housing Unit, **10 were not recording** due to malfunctioning hard drives.\n\nKey footage: [EFTA00028842](https://www.justice.gov/epstein/files/DataSet%208/EFTA00028842.mp4) — community analysis shows camera C-B14, labeled \"J Epstein,\" capturing a figure in orange prison clothing on the cell floor at **4:29 AM on August 10, 2019** — roughly two hours before the body was officially discovered.\n\nThe released video was **processed through Adobe Premiere Pro** — not raw DVR output — with cursor and menu artifacts indicating it was a screen recording. A one-minute gap appears from 11:58:59 PM August 9 to midnight August 10. The FBI later acknowledged possessing a complete version without this gap. Most critically, the FBI **destroyed its master copy** (evidence item 1B60) of surveillance video in June 2024 after an agent obtained authorization, describing it as \"no longer pertinent\" — before the Transparency Act mandated disclosure. Had to reconstruct from screen-capture in mid-2025.\n\nThe full surveillance footage schedule ([see epstein_research.html Section 1.1](https://www.justice.gov/epstein/files/DataSet%209/EFTA00064603.mp4) et seq.) covers July 18 through August 12, 2019, across multiple angles.\n\n### Autopsy & Contested Medical Evidence\n\nAutopsy performed by **Dr. Kristin Roman** (then Deputy Chief Medical Examiner). Initially listed manner of death as **\"pending.\"** Chief Medical Examiner **Dr. Barbara Sampson** upgraded the ruling to suicide on August 16 after reviewing undisclosed \"additional investigative information.\" Dr. Barbara Sampson stands firmly behind the suicide ruling.\n\n**Dr. Michael Baden** (present at the autopsy, hired by Epstein's brother Mark): documented fractures of both superior horns of the thyroid cartilage and the left hyoid bone — each with hemorrhage (**three fractures total**). In 50+ years and 1,000+ jail hangings, Baden said he had **\"never seen three fractures\"** in a suicidal hanging. Additional concerns:\n- The **ligature furrow mark** was in the middle of Epstein's neck rather than beneath the jawbone as expected in hanging\n- The noose depicted in the autopsy **\"doesn't match the ligature furrow mark\"** — it was wider\n- No blood transfer appeared on the cloth\n- **Petechiae** (burst capillaries) on the face, mouth, and eyes were more consistent with strangulation\n- Baden concluded the evidence pointed \"much more to murder and strangulation than suicide\"\n\n### Cell Scene Evidence Issues\n\n- **No evidence markers** in cell scene photographs\n- Items **moved between photos**\n- At least **two different nooses** found in different rooms\n- No fingerprint or DNA tests conducted on anything in the cell\n- Former NYPD detective Herman Weisberg described the scene as \"staged a bit\"; CBS forensic analyst called it \"an absence of work\"\n\nDocuments:\n- [EFTA00161494](https://www.justice.gov/epstein/files/DataSet%209/EFTA00161494.pdf) — Timeline of prison events + autopsy photos\n- [EFTA00063517](https://www.justice.gov/epstein/files/DataSet%209/EFTA00063517.pdf) — Autopsy photos (2)\n- [EFTA01227736](https://www.justice.gov/epstein/files/DataSet%209/EFTA01227736.pdf) — **Prison guard texts saying Epstein was NOT suicidal** — contradicts official narrative\n\n### Other Suspicious Circumstances\n\n**Prison visitors log** ([EFTA00137914](https://www.justice.gov/epstein/files/DataSet%209/EFTA00137914.pdf)): Darren Indyke (July 22), Colón Miró (July 22), Gulnora Tali (July 23), Mariel Miró (August 9). FBI sought commissary info on: Indyke, Jeffrey Schantz, Gulnora Tali, Richard Kahn, Efrain Reyes, Mariel Colón Miró ([EFTA00077513](https://www.justice.gov/epstein/files/DataSet%209/EFTA00077513.pdf)).\n\n**Draft death announcements dated August 9** — one day before Epstein was officially found dead. At least two drafts carry the August 9 date; they make **no mention of suicide**. The DOJ called it a \"typographical error.\"\n\n**AUSA reference to murder:** A 2020 DOJ email from an AUSA in the Eastern District of New York referred to an **\"investigation into the murder of Jeffrey Epstein\"** — notable given the official suicide ruling.\n\n**4chan tip (August 10, 2019):** Two posters with accurate information appeared before media reports — one at 8:16 AM EDT (38–45 minutes before first press reports) providing medically precise details, and another at 8:44 AM claiming to be a prison guard. FBI subpoenas to 4chan yielded IP addresses leading to MCC guard Roberto Grijalva (currently a deputy captain at MDC), but the investigation reached a dead end due to dynamic IP allocation.\n\n**Post-death:** 4chan materials seized after death ([EFTA00027732](https://www.justice.gov/epstein/files/DataSet%208/EFTA00027732.pdf)). Digital forensic evidence collected from Epstein ([EFTA00130643](https://www.justice.gov/epstein/files/DataSet%209/EFTA00130643.pdf)). A full suicide watch chronological log is available: [EFTA00056410](https://www.justice.gov/epstein/files/DataSet%209/EFTA00056410.pdf).\n\n**Epstein's own statement:** Epstein to redacted: \"feeling suicidal and perfectly understand that Romanian girl\" ([EFTA01837996](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01837996.pdf)).\n\n---",
+    "peopleIds": [
+      "jeffrey-epstein",
+      "darren-indyke",
+      "richard-kahn",
+      "mark-epstein",
+      "michael-thomas",
+      "ghitto-bonhomme",
+      "efrain-reyes",
+      "roberto-grijalva",
+      "dr-barbara-sampson",
+      "dr-kristin-roman",
+      "dr-michael-baden"
+    ],
+    "timelineEventIds": [],
+    "sources": [
+      "CBS",
+      "DOJ",
+      "FBI"
+    ],
+    "tags": [
+      "financial",
+      "intelligence",
+      "media",
+      "death",
+      "academic",
+      "maxwell"
+    ]
+  },
+  {
+    "id": "whoops-emails",
+    "title": "\"Whoops\" Emails",
+    "sectionNumber": 11,
+    "summary": "A recurring pattern of messages from/to Epstein using the word \"whoops,\" spanning 2009–2018 across a wide variety of contacts. Several appear highly significant.",
+    "content": "| Date | To/From | Notable Detail | EFTA Link |\n|------|---------|---------------|-----------|\n| Aug 29, 2009 | Epstein to Maxwell (\"gmax\") | Attachment \"The_Bear074.jpg\" | [EFTA00739120](https://www.justice.gov/epstein/files/DataSet%209/EFTA00739120.pdf) |\n| Apr 11, 2012 | In response to BBC article | — | [EFTA01767863](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01767863.pdf) |\n| Jun 6, 2012 | To Jean-Luc Brunel | — | [EFTA01988549](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01988549.pdf) |\n| Dec 12, 2012 | To Warren Eisenstein | About \"Mutty Fukky\" | [EFTA01910978](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01910978.pdf) |\n| Jul 16, 2013 | To Nathan Myhrvold | — | [EFTA00964985](https://www.justice.gov/epstein/files/DataSet%209/EFTA00964985.pdf) |\n| Jun 30, 2014 | — | **\"permission to kill him\"** | [EFTA01922235](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01922235.pdf) |\n| Oct 13, 2014 | — | Someone \"getting sick\" | [EFTA02591804](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02591804.pdf) |\n| May 11, 2015 | To Jon Farkas | Death of \"Elkman\" | [EFTA02501993](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02501993.pdf) |\n| Dec 1, 2015 | To unknown | Seeking smart kids for **\"safe space to explore any ideas, no matter how taboo\"** | [EFTA01732108](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01732108.pdf) |\n| Dec 19, 2016 | To Brad S. Karp | **Extortion payments** discussion | [EFTA02665413](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02665413.pdf) |\n| Jan 20, 2017 | To redacted | On **Inauguration Day** | [EFTA02662769](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02662769.pdf) |\n| May 12, 2016 | To Soon-Yi Previn | — | [EFTA00827695](https://www.justice.gov/epstein/files/DataSet%209/EFTA00827695.pdf) |\n| Jul 4, 2016 | To Richard Kahn | On Independence Day | [EFTA02457915](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02457915.pdf) |\n| Aug 20, 2017 | — | Redacted to Epstein: **\"turns out Ornella was raped when she was just 18, Anna just told me today\"** | [EFTA01056353](https://www.justice.gov/epstein/files/DataSet%209/EFTA01056353.pdf) |\n| Sep 9–22, 2017 | To Nathan Myhrvold, Boris Nikolic | — | [EFTA02634651](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02634651.pdf), [EFTA01009760](https://www.justice.gov/epstein/files/DataSet%209/EFTA01009760.pdf) |\n| Feb 25, 2018 | To Ariane de Rothschild | — | [EFTA00876362](https://www.justice.gov/epstein/files/DataSet%209/EFTA00876362.pdf) |\n| Mar 5, 2018 | — | After **\"ice skating story and boy\"** | [EFTA00869349](https://www.justice.gov/epstein/files/DataSet%209/EFTA00869349.pdf) |\n| Jul 15, 2018 | To Nicole Junkermann | — | [EFTA01005484](https://www.justice.gov/epstein/files/DataSet%209/EFTA01005484.pdf) |\n| Sep 10, 2018 | From redacted | Redacted responds **\"how should we celebrate this day\"** | [EFTA02624636](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02624636.pdf) |\n| Aug 1, 2010 | To redacted | — | [EFTA01815587](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01815587.pdf) |\n| Mike Huffman (DIA) | From DIA officer | **Defense Intelligence Agency connection** | [EFTA00736184](https://www.justice.gov/epstein/files/DataSet%209/EFTA00736184.pdf) |\n| To Michael Wolff | — | \"question about Jamie Dimon. whoops\" | [EFTA02548441](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02548441.pdf) |\n\n---",
+    "peopleIds": [
+      "richard-kahn",
+      "brad-karp",
+      "ariane-de-rothschild",
+      "boris-nikolic",
+      "michael-wolff",
+      "jean-luc-brunel"
+    ],
+    "timelineEventIds": [],
+    "sources": [
+      "DOJ"
+    ],
+    "tags": [
+      "intelligence",
+      "death",
+      "maxwell"
+    ]
+  },
+  {
+    "id": "baby-stuff-thread",
+    "title": "\"Baby Stuff\" Thread",
+    "sectionNumber": 12,
+    "summary": "A cluster of documents flagged as a priority thread potentially connecting to trafficking operations. Treated as a high-priority investigative thread in research notes.",
+    "content": "| Document | Description | EFTA Link |\n|---------|-------------|-----------|\n| Barnaby Marsh to Epstein | \"Baby smell\" content | [EFTA02646618](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02646618.pdf) |\n| Epstein to Karyna Shuliak | Link sent; \"JE Angels\" emails | [EFTA02302410](https://www.justice.gov/epstein/files/DataSet%2011/EFTA02302410.pdf) |\n| Epstein wanting baby blankets for a \"plan\" | Associate named \"Shelley\" responds **\"not on God's earth\"** | [EFTA00702932](https://www.justice.gov/epstein/files/DataSet%209/EFTA00702932.pdf) |\n| Baby blanket plan (continued) | — | [EFTA00989890](https://www.justice.gov/epstein/files/DataSet%209/EFTA00989890.pdf) |\n| \"Baby girl 2013 — Taylor\" | Document with this designation | [EFTA01414279](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01414279.pdf) |\n| \"Kidnapped as baby\" | Reference to kidnapping | [EFTA01249616](https://www.justice.gov/epstein/files/DataSet%209/EFTA01249616.pdf) |\n| JE Angels emails | Sent to Karyna Shuliak | [EFTA00528713](https://www.justice.gov/epstein/files/DataSet%209/EFTA00528713.pdf) |\n\nKaryna Shuliak also named as trustee/beneficiary in trust documents (EFTA01266134) and received $100M under the 1953 Trust.\n\nThe Economist partnered with Jmail to produce an LLM-scored \"alarm index\" of all 1.4 million emails, flagging the most disturbing threads — including requests for nude photos from women with redacted names and references to avoiding parents.\n\n---",
+    "peopleIds": [
+      "karyna-shuliak"
+    ],
+    "timelineEventIds": [],
+    "sources": [
+      "DOJ"
+    ],
+    "tags": [
+      "trafficking",
+      "financial",
+      "intelligence",
+      "academic"
+    ]
+  },
+  {
+    "id": "academic-scientific-network",
+    "title": "Academic & Scientific Network",
+    "sectionNumber": 13,
+    "summary": "Epstein donated $6.5 million in 2003 to establish Harvard's Program for Evolutionary Dynamics under Martin Nowak, plus additional gifts totaling $9.1 million (1998–2008). Despite a 2008 ban on Epstein gifts, Nowak gave him unrestricted key card access to Harvard offices as late as 2018. Epstein introduced donors who gave $7.5M to Nowak's work and $2M to George Church's genomics lab. Epstein establ",
+    "content": "Epstein coordinated Gates-related donations to MIT through advisers Larry Cohen and Boris Nikolic. John Brockman (Edge Foundation) — Epstein was the biggest donor.\n\n### Transhumanism & Eugenics\n\nReleased emails document Epstein's plans to **impregnate 20 women simultaneously** at Zorro Ranch to seed the human race with his DNA. A 2018 email exchange with crypto entrepreneur **Bryan Bishop** details a designer baby/human cloning venture — \"$1.7 million per year for 5 years plus $1 million lab setup.\" Epstein wrote: \"I have no issue with investing, the problem is only if I am seen to lead.\"\n\nA 2016 email to **Joscha Bach** discusses **genetically modifying Black people** to make them \"smarter.\" A separate exchange with **Noam Chomsky** claims \"the test score gap amongst African Americans is well documented\" and a \"set of genes used for working memory\" could be \"found and adjusted.\"\n\nA 16-year-old victim's diary in the DOJ files describes herself as an **\"incubator\"** for Epstein's offspring.\n\n### \"Safe Space for Ideas\"\n\nEpstein to unknown (December 1, 2015): \"a safe space to explore any ideas, no matter how taboo\" — searching for smart kids ([EFTA01732108](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01732108.pdf)).\n\n---",
+    "peopleIds": [
+      "martin-nowak",
+      "george-church",
+      "noam-chomsky",
+      "john-brockman",
+      "bryan-bishop",
+      "joscha-bach",
+      "boris-nikolic",
+      "larry-cohen"
+    ],
+    "timelineEventIds": [],
+    "sources": [
+      "DOJ"
+    ],
+    "tags": [
+      "trafficking",
+      "financial",
+      "academic"
+    ]
+  },
+  {
+    "id": "the-acosta-plea-deal-legal-history",
+    "title": "The Acosta Plea Deal & Legal History",
+    "sectionNumber": 14,
+    "summary": "Palm Beach Police Detective Joseph Recarey identified Epstein and began investigation around 2005. In November 2005, interview with state attorney Dave Aronberg was recorded ([EFTA01683323](https://www.justice.gov/epstein/files/DataSet%2010/EFTA01683323.mp4)). A 1996 NYPD report in which Maria Farmer reported Epstein to the FBI was categorized as a child pornography case and went uninvestigated fo",
+    "content": "A **1996 FBI report** accusing Epstein of child pornography was previously undisclosed, released in December 2025.\n\n### The Draft Indictment\n\nA **32-to-60-count draft federal indictment** prepared by AUSA **Marie Villafaña** by May 2007 was never filed. It would have charged Epstein alongside **three unnamed co-defendants (employees)** and two Epstein-owned companies (his Gulfstream and Boeing 727 companies), alleging conspiracy from 2001–2005 to \"procure females under the age of 18.\" A companion 45-page prosecution memo to Acosta described Epstein as \"an extremely high flight risk and a continued danger to the community.\" The indictment was marked \"old draft\" and unsigned by Acosta.\n\nMoney laundering was among **charges \"considered and rejected\"** by prosecutors.\n\n### The Non-Prosecution Agreement\n\nThe NPA was signed **September 24, 2007** — one day before prosecutors were prepared to indict — granting immunity not only to Epstein but to \"any potential co-conspirators,\" including four named individuals (Kellen, Ross, Groff, Marcinkova). Full NPA text: documentcloud.org/documents/6184602-Jeffrey-Epstein-non-prosecution-agreement/.\n\nAcosta in September 19, 2025 closed-door House Oversight testimony: A DOJ Child Exploitation section attorney called going to trial a \"crapshoot\" due to evidentiary issues. Acosta denied ever meeting Epstein or Maxwell and denied seeing Trump's name on any Epstein-related document. The DOJ Office of Professional Responsibility report found Acosta's handling was \"poor judgment\" but not \"professional misconduct.\"\n\n### Florida Grand Jury Transcripts\n\nReleased July 1, 2024, after Florida legislature passed HB 117. These reveal prosecutors knew Epstein had raped girls as young as 14 **two years before the plea deal**. Prosecutors questioned teenage victims by asking them to acknowledge they had committed \"prostitution.\"\n\nFederal grand jury transcripts ordered unsealed December 5, 2025, by Judge Rodney Smith, ruling the EFTA superseded Rule 6(e) secrecy. These contain FBI agent testimony from May 2007 about Epstein's grooming methods, with the youngest victim described as 14.\n\n### Crime Victims' Rights Act Ruling\n\nJudge Kenneth Marra's February 2019 ruling found federal prosecutors violated the CVRA by failing to notify victims and \"affirmatively misled\" them. The Eleventh Circuit en banc decision (April 2021, 7–4) denied relief, calling the situation **\"a tale of national disgrace.\"** The Supreme Court denied certiorari in 2022.\n\n### The 86-Page SDNY Co-Conspirators Memo\n\nSent to U.S. Attorney Geoffrey Berman on December 19, 2019: evaluated potential charges against Maxwell, Lesley Groff, and others based on statements from 24 women abused as minors and 14 abused as adults, referencing 10 co-conspirators. The DOJ initially posted this memo then reportedly removed it.\n\n### The Draft Indictment Co-Conspirators\n\nSeparately, FBI emails from July 2019 cited **\"10 co-conspirators.\"** An internal FBI document from August 2019 lists 9 persons as family/associates and 8 as \"co-conspirators\" (names mostly redacted except Maxwell and Brunel). Les Wexner was identified as among these co-conspirators.\n\n### AG Bondi's Evolving Claims\n\nOn February 21, 2025, Bondi told Fox News that Epstein's \"client list\" was \"sitting on my desk right now to review.\" The DOJ/FBI then released a **two-page memo on July 6–7, 2025**, concluding: (1) no evidence Epstein kept a \"client list\"; (2) no credible evidence he blackmailed prominent individuals; (3) his death was suicide. This drew bipartisan outrage. At her October 7, 2025 Senate testimony and February 11, 2026 House testimony, Bondi refused to elaborate on her original claim. During the 5+ hour February 2026 hearing, when asked by Rep. Ted Lieu if underage girls were present at Trump-Epstein parties, Bondi responded \"there is no evidence that Donald Trump has committed a crime.\" Lieu accused her of lying under oath.\n\n### FBI Director Kash Patel Congressional Testimony\n\nSeptember 16–17, 2025: Rep. Swalwell asked nine times whether Patel told Bondi that Trump's name appeared in the files. Patel refused to answer. When asked about photos of Trump with underage girls, Patel said \"No\" but couldn't explain how he knew. Claimed no credible evidence Epstein trafficked women to anyone besides himself — contradicted by Rep. Massie, who noted victims alleged trafficking to at least 20 men.\n\n---",
+    "peopleIds": [
+      "jeffrey-epstein",
+      "lesley-groff",
+      "donald-trump",
+      "rep-ted-lieu",
+      "fbi-director-kash-patel",
+      "maria-farmer",
+      "judge-kenneth-marra"
+    ],
+    "timelineEventIds": [],
+    "sources": [
+      "DOJ",
+      "HO",
+      "Palm-Beach-PD",
+      "FBI"
+    ],
+    "tags": [
+      "trafficking",
+      "financial",
+      "legal",
+      "political",
+      "intelligence",
+      "media",
+      "death",
+      "trump",
+      "maxwell"
+    ]
+  },
+  {
+    "id": "international-consequences-fallout",
+    "title": "International Consequences & Fallout",
+    "sectionNumber": 15,
+    "summary": "Prince Andrew was arrested on February 19, 2026 — the first arrest of a senior British royal in approximately 400 years — on suspicion of sharing confidential trade reports with Epstein while serving as UK trade envoy. (Also: Johanna Sjoberg testified at Maxwell's trial; Virginia Giuffre documented being trafficked to Prince Andrew three times; authenticated photo developed March 13, 2001 at a Flo",
+    "content": "**Peter Mandelson** was arrested **February 23, 2026**, accused of passing market-sensitive government information to Epstein while serving as Business Secretary. Emails show he told Epstein \"finally got him to go today\" on May 10, 2010, the day before PM Brown resigned.\n\n**Thorbjørn Jagland** (former Norwegian PM and Council of Europe Secretary General) was charged with \"gross corruption\" by Norway's Økokrim following years of documented contact with Epstein (2011–2018). He was **hospitalized after an apparent suicide attempt** on February 24, 2026. Crown Princess Mette-Marit of Norway: correspondence in files; Norwegian PM ordered investigation.\n\n### Other Major Resignations & Consequences\n\n- **Kathy Ruemmler** resigned from Goldman Sachs after revelations of her \"Uncle Jeffrey\" emails, Hermès bags, and backup executor role\n- **Brad Karp** (Paul Weiss chairman) stepped down February 4, 2026\n- **Howard Lutnick** faces bipartisan calls for resignation as Commerce Secretary\n- **Sultan Ahmed bin Sulayem** (DP World CEO) replaced after 4,700+ file mentions\n- **Larry Summers** resigned from OpenAI Board; stepped back from public engagements\n- **Les Wexner** deposed February 18, 2026 in five-hour session — his lawyer was caught whispering answers and separately joked \"I'll f***ing kill you if you answer another question.\" Video released by House Oversight February 19, 2026.\n- **Bill Gates** canceled India AI Summit keynote February 19, 2026, saying he was \"foolish\" to spend time with Epstein.\n- **Bannon** conspicuously silent on his War Room podcast after files revealed hundreds of messages\n\n### Zorro Ranch & New Mexico\n\nZorro Ranch (~8,000–10,000 acres near Stanley, New Mexico) was purchased in 1993 from the Gov. Bruce King family for ~$12M through shell company \"Zorro Trust\" (later renamed Cypress, Inc.). It was sold August 2023 to San Rafael Ranch LLC (Don Huffines family). A fraudulent warranty deed was filed in October 2020 (voided). New Mexico AG Raúl Torrez **reopened the criminal investigation** in February 2026. DOJ files contain anonymous allegations of bodies buried on the property. The New Mexico legislature passed legislation for a full bipartisan \"truth commission\" with subpoena power.\n\n### Little St. James Island\n\nThe FBI evidence inventory references a \"Little Saint James logbook\" and multiple boat trip logs not fully released. Confirmed visitors from scheduling records include: Howard Lutnick (December 2012), Reid Hoffman and Joi Ito (November 2014), Ehud Barak (multiple 2014–2015), Les Wexner (acknowledged at February 2026 deposition). House Oversight released 73 photos and 4 videos from the island in December 2025. Epstein's estate sold the island; drone footage included in Dataset 10.\n\n### Polling\n\n- December 2025 Reuters poll: Only **23%** approved of Trump's handling of the Epstein case\n- January 2026 CNN poll: 49% dissatisfied with release volume; **two-thirds** said the government was deliberately withholding information\n\n---",
+    "peopleIds": [
+      "jeffrey-epstein",
+      "kathy-ruemmler",
+      "brad-karp",
+      "howard-lutnick",
+      "ehud-barak",
+      "larry-summers",
+      "peter-mandelson",
+      "thorbjrn-jagland",
+      "sultan-ahmed-bin-sulayem",
+      "joi-ito",
+      "reid-hoffman",
+      "johanna-sjoberg",
+      "bill-gates"
+    ],
+    "timelineEventIds": [],
+    "sources": [
+      "CNN",
+      "DOJ",
+      "HO",
+      "FBI"
+    ],
+    "tags": [
+      "trafficking",
+      "legal",
+      "intelligence",
+      "media",
+      "death",
+      "trump",
+      "maxwell"
+    ]
+  },
+  {
+    "id": "media-congressional-investigations",
+    "title": "Media & Congressional Investigations",
+    "sectionNumber": 16,
+    "summary": "Brown's \"Perversion of Justice\" series (November 2018) exposed the Acosta plea deal, identified nearly 80 victims, and led directly to Epstein's 2019 arrest. Ongoing 2025–2026 reporting included the Trump-Reiter phone call, an FBI 21-page prosecution presentation listing 11 men including Trump, and the discovery that Brown's own American Airlines flight records were in the Epstein files attached t",
+    "content": "### NPR — Stephen Fowler (February 24, 2026)\n\nThe most significant same-day investigative piece. Found **50+ pages of FBI interviews** with Trump accusers withheld or removed from the public database. Identified gaps through systematic serial number analysis — cross-referencing three sets of serial numbers. Documented two women (the ~1983 accuser and the Interlochen/Jane victim) whose FBI interview records have been withheld or removed. Rep. Garcia confirmed DOJ \"appears to have illegally withheld FBI interviews.\"\n\n### CBS News Investigative Unit\n\nBuilt the most granular reconstruction of Epstein's final hours using Dataset 8. Exclusive discoveries include:\n- The **DEA narcotics/money-laundering investigation** (\"Operation Chain Reaction\")\n- The **Barrack-Epstein correspondence** (100+ exchanges, including the Colony Capital stock purchase)\n- The **Lutnick \"Adfin\" business documents** (contradicting his 2005 cutoff claim)\n- Identification of guard **Ghitto Bonhomme** as associated with the orange figure incident\n- The **orange-figure video analysis** (more consistent with prison uniform than linen-carrying officer)\n- The **cell scene evidence-handling failures**\n- The 15 disappearing files identified by comparing day-one and day-two releases\n\nCBS stated nothing in its review \"suggests foul play\" but emphasized the questions are about the \"thoroughness and credibility of the investigation.\"\n\n### Wall Street Journal Birthday Letter (July 17, 2025)\n\nWSJ reporters Khadeeja Safdar and Joe Palazzolo reported on a birthday book compiled by Maxwell for Epstein's 50th birthday in 2003. A letter bearing Trump's name contained \"several lines of typewritten text framed by the outline of a naked woman\" with Trump's signature \"mimicking pubic hair.\" The letter concluded: **\"Happy Birthday — and may every day be another wonderful secret.\"**\n\nTrump called it \"a FAKE\" and filed the $10B defamation suit (see Section 3). WSJ filed to dismiss; Epstein's estate produced the birthday book confirming WSJ's description. The House Oversight Committee released the actual letter in September 2025.\n\n### New York Times\n\n\"A 15-Year Bond Between Trump and Epstein\" (July 20, 2025): detailed the friendship from the late 1980s through early 2000s, including the 1992 calendar girl party and multiple accusers' accounts. NYT's proprietary analysis identified more than **5,300 files containing over 38,000 references** to Trump, Melania, Mar-a-Lago, and related terms. Trump filed the $15B lawsuit (September 15, 2025).\n\n### Bloomberg\n\nBloomberg independently obtained approximately **18,700 Epstein emails** from jeeproject@yahoo.com (spanning 2002–2022), authenticated by four experts. These provided additional evidence of Epstein's communications with Bannon, Trump associates, and others.\n\n### Congressional Testimony (2025–2026)\n\nKey hearings:\n- **Alex Acosta** (September 19, 2025): 172-page transcript released October 17, 2025\n- **Bill Barr deposition** transcript: Released September 16, 2025\n- **FBI Director Kash Patel** (September 16–17, 2025): Refused to answer nine direct questions\n- **AG Bondi** (February 11, 2026): 5+ hour hearing; refused to elaborate on \"client list\" claim; deflected on Lutnick, Phelan, Feinberg ties\n- **Les Wexner** (February 18, 2026): Five-hour deposition; \"duped by a world-class con man\"\n- **Ghislaine Maxwell** (February 10, 2026): Fifth Amendment on all questions; clemency offer\n- **Bill and Hillary Clinton**: Scheduled for House Oversight depositions February 26–27, 2026, after bipartisan contempt proceedings\n\n---",
+    "peopleIds": [
+      "ghislaine-maxwell",
+      "melania-trump",
+      "bill-clinton",
+      "fbi-director-kash-patel",
+      "ghitto-bonhomme"
+    ],
+    "timelineEventIds": [],
+    "sources": [
+      "CBS",
+      "NPR",
+      "WSJ",
+      "NYT",
+      "Bloomberg",
+      "DOJ",
+      "HO",
+      "FBI"
+    ],
+    "tags": [
+      "trafficking",
+      "financial",
+      "legal",
+      "political",
+      "intelligence",
+      "media",
+      "trump",
+      "maxwell"
+    ]
+  },
+  {
+    "id": "community-research-tools-architecture",
+    "title": "Community Research Tools & Architecture",
+    "sectionNumber": 17,
+    "summary": "JMail (jmail.world): Gmail-clone interface indexing 1,038,603 emails from Epstein's jeevacation@gmail.com and jeeproject@yahoo.com accounts, plus 1,412,250 total files. Created by Riley Walz and Luke Igel. Sub-tools: JPhotos (images), JFlights (flight logs), JAmazon (Amazon purchase records), JeffTube (1,000+ DOJ-released videos), JDrive (document archive), Jwiki (person profiles), Jemini (AI cros",
+    "content": "**EpsteinExposed.com:** Semantic search across 264,000+ documents using pgvector; 1,122,307+ documents, 1,708 flights, 1,463 persons with interactive network graphs.\n\n**rhowardstone/Epstein-research (GitHub):** Over 100 forensic analysis reports; 1,536-person entity registry; knowledge graph of 524 entities and 2,096 mapped connections; full-text indexed database of all 12 datasets; complete media catalog of 419 MCC surveillance videos; 2,587,102 redaction records; 1,530 audio/video transcripts; a Congressional Reading Guide.\n\n**yung-megafone/Epstein-Files (GitHub):** Archive index with torrent magnets, SHA256 hashes, and mirrors for all 12 datasets; documented the DOJ's removal of Datasets 9–11 in February 2026 and community scramble to preserve them.\n\n**paulgp/epstein-document-search:** Python scripts for downloading, splitting, and indexing PDFs into local Meilisearch instance.\n\n**Epstein OSINT Database (Notion):** epstein-osint-database.notion.site — structured categories for People (with role tags), Organizations, Flight Logs, Properties, and Docket Entries. JavaScript-rendered; no static export exists. Includes profiles for financial executives, compliance analysts, and figures from modeling networks.\n\n**Tommy Carstensen's video gallery:** tommycarstensen.com/epstein/video_gallery.html — all DOJ video releases indexed with AI transcriptions.\n\n**FBI Vault:** vault.fbi.gov/jeffrey-epstein — 22 batches of FOIA-released documents (pre-EFTA, heavily redacted).\n\n**The Economist** partnered with Jmail team to produce an LLM-scored \"alarm index\" of all 1.4 million emails, flagging the most disturbing threads.\n\n### Community Research Discoveries\n\n**Mislabeled video files:** Community discovered that files labeled \"No Images Produced\" were actually mislabeled video files (.mp4/.mov saved as .pdf), recoverable by changing file extensions. This included the **Alfredo Rodriguez FBI sting video** (46 minutes showing the butler attempting to sell the black book for $50,000, describing it as a \"Holy Grail,\" claiming Maxwell maintained a computer database of nude photos).\n\n**Faulty redactions:** Dataset 9 contains **91,646 \"bad overlays\"** — redactions where underlying text is recoverable via copy-paste. Community used this to recover trust beneficiary names, the infant killing unverified tip, and other content.\n\n**Dataset 9 \"infinite loop\":** Pages beyond approximately 13,000 contain no new documents — the dataset is incomplete at source.\n\n**Dataset 10 incompleteness:** At only 15% scanned by the GitHub project, researchers had already found 268,110 redactions.\n\n### Flight Logs\n\n**Primary sources:**\n- 118-page handwritten Maxwell trial logs (signed by pilot David Rodgers, covering 1991–2006): documentcloud.org/documents/21165424-epstein-flight-logs-released-in-usa-vs-maxwell/\n- Earlier 73-page Gawker version (from Epstein v. Edwards litigation): documentcloud.org/documents/1507315-epstein-flight-manifests/\n- 2020 FAA FOIA: 704 previously unknown flights (2013–2016), discovered by Business Insider\n- CBP records: cbp.gov/sites/default/files/assets/documents/2023-Mar/Jeffrey%20Epstein%20records%2002.pdf\n- TECS II (Treasury Enforcement Communications System) customs processing documents: EFTA01683110–01683185 (~75 documents for Epstein aircraft passengers)\n\n**Critical gap:** No passenger manifests exist after August 2013 despite 835 documented flights through Epstein's 2019 arrest. Documented fleet: Boeing 727-100 (N908JE, \"Lolita Express,\" 358 flights), Gulfstream II, Gulfstream G550 (N212JE), Cessna 421, helicopter N491GM (\"Air Ghislaine\"). Key pilots: David Rodgers (chief pilot ~1991–early 2000s), Lawrence \"Larry\" Visoski (became chief pilot early 2000s), Larry Morrison (flight engineer).\n\n**Most frequent passengers (total documented entries):** Maxwell (~400–520), Sarah Kellen (~338–364), Emmy Tayler (~190), Nadia Marcinkova (~110), Lesley Groff (~82), Virginia Giuffre (48), Eva Andersson Dubin (36), Jean-Luc Brunel (20–34), Prince Andrew (25), Les Wexner (15), Clinton (26 legs).\n\n### The Black Book\n\nThe black book actually comprises **two separate books:**\n\n1. **The Rodriguez book** (~2004–2005): **1,571–1,971 names** across 97 pages. Alfredo Rodriguez (Epstein's butler) secretly copied and attempted to sell for $50,000 — the buyer was an undercover FBI agent. Rodriguez called it the \"Holy Grail\" and circled approximately **38–50 entries** of investigative interest. Redacted Gawker version: documentcloud.org/documents/1508273-jeffrey-epsteins-little-black-book-redacted/. Unredacted version: Wikimedia Commons. Circled names confirmed to include: Donald Trump, Prince Andrew, Alan Dershowitz, Ehud Barak, Courtney Love, Bill Richardson, David Koch. Searchable cross-reference: epsteinsblackbook.com.\n\n2. **The 1997 book:** 349 names; over 200 unique to this version (not in Rodriguez book). Found on a Manhattan sidewalk; published by Business Insider in 2021.\n\nCross-reference tool: epsteinexposed.com/diff (329 black book contacts against 95 flight log passengers).\n\n### Key Specific EFTA Documents\n\n| EFTA Number | Document | Key Detail |\n|------------|----------|-----------|\n| EFTA00000468 | Trump-Epstein-Maxwell photo | Removed from DOJ site Dec 20, 2025; restored after public outcry |\n| EFTA00020493 | FBI case file (Case ID 50D-NY-3027571) | Victim interview mentioning both Clinton and Trump |\n| EFTA00029805 | Butterfly Trust JPMorgan account chart | [Direct link](https://www.justice.gov/epstein/files/DataSet%208/EFTA00029805.pdf) |\n| EFTA00090314 | FBI CHS report | \"Co-opted Mossad agent\" — unverified informant claim |\n| EFTA00095502 | FBI witness report | Witness saw Epstein and Trump together; \"sheik gave his virgin daughter\" |\n| EFTA00800982 | Court transcript | Fifth Amendment exchange re: Trump and underage children at Mar-a-Lago |\n| EFTA01265800 | MoneyGram wire transfers | Wire records including names |\n| EFTA01266134 | Trust documents | Karyna Shuliak named as trustee/beneficiary |\n| EFTA01296151 | Trust agreement | Maxwell as beneficiary (recovered from faulty redaction) |\n| EFTA01297516 | Trust agreement | Brunel and Maxwell as beneficiaries (recovered from faulty redaction) |\n| EFTA01660622 | FBI \"Prominent Names\" briefing | Lists co-conspirators and named individuals |\n| EFTA01660651 | NTOC allegations | FBI compiled list of tips related to Trump |\n| EFTA01683323 | Video interview (Dave Aronberg) | Nov 8, 2005 interview with state attorney |\n| EFTA01683440 | Naturalization Oath Ceremony video | May 11, 2018 |\n| EFTA02751207 | Epstein Will and Testament | Signed Aug 8, 2019 — two days before death |\n\n### What Remains Hidden\n\n- Approximately **3 million pages** identified by DOJ but not released\n- **53 pages** of FBI interview documents related to Trump accusers (NPR-identified via serial number analysis)\n- The **Treasury Department's \"Epstein File\"** (4,725 wire transfers through sanctioned Russian banks)\n- The **Little St. James logbook** and complete boat trip logs\n- Contents of **26 storage drives, 70+ CDs, and 6 recording devices** seized from Epstein's properties\n- Three **wiretap discs** from Maxwell's phone\n- **10.1 GB of video files** (EFTA00276494, EFTA01244748, EFTA01244749) removed from DOJ website\n- The full contents of **40 seized computers** (300+ GB documented)\n- The **complete TECS II customs records** for all Epstein passengers\n- Complete Maxwell trial grand jury transcripts\n\n---\n\n*Document compiled February 2026. All EFTA document links point to justice.gov/epstein, the sole legally authorized source. Cross-reference findings against original DOJ PDFs. FBI 302 memos document allegations — they are not conclusions. Epstein's own emails are self-serving statements by a convicted sex offender. The reliability spectrum ranges from sworn depositions and trial testimony (highest) through FBI 302 interview memos (moderate) to anonymous NTOC tips (lowest — many flagged as \"not credible\" by agents themselves).*",
+    "peopleIds": [
+      "jeffrey-epstein",
+      "ghislaine-maxwell",
+      "sarah-kellen",
+      "lesley-groff",
+      "nadia-marcinkova",
+      "alfredo-rodriguez",
+      "emmy-tayler",
+      "david-rodgers",
+      "karyna-shuliak",
+      "alan-dershowitz",
+      "donald-trump",
+      "bill-clinton",
+      "ehud-barak",
+      "bill-richardson",
+      "jean-luc-brunel",
+      "courtney-love",
+      "david-koch"
+    ],
+    "timelineEventIds": [],
+    "sources": [
+      "NPR",
+      "DOJ",
+      "OSINT",
+      "JMail",
+      "GH",
+      "Maxwell-trial",
+      "FBI"
+    ],
+    "tags": [
+      "trafficking",
+      "financial",
+      "legal",
+      "political",
+      "intelligence",
+      "media",
+      "death",
+      "academic",
+      "trump",
+      "maxwell"
+    ]
+  }
+]

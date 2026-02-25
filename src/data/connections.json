@@ -1,0 +1,1936 @@
+[
+  {
+    "id": "maxwell-epstein-co-conspirator",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "ghislaine-maxwell",
+    "relationshipType": "co-conspirator",
+    "strength": 3,
+    "description": "Maxwell convicted as Epstein's primary operational partner in sex trafficking ring. ~400 documented flight legs together.",
+    "sources": [
+      "DOJ",
+      "Maxwell-trial"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "wexner-epstein-financial",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "leslie-wexner-les-wexner",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "Wexner granted Epstein sweeping power of attorney in 1991 and transferred approximately $1 billion in assets. The foundational relationship of Epstein's wealth.",
+    "sources": [
+      "DOJ",
+      "HO"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "kellen-epstein-co-conspirator",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "sarah-kellen",
+    "relationshipType": "co-conspirator",
+    "strength": 3,
+    "description": "Kellen granted immunity as named co-conspirator. 364 documented flight legs. Scheduled abuse sessions with minors.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "groff-epstein-employer-employee",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "lesley-groff",
+    "relationshipType": "employer-employee",
+    "strength": 3,
+    "description": "Groff served as Epstein's executive assistant, the second most-mentioned person in the DOJ release with 157,613 references. Immunity grantee.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "indyke-epstein-legal",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "darren-indyke",
+    "relationshipType": "legal-representation",
+    "strength": 3,
+    "description": "Epstein's primary attorney and estate executor. Named in the 1953 Trust will.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "dershowitz-epstein-legal",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "alan-dershowitz",
+    "relationshipType": "legal-representation",
+    "strength": 3,
+    "description": "Dershowitz served as Epstein's defense attorney during the 2006-2008 NPA negotiations. Later subject of allegations by Virginia Giuffre.",
+    "sources": [
+      "DOJ",
+      "Giuffre-deposition"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "clinton-epstein-flew-together",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "bill-clinton",
+    "relationshipType": "flew-together",
+    "strength": 2,
+    "description": "Clinton took 26 documented flight legs on Epstein's aircraft. Maxwell's initials appear on each leg.",
+    "sources": [
+      "DOJ",
+      "Maxwell-trial"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "trump-epstein-social",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "social",
+    "strength": 2,
+    "description": "Documented social relationship from late 1980s through early 2000s. Epstein expelled from Mar-a-Lago in 2007. 38,000+ references in DOJ files.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "barak-epstein-social",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "ehud-barak",
+    "relationshipType": "intelligence",
+    "strength": 2,
+    "description": "Barak had 4,000+ references in DOJ files. The apartment at 301 E 66th St was referred to internally as 'Ehud's apartment'. Intelligence connections alleged.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "contested"
+  },
+  {
+    "id": "maxwell-kellen-co-conspirator",
+    "sourcePersonId": "ghislaine-maxwell",
+    "targetPersonId": "sarah-kellen",
+    "relationshipType": "co-conspirator",
+    "strength": 3,
+    "description": "Maxwell and Kellen flew together approximately 39 times in 2003 alone. Both convicted or immunity-granted as operational partners.",
+    "sources": [
+      "Maxwell-trial",
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "brunel-epstein-co-conspirator",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "jean-luc-brunel",
+    "relationshipType": "co-conspirator",
+    "strength": 3,
+    "description": "Brunel founded MC2 Model Management which served as a recruitment pipeline for Epstein. 4,727 references in DOJ files.",
+    "sources": [
+      "DOJ",
+      "Maxwell-trial"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "acosta-epstein-legal",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "alexander-acosta-alex-acosta",
+    "relationshipType": "legal-representation",
+    "strength": 3,
+    "description": "Acosta, as US Attorney in Florida, negotiated and signed the 2007 NPA granting Epstein and unnamed co-conspirators immunity.",
+    "sources": [
+      "DOJ",
+      "HO"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "black-epstein-financial",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "leon-black",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Black paid Epstein approximately $158 million in advisory fees, according to an independent investigation. Resigned as Apollo CEO following disclosure.",
+    "sources": [
+      "DOJ",
+      "WSJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "staley-epstein-financial",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "jes-staley",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Staley maintained documented relationship with Epstein through JPMorgan. Appears in scheduling emails coordinated by Groff.",
+    "sources": [
+      "DOJ",
+      "GH"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "marcinkova-epstein-victim-perpetrator",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "nadia-marcinkova",
+    "relationshipType": "victim-perpetrator",
+    "strength": 3,
+    "description": "Palm Beach police records state Epstein told a victim he had purchased Marcinkova from her family to be his 'sex slave'. She was later an immunity grantee.",
+    "sources": [
+      "Palm-Beach-PD",
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "explicit-darren-indyke-alan-dershowitz-legal-representation",
+    "sourcePersonId": "darren-indyke",
+    "targetPersonId": "alan-dershowitz",
+    "relationshipType": "legal-representation",
+    "strength": 3,
+    "description": "Documented legal-representation relationship.",
+    "sources": [
+      "CBS",
+      "OSINT",
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-leslie-wexner-les-wexner",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "leslie-wexner-les-wexner",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 3 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-ghislaine-maxwell",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "ghislaine-maxwell",
+    "relationshipType": "social",
+    "strength": 2,
+    "description": "Co-appear in 12 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-fbi-director-kash-patel",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "fbi-director-kash-patel",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 3 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-jean-luc-brunel",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "jean-luc-brunel",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-sarah-kellen",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "sarah-kellen",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-martin-nowak",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "martin-nowak",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 3 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-virginia-giuffre-ne-roberts",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "virginia-giuffre-ne-roberts",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-bill-clinton",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "bill-clinton",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-adriana-ross-ne-adriana-mucinska",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "adriana-ross-ne-adriana-mucinska",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-marie-villafaa-jo-ann-villafaa",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "marie-villafaa-jo-ann-villafaa",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 3 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-lesley-groff",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "lesley-groff",
+    "relationshipType": "social",
+    "strength": 2,
+    "description": "Co-appear in 6 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-tom-barrack",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "tom-barrack",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 5 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-bill-gates",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "bill-gates",
+    "relationshipType": "social",
+    "strength": 2,
+    "description": "Co-appear in 6 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-leon-black",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "leon-black",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 5 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-larry-summers",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "larry-summers",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 4 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-darren-indyke",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "darren-indyke",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-ehud-barak",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "ehud-barak",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 5 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-michael-wolff",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "michael-wolff",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 4 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-katie-johnson-jane-doe",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "katie-johnson-jane-doe",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-steve-bannon",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "steve-bannon",
+    "relationshipType": "social",
+    "strength": 2,
+    "description": "Co-appear in 8 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-miroslav-lajk-miro-lajcak",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "miroslav-lajk-miro-lajcak",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-donald-trump-ghislaine-maxwell",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "ghislaine-maxwell",
+    "relationshipType": "social",
+    "strength": 2,
+    "description": "Co-appear in 7 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-donald-trump-virginia-giuffre-ne-roberts",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "virginia-giuffre-ne-roberts",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 3 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-donald-trump-michael-reiter",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "michael-reiter",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-donald-trump-brad-edwards",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "brad-edwards",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-donald-trump-michael-wolff",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "michael-wolff",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 3 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-donald-trump-katie-johnson-jane-doe",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "katie-johnson-jane-doe",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-donald-trump-steve-bannon",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "steve-bannon",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-donald-trump-khadeeja-safdar-joe-palazzolo",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "khadeeja-safdar-joe-palazzolo",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-ghislaine-maxwell-virginia-giuffre-ne-roberts",
+    "sourcePersonId": "ghislaine-maxwell",
+    "targetPersonId": "virginia-giuffre-ne-roberts",
+    "relationshipType": "social",
+    "strength": 2,
+    "description": "Co-appear in 6 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-ghislaine-maxwell-bill-clinton",
+    "sourcePersonId": "ghislaine-maxwell",
+    "targetPersonId": "bill-clinton",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-ghislaine-maxwell-michael-wolff",
+    "sourcePersonId": "ghislaine-maxwell",
+    "targetPersonId": "michael-wolff",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-lesley-groff-bill-gates",
+    "sourcePersonId": "lesley-groff",
+    "targetPersonId": "bill-gates",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 3 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-steve-bannon-miroslav-lajk-miro-lajcak",
+    "sourcePersonId": "steve-bannon",
+    "targetPersonId": "miroslav-lajk-miro-lajcak",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ghislaine-maxwell-juan-alessi",
+    "sourcePersonId": "ghislaine-maxwell",
+    "targetPersonId": "juan-alessi",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Juan Alessi mentioned in Ghislaine Maxwell's documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ghislaine-maxwell-todd-blanche",
+    "sourcePersonId": "ghislaine-maxwell",
+    "targetPersonId": "todd-blanche",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Todd Blanche mentioned in Ghislaine Maxwell's documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ghislaine-maxwell-melania-trump",
+    "sourcePersonId": "ghislaine-maxwell",
+    "targetPersonId": "melania-trump",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Melania Trump mentioned in Ghislaine Maxwell's documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ghislaine-maxwell-robert-maxwell",
+    "sourcePersonId": "ghislaine-maxwell",
+    "targetPersonId": "robert-maxwell",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Robert Maxwell mentioned in Ghislaine Maxwell's documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ghislaine-maxwell-judge-alison-nathan",
+    "sourcePersonId": "ghislaine-maxwell",
+    "targetPersonId": "judge-alison-nathan",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Judge Alison Nathan mentioned in Ghislaine Maxwell's documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-sarah-kellen-judge-alison-nathan",
+    "sourcePersonId": "sarah-kellen",
+    "targetPersonId": "judge-alison-nathan",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Judge Alison Nathan mentioned in Sarah Kellen's documented profile.",
+    "sources": [
+      "CBS",
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-lesley-groff-leon-black",
+    "sourcePersonId": "lesley-groff",
+    "targetPersonId": "leon-black",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Leon Black mentioned in Lesley Groff's documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-lesley-groff-jes-staley",
+    "sourcePersonId": "lesley-groff",
+    "targetPersonId": "jes-staley",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Jes Staley mentioned in Lesley Groff's documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-lesley-groff-bill-gates",
+    "sourcePersonId": "lesley-groff",
+    "targetPersonId": "bill-gates",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Bill Gates mentioned in Lesley Groff's documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-nadia-marcinkova-alan-dershowitz",
+    "sourcePersonId": "nadia-marcinkova",
+    "targetPersonId": "alan-dershowitz",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Alan Dershowitz mentioned in Nadia Marcinkova's documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-adriana-ross-ne-adriana-mucinska-janusz-banasiak",
+    "sourcePersonId": "adriana-ross-ne-adriana-mucinska",
+    "targetPersonId": "janusz-banasiak",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Janusz Banasiak mentioned in Adriana Ross (née Adriana Mucinska)'s documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-adriana-ross-ne-adriana-mucinska-sandy-berger",
+    "sourcePersonId": "adriana-ross-ne-adriana-mucinska",
+    "targetPersonId": "sandy-berger",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Sandy Berger mentioned in Adriana Ross (née Adriana Mucinska)'s documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-darren-indyke-richard-kahn",
+    "sourcePersonId": "darren-indyke",
+    "targetPersonId": "richard-kahn",
+    "relationshipType": "legal-representation",
+    "strength": 1,
+    "description": "Richard Kahn mentioned in Darren Indyke's documented profile.",
+    "sources": [
+      "CBS",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-alfredo-rodriguez-alan-dershowitz",
+    "sourcePersonId": "alfredo-rodriguez",
+    "targetPersonId": "alan-dershowitz",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Alan Dershowitz mentioned in Alfredo Rodriguez's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-alfredo-rodriguez-donald-trump",
+    "sourcePersonId": "alfredo-rodriguez",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Donald Trump mentioned in Alfredo Rodriguez's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-alfredo-rodriguez-ehud-barak",
+    "sourcePersonId": "alfredo-rodriguez",
+    "targetPersonId": "ehud-barak",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Ehud Barak mentioned in Alfredo Rodriguez's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-alfredo-rodriguez-bill-richardson",
+    "sourcePersonId": "alfredo-rodriguez",
+    "targetPersonId": "bill-richardson",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Bill Richardson mentioned in Alfredo Rodriguez's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-alfredo-rodriguez-courtney-love",
+    "sourcePersonId": "alfredo-rodriguez",
+    "targetPersonId": "courtney-love",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Courtney Love mentioned in Alfredo Rodriguez's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-alfredo-rodriguez-david-koch",
+    "sourcePersonId": "alfredo-rodriguez",
+    "targetPersonId": "david-koch",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "David Koch mentioned in Alfredo Rodriguez's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-larry-lawrence-visoski-david-rodgers",
+    "sourcePersonId": "larry-lawrence-visoski",
+    "targetPersonId": "david-rodgers",
+    "relationshipType": "flew-together",
+    "strength": 1,
+    "description": "David Rodgers mentioned in Larry (Lawrence) Visoski's documented profile.",
+    "sources": [
+      "DOJ",
+      "GH"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-pam-bondi-todd-blanche",
+    "sourcePersonId": "pam-bondi",
+    "targetPersonId": "todd-blanche",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Todd Blanche mentioned in Pam Bondi's documented profile.",
+    "sources": [
+      "CBS",
+      "HO"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-pam-bondi-rep-ted-lieu",
+    "sourcePersonId": "pam-bondi",
+    "targetPersonId": "rep-ted-lieu",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Rep. Ted Lieu mentioned in Pam Bondi's documented profile.",
+    "sources": [
+      "CBS",
+      "HO"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-pam-bondi-joseph-schnitt",
+    "sourcePersonId": "pam-bondi",
+    "targetPersonId": "joseph-schnitt",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Joseph Schnitt mentioned in Pam Bondi's documented profile.",
+    "sources": [
+      "CBS",
+      "HO"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-pam-bondi-james-okeefe",
+    "sourcePersonId": "pam-bondi",
+    "targetPersonId": "james-okeefe",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "James O'Keefe mentioned in Pam Bondi's documented profile.",
+    "sources": [
+      "CBS",
+      "HO"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-brad-edwards-rep-jamie-raskin",
+    "sourcePersonId": "brad-edwards",
+    "targetPersonId": "rep-jamie-raskin",
+    "relationshipType": "legal-representation",
+    "strength": 1,
+    "description": "Rep. Jamie Raskin mentioned in Brad Edwards's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-donald-trump-brad-edwards",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "brad-edwards",
+    "relationshipType": "flew-together",
+    "strength": 1,
+    "description": "Brad Edwards mentioned in Donald Trump's documented profile.",
+    "sources": [
+      "NYT",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-donald-trump-melania-trump",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "melania-trump",
+    "relationshipType": "flew-together",
+    "strength": 1,
+    "description": "Melania Trump mentioned in Donald Trump's documented profile.",
+    "sources": [
+      "NYT",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-donald-trump-larry-summers",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "larry-summers",
+    "relationshipType": "flew-together",
+    "strength": 1,
+    "description": "Larry Summers mentioned in Donald Trump's documented profile.",
+    "sources": [
+      "NYT",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-donald-trump-michael-wolff",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "michael-wolff",
+    "relationshipType": "flew-together",
+    "strength": 1,
+    "description": "Michael Wolff mentioned in Donald Trump's documented profile.",
+    "sources": [
+      "NYT",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-donald-trump-landon-thomas-jr",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "landon-thomas-jr",
+    "relationshipType": "flew-together",
+    "strength": 1,
+    "description": "Landon Thomas Jr. mentioned in Donald Trump's documented profile.",
+    "sources": [
+      "NYT",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-donald-trump-jane-interlochen-victim",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "jane-interlochen-victim",
+    "relationshipType": "flew-together",
+    "strength": 1,
+    "description": "\"Jane\" / Interlochen victim mentioned in Donald Trump's documented profile.",
+    "sources": [
+      "NYT",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-donald-trump-stacey-williams",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "stacey-williams",
+    "relationshipType": "flew-together",
+    "strength": 1,
+    "description": "Stacey Williams mentioned in Donald Trump's documented profile.",
+    "sources": [
+      "NYT",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-donald-trump-madeleine-westerhout",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "madeleine-westerhout",
+    "relationshipType": "flew-together",
+    "strength": 1,
+    "description": "Madeleine Westerhout mentioned in Donald Trump's documented profile.",
+    "sources": [
+      "NYT",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-donald-trump-robert-maxwell",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "robert-maxwell",
+    "relationshipType": "flew-together",
+    "strength": 1,
+    "description": "Robert Maxwell mentioned in Donald Trump's documented profile.",
+    "sources": [
+      "NYT",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-donald-trump-michael-thomas",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "michael-thomas",
+    "relationshipType": "flew-together",
+    "strength": 1,
+    "description": "Michael Thomas mentioned in Donald Trump's documented profile.",
+    "sources": [
+      "NYT",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-donald-trump-michael-reiter",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "michael-reiter",
+    "relationshipType": "flew-together",
+    "strength": 1,
+    "description": "Michael Reiter mentioned in Donald Trump's documented profile.",
+    "sources": [
+      "NYT",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-melania-trump-ghislaine-maxwell",
+    "sourcePersonId": "melania-trump",
+    "targetPersonId": "ghislaine-maxwell",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Ghislaine Maxwell mentioned in Melania Trump's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-melania-trump-donald-trump",
+    "sourcePersonId": "melania-trump",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Donald Trump mentioned in Melania Trump's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-melania-trump-boris-nikolic",
+    "sourcePersonId": "melania-trump",
+    "targetPersonId": "boris-nikolic",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Boris Nikolic mentioned in Melania Trump's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-melania-trump-michael-wolff",
+    "sourcePersonId": "melania-trump",
+    "targetPersonId": "michael-wolff",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Michael Wolff mentioned in Melania Trump's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-bill-clinton-johanna-sjoberg",
+    "sourcePersonId": "bill-clinton",
+    "targetPersonId": "johanna-sjoberg",
+    "relationshipType": "flew-together",
+    "strength": 1,
+    "description": "Johanna Sjoberg mentioned in Bill Clinton's documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-bill-clinton-doug-band",
+    "sourcePersonId": "bill-clinton",
+    "targetPersonId": "doug-band",
+    "relationshipType": "flew-together",
+    "strength": 1,
+    "description": "Doug Band mentioned in Bill Clinton's documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-steve-bannon-melania-trump",
+    "sourcePersonId": "steve-bannon",
+    "targetPersonId": "melania-trump",
+    "relationshipType": "legal-representation",
+    "strength": 1,
+    "description": "Melania Trump mentioned in Steve Bannon's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-tom-barrack-ehud-barak",
+    "sourcePersonId": "tom-barrack",
+    "targetPersonId": "ehud-barak",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Ehud Barak mentioned in Tom Barrack's documented profile.",
+    "sources": [
+      "CBS",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-tom-barrack-vitaly-churkin",
+    "sourcePersonId": "tom-barrack",
+    "targetPersonId": "vitaly-churkin",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Vitaly Churkin mentioned in Tom Barrack's documented profile.",
+    "sources": [
+      "CBS",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-tom-barrack-peter-thiel",
+    "sourcePersonId": "tom-barrack",
+    "targetPersonId": "peter-thiel",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Peter Thiel mentioned in Tom Barrack's documented profile.",
+    "sources": [
+      "CBS",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-howard-lutnick-john-phelan",
+    "sourcePersonId": "howard-lutnick",
+    "targetPersonId": "john-phelan",
+    "relationshipType": "employer-employee",
+    "strength": 1,
+    "description": "John Phelan mentioned in Howard Lutnick's documented profile.",
+    "sources": [
+      "CBS",
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-howard-lutnick-steve-feinberg",
+    "sourcePersonId": "howard-lutnick",
+    "targetPersonId": "steve-feinberg",
+    "relationshipType": "employer-employee",
+    "strength": 1,
+    "description": "Steve Feinberg mentioned in Howard Lutnick's documented profile.",
+    "sources": [
+      "CBS",
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ehud-barak-tom-barrack",
+    "sourcePersonId": "ehud-barak",
+    "targetPersonId": "tom-barrack",
+    "relationshipType": "financial",
+    "strength": 1,
+    "description": "Tom Barrack mentioned in Ehud Barak's documented profile.",
+    "sources": [
+      "CBS",
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ehud-barak-larry-summers",
+    "sourcePersonId": "ehud-barak",
+    "targetPersonId": "larry-summers",
+    "relationshipType": "financial",
+    "strength": 1,
+    "description": "Larry Summers mentioned in Ehud Barak's documented profile.",
+    "sources": [
+      "CBS",
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ehud-barak-vitaly-churkin",
+    "sourcePersonId": "ehud-barak",
+    "targetPersonId": "vitaly-churkin",
+    "relationshipType": "financial",
+    "strength": 1,
+    "description": "Vitaly Churkin mentioned in Ehud Barak's documented profile.",
+    "sources": [
+      "CBS",
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ehud-barak-peter-thiel",
+    "sourcePersonId": "ehud-barak",
+    "targetPersonId": "peter-thiel",
+    "relationshipType": "financial",
+    "strength": 1,
+    "description": "Peter Thiel mentioned in Ehud Barak's documented profile.",
+    "sources": [
+      "CBS",
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ehud-barak-mark-epstein",
+    "sourcePersonId": "ehud-barak",
+    "targetPersonId": "mark-epstein",
+    "relationshipType": "financial",
+    "strength": 1,
+    "description": "Mark Epstein mentioned in Ehud Barak's documented profile.",
+    "sources": [
+      "CBS",
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ehud-barak-rafi-shlomo",
+    "sourcePersonId": "ehud-barak",
+    "targetPersonId": "rafi-shlomo",
+    "relationshipType": "financial",
+    "strength": 1,
+    "description": "Rafi Shlomo mentioned in Ehud Barak's documented profile.",
+    "sources": [
+      "CBS",
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ehud-barak-nili-priell",
+    "sourcePersonId": "ehud-barak",
+    "targetPersonId": "nili-priell",
+    "relationshipType": "financial",
+    "strength": 1,
+    "description": "Nili Priell mentioned in Ehud Barak's documented profile.",
+    "sources": [
+      "CBS",
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-miroslav-lajk-miro-lajcak-steve-bannon",
+    "sourcePersonId": "miroslav-lajk-miro-lajcak",
+    "targetPersonId": "steve-bannon",
+    "relationshipType": "academic",
+    "strength": 1,
+    "description": "Steve Bannon mentioned in Miroslav Lajčák (Miro Lajcak)'s documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-miroslav-lajk-miro-lajcak-wilbur-ross",
+    "sourcePersonId": "miroslav-lajk-miro-lajcak",
+    "targetPersonId": "wilbur-ross",
+    "relationshipType": "academic",
+    "strength": 1,
+    "description": "Wilbur Ross mentioned in Miroslav Lajčák (Miro Lajcak)'s documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-miroslav-lajk-miro-lajcak-kevin-mcaleenan",
+    "sourcePersonId": "miroslav-lajk-miro-lajcak",
+    "targetPersonId": "kevin-mcaleenan",
+    "relationshipType": "academic",
+    "strength": 1,
+    "description": "Kevin McAleenan mentioned in Miroslav Lajčák (Miro Lajcak)'s documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-miroslav-lajk-miro-lajcak-tom-pritzker",
+    "sourcePersonId": "miroslav-lajk-miro-lajcak",
+    "targetPersonId": "tom-pritzker",
+    "relationshipType": "academic",
+    "strength": 1,
+    "description": "Tom Pritzker mentioned in Miroslav Lajčák (Miro Lajcak)'s documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-miroslav-lajk-miro-lajcak-deepak-chopra",
+    "sourcePersonId": "miroslav-lajk-miro-lajcak",
+    "targetPersonId": "deepak-chopra",
+    "relationshipType": "academic",
+    "strength": 1,
+    "description": "Deepak Chopra mentioned in Miroslav Lajčák (Miro Lajcak)'s documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-miroslav-lajk-miro-lajcak-woody-allen",
+    "sourcePersonId": "miroslav-lajk-miro-lajcak",
+    "targetPersonId": "woody-allen",
+    "relationshipType": "academic",
+    "strength": 1,
+    "description": "Woody Allen mentioned in Miroslav Lajčák (Miro Lajcak)'s documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-sen-ron-wyden-leon-black",
+    "sourcePersonId": "sen-ron-wyden",
+    "targetPersonId": "leon-black",
+    "relationshipType": "financial",
+    "strength": 1,
+    "description": "Leon Black mentioned in Sen. Ron Wyden's documented profile.",
+    "sources": [
+      "CBS",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-rep-ted-lieu-donald-trump",
+    "sourcePersonId": "rep-ted-lieu",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Donald Trump mentioned in Rep. Ted Lieu's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-wilbur-ross-steve-bannon",
+    "sourcePersonId": "wilbur-ross",
+    "targetPersonId": "steve-bannon",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Steve Bannon mentioned in Wilbur Ross's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-wilbur-ross-kevin-mcaleenan",
+    "sourcePersonId": "wilbur-ross",
+    "targetPersonId": "kevin-mcaleenan",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Kevin McAleenan mentioned in Wilbur Ross's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-leslie-wexner-les-wexner-ehud-barak",
+    "sourcePersonId": "leslie-wexner-les-wexner",
+    "targetPersonId": "ehud-barak",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Ehud Barak mentioned in Leslie Wexner (Les Wexner)'s documented profile.",
+    "sources": [
+      "CBS",
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-leslie-wexner-les-wexner-rep-ro-khanna",
+    "sourcePersonId": "leslie-wexner-les-wexner",
+    "targetPersonId": "rep-ro-khanna",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Rep. Ro Khanna mentioned in Leslie Wexner (Les Wexner)'s documented profile.",
+    "sources": [
+      "CBS",
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-glenn-dubin-ghislaine-maxwell",
+    "sourcePersonId": "glenn-dubin",
+    "targetPersonId": "ghislaine-maxwell",
+    "relationshipType": "employer-employee",
+    "strength": 1,
+    "description": "Ghislaine Maxwell mentioned in Glenn Dubin's documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-glenn-dubin-rinaldo-rizzo",
+    "sourcePersonId": "glenn-dubin",
+    "targetPersonId": "rinaldo-rizzo",
+    "relationshipType": "employer-employee",
+    "strength": 1,
+    "description": "Rinaldo Rizzo mentioned in Glenn Dubin's documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-eva-andersson-dubin-eva-dubin-glenn-dubin",
+    "sourcePersonId": "eva-andersson-dubin-eva-dubin",
+    "targetPersonId": "glenn-dubin",
+    "relationshipType": "flew-together",
+    "strength": 1,
+    "description": "Glenn Dubin mentioned in Eva Andersson Dubin (Eva Dubin)'s documented profile.",
+    "sources": [
+      "DOJ",
+      "GH"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-mary-erdoes-john-duffy",
+    "sourcePersonId": "mary-erdoes",
+    "targetPersonId": "john-duffy",
+    "relationshipType": "legal-representation",
+    "strength": 1,
+    "description": "John Duffy mentioned in Mary Erdoes's documented profile.",
+    "sources": [
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-jill-dodd-adnan-khashoggi",
+    "sourcePersonId": "jill-dodd",
+    "targetPersonId": "adnan-khashoggi",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Adnan Khashoggi mentioned in Jill Dodd's documented profile.",
+    "sources": [
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-jill-dodd-jean-luc-brunel",
+    "sourcePersonId": "jill-dodd",
+    "targetPersonId": "jean-luc-brunel",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Jean-Luc Brunel mentioned in Jill Dodd's documented profile.",
+    "sources": [
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-adnan-khashoggi-jean-luc-brunel",
+    "sourcePersonId": "adnan-khashoggi",
+    "targetPersonId": "jean-luc-brunel",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Jean-Luc Brunel mentioned in Adnan Khashoggi's documented profile.",
+    "sources": [
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-dmitry-rybolovlev-michael-wolff",
+    "sourcePersonId": "dmitry-rybolovlev",
+    "targetPersonId": "michael-wolff",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Michael Wolff mentioned in Dmitry Rybolovlev's documented profile.",
+    "sources": [
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-joi-ito-george-church",
+    "sourcePersonId": "joi-ito",
+    "targetPersonId": "george-church",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "George Church mentioned in Joi Ito's documented profile.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-joi-ito-boris-nikolic",
+    "sourcePersonId": "joi-ito",
+    "targetPersonId": "boris-nikolic",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Boris Nikolic mentioned in Joi Ito's documented profile.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-joi-ito-larry-cohen",
+    "sourcePersonId": "joi-ito",
+    "targetPersonId": "larry-cohen",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Larry Cohen mentioned in Joi Ito's documented profile.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-joi-ito-reid-hoffman",
+    "sourcePersonId": "joi-ito",
+    "targetPersonId": "reid-hoffman",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Reid Hoffman mentioned in Joi Ito's documented profile.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-boris-nikolic-kimbal-musk",
+    "sourcePersonId": "boris-nikolic",
+    "targetPersonId": "kimbal-musk",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Kimbal Musk mentioned in Boris Nikolic's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-boris-nikolic-bill-gates",
+    "sourcePersonId": "boris-nikolic",
+    "targetPersonId": "bill-gates",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Bill Gates mentioned in Boris Nikolic's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-larry-cohen-bill-gates",
+    "sourcePersonId": "larry-cohen",
+    "targetPersonId": "bill-gates",
+    "relationshipType": "academic",
+    "strength": 1,
+    "description": "Bill Gates mentioned in Larry Cohen's documented profile.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-michael-wolff-madeleine-westerhout",
+    "sourcePersonId": "michael-wolff",
+    "targetPersonId": "madeleine-westerhout",
+    "relationshipType": "legal-representation",
+    "strength": 1,
+    "description": "Madeleine Westerhout mentioned in Michael Wolff's documented profile.",
+    "sources": [
+      "CBS",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ken-starr-alan-dershowitz",
+    "sourcePersonId": "ken-starr",
+    "targetPersonId": "alan-dershowitz",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Alan Dershowitz mentioned in Ken Starr's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-prince-andrew-duke-of-york-johanna-sjoberg",
+    "sourcePersonId": "prince-andrew-duke-of-york",
+    "targetPersonId": "johanna-sjoberg",
+    "relationshipType": "flew-together",
+    "strength": 1,
+    "description": "Johanna Sjoberg mentioned in Prince Andrew (Duke of York)'s documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-jean-luc-brunel-kathy-ruemmler",
+    "sourcePersonId": "jean-luc-brunel",
+    "targetPersonId": "kathy-ruemmler",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Kathy Ruemmler mentioned in Jean-Luc Brunel's documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-virginia-giuffre-ne-roberts-donald-trump",
+    "sourcePersonId": "virginia-giuffre-ne-roberts",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Donald Trump mentioned in Virginia Giuffre (née Roberts)'s documented profile.",
+    "sources": [
+      "CBS",
+      "Giuffre-deposition"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-virginia-giuffre-ne-roberts-bill-richardson",
+    "sourcePersonId": "virginia-giuffre-ne-roberts",
+    "targetPersonId": "bill-richardson",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Bill Richardson mentioned in Virginia Giuffre (née Roberts)'s documented profile.",
+    "sources": [
+      "CBS",
+      "Giuffre-deposition"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-virginia-giuffre-ne-roberts-glenn-dubin",
+    "sourcePersonId": "virginia-giuffre-ne-roberts",
+    "targetPersonId": "glenn-dubin",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Glenn Dubin mentioned in Virginia Giuffre (née Roberts)'s documented profile.",
+    "sources": [
+      "CBS",
+      "Giuffre-deposition"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-virginia-giuffre-ne-roberts-marvin-minsky",
+    "sourcePersonId": "virginia-giuffre-ne-roberts",
+    "targetPersonId": "marvin-minsky",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Marvin Minsky mentioned in Virginia Giuffre (née Roberts)'s documented profile.",
+    "sources": [
+      "CBS",
+      "Giuffre-deposition"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-virginia-giuffre-ne-roberts-jean-luc-brunel",
+    "sourcePersonId": "virginia-giuffre-ne-roberts",
+    "targetPersonId": "jean-luc-brunel",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Jean-Luc Brunel mentioned in Virginia Giuffre (née Roberts)'s documented profile.",
+    "sources": [
+      "CBS",
+      "Giuffre-deposition"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-carolyn-sarah-kellen",
+    "sourcePersonId": "carolyn",
+    "targetPersonId": "sarah-kellen",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Sarah Kellen mentioned in \"Carolyn\"'s documented profile.",
+    "sources": [
+      "DOJ",
+      "Maxwell-trial"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-stacey-williams-donald-trump",
+    "sourcePersonId": "stacey-williams",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Donald Trump mentioned in Stacey Williams's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-kimbal-musk-boris-nikolic",
+    "sourcePersonId": "kimbal-musk",
+    "targetPersonId": "boris-nikolic",
+    "relationshipType": "academic",
+    "strength": 1,
+    "description": "Boris Nikolic mentioned in Kimbal Musk's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-kimbal-musk-elon-musk",
+    "sourcePersonId": "kimbal-musk",
+    "targetPersonId": "elon-musk",
+    "relationshipType": "academic",
+    "strength": 1,
+    "description": "Elon Musk mentioned in Kimbal Musk's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-bill-gates-tom-barrack",
+    "sourcePersonId": "bill-gates",
+    "targetPersonId": "tom-barrack",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Tom Barrack mentioned in Bill Gates's documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-bill-gates-larry-cohen",
+    "sourcePersonId": "bill-gates",
+    "targetPersonId": "larry-cohen",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Larry Cohen mentioned in Bill Gates's documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-peter-thiel-ehud-barak",
+    "sourcePersonId": "peter-thiel",
+    "targetPersonId": "ehud-barak",
+    "relationshipType": "academic",
+    "strength": 1,
+    "description": "Ehud Barak mentioned in Peter Thiel's documented profile.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-richard-branson-bill-gates",
+    "sourcePersonId": "richard-branson",
+    "targetPersonId": "bill-gates",
+    "relationshipType": "legal-representation",
+    "strength": 1,
+    "description": "Bill Gates mentioned in Richard Branson's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-madeleine-westerhout-donald-trump",
+    "sourcePersonId": "madeleine-westerhout",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "legal-representation",
+    "strength": 1,
+    "description": "Donald Trump mentioned in Madeleine Westerhout's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-woody-allen-deepak-chopra",
+    "sourcePersonId": "woody-allen",
+    "targetPersonId": "deepak-chopra",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Deepak Chopra mentioned in Woody Allen's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-doug-band-bill-clinton",
+    "sourcePersonId": "doug-band",
+    "targetPersonId": "bill-clinton",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Bill Clinton mentioned in Doug Band's documented profile.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-robert-maxwell-ghislaine-maxwell",
+    "sourcePersonId": "robert-maxwell",
+    "targetPersonId": "ghislaine-maxwell",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Ghislaine Maxwell mentioned in Robert Maxwell's documented profile.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-mark-epstein-ehud-barak",
+    "sourcePersonId": "mark-epstein",
+    "targetPersonId": "ehud-barak",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Ehud Barak mentioned in Mark Epstein's documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-dr-kristin-roman-mark-epstein",
+    "sourcePersonId": "dr-kristin-roman",
+    "targetPersonId": "mark-epstein",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Mark Epstein mentioned in Dr. Kristin Roman's documented profile.",
+    "sources": [
+      "OSINT",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-joseph-schnitt-james-okeefe",
+    "sourcePersonId": "joseph-schnitt",
+    "targetPersonId": "james-okeefe",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "James O'Keefe mentioned in Joseph Schnitt's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-nili-priell-ehud-barak",
+    "sourcePersonId": "nili-priell",
+    "targetPersonId": "ehud-barak",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Ehud Barak mentioned in Nili Priell's documented profile.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-rinaldo-rizzo-listed-also-in-category-2-rinaldo-rizzo",
+    "sourcePersonId": "rinaldo-rizzo-listed-also-in-category-2",
+    "targetPersonId": "rinaldo-rizzo",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Rinaldo Rizzo mentioned in Rinaldo Rizzo (listed also in Category 2)'s documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  }
+]

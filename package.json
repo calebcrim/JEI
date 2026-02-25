@@ -1,0 +1,35 @@
+{
+  "name": "epstein-files-db",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run parse && next build",
+    "parse": "npx ts-node --project tsconfig.scripts.json scripts/parse-people.ts && npx ts-node --project tsconfig.scripts.json scripts/parse-timeline.ts && npx ts-node --project tsconfig.scripts.json scripts/parse-themes.ts && npx ts-node --project tsconfig.scripts.json scripts/build-connections.ts && npx ts-node --project tsconfig.scripts.json scripts/build-search-index.ts",
+    "start": "next start",
+    "export": "next build"
+  },
+  "dependencies": {
+    "next": "14.2.29",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "fuse.js": "^7.0.0",
+    "d3": "^7.9.0",
+    "gray-matter": "^4.0.3",
+    "remark": "^15.0.1",
+    "remark-gfm": "^4.0.0",
+    "react-markdown": "^9.0.1",
+    "lucide-react": "^0.469.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.9",
+    "@types/react": "^18.3.13",
+    "@types/react-dom": "^18.3.1",
+    "@types/d3": "^7.4.3",
+    "typescript": "^5.7.2",
+    "tailwindcss": "^3.4.17",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "ts-node": "^10.9.2"
+  }
+}

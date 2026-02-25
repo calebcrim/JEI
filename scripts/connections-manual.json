@@ -1,0 +1,152 @@
+[
+  {
+    "id": "maxwell-epstein-co-conspirator",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "ghislaine-maxwell",
+    "relationshipType": "co-conspirator",
+    "strength": 3,
+    "description": "Maxwell convicted as Epstein's primary operational partner in sex trafficking ring. ~400 documented flight legs together.",
+    "sources": ["DOJ", "Maxwell-trial"],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "wexner-epstein-financial",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "leslie-wexner-les-wexner",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "Wexner granted Epstein sweeping power of attorney in 1991 and transferred approximately $1 billion in assets. The foundational relationship of Epstein's wealth.",
+    "sources": ["DOJ", "HO"],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "kellen-epstein-co-conspirator",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "sarah-kellen",
+    "relationshipType": "co-conspirator",
+    "strength": 3,
+    "description": "Kellen granted immunity as named co-conspirator. 364 documented flight legs. Scheduled abuse sessions with minors.",
+    "sources": ["DOJ", "CBS"],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "groff-epstein-employer-employee",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "lesley-groff",
+    "relationshipType": "employer-employee",
+    "strength": 3,
+    "description": "Groff served as Epstein's executive assistant, the second most-mentioned person in the DOJ release with 157,613 references. Immunity grantee.",
+    "sources": ["DOJ", "CBS"],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "indyke-epstein-legal",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "darren-indyke",
+    "relationshipType": "legal-representation",
+    "strength": 3,
+    "description": "Epstein's primary attorney and estate executor. Named in the 1953 Trust will.",
+    "sources": ["DOJ"],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "dershowitz-epstein-legal",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "alan-dershowitz",
+    "relationshipType": "legal-representation",
+    "strength": 3,
+    "description": "Dershowitz served as Epstein's defense attorney during the 2006-2008 NPA negotiations. Later subject of allegations by Virginia Giuffre.",
+    "sources": ["DOJ", "Giuffre-deposition"],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "clinton-epstein-flew-together",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "bill-clinton",
+    "relationshipType": "flew-together",
+    "strength": 2,
+    "description": "Clinton took 26 documented flight legs on Epstein's aircraft. Maxwell's initials appear on each leg.",
+    "sources": ["DOJ", "Maxwell-trial"],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "trump-epstein-social",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "social",
+    "strength": 2,
+    "description": "Documented social relationship from late 1980s through early 2000s. Epstein expelled from Mar-a-Lago in 2007. 38,000+ references in DOJ files.",
+    "sources": ["DOJ", "CBS"],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "barak-epstein-social",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "ehud-barak",
+    "relationshipType": "intelligence",
+    "strength": 2,
+    "description": "Barak had 4,000+ references in DOJ files. The apartment at 301 E 66th St was referred to internally as 'Ehud's apartment'. Intelligence connections alleged.",
+    "sources": ["DOJ", "OSINT"],
+    "verificationStatus": "contested"
+  },
+  {
+    "id": "maxwell-kellen-co-conspirator",
+    "sourcePersonId": "ghislaine-maxwell",
+    "targetPersonId": "sarah-kellen",
+    "relationshipType": "co-conspirator",
+    "strength": 3,
+    "description": "Maxwell and Kellen flew together approximately 39 times in 2003 alone. Both convicted or immunity-granted as operational partners.",
+    "sources": ["Maxwell-trial", "DOJ"],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "brunel-epstein-co-conspirator",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "jean-luc-brunel",
+    "relationshipType": "co-conspirator",
+    "strength": 3,
+    "description": "Brunel founded MC2 Model Management which served as a recruitment pipeline for Epstein. 4,727 references in DOJ files.",
+    "sources": ["DOJ", "Maxwell-trial"],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "acosta-epstein-legal",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "alexander-acosta-alex-acosta",
+    "relationshipType": "legal-representation",
+    "strength": 3,
+    "description": "Acosta, as US Attorney in Florida, negotiated and signed the 2007 NPA granting Epstein and unnamed co-conspirators immunity.",
+    "sources": ["DOJ", "HO"],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "black-epstein-financial",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "leon-black",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Black paid Epstein approximately $158 million in advisory fees, according to an independent investigation. Resigned as Apollo CEO following disclosure.",
+    "sources": ["DOJ", "WSJ"],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "staley-epstein-financial",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "jes-staley",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Staley maintained documented relationship with Epstein through JPMorgan. Appears in scheduling emails coordinated by Groff.",
+    "sources": ["DOJ", "GH"],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "marcinkova-epstein-victim-perpetrator",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "nadia-marcinkova",
+    "relationshipType": "victim-perpetrator",
+    "strength": 3,
+    "description": "Palm Beach police records state Epstein told a victim he had purchased Marcinkova from her family to be his 'sex slave'. She was later an immunity grantee.",
+    "sources": ["Palm-Beach-PD", "DOJ"],
+    "verificationStatus": "verified"
+  }
+]

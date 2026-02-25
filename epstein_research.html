@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Epstein Files — Research Notes</title>
+<style>
+  :root {
+    --navy: #1a2e4a;
+    --blue: #2c5282;
+    --accent: #c53030;
+    --light: #edf2f7;
+    --border: #cbd5e0;
+    --text: #2d3748;
+    --muted: #718096;
+    --link: #2b6cb0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Georgia', serif; background: #f7f8fa; color: var(--text); display: flex; }
+
+  /* SIDEBAR NAV */
+  nav {
+    position: fixed; top: 0; left: 0; width: 280px; height: 100vh;
+    background: var(--navy); color: #e2e8f0; overflow-y: auto; padding: 20px 0;
+    font-family: Arial, sans-serif; z-index: 100;
+  }
+  nav .nav-title {
+    font-size: 13px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;
+    color: #90cdf4; padding: 0 20px 16px; border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin-bottom: 12px;
+  }
+  nav a { display: block; padding: 6px 20px; color: #cbd5e0; text-decoration: none; font-size: 13px; line-height: 1.4; }
+  nav a:hover { background: rgba(255,255,255,0.08); color: #fff; }
+  nav .nav-section { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: #4a90d9; padding: 14px 20px 4px; font-weight: bold; }
+  nav .nav-sub { padding-left: 32px; font-size: 12px; color: #a0aec0; }
+
+  /* MAIN CONTENT */
+  main { margin-left: 280px; padding: 40px 48px; max-width: 1100px; }
+
+  h1 { font-family: Arial, sans-serif; font-size: 2.2rem; color: var(--navy); border-bottom: 3px solid var(--navy); padding-bottom: 10px; margin: 40px 0 16px; }
+  h2 { font-family: Arial, sans-serif; font-size: 1.4rem; color: var(--blue); border-left: 4px solid var(--blue); padding-left: 12px; margin: 36px 0 12px; }
+  h3 { font-family: Arial, sans-serif; font-size: 1.05rem; color: var(--text); margin: 24px 0 8px; font-weight: bold; }
+  p { margin: 8px 0; line-height: 1.7; font-size: 0.95rem; }
+  a { color: var(--link); }
+  a:hover { text-decoration: underline; }
+
+  .intro-box {
+    background: var(--navy); color: #e2e8f0; border-radius: 8px; padding: 32px 36px; margin-bottom: 40px;
+  }
+  .intro-box h1 { color: #fff; border-color: rgba(255,255,255,0.3); font-size: 2.4rem; }
+  .intro-box p { color: #a0c4e8; font-size: 0.95rem; }
+
+  .thread-card {
+    background: #fff; border: 1px solid var(--border); border-radius: 6px;
+    padding: 20px 24px; margin: 16px 0; box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+  .thread-card.red { border-left: 4px solid var(--accent); }
+  .thread-card.blue { border-left: 4px solid var(--blue); }
+  .thread-card.navy { border-left: 4px solid var(--navy); }
+  .thread-card.gray { border-left: 4px solid #718096; }
+
+  ul { margin: 8px 0 8px 20px; }
+  li { margin: 5px 0; font-size: 0.92rem; line-height: 1.6; }
+  li .note { color: var(--muted); font-style: italic; font-size: 0.88rem; }
+
+  .tag {
+    display: inline-block; font-size: 10px; font-weight: bold; text-transform: uppercase;
+    letter-spacing: 0.5px; padding: 2px 7px; border-radius: 3px; margin-right: 6px; vertical-align: middle;
+  }
+  .tag-red { background: #fed7d7; color: #822727; }
+  .tag-blue { background: #bee3f8; color: #1a365d; }
+  .tag-green { background: #c6f6d5; color: #22543d; }
+  .tag-gray { background: #e2e8f0; color: #4a5568; }
+  .tag-orange { background: #feebc8; color: #7b341e; }
+  .tag-purple { background: #e9d8fd; color: #44337a; }
+
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 0.88rem; }
+  th { background: var(--navy); color: #fff; padding: 9px 12px; text-align: left; font-family: Arial, sans-serif; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:nth-child(even) td { background: #f7f8fa; }
+  tr:hover td { background: #ebf4ff; }
+
+  .quote {
+    background: #fffbeb; border-left: 3px solid #d69e2e; padding: 10px 16px;
+    margin: 10px 0; font-style: italic; font-size: 0.92rem; border-radius: 0 4px 4px 0;
+  }
+
+  .alert {
+    background: #fff5f5; border: 1px solid #fc8181; border-radius: 6px;
+    padding: 12px 16px; margin: 12px 0; font-size: 0.9rem;
+  }
+  .alert strong { color: var(--accent); }
+
+  .person-card {
+    background: #fff; border: 1px solid var(--border); border-radius: 6px;
+    padding: 14px 18px; margin: 10px 0; display: grid; grid-template-columns: 180px 1fr;
+    gap: 12px; font-size: 0.9rem;
+  }
+  .person-name { font-weight: bold; color: var(--navy); font-family: Arial, sans-serif; }
+  .person-role { color: var(--muted); font-size: 0.82rem; margin-top: 2px; }
+
+  .timeline-item {
+    display: grid; grid-template-columns: 130px 1fr;
+    gap: 16px; margin: 10px 0; padding: 10px 0; border-bottom: 1px solid #edf2f7;
+    font-size: 0.9rem;
+  }
+  .timeline-date { font-weight: bold; color: var(--blue); font-family: Arial, sans-serif; font-size: 0.85rem; }
+
+  .toc { background: #fff; border: 1px solid var(--border); border-radius: 6px; padding: 24px 28px; margin: 24px 0; }
+  .toc h3 { margin-top: 0; color: var(--navy); }
+  .toc ol { margin-left: 20px; }
+  .toc li { margin: 5px 0; font-size: 0.92rem; }
+  .toc a { color: var(--blue); text-decoration: none; }
+  .toc a:hover { text-decoration: underline; }
+
+  @media (max-width: 900px) {
+    nav { width: 100%; height: auto; position: relative; }
+    main { margin-left: 0; }
+    .person-card { grid-template-columns: 1fr; }
+    .timeline-item { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- SIDEBAR NAVIGATION -->
+<nav>
+  <div class="nav-title">Epstein Files Research</div>
+  <a href="#top">&#8679; Overview</a>
+  <a href="#toc">Table of Contents</a>
+
+  <div class="nav-section">Part I — Topics</div>
+  <a href="#surveillance">1.1 Surveillance Footage</a>
+  <a href="#death">1.2 Death &amp; Anomalies</a>
+  <a href="#trump">1.3 Trump Connections</a>
+  <a href="#melania">1.4 Melania Thread</a>
+  <a href="#marlago">1.5 Mar-a-Lago Abuse</a>
+  <a href="#childrape">1.6 Child Rape Lawsuit</a>
+  <a href="#bannon">1.7 Bannon / Political Network</a>
+  <a href="#miro">1.8 Miro Lajcak / UN Thread</a>
+  <a href="#maxwell">1.9 Maxwell Interrogations</a>
+  <a href="#baby">1.10 "Baby Stuff" Thread</a>
+  <a href="#whoops">1.11 "Whoops" Emails</a>
+  <a href="#financial">1.12 Financial Crimes</a>
+  <a href="#videos">1.13 Other Videos</a>
+  <a href="#external">1.14 External Links</a>
+
+  <div class="nav-section">Part II — Individuals</div>
+  <a href="#individuals">Named Individuals Index</a>
+  <a class="nav-sub" href="#ind-trump">Trump, Donald</a>
+  <a class="nav-sub" href="#ind-maxwell">Maxwell, Ghislaine</a>
+  <a class="nav-sub" href="#ind-bannon">Bannon, Steve</a>
+  <a class="nav-sub" href="#ind-wolff">Wolff, Michael</a>
+  <a class="nav-sub" href="#ind-miro">Lajcak, Miro</a>
+  <a class="nav-sub" href="#ind-summers">Summers, Larry</a>
+  <a class="nav-sub" href="#ind-others">All Others A–Z</a>
+
+  <div class="nav-section">Part III — Timeline</div>
+  <a href="#timeline">Full Timeline</a>
+  <a class="nav-sub" href="#tl-early">Pre-2000</a>
+  <a class="nav-sub" href="#tl-2000s">2000–2009</a>
+  <a class="nav-sub" href="#tl-2010s">2010–2018</a>
+  <a class="nav-sub" href="#tl-2019">2019 (Death Year)</a>
+</nav>
+
+<!-- MAIN CONTENT -->
+<main id="top">
+
+  <div class="intro-box">
+    <h1>Jeffrey Epstein Files — Research Notes</h1>
+    <p style="margin-top:12px;">Organized by Topic/Thread &bull; Named Individual &bull; Timeline</p>
+    <p style="margin-top:6px;">Sources: DOJ public evidence releases (DataSets 8–11), FBI documents, court records, and external media. Compiled February 2026.</p>
+  </div>
+
+  <!-- TABLE OF CONTENTS -->
+  <div class="toc" id="toc">
+    <h3>Table of Contents</h3>
+    <ol>
+      <li><a href="#surveillance">Surveillance Footage &amp; Prison Videos</a></li>
+      <li><a href="#death">Epstein's Death — Evidence &amp; Anomalies</a></li>
+      <li><a href="#trump">Trump Connections (Overview)</a></li>
+      <li><a href="#melania">Melania Trump Thread</a></li>
+      <li><a href="#marlago">Mar-a-Lago Abuse Allegations</a></li>
+      <li><a href="#childrape">Child Rape Lawsuit Documents</a></li>
+      <li><a href="#bannon">Steve Bannon / Political Intelligence Network</a></li>
+      <li><a href="#miro">Miro Lajcak / UN Thread</a></li>
+      <li><a href="#maxwell">Maxwell Interrogations</a></li>
+      <li><a href="#baby">"Baby Stuff" Thread</a></li>
+      <li><a href="#whoops">"Whoops" Emails</a></li>
+      <li><a href="#financial">Financial Crimes &amp; Money Laundering</a></li>
+      <li><a href="#videos">Other Notable Videos</a></li>
+      <li><a href="#external">External Links &amp; Media</a></li>
+      <li><a href="#individuals">Named Individuals Index</a></li>
+      <li><a href="#timeline">Full Timeline</a></li>
+    </ol>
+  </div>
+
+  <!-- ================================================================ -->
+  <!-- PART I: TOPICS                                                     -->
+  <!-- ================================================================ -->
+  <h1>PART I — TOPIC / THREAD INDEX</h1>
+
+  <!-- 1.1 SURVEILLANCE -->
+  <h2 id="surveillance">1.1 Surveillance Footage &amp; Prison Videos</h2>
+  <p>All footage from DOJ DataSet 8 &amp; 9. Jail cell and corridor surveillance of Epstein during detention at MCC New York, July–August 2019.</p>
+
+  <div class="thread-card navy">
+    <h3>Epstein in Cell — Key Footage</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00028842.mp4">Epstein in jail cell</a> <span class="note">— described as remarkable</span></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033221.mp4">Whiteboard video — Aug 10 at 5pm</a> <span class="note">— day of death</span></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00123083.mov">Tour of jail facilities</a></li>
+    </ul>
+  </div>
+
+  <div class="thread-card navy">
+    <h3>Aug 9–10 (Night Before &amp; Morning of Death)</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00064603.mp4">Aug 9, 11pm</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00029997.mp4">Aug 10, midnight (sped up)</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00108925.mp4">Aug 10, midnight</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00064605.mp4">Aug 10, 1am</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00108926.mp4">Aug 10, 1am (alt angle)</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00108929.mp4">Aug 10, 4am</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00099789.mp4">Aug 10, 5am–5:11am (sped up)</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00029995.mp4">Aug 10, 5am (sped up, alt)</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00108930.mp4">Aug 10, 5am</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00064610.mp4">Aug 10, 6am</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00108931.mp4">Aug 10, 6am (alt)</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00108932.mp4">Aug 10, 7am</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00064614.mp4">Aug 10, 10am</a></li>
+    </ul>
+  </div>
+
+  <div class="thread-card gray">
+    <h3>Other Jail Dates — July/August 2019</h3>
+    <table>
+      <tr><th>Date/Time</th><th>Link</th></tr>
+      <tr><td>Jul 18, 10pm</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033102.mp4">EFTA00033102</a></td></tr>
+      <tr><td>Jul 20, 1am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033105.mp4">EFTA00033105</a></td></tr>
+      <tr><td>Jul 22, 11am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033312.mp4">EFTA00033312</a></td></tr>
+      <tr><td>Jul 25, 1am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033128.mp4">EFTA00033128</a></td></tr>
+      <tr><td>Jul 25, 4am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033129.mp4">EFTA00033129</a></td></tr>
+      <tr><td>Jul 25, 6am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00128551.mp4">EFTA00128551</a></td></tr>
+      <tr><td>Jul 25, 7pm</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033133.mp4">EFTA00033133</a></td></tr>
+      <tr><td>Jul 25, 10pm</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00137561.mp4">EFTA00137561</a></td></tr>
+      <tr><td>Jul 26, 4pm</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00137540.mp4">EFTA00137540</a></td></tr>
+      <tr><td>Jul 26, 10am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00128556.mp4">EFTA00128556</a></td></tr>
+      <tr><td>Jul 27, 1pm</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033336.mp4">EFTA00033336</a></td></tr>
+      <tr><td>Jul 27, 6pm</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033141.mp4">EFTA00033141</a></td></tr>
+      <tr><td>Jul 28, midnight</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033148.mp4">EFTA00033148</a></td></tr>
+      <tr><td>Jul 28, 4am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033143.mp4">EFTA00033143</a></td></tr>
+      <tr><td>Jul 28, 5am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00128565.mp4">EFTA00128565</a></td></tr>
+      <tr><td>Jul 28, 7pm</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033346.mp4">EFTA00033346</a></td></tr>
+      <tr><td>Jul 29, midnight</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00128569.mp4">EFTA00128569</a></td></tr>
+      <tr><td>Jul 29, 1am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033149.mp4">EFTA00033149</a></td></tr>
+      <tr><td>Jul 29, 2am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00128570.mp4">EFTA00128570</a></td></tr>
+      <tr><td>Jul 29, 5pm</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033349.mp4">EFTA00033349</a></td></tr>
+      <tr><td>Jul 29, 7pm</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00128575.mp4">EFTA00128575</a></td></tr>
+      <tr><td>Jul 29, 10am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00128572.mp4">EFTA00128572</a></td></tr>
+      <tr><td>Jul 30, 1am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033351.mp4">EFTA00033351</a></td></tr>
+      <tr><td>Jul 30, 4am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00128578.mp4">EFTA00128578</a></td></tr>
+      <tr><td>Jul 30, 9am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00128579.mp4">EFTA00128579</a></td></tr>
+      <tr><td>Jul 31, 5pm</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033359.mp4">EFTA00033359</a></td></tr>
+      <tr><td>Aug 2, 9am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033367.mp4">EFTA00033367</a></td></tr>
+      <tr><td>Aug 3, 8pm</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033374.mp4">EFTA00033374</a></td></tr>
+      <tr><td>Aug 5 (two guys)</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00164926.mp4">EFTA00164926</a></td></tr>
+      <tr><td>Aug 6, 9pm</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00128622.mp4">EFTA00128622</a></td></tr>
+      <tr><td>Aug 6, 11pm</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033204.mp4">EFTA00033204</a></td></tr>
+      <tr><td>Aug 7, 9am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033392.mp4">EFTA00033392</a></td></tr>
+      <tr><td>Aug 7, 11am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033003.mp4">EFTA00033003</a></td></tr>
+      <tr><td>Aug 7, 2pm</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033393.mp4">EFTA00033393</a></td></tr>
+      <tr><td>Aug 7 (alt angle)</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00128625.mp4">EFTA00128625</a></td></tr>
+      <tr><td>Aug 8, 3am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00029998.mp4">EFTA00029998</a></td></tr>
+      <tr><td>Aug 8, 4am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033395.mp4">EFTA00033395</a></td></tr>
+      <tr><td>Aug 8, 9am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033211.mp4">EFTA00033211</a></td></tr>
+      <tr><td>Aug 8, 10am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033396.mp4">EFTA00033396</a></td></tr>
+      <tr><td>Aug 8, 5pm</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033008.mp4">EFTA00033008</a></td></tr>
+      <tr><td>Aug 8, 10pm</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033216.mp4">EFTA00033216</a></td></tr>
+      <tr><td>Aug 9, 1am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033399.mp4">EFTA00033399</a></td></tr>
+      <tr><td>Aug 9, 2pm</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033402.mp4">EFTA00033402</a> / <a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033220.mp4">EFTA00033220</a></td></tr>
+      <tr><td>Aug 9, 3pm</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033013.mp4">EFTA00033013</a></td></tr>
+      <tr><td>Aug 9, 8pm</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033404.mp4">EFTA00033404</a></td></tr>
+      <tr><td>Aug 9, 9am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033401.mp4">EFTA00033401</a></td></tr>
+      <tr><td>Aug 9, 10pm</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033014.mp4">EFTA00033014</a></td></tr>
+      <tr><td>Aug 11, 9pm</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033027.mp4">EFTA00033027</a></td></tr>
+      <tr><td>Aug 12, 7am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033030.mp4">EFTA00033030</a></td></tr>
+      <tr><td>Aug 12, 10am</td><td><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00033225.mp4">EFTA00033225</a></td></tr>
+      <tr><td>Aug 12 (alt angle)</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00128626.mp4">EFTA00128626</a></td></tr>
+    </table>
+  </div>
+
+  <!-- 1.2 DEATH -->
+  <h2 id="death">1.2 Epstein's Death — Evidence &amp; Anomalies</h2>
+  <div class="alert"><strong>Key flag:</strong> Will dated August 8, 2019 — just TWO DAYS before his death. Will executor Darren Indyke also appears in the prison visitors log on July 22.</div>
+
+  <div class="thread-card red">
+    <h3>Will &amp; Legal Documents</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/Court%20Records/Doe%20v.%20Indyke,%20No.%20119-cv-08673%20(S.D.N.Y.%202019)/EFTA02751207.pdf">Will and Testament</a> <span class="note">— dated Aug 8, 2019</span></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00137914.pdf">Prison visitors log</a> <span class="note">— includes Indyke (7/22), Gulnora Tali (7/23), Colón Miró (7/22), Mariel Miró (8/9), and others</span></li>
+    </ul>
+  </div>
+
+  <div class="thread-card red">
+    <h3>Officer Interviews (Post-Death)</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00062649.pdf">Officer interview 1</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00063613.pdf">Officer interview 2</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00058522.pdf">Officer interview 3</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00111284.pdf">Officer interview 4</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00123433.pdf">Officer interview 5</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00064519.pdf">Officer interview 6</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00060373.pdf">Officer interview 7</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00068273.pdf">Officer interview 8</a></li>
+    </ul>
+  </div>
+
+  <div class="thread-card red">
+    <h3>Medical &amp; Autopsy Materials</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00040941.pdf">Medical evaluation after death 1</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00123213.pdf">Medical evaluation after death 2</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00105651.pdf">Medical evaluation after death 3</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00141175.pdf">Medical evaluation after death 4</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00161494.pdf">Timeline of prison events + autopsy photos</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00063517.pdf">Autopsy photos (2)</a></li>
+    </ul>
+    <p style="margin-top:8px;font-size:0.88rem;color:var(--muted);">Autopsy performed by Kristin Roman.</p>
+  </div>
+
+  <div class="thread-card red">
+    <h3>Suspicious Circumstances</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01227736.pdf">Prison guard texts saying Epstein was NOT suicidal</a> <span class="note">— contradicts official narrative</span></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00056410.pdf">Suicide watch chronological log</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00080838.pdf">Report on issue with Epstein phone call Aug 9</a> <span class="note">— day before death</span></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00089258.pdf">Report on Aug 9 call issue (2)</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00165199.pdf">Account of July 23 incident</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00027732.pdf">4chan materials seized after death</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00130643.pdf">Digital forensic evidence collected from Epstein</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00105705.pdf">NYTimes vs. Federal Bureau of Prisons</a></li>
+    </ul>
+  </div>
+
+  <div class="thread-card red">
+    <h3>FBI Investigation — Commissary &amp; Personnel</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00077513.pdf">FBI seeking commissary info</a> <span class="note">— names: Darren Indyke, Jeffrey Schantz, Gulnora Tali, Richard Kahn, Efrain Reyes, Mariel Colón Miró</span></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00027386.pdf">Commissary receipts — redacted "are"</a> <span class="note">— anomalous redaction flagged in notes</span></li>
+    </ul>
+  </div>
+
+  <div class="thread-card gray">
+    <h3>Epstein's Own Statements</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01837996.pdf">Epstein to redacted: "feeling suicidal and perfectly understand that Romanian girl"</a></li>
+    </ul>
+  </div>
+
+  <!-- 1.3 TRUMP -->
+  <h2 id="trump">1.3 Trump Connections (Overview)</h2>
+  <p>See also: <a href="#marlago">1.5 Mar-a-Lago Abuse</a> and <a href="#childrape">1.6 Child Rape Lawsuit</a> for detailed abuse allegations.</p>
+
+  <div class="thread-card red">
+    <h3>Trump &amp; Epstein Social / Political Relationship</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00095502.pdf">FBI report</a> <span class="note">— witness "saw Epstein and Trump together a lot including at the movies. Trump was always trying to impress Epstein. Overheard Trump saying he went to Israel and a sheik gave his virgin daughter to him."</span></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01249188.pdf">2002 girls who were with Epstein and Maxwell met with Trump</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01211522.pdf">Epstein: "Trump ain't got a friend"</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02225586.pdf">Epstein asking for candy from the Oval Office while Trump was president</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00032998.pdf">Epstein to Nassau on Trump liking "nubile girls"</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00131726.pdf">Same thread (continued)</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01615508.pdf">Dec 13, 2018 — Epstein: Trump is talking to people he hasn't in years</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02647805.pdf">Larry Summers referring to Trump as Epstein's "friend" in 2017</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02669198.pdf">Epstein to Lesley Groff: "Trump-related issues occupying my time"</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02478352.pdf">Epstein to Landon Thomas Jr: "would you like photos of Donald and girls in bikinis in my kitchen"</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00822737.pdf">Epstein 10k bet with Trump over Marla Maples</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01615048.pdf">Bannon and Epstein on Wilbur Ross, Customs Commissioner McAleenan, DHS briefings, and "Sultan" visiting DC</a></li>
+    </ul>
+  </div>
+
+  <div class="thread-card red">
+    <h3>Fifth Amendment Exchange (Court Record)</h3>
+    <div class="quote">THE COURT: "...conceivably it would be the same response in Mr. Trump's situation, as the proprietor of Mar-a-Lago, there could be numerous occasions where Mr. Epstein may have been an invited guest and Mr. Trump's own daughters, who may have been under the age of 18 at the time, were also invited guests..."<br><br>MR. SCAROLA: "...by asserting a Fifth Amendment privilege what Jeffrey Epstein is saying is, I have socialized in the presence of Donald Trump and children under such circumstances as would provide a link in the chain of establishing my guilt in the commission of a crime."</div>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00800982.pdf">Full court transcript excerpt</a></li>
+    </ul>
+  </div>
+
+  <!-- 1.4 MELANIA -->
+  <h2 id="melania">1.4 Melania Trump Thread</h2>
+
+  <div class="thread-card blue">
+    <h3>Direct Communication — Melania &amp; Maxwell</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02332411.pdf">Melania email to Ghislaine Maxwell</a>
+        <div class="quote">"Dear G! How are you? Nice story about JE in NY mag. You look great on the picture. I know you are very busy flying all over the world. How was Palm Beach? I cannot wait to go down. Give me a call when you are back in NY. Have a great time! Love, Melania"</div>
+      </li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00032417.pdf">Ghislaine looks very much like Melania</a> <span class="note">— per Laura Isabel Woods</span></li>
+    </ul>
+  </div>
+
+  <div class="thread-card blue">
+    <h3>Third-Party References to Melania</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00673162.pdf">Jonathan Farkas to Epstein</a> <span class="note">— "I gave [] your Jeffrey number between us I think Somers going to D.C. to work for Melania long story"</span></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02372654.pdf">Same Farkas message (Dataset 11 version)</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02651268.pdf">Epstein to Boris Nikolic: "your friend Melani, really nuts"</a> <span class="note">— Nikolic replies: "I agree. What is even worse than really nuts is that I do not know what to believe"</span></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02553567.pdf">Michael Wolff to Epstein: journalists "working a lead on a Melania boyfriend OY"</a> <span class="note">— Epstein replies "makes sense"</span></li>
+    </ul>
+  </div>
+
+  <div class="thread-card blue">
+    <h3>Madeleine Westerhout (Trump Personal Secretary)</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02631674.pdf">Michael Wolff excerpt to Epstein on Westerhout</a> <span class="note">— Trump claiming he was "banging" his 28-year-old personal secretary</span></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01030600.pdf">Wolff to Epstein on Westerhout (continued)</a></li>
+    </ul>
+  </div>
+
+  <div class="thread-card blue">
+    <h3>Victim / Investigation Documents</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00905956.pdf">Cheating trial document 1</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02536428.pdf">Cheating trial document 2</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00105195.pdf">Handwritten notes by girls asked to "massage" JE</a> <span class="note">— mentions someone introducing Melania to Trump</span></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00263405.pdf">Related handwritten notes</a></li>
+    </ul>
+  </div>
+
+  <!-- 1.5 MAR-A-LAGO -->
+  <h2 id="marlago">1.5 Mar-a-Lago Abuse Allegations</h2>
+
+  <div class="thread-card red">
+    <h3>Casting Parties &amp; Underage Models</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01244937.pdf">Michael Capponi</a> <span class="note">— sent shuttle buses full of underage models to Mar-a-Lago "casting parties" when Trump and Epstein were partying together in the 1990s. "More than a few of the girls quit modeling immediately after attending one of those parties."</span></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00261546.pdf">Jane Doe 3</a> <span class="note">— met Epstein in 1999 at Trump's Mar-a-Lago</span></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01688359.pdf">15-year-old who worked at Mar-a-Lago becomes sex slave</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00152984.pdf">FBI on Trump party "for prostitutes"</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01013538.pdf">Epstein to Wolff on Harth claim of sexual assault by Trump (1993)</a></li>
+    </ul>
+  </div>
+
+  <div class="thread-card red">
+    <h3>Victim Testimony &amp; FBI Reports</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00159140.pdf">Informant/victim</a> <span class="note">— "2 tables of photos of celebrities — Clinton, Trump, Pope, Mick Jagger, Russell Brand, Stephen Hawking." Also mentions picture of Clinton in a dress.</span></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01683870.pdf">Report on allegation of Trump/Epstein oral sex, rape (1)</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00129126.pdf">Report on allegation (2)</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00284175.pdf">2007 court filing on Epstein</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00128994.pdf">Tammy Hill-McFadden "did review Trump cases"</a></li>
+    </ul>
+  </div>
+
+  <!-- 1.6 CHILD RAPE LAWSUIT -->
+  <h2 id="childrape">1.6 Child Rape Lawsuit Documents</h2>
+
+  <div class="thread-card red">
+    <h3>Documents Circulated in Epstein's Network</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02462577.pdf">Epstein sends Larry Summers HuffPost piece on Trump/Clinton rape</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02670963.pdf">Epstein sends Kathy Ruemmler Forward.com piece on Trump child rape at Epstein parties</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02670028.pdf">Aziza Alahmadi to Epstein on same allegation</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01784973.pdf">Epstein to Landon Thomas Jr.</a> <span class="note">— Thomas replies "you called it!"</span></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02670338.pdf">Epstein to Erika Kellerhals</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02670123.pdf">From Faith Kates to Epstein</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02669974.pdf">From Wolff to Epstein</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01785025.pdf">Redacted sender to Epstein (1)</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01784861.pdf">Redacted sender to Epstein (2)</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02670018.pdf">Redacted sender to Epstein (3)</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02639144.pdf">Epstein to Nicholas Ribis on Trump and Deutsche Bank</a></li>
+    </ul>
+  </div>
+
+  <!-- 1.7 BANNON -->
+  <h2 id="bannon">1.7 Steve Bannon / Political Intelligence Network</h2>
+
+  <div class="thread-card blue">
+    <h3>Bannon–Epstein Message Threads</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01615655.pdf">Bannon &amp; Epstein on Pence, Pompeo, Kushner, Kelly</a>
+        <div class="quote">"DJT now really down on Pence... thinks Pompeo would be better VP. Says Pence not really loyal... he did ask Kelly to get rid of Jared, and then Jared to get rid of Kelly."</div>
+      </li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02496013.pdf">Bannon and Epstein discuss Trump close to mental breakdown</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01615497.pdf">Bannon on Belgian government, Brexit, immigration compact</a>
+        <div class="quote">Bannon: "The Belgium govt fell 5 hours after my speech." Epstein: "I had Miro withdraw his resignation over the immigration compact. He was the sponsor at the UN. I told him, sorry Charley, bad timing."</div>
+      </li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01616076.pdf">Bannon and Epstein on China and NSA cybertools</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02637845.pdf">Epstein to Wolff: "Tillerson probably leaving, Ivanka wants Nikki Haley" (Aug 20, 2017)</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00507917.pdf">Bannon to Epstein: "Macron down, Boris up, Merkel down. You up GREAT"</a></li>
+    </ul>
+  </div>
+
+  <div class="thread-card blue">
+    <h3>Bannon Text Message Thread</h3>
+    <div class="quote">"Melania? Not living with him. Nikki Haley, Trump says blowjob but who can trust him... I'm mentioned in the Palm Beach house sale. Hopefully not anywhere else." — Steve Bannon</div>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01615888.pdf">EFTA01615888</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00518081.pdf">EFTA00518081</a></li>
+    </ul>
+  </div>
+
+  <div class="thread-card blue">
+    <h3>Political Intelligence — Other</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01211522.pdf">Epstein: "I convinced Harry Reid not to be Pelosi's bitch"</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01211522.pdf">Epstein: Trump "ain't got a friend" / early 90s Trump borrowed $11M from brother and sister</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02660014.pdf">Kathy Ruemmler to Epstein: Acosta sweetheart plea deal article "was fed by David Boies"</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00508805.pdf">Terje Rod-Larsen to Epstein about investigation and links to Trump</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01615048.pdf">Epstein meeting with Wilbur Ross, Customs Commissioner Kevin McAleenan, DHS Secretary</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02629257.pdf">Ken Starr to Epstein</a></li>
+    </ul>
+  </div>
+
+  <!-- 1.8 MIRO -->
+  <h2 id="miro">1.8 Miro Lajcak / UN Thread</h2>
+  <p>Miro likely = <strong>Miroslav Lajčák</strong>, President of the UN General Assembly. Mentioned 788 times in the files.</p>
+
+  <div class="thread-card blue">
+    <h3>Key Documents</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01619725.pdf">Identification as Miroslav Lajcak</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02245731.pdf">Apr 25, 2018: Dinner with Miro and Steve Bannon, 7:15pm</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02231879.pdf">Dinner with Miro, Woody Allen, Soon-Yi, and Deepak Chopra</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01616126.pdf">Bannon to Epstein: "I'm all over Miro"</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01619736.pdf">Miro and Epstein talking about "taking" girls, references "Lavrov"</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01619744.pdf">Miro and Epstein on Saudis, "Borge" jokes (WEF president)</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00868657.pdf">Epstein to Ehud Barak (CC Barak Priell, Nili): "Miro, president of UN, can do dinner tomorrow"</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01002087.pdf">Epstein introducing Miro to Nathan Myhrvold</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02279992.pdf">Epstein introducing Miro to Darren Indyke</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00865258.pdf">Epstein to Sultan Bin Sulayem: "Miro is expecting your contact — long term diplomat, Moscow, Balkans, now president of UN"</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02668068.pdf">Epstein to Tom Pritzker: "Miro, president of UN, tonight at 7"</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02240153.pdf">Late March 2018: Bannon, Miro, Epstein lunch</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02459248.pdf">Dinner with Miro: "should Jugaly be in charge?"</a></li>
+    </ul>
+  </div>
+
+  <!-- 1.9 MAXWELL -->
+  <h2 id="maxwell">1.9 Maxwell Interrogations</h2>
+
+  <div class="thread-card navy">
+    <h3>Interrogation / Deposition Videos</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01688339.mp4">Maxwell interrogation 1</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01688337.mp4">Maxwell interrogation 2</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01688338.mp4">Maxwell interrogation 3</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01688321.mp4">Maxwell interrogation 4</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00087285.mov">Maxwell interrogation 5</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00093695.mp4">Maxwell interrogation 6</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00102123.mov">Maxwell interrogation 7</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00093696.mov">Maxwell interrogation 8</a> <span class="note">— mentions Annie Farmer</span></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00076840.mov">Maxwell interrogation 9</a> <span class="note">— mentions three-way with Epstein</span></li>
+    </ul>
+  </div>
+
+  <!-- 1.10 BABY -->
+  <h2 id="baby">1.10 "Baby Stuff" Thread</h2>
+  <div class="alert"><strong>Note:</strong> This cluster of documents may connect to trafficking operations. Treat as a priority thread for further investigation.</div>
+
+  <div class="thread-card red">
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02646618.pdf">Baby smell — from Barnaby Marsh to Epstein</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02302410.pdf">Epstein sent link to Karyna Shuliak</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00702932.pdf">Epstein wanting baby blankets for a "plan"</a> <span class="note">— "Shelley" responds "not on God's earth"</span></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00989890.pdf">Baby blanket plan (continued)</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01414279.pdf">Baby girl 2013 — Taylor</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01249616.pdf">Kidnapped as baby</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00528713.pdf">JE Angels emails sent to Karyna Shuliak</a></li>
+    </ul>
+  </div>
+
+  <!-- 1.11 WHOOPS EMAILS -->
+  <h2 id="whoops">1.11 "Whoops" Emails</h2>
+  <p>A pattern of messages from/to Epstein using the word "whoops." Spans 2009–2018 across a wide variety of contacts. Several appear significant.</p>
+
+  <div class="thread-card gray">
+    <h3>Particularly Notable Entries</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01922235.pdf">Jun 30, 2014 — "permission to kill him"</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01056353.pdf">Redacted to Epstein: "turns out Ornella was raped when she was just 18, Anna just told me today"</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00736184.pdf">Mike Huffman from DIA (Defense Intelligence Agency) email</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01732108.pdf">Dec 1, 2015 — to unknown: searching for smart kids for "a safe space to explore any ideas, no matter how taboo"</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02665413.pdf">Dec 19, 2016 — to Brad S. Karp about extortion payments</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02624636.pdf">Sep 10, 2018 — response from redacted: "how should we celebrate this day"</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02548441.pdf">To Michael Wolff: "question about Jamie Dimon. whoops"</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00869349.pdf">Mar 5, 2018 — after "ice skating story and boy"</a></li>
+    </ul>
+  </div>
+
+  <div class="thread-card gray">
+    <h3>Full Whoops Email List</h3>
+    <table>
+      <tr><th>Date</th><th>To/From</th><th>Link</th></tr>
+      <tr><td>Aug 29, 2009</td><td>Epstein to Maxwell ("gmax") — The_Bear074.jpg attachment</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00739120.pdf">EFTA00739120</a></td></tr>
+      <tr><td>Jun 6, 2012</td><td>To Jean-Luc Brunel</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01988549.pdf">EFTA01988549</a></td></tr>
+      <tr><td>Apr 11, 2012</td><td>In response to BBC article</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01767863.pdf">EFTA01767863</a></td></tr>
+      <tr><td>Dec 12, 2012</td><td>To Warren Eisenstein about "Mutty Fukky"</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01910978.pdf">EFTA01910978</a></td></tr>
+      <tr><td>Jul 16, 2013</td><td>To Nathan Myhrvold</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00964985.pdf">EFTA00964985</a></td></tr>
+      <tr><td>Aug 1, 2010</td><td>To redacted</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01815587.pdf">EFTA01815587</a></td></tr>
+      <tr><td>Jun 30, 2014</td><td>"Permission to kill him"</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01922235.pdf">EFTA01922235</a></td></tr>
+      <tr><td>Oct 13, 2014</td><td>To redacted — someone "getting sick"</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02591804.pdf">EFTA02591804</a></td></tr>
+      <tr><td>May 11, 2015</td><td>To Jon Farkas</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02501993.pdf">EFTA02501993</a></td></tr>
+      <tr><td>May 11, 2015</td><td>Death of "Elkman"</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00627271.pdf">EFTA00627271</a></td></tr>
+      <tr><td>Dec 1, 2015</td><td>Safe space for taboo ideas</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01732108.pdf">EFTA01732108</a></td></tr>
+      <tr><td>Jul 4, 2016</td><td>To Richard Kahn</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02457915.pdf">EFTA02457915</a></td></tr>
+      <tr><td>May 12, 2016</td><td>To Soon-Yi Previn</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00827695.pdf">EFTA00827695</a></td></tr>
+      <tr><td>Dec 19, 2016</td><td>To Brad S. Karp — extortion payments</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02665413.pdf">EFTA02665413</a></td></tr>
+      <tr><td>Jan 20, 2017</td><td>To redacted</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02662769.pdf">EFTA02662769</a></td></tr>
+      <tr><td>Aug 20, 2017</td><td>To Wolff — Tillerson/Ivanka/Haley</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02637845.pdf">EFTA02637845</a></td></tr>
+      <tr><td>Sep 22, 2017</td><td>To Boris Nikolic</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01009760.pdf">EFTA01009760</a> / <a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02363491.pdf">EFTA02363491</a></td></tr>
+      <tr><td>Sep 9, 2017</td><td>To Nathan Myhrvold</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02634651.pdf">EFTA02634651</a></td></tr>
+      <tr><td>Mar 5, 2018</td><td>After ice skating story and boy</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00869349.pdf">EFTA00869349</a></td></tr>
+      <tr><td>Feb 25, 2018</td><td>To Ariane de Rothschild</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00876362.pdf">EFTA00876362</a></td></tr>
+      <tr><td>Jul 15, 2018</td><td>To Nicole Junkermann</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01005484.pdf">EFTA01005484</a></td></tr>
+      <tr><td>Sep 10, 2018</td><td>"How should we celebrate this day"</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02624636.pdf">EFTA02624636</a></td></tr>
+    </table>
+  </div>
+
+  <!-- 1.12 FINANCIAL CRIMES -->
+  <h2 id="financial">1.12 Financial Crimes &amp; Money Laundering</h2>
+
+  <div class="thread-card blue">
+    <h3>Trump Financial Matters</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02625442.pdf">Epstein to Kathy Ruemmler explaining Trump's money laundering</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02628214.pdf">Epstein on Trump buying house no one bid on, sold to Russian (Rybolovlev) for 3x value</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02462117.pdf">Epstein to Wolff — Trump's dad bought casino chips, brother's loan</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02468224.pdf">Epstein to Richard Kahn on Trump abortion article</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02628984.pdf">Wolff to Epstein on Trump renting mansion — real owner is Rybolovlev</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02394063.pdf">Nicholas Ribis to Epstein: "Remind ur friend that I designed the DJT business comeback and now he may be the President"</a></li>
+    </ul>
+  </div>
+
+  <div class="thread-card blue">
+    <h3>Tom Barrack Tax Evasion</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02649038.pdf">Epstein to Landon Thomas on Barrack article</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02649063.pdf">Epstein to Terje Rod-Larsen on Barrack</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02649049.pdf">Epstein to Jabor Y. on Barrack</a></li>
+    </ul>
+  </div>
+
+  <div class="thread-card blue">
+    <h3>Trump Caribbean Property</h3>
+    <ul>
+      <li><a href="https://www.foxnews.com/real-estate/trump-looking-to-unload-caribbean-beach-estate">Fox News: Trump selling St. Martin estate — Le Château des Palmiers ($28M)</a> <span class="note">— owned under Excel Venture I LLC and Excel Venture Corp II</span></li>
+    </ul>
+  </div>
+
+  <!-- 1.13 OTHER VIDEOS -->
+  <h2 id="videos">1.13 Other Notable Videos</h2>
+
+  <div class="thread-card gray">
+    <h3>Island &amp; Epstein Properties</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01600798.mp4">Epstein's Island — Little St. James (10 min video)</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01683331.mp4">Epstein in pool with what appears to be a child — orchestra music playing</a> <span class="tag tag-red">FLAG</span></li>
+    </ul>
+  </div>
+
+  <div class="thread-card gray">
+    <h3>Epstein Personal</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01648695.mp4">Epstein on a table chasing a girl</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01683338.mp4">Epstein dancing with someone</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01621016.mov">Epstein with something wrong with his face (1)</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01621041.mov">Epstein with something wrong with his face (2)</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01621046.mov">Epstein and someone at the Louvre</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01648573.mp4">Epstein farting</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01621008.mov">Aliens conversation — 25 min, mentions AI machines, "Danny"</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01621007.mov">3h26m conversation: who Obama trusts, Israeli guy eating with Epstein</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01621018.mov">Epstein photo</a></li>
+    </ul>
+  </div>
+
+  <div class="thread-card gray">
+    <h3>Private Jet</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01621084.mov">Private Jet (N212JE)</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%208/EFTA00037864.pdf">Private Jet registration document</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01621062.mov">Private jet massage table</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01683421.mp4">Redacted — private jet, two women, man speaking foreign language</a> <span class="note">— described as South African Ambassador who "fell to his death"</span></li>
+    </ul>
+  </div>
+
+  <div class="thread-card gray">
+    <h3>Named/Notable People in Videos</h3>
+    <ul>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01132029.mov">Woody Allen</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01683323.mp4">Interview with state attorney Dave Aronberg (11/08/05) — part 1</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01683325.mp4">Dave Aronberg interview part 2</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01683330.mp4">Dave Aronberg interview part 3</a></li>
+      <li><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01621104.mov">Prince Charles in car?</a></li>
+    </ul>
+  </div>
+
+  <!-- 1.14 EXTERNAL LINKS -->
+  <h2 id="external">1.14 External Links &amp; Media</h2>
+  <div class="thread-card gray">
+    <ul>
+      <li><a href="https://www.reddit.com/r/Epstein/comments/1r7ozfo/erika_kirk/">Erika Kirk — Reddit thread</a></li>
+      <li><a href="https://5149jamesli.com/the-texts-erika-kirk-doesnt-want-you-to-see/">Erika Kirk texts</a></li>
+      <li><a href="https://www.youtube.com/watch?v=rDATfxwqfHA">Epstein Cover Up Video (YouTube)</a></li>
+      <li><a href="https://www.reddit.com/r/videos/comments/1qvc7gd/new_video_compilation_from_epstein_files/">Epstein file compilation (Reddit)</a></li>
+      <li><a href="https://www.huffpost.com/entry/trump-bill-clinton-rape_n_574375c1e4b0613b512b0d6c">HuffPost: Trump/Clinton rape piece (sent by Epstein to Summers)</a></li>
+      <li><a href="https://forward.com/news/353312/woman-who-sued-donald-trump-for-child-rape-at-jeffrey-epstein-parties-scrap/">Forward.com: Trump child rape at Epstein parties (sent to Ruemmler)</a></li>
+      <li><a href="https://www.politico.com/story/2017/02/alexander-acosta-trump-jeffrey-epstein-plea-235096">Politico: Acosta sweetheart plea deal (fed by David Boies per Ruemmler)</a></li>
+      <li><a href="https://www.washingtonpost.com/news/worldviews/wp/2017/08/24/the-russian-diplomat-found-dead-in-his-pool-in-sudan-is-the-seventh-to-die-since-november/">WaPo: Russian diplomat deaths article</a> <span class="note">— Epstein: "Joe Lecarey dies in June of 18. Same M.O.?"</span></li>
+      <li><a href="https://www.statnews.com/2017/01/16/donald-trump-palm-beach-doctor/">Stat News: Trump Palm Beach doctor</a></li>
+    </ul>
+  </div>
+
+  <!-- ================================================================ -->
+  <!-- PART II: INDIVIDUALS                                               -->
+  <!-- ================================================================ -->
+  <h1 id="individuals">PART II — NAMED INDIVIDUALS INDEX</h1>
+  <p>All individuals appearing meaningfully in the research notes, with document links and context.</p>
+
+  <h2 id="ind-trump">Trump, Donald</h2>
+  <div class="person-card">
+    <div><div class="person-name">Donald Trump</div><div class="person-role">45th/47th U.S. President; Real estate developer</div></div>
+    <div>
+      <span class="tag tag-red">Financial crimes</span><span class="tag tag-red">Abuse allegations</span><span class="tag tag-blue">Political</span>
+      <ul style="margin-top:8px;">
+        <li>Epstein described Trump as "always trying to impress Epstein" — FBI witness report</li>
+        <li>Rybolovlev mansion deal (sold at 3x value)</li>
+        <li>Early 90s borrowed $11M from siblings; casino chip scheme involving father</li>
+        <li>Child rape lawsuit at Epstein parties — circulated in network</li>
+        <li>Mar-a-Lago casting parties with underage models (Capponi)</li>
+        <li>Party "for prostitutes" — FBI report</li>
+        <li>Fifth Amendment assertion linking him to underage socializing</li>
+        <li>Epstein still communicating during Trump presidency (Oval Office candy request, Dec 2018 contacts)</li>
+        <li>See: <a href="#trump">1.3</a>, <a href="#marlago">1.5</a>, <a href="#childrape">1.6</a>, <a href="#financial">1.12</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <h2 id="ind-maxwell">Maxwell, Ghislaine</h2>
+  <div class="person-card">
+    <div><div class="person-name">Ghislaine Maxwell</div><div class="person-role">British socialite; Epstein's associate; convicted</div></div>
+    <div>
+      <span class="tag tag-red">Convicted</span><span class="tag tag-purple">Interrogation videos</span>
+      <ul style="margin-top:8px;">
+        <li>Received "whoops" email from Epstein Aug 29, 2009 with attachment "The_Bear074.jpg"</li>
+        <li>Email from Melania expressing friendly familiarity</li>
+        <li>Noted to resemble Melania (per Laura Isabel Woods)</li>
+        <li>Someone claiming "the royals and Maxwell hired him to kill me"</li>
+        <li>Gary Ginsberg to Maxwell (Sep 24, 2003): "the enigma is still as alluring as ever. When can I further probe the mystery?"</li>
+        <li>9 interrogation/deposition videos — see <a href="#maxwell">1.9</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <h2 id="ind-bannon">Bannon, Steve</h2>
+  <div class="person-card">
+    <div><div class="person-name">Steve Bannon</div><div class="person-role">Trump chief strategist; far-right political operative</div></div>
+    <div>
+      <span class="tag tag-blue">Political intelligence</span><span class="tag tag-orange">Regular contact</span>
+      <ul style="margin-top:8px;">
+        <li>Extensive message thread with Epstein on Trump's inner circle (Pence, Pompeo, Kushner, Kelly)</li>
+        <li>Discussed Trump near mental breakdown</li>
+        <li>Belgian government fell 5 hours after his speech</li>
+        <li>Attended dinners with Miro Lajcak and Epstein</li>
+        <li>"I'm all over Miro"</li>
+        <li>Discussed China, NSA cybertools, Brexit, MBS</li>
+        <li>Text thread: "Melania? Not living with him"</li>
+        <li>See: <a href="#bannon">1.7</a>, <a href="#miro">1.8</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <h2 id="ind-wolff">Wolff, Michael</h2>
+  <div class="person-card">
+    <div><div class="person-name">Michael Wolff</div><div class="person-role">Author (Fire and Fury, etc.); journalist</div></div>
+    <div>
+      <span class="tag tag-blue">Intelligence source</span><span class="tag tag-orange">Regular contact</span>
+      <ul style="margin-top:8px;">
+        <li>Regularly fed Epstein political intelligence and gossip</li>
+        <li>Told Epstein about "Melania boyfriend" lead journalists were working</li>
+        <li>Shared Westerhout passage on Trump</li>
+        <li>Discussed Trump financial crimes (Rybolovlev, casino chips)</li>
+        <li>Received Epstein "whoops" message re: Jamie Dimon</li>
+        <li>Shared child rape article with Epstein</li>
+        <li>Epstein mentioned in Wolff's book (per Bannon texts)</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2 id="ind-miro">Lajcak, Miroslav ("Miro")</h2>
+  <div class="person-card">
+    <div><div class="person-name">Miroslav Lajčák</div><div class="person-role">Slovak diplomat; President of UN General Assembly 2017–18</div></div>
+    <div>
+      <span class="tag tag-blue">UN / Diplomatic</span><span class="tag tag-orange">788 mentions</span>
+      <ul style="margin-top:8px;">
+        <li>Mentioned 788 times in the files</li>
+        <li>Regular dinners with Epstein, Bannon, Woody Allen, Soon-Yi, Deepak Chopra, Terje Rod-Larsen, Tom Pritzker, Ehud Barak</li>
+        <li>Bannon: "I'm all over Miro"</li>
+        <li>Epstein convinced Miro to withdraw UN resignation over immigration compact</li>
+        <li>Epstein introduced to Sultan Bin Sulayem, Nathan Myhrvold, Darren Indyke</li>
+        <li>Thread about "taking" girls and references to Lavrov</li>
+        <li>See: <a href="#miro">1.8</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <h2 id="ind-summers">Summers, Larry</h2>
+  <div class="person-card">
+    <div><div class="person-name">Larry Summers</div><div class="person-role">Economist; former U.S. Treasury Secretary; Harvard president</div></div>
+    <div>
+      <span class="tag tag-green">Buddy</span>
+      <ul style="margin-top:8px;">
+        <li>Referred to Trump as Epstein's "friend" in 2017</li>
+        <li>Epstein sent him HuffPost child rape piece</li>
+        <li>Discussion about speaking face to face with women instead of notes</li>
+        <li><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02432898.pdf">Buddy doc</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <h2 id="ind-others">All Others A–Z</h2>
+  <table>
+    <tr><th>Name</th><th>Role / Context</th><th>Key Document</th></tr>
+    <tr><td>Alahmadi, Aziza</td><td>Sent Epstein child rape allegation article</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02670028.pdf">EFTA02670028</a></td></tr>
+    <tr><td>Allen, Woody</td><td>In message thread; dinner with Miro/Epstein/Soon-Yi; video in files</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01132029.mov">EFTA01132029</a></td></tr>
+    <tr><td>Andrew, Prince</td><td>Called Epstein's "buddy"</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01835427.pdf">EFTA01835427</a></td></tr>
+    <tr><td>Aronberg, Dave</td><td>State attorney — interview Nov 8, 2005</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01683323.mp4">Video</a></td></tr>
+    <tr><td>Barak, Ehud</td><td>CCed on Epstein email about Miro Lajcak</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00868657.pdf">EFTA00868657</a></td></tr>
+    <tr><td>Boies, David</td><td>Lawyer — fed Acosta plea deal story to Politico per Ruemmler</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02660014.pdf">EFTA02660014</a></td></tr>
+    <tr><td>Brunel, Jean-Luc</td><td>Called Epstein's "buddy"; received "whoops" email 2012</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01122242.pdf">EFTA01122242</a></td></tr>
+    <tr><td>Capponi, Michael</td><td>Sent shuttle buses of underage models to Mar-a-Lago</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01244937.pdf">EFTA01244937</a></td></tr>
+    <tr><td>Chopra, Deepak</td><td>Called Epstein's "buddy"; attended Miro/Allen dinners</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02356079.pdf">EFTA02356079</a></td></tr>
+
+    <tr><td>Dershowitz, Alan</td><td>Called Epstein's "buddy"</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00695800.pdf">EFTA00695800</a></td></tr>
+    <tr><td>Dimon, Jamie</td><td>Subject of "whoops" email to Wolff</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02548441.pdf">EFTA02548441</a></td></tr>
+    <tr><td>Dubin, Eva</td><td>Received "whoops" emails (sultan's mother-in-law death; Mary Kennedy death)</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00655647.pdf">EFTA00655647</a></td></tr>
+    <tr><td>Farkas, Jonathan</td><td>"Buddy"; message about Melania; received "whoops" email 2015</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01751855.pdf">EFTA01751855</a></td></tr>
+    <tr><td>Fish, Harry</td><td>In message thread with Epstein and Joi Ito</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00782599.pdf">EFTA00782599</a></td></tr>
+    <tr><td>Ginsberg, Gary</td><td>Message to Maxwell: "the enigma is still as alluring as ever"</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02334045.pdf">EFTA02334045</a></td></tr>
+    <tr><td>Groff, Lesley</td><td>Epstein assistant; told to delay trip due to "Trump-related issues"</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02669198.pdf">EFTA02669198</a></td></tr>
+    <tr><td>Huffman, Mike</td><td>Defense Intelligence Agency (DIA) — "whoops" email</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00736184.pdf">EFTA00736184</a></td></tr>
+    <tr><td>Indyke, Darren</td><td>Epstein's will executor; visited prison July 22; introduced to Miro by Epstein</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00137914.pdf">Visitors log</a></td></tr>
+    <tr><td>Ito, Joi</td><td>MIT Media Lab; message thread with Epstein and Harry Fish</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00782599.pdf">EFTA00782599</a></td></tr>
+    <tr><td>Jagland, Thorbjorn</td><td>Called Epstein's "buddy"; Terje's associate</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02666210.pdf">EFTA02666210</a></td></tr>
+    <tr><td>Junkermann, Nicole</td><td>Received "whoops" email July 2018</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01005484.pdf">EFTA01005484</a></td></tr>
+    <tr><td>Kahn, Richard</td><td>Epstein associate; FBI sought his commissary records; received "whoops" July 2016</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02457915.pdf">EFTA02457915</a></td></tr>
+    <tr><td>Karp, Brad S.</td><td>Lawyer; received extortion payments communication Dec 2016</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02665413.pdf">EFTA02665413</a></td></tr>
+    <tr><td>Kirk, Erika</td><td>Subject of texts/Reddit thread</td><td><a href="https://www.reddit.com/r/Epstein/comments/1r7ozfo/erika_kirk/">Reddit</a></td></tr>
+    <tr><td>Kraft, Robert</td><td>Called Epstein's "buddy"</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02635301.pdf">EFTA02635301</a></td></tr>
+    <tr><td>Krauss, Lawrence</td><td>Physicist; messaging Epstein May 2019</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00785194.pdf">EFTA00785194</a></td></tr>
+    <tr><td>Kurtz, Sebastian</td><td>Austrian Chancellor; called Epstein's "buddy"</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01614441.pdf">EFTA01614441</a></td></tr>
+    <tr><td>Mandelson, Peter</td><td>Received "whoops" email — had "very bad setback with R who has somehow got into my texts"</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00879292.pdf">EFTA00879292</a></td></tr>
+    <tr><td>Marsh, Barnaby</td><td>Sent "baby smell" to Epstein</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02646618.pdf">EFTA02646618</a></td></tr>
+    <tr><td>McCawley, Sigrid</td><td>Lawyer; CCed on harassment claim email</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01652971.pdf">EFTA01652971</a></td></tr>
+    <tr><td>Myhrvold, Nathan</td><td>Called Epstein's "buddy"; introduced to Miro; multiple "whoops" emails</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02388662.pdf">EFTA02388662</a></td></tr>
+    <tr><td>Nikolic, Boris</td><td>Received "whoops" emails; exchange about Melania</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02651268.pdf">EFTA02651268</a></td></tr>
+    <tr><td>Previn, Soon-Yi</td><td>Received "whoops" email May 2016; dinner with Miro/Epstein</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00827695.pdf">EFTA00827695</a></td></tr>
+    <tr><td>Pritzker, Tom</td><td>Invited to dinner with Miro Lajcak and Epstein</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02668068.pdf">EFTA02668068</a></td></tr>
+    <tr><td>Ribis, Nicholas</td><td>"I designed the DJT business comeback"; received child rape article</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02394063.pdf">EFTA02394063</a></td></tr>
+    <tr><td>Richardson, Bill</td><td>Called Epstein's "buddy"</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00816147.pdf">EFTA00816147</a></td></tr>
+    <tr><td>Rod-Larsen, Terje</td><td>UN diplomat; regular dinner companion; discussing investigation/Trump links</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00508805.pdf">EFTA00508805</a></td></tr>
+    <tr><td>de Rothschild, Ariane</td><td>Received "whoops" email Feb 2018</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00876362.pdf">EFTA00876362</a></td></tr>
+    <tr><td>Ross, Wilbur</td><td>Commerce Secretary; Bannon calls him "a joke and a waste of time"; Epstein meeting</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01615048.pdf">EFTA01615048</a></td></tr>
+    <tr><td>Ruemmler, Kathy</td><td>Lawyer; called Epstein's "buddy"; received money laundering explanation; Acosta article</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00836230.pdf">EFTA00836230</a></td></tr>
+    <tr><td>Rybolovlev, Dmitry</td><td>Russian buyer of Trump's Palm Beach mansion at 3x value</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02628214.pdf">EFTA02628214</a></td></tr>
+    <tr><td>Shuliak, Karyna</td><td>Received "JE Angels" emails; baby link sent by Epstein</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00528713.pdf">EFTA00528713</a></td></tr>
+    <tr><td>Staley, Jes</td><td>Barclays CEO; called Epstein's "buddy"</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00889998.pdf">EFTA00889998</a></td></tr>
+    <tr><td>Starr, Ken</td><td>Independent counsel; message to Epstein</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02629257.pdf">EFTA02629257</a></td></tr>
+    <tr><td>Sulayem, Sultan Bin</td><td>Epstein introduced to Miro Lajcak; Kuwait/MBS thread</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00865258.pdf">EFTA00865258</a></td></tr>
+    <tr><td>Tali, Gulnora</td><td>Visited Epstein in prison July 23; FBI sought her commissary records</td><td><a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00137914.pdf">Visitors log</a></td></tr>
+    <tr><td>Thomas, Landon Jr.</td><td>NYT journalist; regular Epstein contact; "you called it!" on rape case</td><td><a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01784973.pdf">EFTA01784973</a></td></tr>
+  </table>
+
+  <!-- ================================================================ -->
+  <!-- PART III: TIMELINE                                                 -->
+  <!-- ================================================================ -->
+  <h1 id="timeline">PART III — FULL TIMELINE</h1>
+
+  <h2 id="tl-early">Pre-2000</h2>
+  <div class="timeline-item"><div class="timeline-date">Early 1990s</div><div>Trump had to borrow $11M from his brother and sister to survive financial crisis. Casino chip scheme involving Trump's father. <a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01211522.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">1990s</div><div>Michael Capponi sent shuttle buses of underage models to Mar-a-Lago casting parties when Trump and Epstein were partying together. <a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01244937.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">1993</div><div>Jill Harth alleged sexual assault by Trump. Epstein discussed with Wolff. <a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01013538.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">1999</div><div>Jane Doe 3 met Epstein at Trump's Mar-a-Lago. <a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00261546.pdf">Source</a></div></div>
+
+  <h2 id="tl-2000s">2000–2009</h2>
+  <div class="timeline-item"><div class="timeline-date">2002</div><div>Girls who were with Epstein and Maxwell met with Trump. <a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01249188.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Sep 24, 2003</div><div>Gary Ginsberg to Maxwell: "the enigma is still as alluring as ever. When can I further probe the mystery?" <a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02334045.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Nov 8, 2005</div><div>Interview with state attorney Dave Aronberg recorded. <a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01683323.mp4">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">2007</div><div>Court filing on Epstein; Fifth Amendment exchange re: Trump and underage children at Mar-a-Lago. <a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00284175.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Aug 29, 2009</div><div>Epstein sends "gmax" (Maxwell) email with attachment "The_Bear074.jpg" — "whoops." <a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00739120.pdf">Source</a></div></div>
+
+  <h2 id="tl-2010s">2010–2018</h2>
+  <div class="timeline-item"><div class="timeline-date">Aug 1, 2010</div><div>"Whoops" email to redacted. <a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01815587.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Apr 11, 2012</div><div>"Whoops" email in response to BBC article. <a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01767863.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Jun 6, 2012</div><div>"Whoops" email to Jean-Luc Brunel. <a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01988549.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Dec 12, 2012</div><div>"Whoops" to Warren Eisenstein about "Mutty Fukky." <a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01910978.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">2013</div><div>"Baby girl 2013 — Taylor" document. <a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01414279.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Jul 16, 2013</div><div>"Whoops" to Nathan Myhrvold. <a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00964985.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Jun 30, 2014</div><div>"Whoops" — "permission to kill him." <a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01922235.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Oct 13, 2014</div><div>"Whoops" — someone "getting sick." <a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02591804.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">May 11, 2015</div><div>"Whoops" to Jon Farkas; death of "Elkman." <a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02501993.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Dec 1, 2015</div><div>Epstein seeking smart kids for "safe space to explore any ideas, no matter how taboo." <a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01732108.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">May 12, 2016</div><div>"Whoops" to Soon-Yi Previn. <a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00827695.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Jul 4, 2016</div><div>"Whoops" to Richard Kahn. <a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02457915.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Dec 19, 2016</div><div>Epstein to Brad Karp about extortion payments. <a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02665413.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Jan 20, 2017</div><div>"Whoops" to redacted (Inauguration Day). <a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02662769.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Feb 2017</div><div>Acosta plea deal article published — fed by David Boies per Ruemmler. <a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02660014.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Jun 17, 2017</div><div>Epstein email to "Labor Y." from <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e48e818192858785908d8b8aa48389858d88ca878b89">[email&#160;protected]</a>. <a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02646817.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Aug 20, 2017</div><div>Epstein to Wolff: "Tillerson probably leaving, Ivanka wants Nikki Haley." <a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02637845.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Sep 9–22, 2017</div><div>"Whoops" emails to Nathan Myhrvold and Boris Nikolic. Sources: <a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02634651.pdf">Myhrvold</a>, <a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01009760.pdf">Nikolic</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Feb 25, 2018</div><div>"Whoops" to Ariane de Rothschild. <a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00876362.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Mar 5, 2018</div><div>"Whoops" after "ice skating story and boy." <a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00869349.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Late Mar 2018</div><div>Saturday lunch: Bannon, Miro Lajcak, Epstein. <a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02240153.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Apr 25, 2018</div><div>7:15pm dinner with Miro and Steve Bannon. Epstein mentions Sultan visiting DC and meetings with Wilbur Ross and Kevin McAleenan. <a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02245731.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">May 11, 2018</div><div>Naturalization Oath Ceremony video. <a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01683440.mp4">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Jul 15, 2018</div><div>"Whoops" to Nicole Junkermann. <a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01005484.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Sep 10, 2018</div><div>"Whoops" — redacted responds "how should we celebrate this day." <a href="https://www.justice.gov/epstein/files/DataSet%2011/EFTA02624636.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Dec 13, 2018</div><div>Epstein: Trump is talking to people he hasn't in years. <a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01615508.pdf">Source</a></div></div>
+
+  <h2 id="tl-2019">2019 — The Death Year</h2>
+  <div class="timeline-item"><div class="timeline-date">Jan 1, 2019</div><div>iMessage thread: Epstein on Trump's early 90s financial crisis; Woody Allen mentioned; "Kwok — they already threw their contact off a 40-story building." <a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01211522.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">May 2019</div><div>Lawrence Krauss messaging Epstein. <a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00785194.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">May 26, 2019</div><div>Bannon iMessage: "Macron down, Boris up, Merkel down. You up GREAT." Travel plans to Mexico and Spain discussed. <a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00507917.pdf">Source</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Jul 6, 2019</div><div>Epstein arrested.</div></div>
+  <div class="timeline-item"><div class="timeline-date">Jul 18–31</div><div>Extensive jail surveillance footage. See <a href="#surveillance">Section 1.1</a>.</div></div>
+  <div class="timeline-item"><div class="timeline-date">Jul 22, 2019</div><td>Prison visitors: Darren Indyke (will executor) and Colón Miró (lawyer). <a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00137914.pdf">Visitors log</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Jul 23, 2019</div><div>Incident at prison. Gulnora Tali visits. <a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00165199.pdf">Incident account</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Aug 1–9</div><div>Continued surveillance footage. See <a href="#surveillance">Section 1.1</a>.</div></div>
+  <div class="timeline-item"><div class="timeline-date">Aug 8, 2019</div><div><strong>Will and Testament signed</strong> — executor Darren Indyke. <a href="https://www.justice.gov/epstein/files/Court%20Records/Doe%20v.%20Indyke,%20No.%20119-cv-08673%20(S.D.N.Y.%202019)/EFTA02751207.pdf">Will</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Aug 9, 2019</div><div>Issue with Epstein phone call reported. Mariel Miró visits. Multiple surveillance angles recorded. <a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00080838.pdf">Call report</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Aug 10, 2019</div><div><strong>Epstein found dead.</strong> Whiteboard video at 5pm same day. Dense surveillance coverage 1am–10am. Officer interviews follow. Medical evaluation conducted. Autopsy performed by Kristin Roman. <a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA01227736.pdf">Guards: he was not suicidal</a></div></div>
+  <div class="timeline-item"><div class="timeline-date">Aug 11–12</div><div>Post-death surveillance and documentation. <a href="#surveillance">See Section 1.1</a>.</div></div>
+
+  <br><br>
+  <p style="color:var(--muted);font-size:0.82rem;text-align:center;padding:20px 0 40px;">Document compiled February 2026. A
