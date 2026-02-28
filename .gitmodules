@@ -1,0 +1,3 @@
+[submodule "data/forensic-finance"]
+	path = data/forensic-finance
+	url = https://github.com/randallscott25-star/epstein-forensic-finance.git
