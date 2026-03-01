@@ -5,6 +5,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { eftaToUrl } from './efta-dataset-map';
 
 type TimelineEra =
   | 'pre-1990' | '1990-2000' | '2001-2007' | '2008-2018' | '2019' | '2020-present';
@@ -12,7 +13,7 @@ type TimelineEra =
 type VerificationStatus = 'verified' | 'unverified' | 'contested' | 'discrepancy';
 
 type SourceTag =
-  | 'CBS' | 'NPR' | 'WSJ' | 'NYT' | 'CNN' | 'Bloomberg'
+  | 'CBS' | 'NPR' | 'WSJ' | 'NYT' | 'CNN' | 'Bloomberg' | 'AP'
   | 'DOJ' | 'FBI' | 'HO' | 'SJ' | 'JMail' | 'GH' | 'OSINT'
   | 'Maxwell-trial' | 'Giuffre-deposition' | 'Palm-Beach-PD';
 
@@ -29,6 +30,11 @@ interface TimelineEvent {
   efta?: string[];
   verificationStatus?: VerificationStatus;
   tags: string[];
+  summary: string;
+  eftaLinks: Array<{ number: string; url: string; description?: string }>;
+  relatedEventIds: string[];
+  relatedThemeIds: string[];
+  discrepancies: Array<{ sourceA: string; sourceB: string; claimA: string; claimB: string }>;
 }
 
 // ─── Era mapping ───────────────────────────────────────────────────────────
@@ -45,7 +51,7 @@ function eraFromHeading(h2Text: string): TimelineEra {
 
 // ─── Source tag extraction ─────────────────────────────────────────────────
 const VALID_SOURCES = new Set<SourceTag>([
-  'CBS', 'NPR', 'WSJ', 'NYT', 'CNN', 'Bloomberg',
+  'CBS', 'NPR', 'WSJ', 'NYT', 'CNN', 'Bloomberg', 'AP',
   'DOJ', 'FBI', 'HO', 'SJ', 'JMail', 'GH', 'OSINT',
   'Maxwell-trial', 'Giuffre-deposition', 'Palm-Beach-PD',
 ]);
@@ -214,6 +220,69 @@ function inferTags(title: string, body: string): string[] {
   return [...new Set(tags)];
 }
 
+// ─── Discrepancy extraction ─────────────────────────────────────────────────
+function extractDiscrepancies(body: string): Array<{
+  sourceA: string;
+  sourceB: string;
+  claimA: string;
+  claimB: string;
+}> {
+  const discrepancies: Array<{sourceA: string; sourceB: string; claimA: string; claimB: string}> = [];
+
+  const discrepancyRegex = /\*?\*?\[DISCREPANCY:?\s*(.+?)\]\*?\*?/gi;
+  let match;
+  while ((match = discrepancyRegex.exec(body)) !== null) {
+    const text = match[1];
+    const parts = text.split(/;\s*|\s+vs\.?\s+|\s+but\s+/i);
+    if (parts.length >= 2) {
+      const sourceMatchA = parts[0].match(/^(.+?)\s+(?:says?|reports?|states?|claims?|gives?)\s+(.+)/i);
+      const sourceMatchB = parts[1].match(/^(.+?)\s+(?:says?|reports?|states?|claims?|gives?)\s+(.+)/i);
+
+      discrepancies.push({
+        sourceA: sourceMatchA ? sourceMatchA[1].trim() : 'Source A',
+        claimA: sourceMatchA ? sourceMatchA[2].trim() : parts[0].trim(),
+        sourceB: sourceMatchB ? sourceMatchB[1].trim() : 'Source B',
+        claimB: sourceMatchB ? sourceMatchB[2].trim() : parts[1].trim(),
+      });
+    } else {
+      discrepancies.push({
+        sourceA: 'Multiple sources',
+        claimA: text.trim(),
+        sourceB: '',
+        claimB: 'See full details above.',
+      });
+    }
+  }
+
+  return discrepancies;
+}
+
+// ─── Summary generation ─────────────────────────────────────────────────────
+function generateSummary(body: string): string {
+  // Strip markdown formatting for cleaner sentence detection
+  const plain = body
+    .replace(/\*\*People.*?\*\*.*?\n/g, '')
+    .replace(/\*\*Source.*?\*\*.*?\n/g, '')
+    .replace(/\*\*EFTA.*?\*\*.*?\n/g, '')
+    .replace(/\*\*/g, '')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/\n+/g, ' ')
+    .trim();
+
+  // Split on sentence boundaries
+  const sentences = plain.match(/[^.!?]+[.!?]+(?:\s|$)/g) || [plain];
+
+  // Take first 2-3 sentences, targeting ~150-300 characters
+  let summary = '';
+  for (let i = 0; i < Math.min(sentences.length, 3); i++) {
+    const candidate = summary + sentences[i].trim() + ' ';
+    if (i >= 2 && candidate.length > 300) break;
+    summary = candidate;
+  }
+
+  return summary.trim() || plain.slice(0, 250) + '…';
+}
+
 // ─── ID generation ─────────────────────────────────────────────────────────
 function makeEventId(date: string, title: string): string {
   const slugTitle = slugify(title).slice(0, 40);
@@ -296,6 +365,17 @@ function parseTimeline(): TimelineEvent[] {
 
         const id = makeEventId(iso, title);
 
+        // Generate EFTA links from extracted numbers
+        const uniqueEfta = [...new Set(efta)];
+        const eftaLinks = uniqueEfta.map(num => {
+          const { url, approximate } = eftaToUrl(num);
+          return {
+            number: num,
+            url,
+            description: approximate ? '(dataset unconfirmed)' : undefined,
+          };
+        });
+
         const event: TimelineEvent = {
           id,
           date: iso,
@@ -307,6 +387,11 @@ function parseTimeline(): TimelineEvent[] {
           themeIds: [],
           sources,
           tags,
+          summary: generateSummary(cleanBody),
+          eftaLinks,
+          relatedEventIds: [],
+          relatedThemeIds: [],
+          discrepancies: extractDiscrepancies(body),
         };
 
         if (verificationStatus) event.verificationStatus = verificationStatus;
@@ -345,6 +430,11 @@ function parseTimeline(): TimelineEvent[] {
           themeIds: [],
           sources: sources.length ? sources : ['DOJ'],
           tags: inferTags(title, title),
+          summary: generateSummary(title),
+          eftaLinks: [],
+          relatedEventIds: [],
+          relatedThemeIds: [],
+          discrepancies: [],
         });
       } catch {
         // skip malformed rows

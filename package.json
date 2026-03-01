@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run parse && next build",
-    "parse": "npx ts-node --project tsconfig.scripts.json scripts/parse-people.ts && npx ts-node --project tsconfig.scripts.json scripts/parse-timeline.ts && npx ts-node --project tsconfig.scripts.json scripts/parse-themes.ts && npx ts-node --project tsconfig.scripts.json scripts/build-connections.ts && npx ts-node --project tsconfig.scripts.json scripts/build-search-index.ts",
+    "build": "npm run parse && node scripts/integrate-trump-misconduct.js && node scripts/integrate-infodump.js && node scripts/ingest-forensic-finance.js && node scripts/integrate-mogilevich.js && node scripts/integrate-covid-science.js && node scripts/integrate-whoops-research.js && npx ts-node --project tsconfig.scripts.json scripts/build-search-index.ts && next build",
+    "parse": "npx ts-node --project tsconfig.scripts.json scripts/parse-people.ts && npx ts-node --project tsconfig.scripts.json scripts/parse-timeline.ts && npx ts-node --project tsconfig.scripts.json scripts/parse-themes.ts && npx ts-node --project tsconfig.scripts.json scripts/build-event-relations.ts && npx ts-node --project tsconfig.scripts.json scripts/build-connections.ts && npx ts-node --project tsconfig.scripts.json scripts/build-search-index.ts",
     "start": "next start",
     "export": "next build"
   },

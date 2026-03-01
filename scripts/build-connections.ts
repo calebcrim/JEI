@@ -9,7 +9,7 @@ import path from 'path';
 
 type VerificationStatus = 'verified' | 'unverified' | 'contested' | 'discrepancy';
 type SourceTag =
-  | 'CBS' | 'NPR' | 'WSJ' | 'NYT' | 'CNN' | 'Bloomberg'
+  | 'CBS' | 'NPR' | 'WSJ' | 'NYT' | 'CNN' | 'Bloomberg' | 'AP'
   | 'DOJ' | 'FBI' | 'HO' | 'SJ' | 'JMail' | 'GH' | 'OSINT'
   | 'Maxwell-trial' | 'Giuffre-deposition' | 'Palm-Beach-PD';
 

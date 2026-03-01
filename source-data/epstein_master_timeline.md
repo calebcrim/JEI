@@ -83,6 +83,14 @@ An Austrian passport under the alias **"Marius Robert Fortelni"** listing a Saud
 
 ---
 
+### ~1987 — Wexner Consults Élie de Rothschild About Hiring Epstein
+**People:** Leslie Wexner, Jeffrey Epstein
+**Source:** HO (House Oversight)
+
+Leslie Wexner testified under oath before the House Oversight Committee on February 18, 2026 that when he asked about hiring Epstein, "I spoke to Élie de Rothschild. He represented their whole family." This establishes the Rothschild family's earliest documented role in legitimizing Epstein's financial career, predating the Wexner power-of-attorney grant by four years. [HO]
+
+---
+
 ### ~1988–1989 — Trump and Epstein Meet
 **People:** Jeffrey Epstein, Donald Trump
 **Source:** Trump-Epstein Connections file, NYT
@@ -98,6 +106,22 @@ A New York Times piece ("A 15-Year Bond Between Trump and Epstein," July 20, 202
 **Source:** DOJ Files supplement, CBS News
 
 Wexner granted Epstein a sweeping power of attorney giving him "full power and authority to do and perform every act necessary" over finances, investments, and property. This legal instrument enabled Epstein to transfer assets from Wexner to himself. A 1998 purchase/sale agreement, a $10 million promissory note, and a personal guaranty signed by Epstein — detailing the Manhattan townhouse transfer mechanics — were released in the January 30, 2026 DOJ dump.
+
+---
+
+### 1991 — Mega Group Founded
+**People:** Leslie Wexner, Charles Bronfman
+**Source:** EFTA datasets, investigative reporting
+
+Charles Bronfman and Les Wexner founded an exclusive organization of Jewish-American billionaires called the Mega Group (also "Study Group"). Stated purpose: strategic philanthropy benefiting Israel. A former NSA counterspy described the group as "viewed by Israeli intelligence officials as a vehicle for espionage and influence operations in the United States." The term appears 30 times in previously redacted Epstein documents but nearly zero in public text — systematically hidden. The codename was first intercepted during surveillance of the Jonathan Pollard spy case in 1987. Members overlapping with Epstein's network: Wexner (primary funder, co-conspirator designation), Edgar Bronfman Sr. (Epstein's first major client circa 1977, 36 documented relationships), Ronald Lauder (20+ emails in archive), Michael Steinhardt (investment correspondence), Leonard Stern (black book). [B/D]
+
+---
+
+### 1991-11 — Robert Maxwell Dies Under Mysterious Circumstances
+**People:** Robert Maxwell, Ghislaine Maxwell
+**Source:** Multiple
+
+Robert Maxwell — British media baron, member of Parliament, and deeply connected to Israeli intelligence — was found floating near his yacht off the Canary Islands. Six intelligence chiefs attended his funeral. He was buried on the Mount of Olives in Jerusalem with state honors — a distinction reserved for those who served the state of Israel at the highest levels. His daughter Ghislaine subsequently became Epstein's most important operational partner. [A2/B]
 
 ---
 
@@ -158,6 +182,14 @@ Documented flight from Palm Beach to Teterboro via D.C. with Trump, Marla Maples
 
 ---
 
+### 1995-04 — Lynn Forester Writes Clinton About "Epstein and Currency Stabilization"
+**People:** Lynn Forester de Rothschild, Jeffrey Epstein, Bill Clinton
+**Source:** Clinton correspondence [A2]
+
+Lynn Forester wrote to President Clinton using her "fifteen seconds of access" to discuss "Jeffrey Epstein and currency stabilization." This is the earliest documented Rothschild-orbit connection to Epstein, placing him in sovereign-level financial policy conversations during Clinton's first term. [A2]
+
+---
+
 ### 1995-08-13 — Trump-Epstein Flight with Eric Trump and Maxwell
 **People:** Jeffrey Epstein, Donald Trump, Eric Trump, Ghislaine Maxwell
 **Source:** Trump-Epstein Connections file
@@ -174,11 +206,11 @@ Maria Farmer reported Epstein to the FBI in 1996 — more than 20 years before h
 
 ---
 
-### 1996–2006 — MC2 Model Management Operations
+### 1996–2004 — Brunel-Epstein Karin Models Operations
 **People:** Jean-Luc Brunel, Jeffrey Epstein
 **Source:** DOJ Files supplement
 
-Jean-Luc Brunel operated MC2 Model Management with up to $1 million in Epstein funding. A former MC2 bookkeeper told the FBI in 2010 that Brunel flew in teenage models from around the world, housed them in Epstein's Upper East Side apartments, and "loaned them out to wealthy clients for up to $100,000 a night."
+Jean-Luc Brunel operated U.S. operations of Karin Models with Epstein funding during this period. Brunel flew in teenage models from around the world, housed them in Epstein's Upper East Side apartments, and "loaned them out to wealthy clients for up to $100,000 a night" (per a former bookkeeper's 2010 FBI interview). The Paris Karin Models office revoked Brunel's right to use the Karin trademark in 2004, triggering the rebranding to MC2.
 
 ---
 
@@ -187,6 +219,22 @@ Jean-Luc Brunel operated MC2 Model Management with up to $1 million in Epstein f
 **Source:** Trump-Epstein Connections file
 
 Documented flight from Palm Beach to Newark. Among the specifically dated Trump-Epstein flights.
+
+---
+
+### 1997-02-17 — Lynn Forester and Ghislaine Maxwell Co-Travel on Epstein's Gulfstream
+**People:** Lynn Forester de Rothschild, Ghislaine Maxwell, Jeffrey Epstein
+**Source:** Flight manifest N908JE [A1]
+
+Lynn Forester flew from West Palm Beach to Teterboro on Epstein's Gulfstream with Ghislaine Maxwell, bringing her own son along for the flight. [A1]
+
+---
+
+### 1997-06-21 — Lynn Forester Flies to Martha's Vineyard on Epstein's Jet
+**People:** Lynn Forester de Rothschild, Jeffrey Epstein, Prince Andrew
+**Source:** Flight manifest + Maxwell deposition [A1/A2]
+
+Lynn flew from Teterboro to Martha's Vineyard on Epstein's jet. According to the Maxwell deposition, this is where Prince Andrew was introduced to Epstein at a house Lynn rented. [A1/A2]
 
 ---
 
@@ -220,6 +268,14 @@ Epstein opened what would become his primary JPMorgan account around 1998. JPMor
 
 ---
 
+### ~1998 — Epstein Brokers Staley-Dubin Introduction (Highbridge Capital)
+**People:** Jeffrey Epstein, Jes Staley, Glenn Dubin
+**Source:** DOJ Files supplement, Bloomberg
+
+Epstein introduced JPMorgan executive Jes Staley to hedge fund manager Glenn Dubin, an introduction that led to JPMorgan's 2004 acquisition of a 55% stake in Highbridge Capital Management for $1.3 billion. Epstein received an estimated $15–20 million brokerage fee and invested $10 million in Highbridge through a Virgin Islands entity. By 2003, USVI court filings describe Epstein as "by double, the top revenue generator in JPMorgan's Private Bank." [DOJ, Bloomberg]
+
+---
+
 ### ~1998–2008 — Harvard Donations ($9.1 Million Total)
 **People:** Jeffrey Epstein, Martin Nowak, George Church, Harvard
 **Source:** DOJ Files supplement
@@ -228,11 +284,27 @@ Epstein donated $6.5 million in 2003 to establish Harvard's Program for Evolutio
 
 ---
 
-### ~1999 — Palm Beach Mansion Acquired
+### ~1998 — Lynn Forester Sells Townhouse to Epstein Below Market Value
+**People:** Lynn Forester de Rothschild, Jeffrey Epstein, Ghislaine Maxwell
+**Source:** Public reporting [B]
+
+Lynn sold Epstein a Manhattan townhouse for approximately $8.5 million below market value. That townhouse was subsequently provided to Ghislaine Maxwell. [B]
+
+---
+
+### 1990 — Palm Beach Mansion Acquired
 **People:** Jeffrey Epstein
 **Source:** Multiple
 
-Epstein acquired the Palm Beach mansion at 358 El Brillo Way (some sources list 360 El Brillo Way — **[DISCREPANCY in address]**) around 1999. The property sat approximately 2 miles north of Mar-a-Lago and would become the primary site of the Palm Beach abuse operation. Palm Beach Police identified 27 girls and women aged 14–23 who visited Epstein's home for "massage services."
+Epstein purchased the Palm Beach mansion at 358 El Brillo Way (some sources list 360 El Brillo Way — **[DISCREPANCY in address]**) for $2.5 million in 1990. The 14,223-square-foot waterfront property was built in 1952, designed by architect John L. Volk. It sits approximately 2 miles north of Mar-a-Lago and would become the primary site of the Palm Beach abuse operation. Palm Beach Police identified 27 girls and women aged 14–23 who visited Epstein's home for "massage services."
+
+---
+
+### 2000-11 — Lynn Forester Marries Sir Evelyn de Rothschild at Clinton White House
+**People:** Lynn Forester de Rothschild, Sir Evelyn de Rothschild, Bill Clinton, Hillary Clinton
+**Source:** Public record
+
+Lynn Forester married Sir Evelyn de Rothschild — head of the NM Rothschild banking dynasty — at a reception hosted by Bill and Hillary Clinton at the White House. By then she had already flown on Epstein's jet six times, shared flights with Maxwell, facilitated the Prince Andrew introduction, and sold Epstein the townhouse that went to Maxwell. She became Lady de Rothschild — the bridge between the Clinton political machine, the Rothschild banking empire, and Jeffrey Epstein's network. [Public record]
 
 ---
 
@@ -249,6 +321,14 @@ Virginia Giuffre, then 16, was recruited by Maxwell while working as a spa atten
 **Source:** Maxwell trial, Multiple
 
 The authenticated photograph of Giuffre with Prince Andrew and Maxwell at Maxwell's London townhouse was developed on March 13, 2001, at a Florida Walgreens. This photo became a central Maxwell trial exhibit. Andrew's arm is around Giuffre's waist; both are smiling; Maxwell stands behind them. Andrew challenged the photo's authenticity; authentication was affirmed.
+
+---
+
+### 2001 — Paris Avenue Foch Apartment Acquired
+**People:** Jeffrey Epstein
+**Source:** Multiple
+
+Epstein purchased a 685-square-meter (~7,400 sq ft) apartment at 22 Avenue Foch in Paris's 16th arrondissement for approximately $3.2 million, through a French holding company called SCI JEP (Société Civile Immobilière JEP). He owned 99.99% of shares; the remainder was held by his American lawyer. The property combined two apartments across the second and fifth floors with Arc de Triomphe views, plus two cellars, and was decorated by designer Alberto Pinto.
 
 ---
 
@@ -300,7 +380,40 @@ Trump outbid Epstein to purchase the Palm Beach mansion Maison de l'Amitié in 2
 
 ---
 
+### 2004-05-05 — Ariane de Rothschild Flies on Epstein's "Lolita Express"
+**People:** Ariane de Rothschild, Jeffrey Epstein
+**Source:** Flight manifest N908JE [A1]
+
+Ariane de Rothschild boarded Epstein's Boeing 727 — the aircraft known as the "Lolita Express" — for a flight from JFK to Paris Le Bourget. She was listed under her maiden name: Ariane Devonvoisin. [A1]
+
+---
+
 ## Era 3: Investigation, Plea Deal & Coverup (2003–2009)
+
+### 2004-10-12 — Epstein Identifies "Batman" as Ted Waitt
+**People:** Jeffrey Epstein, Ted Waitt, Ghislaine Maxwell
+**Source:** DOJ EFTA Dataset 11
+**EFTA:** EFTA02333073
+
+In an October 12, 2004 email, Epstein explicitly refers to Tom/Ted Waitt as "batman" — confirming the identity behind the alias used throughout the EFTA datasets. Theodore "Ted" Waitt was the billionaire founder of Gateway Inc. and Ghislaine Maxwell's long-term romantic partner (2003–2010), during the most active period of the Epstein trafficking operation.
+
+---
+
+### 2005-02-14 — Household Staff Manual Issued
+**People:** Ghislaine Maxwell, Jeffrey Epstein
+**Source:** Maxwell trial (GX 606)
+
+The 58–59-page household staff manual — later entered into evidence at Ghislaine Maxwell's trial as exhibit GX 606 — carries a print date of February 14, 2005. The manual instructed staff: "Remember that you see nothing, hear nothing, say nothing, except to answer a question directed at you. Respect their privacy." An earlier version existed by approximately 2001–2002, as testified by former house manager Juan Alessi (who worked at the estate from 1990/1991 to 2002), who said Maxwell gave him a similar booklet near the end of his employment. Maxwell's defense suggested "Epstein hired a countess and she put together the manual."
+
+---
+
+### 2005 — MC2 Model Management Founded
+**People:** Jean-Luc Brunel, Jeffrey Epstein, Jeffrey Fuller
+**Source:** DOJ Files supplement
+
+After the Paris office of Karin Models revoked Brunel's trademark rights in 2004, Brunel rebranded as MC2 Model Management in 2005, opening offices in New York and Miami. Epstein provided funding of "up to a million dollars" in 2004–2005 to finance the launch. MC2's own 2012 press release confirms: "In 2005 Karin Models of America became MC2 Model Management." The agency's name references Einstein's E=mc², with the missing "E" reportedly standing for Epstein. The agency was dissolved September 27, 2019.
+
+---
 
 ### 2005 — Palm Beach Police Investigation Opens
 **People:** Michael Reiter (Police Chief), Jeffrey Epstein, 27+ victims
@@ -424,11 +537,11 @@ Attorney Brad Edwards (representing Epstein victims) interviewed Trump about his
 
 ---
 
-### 2009 — Sarah Ferguson "Brother I Never Had" Emails
-**People:** Sarah Ferguson (Duchess of York), Jeffrey Epstein
-**Source:** Beyond Existing Research
+### 2009-07-27 — Sarah Ferguson Correspondence with Epstein Begins
+**People:** Sarah Ferguson (Duchess of York), Princess Beatrice, Princess Eugenie, Jeffrey Epstein
+**Source:** ITV News, CNN, ABC News, Fox News
 
-2009 emails from Ferguson to Epstein called him "the brother I have always wished for."
+Ferguson initiated contact with Epstein just weeks after his July 4, 2009 prison release. Confirmed dates in the correspondence chain: **July 27, 2009** — Ferguson asked Epstein for his address, noting "It will be myself, Beatrice, and Eugenie." **August 3, 2009** — the "brother" email: Ferguson called Epstein "the brother I have always wished for" in a thank-you note after a lunch where Epstein had paid her a compliment. **March 2010** — Epstein asked about a New York trip; Ferguson joked about Eugenie returning from a "shagging weekend." **May 16, 2010** — Ferguson suggested Epstein hire her as his "house assistant," saying she "desperately need the money." **November 12, 2010** — Ferguson forwarded her 22-year-old goddaughter's contact details to Epstein. **March–April 2011** — Ferguson expressed "deep regret" over press coverage of their association and called Epstein a "steadfast, generous and supreme friend."
 
 ---
 
@@ -472,6 +585,32 @@ Three days of scheduling emails (December 1–3, 2010) show Groff coordinating m
 
 ---
 
+### 2010-12 — Katie Couric Lasagna Dinner at Epstein's Mansion
+**People:** Jeffrey Epstein, Katie Couric, Prince Andrew, George Stephanopoulos, Charlie Rose, Woody Allen, Soon-Yi Previn, Chelsea Handler
+**Source:** CNN, Beyond Existing Research
+
+In December 2010 — the same month Prince Andrew was photographed walking with Epstein in Central Park — Epstein hosted a dinner described by Couric in her 2021 memoir as "Eyes Wide Shut with a twist — creepy chandeliers and body-part art," with guests eating "lasagna out of shallow bowls while Epstein held court in front of the fireplace." Couric emailed Epstein to thank him for what she called "ROCKIN'" lasagna and an "eclectic crowd." Guests included Prince Andrew, Chelsea Handler, George Stephanopoulos, Charlie Rose, and Woody Allen with Soon-Yi Previn. In 2011, Couric emailed publicist Peggy Siegal: "Oy, thanks for the Jeffrey Epstein invite… it's brought me a world of trouble!"
+
+---
+
+### 2011-06-03 — Merkin Relays "Trump 100% Behind Jimmy Cayne"
+**People:** Richard Merkin, Jeffrey Epstein, Donald Trump, Jimmy Cayne
+**Source:** DOJ EFTA Dataset 10
+**EFTA:** EFTA01777190
+
+Richard Merkin (Heritage Provider Network founder) relays to Epstein that Trump is "100% behind" Jimmy Cayne — the disgraced former CEO of Bear Stearns whose firm collapsed in 2008. Links Trump, the Bear Stearns orbit, and Epstein in a single 2011 conversation.
+
+---
+
+### 2011-07-08 — Epstein: "Donald Is Here!"
+**People:** Jeffrey Epstein, Donald Trump
+**Source:** DOJ EFTA Dataset 9
+**EFTA:** EFTA00431011
+
+Casual real-time notification of Trump's presence — in 2011 context, likely Palm Beach or New York. Part of Epstein's documented pattern of tracking Trump's location and social movements.
+
+---
+
 ### 2011-02 — Epstein-Gates Seattle Invitation Email
 **People:** Jeffrey Epstein, Bill Gates
 **Source:** DOJ Files supplement
@@ -488,11 +627,27 @@ An April 2011 scheduling email from Lesley Groff to Larry Summers describes a Ga
 
 ---
 
+### 2011-05-03 — Gates-Epstein-Staley-Summers Townhouse Meeting
+**People:** Bill Gates, Jeffrey Epstein, Jes Staley, Larry Summers, Boris Nikolic
+**Source:** DOJ Files supplement, NYT
+
+Gates, Epstein, JPMorgan executive Jes Staley, former Treasury Secretary Larry Summers, and Gates advisor Boris Nikolic convened at Epstein's Manhattan townhouse. Within months, Epstein was pitching a multibillion-dollar Donor-Advised Fund through the Gates Foundation that would have generated management fees for Epstein and tax advantages for billionaire donors. The Foundation's CFO sent Epstein structural drafts and the General Counsel emailed about legal frameworks. The fund was never created, reportedly because Melinda Gates blocked it. [DOJ, NYT]
+
+---
+
 ### 2011-04-02 — Epstein "Dog That Hasn't Barked" Email to Maxwell
 **People:** Jeffrey Epstein, Ghislaine Maxwell, Virginia Giuffre (alleged), Donald Trump
 **Source:** CBS News, OSINT Database, Trump-Epstein Connections
 
 Epstein wrote to Maxwell: "I want you to realize that that dog that hasn't barked is trump. [VICTIM] spent hours at my house with him, he has never once been mentioned. police chief. etc. im 75% there." Maxwell replied: "I have been thinking about that." House Oversight released this email on November 12, 2025. House Republicans identified the redacted victim as Virginia Giuffre — which would contradict Giuffre's sworn testimony (November 2016) that she never saw Trump at Epstein's homes. **[DISCREPANCY: Epstein email vs. Giuffre sworn deposition testimony]**
+
+---
+
+### 2011-04-20 — Androcyte LLC Incorporated in Florida
+**People:** James Clement, Jeffrey Epstein, George Church
+**Source:** DOJ Files supplement, CNN
+
+Androcyte LLC was incorporated in Florida on April 20, 2011 (registration number L11000046758) by James Clement as an early-stage biotech focused on supercentenarian genetics and age-related disease research. In October 2014, Epstein and George Church discussed investing in Androcyte through Georgarage LLC; during a conference call Epstein proposed becoming chairman of Androcyte's board, which Clement immediately rejected. In 2017, Clement shuttered Androcyte and moved its assets to BetterHumans, a 501(c)(3) transhumanist biomedical research organization. No evidence exists that Epstein actually funded or invested in either entity.
 
 ---
 
@@ -520,11 +675,77 @@ Island visitor logs confirm Howard Lutnick visited Little St. James with his fam
 
 ---
 
+### 2012-12-28 — AdFin Solutions Co-Investment Signed (Lutnick-Epstein)
+**People:** Howard Lutnick, Jeffrey Epstein
+**Source:** DOJ Files supplement
+**EFTA Doc:** EFTA00289560
+
+Four days after Lutnick's confirmed lunch at Epstein's Little St. James island (December 23), both men signed shareholder agreements to acquire stakes in AdFin Solutions Inc. Epstein signed for Southern Trust Company, Inc.; Lutnick signed for CVAFH I, a Cantor Fitzgerald LLC. Their signatures appear on neighboring pages of DOJ document EFTA00289560. The tightest documented temporal correlation between an Epstein contact event and a co-investment in the entire dataset. [DOJ, CBS]
+
+---
+
+### 2013-03-01 — Gates Flies on Epstein's Private Jet
+**People:** Bill Gates, Jeffrey Epstein
+**Source:** DOJ Files supplement
+
+Gates flew on Epstein's private jet from Teterboro to Palm Beach — the only documented Gates flight on Epstein's aircraft. The same month, Gates met Epstein and International Peace Institute personnel at the home of Norwegian Nobel Committee chair Thorbjorn Jagland in Strasbourg. [DOJ]
+
+---
+
+### 2013-03 — Gates-Epstein-IPI Meeting in Strasbourg
+**People:** Bill Gates, Jeffrey Epstein
+**Source:** DOJ Files supplement
+
+Gates met Epstein and IPI personnel at the home of Norwegian Nobel Committee chair Thorbjorn Jagland in Strasbourg. By October 2013, the Gates Foundation issued its first IPI grant: $2.5 million for polio eradication. Total Gates Foundation grants to IPI eventually reached approximately $8.5 million. IPI had separately received $375,000 from Epstein's foundation, and its president described Epstein as "my best friend." [DOJ]
+
+---
+
+### 2013-04 — BGC Partners Sells eSpeed to NASDAQ ($1.234 Billion)
+**People:** Howard Lutnick, Jeffrey Epstein
+**Source:** DOJ Files supplement, CBS News
+
+BGC Partners sold eSpeed to NASDAQ for $1.234 billion, roughly four months after the Lutnick island visit and AdFin co-investment with Epstein. Part of a broader pattern of Lutnick-Epstein contact coinciding with BGC Partners' most aggressive deal period. [DOJ, CBS]
+
+---
+
+### 2013-06-29 — Ariane de Rothschild Asks Epstein About Ehud Barak
+**People:** Ariane de Rothschild, Jeffrey Epstein, Ehud Barak
+**Source:** DOJ EFTA Dataset 10
+**EFTA:** EFTA01967168
+
+Ariane de Rothschild ("ader") emails Epstein asking about Ehud Barak and expresses intent to "out-jew David" — a reference to David de Rothschild, head of the competing Rothschild & Co branch. Establishes Epstein as a network resource in the inter-branch Rothschild rivalry.
+
+---
+
 ### 2013-08 — Deutsche Bank Accounts Opened
 **People:** Jeffrey Epstein, Darren Indyke, Deutsche Bank
 **Source:** OSINT Database
 
 Deutsche Bank opened 40+ accounts for Epstein starting August 2013, classified as "high-risk" from onboarding. The Butterfly Trust account specifically funded 120+ wire transfers totaling $2.65M to beneficiaries including women with Eastern European surnames for "hotel expenses, tuition, and rent."
+
+---
+
+### 2013-07-04 — Epstein "Biggest Hypocrite" Email About Gates
+**People:** Jeffrey Epstein, Boris Nikolic, Bill Gates
+**Source:** DOJ Files supplement
+
+Epstein emailed Boris Nikolic: "Bill risks going from richest man to biggest hypocrite, melinda a laughing stock." Two weeks later, Epstein drafted emails to himself alleging Gates had affairs and sought antibiotics for an STD — documents confirmed as existing in DOJ files but unverified as to truthfulness. Suggests Epstein was building leverage over Gates. **[UNVERIFIED — draft emails]** [DOJ]
+
+---
+
+### 2013-09-23 — Epstein Orchestrates Barak-Rothschild Breakfast
+**People:** Jeffrey Epstein, Ehud Barak, Ariane de Rothschild
+**Source:** HOUSE_OVERSIGHT_027034 [A2]
+
+On September 16, Epstein emailed Barak: "can you do breakfast with ariane rothscild on morinig of 23. and if you wnat kissinger china guy at brakfast 24." The "kissinger china guy" was Joshua Cooper Ramo, co-CEO of Kissinger Associates. This breakfast initiated the relationship that would produce the $25 million Rothschild contract. One month later, EdR banker Olivier Colom reported: "She talked everyday about you and the advice you gave her last Sunday by the way. And her mum likes you as well" (HOUSE_OVERSIGHT_031106). [A2]
+
+---
+
+### 2013-10 — First Gates Foundation IPI Grant ($2.5 Million)
+**People:** Bill Gates, Jeffrey Epstein
+**Source:** DOJ Files supplement
+
+Gates Foundation issued its first International Peace Institute grant of $2.5 million for polio eradication. IPI had separately received $375,000 from Epstein's foundation, and its president described Epstein as "my best friend." Total Gates Foundation grants to IPI eventually reached approximately $8.5 million. The grant came seven months after the Gates-Epstein-IPI meeting in Strasbourg. [DOJ]
 
 ---
 
@@ -568,11 +789,80 @@ A meeting between Barak and Peter Thiel was arranged by Epstein in June 2014.
 
 ---
 
+### 2014-06-30 — Rothschild DOJ Document Delay Strategy
+**People:** Ariane de Rothschild, Jeffrey Epstein
+**Source:** DOJ EFTA Dataset 10
+**EFTA:** EFTA01918634
+
+Ariane de Rothschild emails Epstein: "I would hope that you guys HAVE NOT given the info today to justice. Many banks with agreement have delayed presenting until July 31." Establishes Epstein as a direct intermediary in managing the Rothschild Group's DOJ exposure timeline under the Swiss Bank Program — not merely a financial services consultant.
+
+---
+
+### 2014-07-03 — Epstein Alarmed by Independent Rothschild DOJ Counsel
+**People:** Ariane de Rothschild, Jeffrey Epstein
+**Source:** DOJ EFTA Dataset 10
+**EFTA:** EFTA01918688
+
+Epstein emails Ariane: "Holy shit! Yves is calling Steptoe? Thoughts?" Ariane responds: "Maybe because I asked him a detailed account of their DOJ meeting — also the mitigation procedure." Epstein is alarmed that Rothschild internal figures are engaging independent DOJ counsel at Steptoe & Johnson — suggesting he expected to remain the primary channel for DOJ matters.
+
+---
+
+### 2014-07-21 — Rothschild "Quid Pro Quo" Email
+**People:** Ariane de Rothschild, Jeffrey Epstein
+**Source:** DOJ EFTA Dataset 10
+**EFTA:** EFTA01916862
+
+Ariane de Rothschild emails Epstein: "I restructure the bank, you restructure my things." One of the most significant lines in the correspondence — explicitly framing the relationship as an exchange: she reorganizes Rothschild bank structure to manage the DOJ inquiry, Epstein manages her personal financial arrangements. The $25M payment 15 months later fits directly within this stated arrangement.
+
+---
+
+### 2014-10-01 — Rothschild Asks Epstein About Prince Andrew
+**People:** Ariane de Rothschild, Jeffrey Epstein, Prince Andrew
+**Source:** DOJ EFTA Dataset 11
+**EFTA:** EFTA02516685
+
+Ariane de Rothschild emails Epstein: "Do you know Prince Andrew?" She reaches out to Epstein specifically to access Prince Andrew, whose documented relationship with Epstein is well-established.
+
+---
+
+### 2014-07 — Georgarage LLC Initiated by Epstein and Church
+**People:** Jeffrey Epstein, George Church, Darren Indyke
+**Source:** DOJ Files supplement, CNN
+
+In July 2014, Epstein emailed Harvard geneticist George Church: "I have a great idea. Let's talk today if possible." Church responded with a 10-step, $10 million investment proposal; Epstein agreed to the first tranche and instructed Church to name the company. Church proposed three names; Epstein selected "Georgarage." Epstein then instructed lawyer Darren Indyke to file for incorporation in Delaware. By October 2014, they discussed investing in Androcyte through Georgarage. A $300 check signed by Indyke to the Delaware Division of Corporations was found in DOJ EFTA files, suggesting Delaware incorporation occurred in 2016 (either formation or annual tax payment). Georgarage is currently inactive in Delaware due to failure to pay taxes.
+
+---
+
 ### 2014-11 — Reid Hoffman and Joi Ito Visit Island
 **People:** Reid Hoffman, Joi Ito, Jeffrey Epstein
 **Source:** DOJ Files supplement
 
 Confirmed visit to Little St. James by Reid Hoffman and Joi Ito in November 2014, documented in scheduling records.
+
+---
+
+### 2014-11 — Gates $2 Million MIT Media Lab Donation Wired
+**People:** Bill Gates, Jeffrey Epstein, Boris Nikolic
+**Source:** DOJ Files supplement
+
+In October 2014, Gates Ventures CEO Larry Cohen emailed Epstein about the MIT donation status: "let them know we are prepping letter, etc and wire will go 3rd of Nov." Epstein followed up: "did mit get donation." MIT internal communications describe it as a "$2M gift from Bill Gates directed by Jeffrey Epstein." Epstein functioned as the grant's architect and project manager, coordinating between Gates's office and MIT. [DOJ]
+
+---
+
+### 2014-12-22 — Epstein Discusses Bank Leumi $400M DOJ Settlement
+**People:** Jeffrey Epstein, Kathy Ruemmler, Ariane de Rothschild
+**Source:** EFTA02597597, EFTA02599731 [A1]
+**EFTA Doc:** EFTA02597597, EFTA02599731
+
+Epstein discussed the Bank Leumi $400 million DOJ settlement (for aiding US taxpayers in hiding offshore assets) with Ruemmler and Rothschild contacts. Bank Leumi's settlement was announced December 22, 2014, the same Israeli bank to which Epstein would route millions through three separate branches. [A1]
+
+---
+
+### 2015-01-08 — Kathy Ruemmler Receives CIA Agency Medal
+**People:** Kathy Ruemmler, CIA Director John Brennan, Jeffrey Epstein
+**Source:** DOJ files, investigative reporting [B]
+
+Ruemmler received the CIA's Agency Medal from Director John Brennan — an award for non-CIA civilians who make meaningful contributions to enabling CIA operations. Never publicly disclosed; surfaced through the Epstein files when Ruemmler emailed Epstein about receiving it hours after the ceremony. As White House Counsel, Ruemmler had fought to block CIA Benghazi disclosures from reaching Congress. [B]
 
 ---
 
@@ -584,6 +874,32 @@ $30 million paid by Black to Epstein in 2015. Continued the pattern from 2013–
 
 ---
 
+### 2015-03-16 — $1 Million Wire from Southern Trust to Bank Leumi for "Reporty Investment"
+**People:** Jeffrey Epstein, Darren Indyke, Ehud Barak
+**Source:** EFTA01404004, EFTA01360536, EFTA01360528 [A1]
+**EFTA Doc:** EFTA01404004
+
+Three copies of a Southern Trust wire memorandum show $1,000,000 wired from Southern Trust account 9244 to Bank Leumi LeIsrael, Branch 771, Shaul Hamelech Boulevard, SWIFT code LUMIILITTLV. Beneficiary: ERGO Ltd. Reference line: "Reporty Investment." Authorized by Darren K. Indyke. Reporty is Carbyne — the Epstein-Barak surveillance company later acquired by Axon for $625 million. [A1]
+
+---
+
+### 2015-03-19 — IPI "Preparing for Pandemics" Email Sent to Rød-Larsen, Forwarded to Epstein
+**People:** Walter Kemp, Terje Rød-Larsen, Jeffrey Epstein
+**Source:** DOJ
+
+Walter Kemp (IPI Director for Europe) emailed Terje Rød-Larsen a draft agenda titled "Preparing for Pandemics" proposing co-branding with WHO and ICRC. Forwarded to Epstein the next day. Kemp's closing: "I hope we can pull this off." Routine post-Ebola policy coordination; conspiratorial framing as COVID foreknowledge is not supported by evidence. [DOJ]
+
+---
+
+### 2015-08 — Epstein-Ruspoli Email Blowup and Grooming Evidence
+**People:** Jeffrey Epstein, Mélusine Ruspoli, Ted Waitt
+**Source:** DOJ EFTA Datasets 9, 10, 11
+**EFTA:** EFTA01744278
+
+An August 2015 email cluster between Epstein and a young woman (probable identity: Mélusine Ruspoli, Italian-French princess, b. 1994) reveals an argument over her sleeping in the same bed as "Tancredi" while a house guest. Epstein is enraged. The correspondent writes: "I could have said the truth about you to the people who paid my school, batman and my family but I didn't." An AUP application essay in the EFTA files — apparently co-authored by Epstein — closes with: "I also will learn to give pleasure to men so I am able to support my studies." Establishes financial dependency grooming of a young woman from a cash-poor aristocratic family. **[UNVERIFIED — probable identity based on biographical matching]**
+
+---
+
 ### 2015-10-05 — $25 Million Rothschild Contract Signed
 **People:** Jeffrey Epstein, Ariane de Rothschild, Southern Trust Company
 **Source:** OSINT Database, Beyond Existing Research
@@ -592,11 +908,37 @@ Epstein, through Southern Trust, signed a $25 million contract with Edmond de Ro
 
 ---
 
-### 2015-12-17 and 2015-12-21 — Rothschild Wires Hit Epstein Accounts
-**People:** Jeffrey Epstein, Rothschild Group
-**Source:** OSINT Database
+### 2015-10-15 — "Kathy Got Stuck Working on Rothschild Stuff"
+**People:** Kathy Ruemmler, Jeffrey Epstein, Ariane de Rothschild
+**Source:** EFTA02715306 [A2]
+**EFTA Doc:** EFTA02715306
 
-Wires totaling $25 million hit Epstein's accounts on December 17 and 21, 2015 — concurrent with the Rothschild Group completing its DOJ settlement.
+Epstein staffer noted: "Kathy got stuck working on Rothschild stuff... she is in midtown and doesn't think she can make it." Two months later, EdR received its $45.2 million NPA with the DOJ — triggering Epstein's $25 million bounty. [A2]
+
+---
+
+### 2015-11 — Lutnick Invites Epstein to Clinton Fundraiser
+**People:** Howard Lutnick, Jeffrey Epstein, Hillary Clinton
+**Source:** DOJ Files supplement
+
+Lutnick invited Epstein to "a very intimate fundraising event with Hillary Clinton" hosted by Cantor Fitzgerald. This demonstrates the Lutnick-Epstein relationship extended to political access well into the post-conviction period, ten years after Lutnick's claimed 2005 cutoff. [DOJ]
+
+---
+
+### 2015-12-15 — Rothschild-Epstein Wire Structuring Discussion
+**People:** Ariane de Rothschild, Jeffrey Epstein
+**Source:** DOJ EFTA Dataset 11
+**EFTA:** EFTA02478207
+
+Immediately before the $25M wires, Ariane writes she would "prefer that all monies are transferred... before [benj] meeting" (benj = Benjamin de Rothschild, her husband and then-chairman). Epstein responds: "I'm wondering whether we should separate the payments from Lugano and Geneva and can we deduct the penalty as a business expense to maintain reputation or some classification." This is direct pre-payment financial structuring advice — not mere receipt of a consulting fee.
+
+---
+
+### 2015-12-17 and 2015-12-21 — Rothschild Wires Hit Epstein Accounts
+**People:** Jeffrey Epstein, Ariane de Rothschild, Rothschild Group
+**Source:** OSINT Database, DOJ EFTA Datasets
+
+Wires totaling $25 million hit Epstein's accounts on December 17 and 21, 2015 — concurrent with the Rothschild Group completing its DOJ settlement. The December 15 email exchange between Ariane and Epstein discussing wire separation and tax treatment establishes these were coordinated payments, not routine consulting disbursements.
 
 ---
 
@@ -624,6 +966,31 @@ A January 2016 email chain shows Rafi Shlomo (director of protective service at 
 
 ---
 
+### 2016-02 — Epstein to Peter Thiel: "I Represent the Rothschilds"
+**People:** Jeffrey Epstein, Peter Thiel, Ariane de Rothschild
+**Source:** DOJ Files supplement
+
+Epstein emailed Peter Thiel: "As you probably know, I represent the Rothschilds." He described a bank with "$160 billion under management" and "the world's best client list" but "prehistoric products" — referring to Edmond de Rothschild Holding S.A. two months after receiving $25 million from Ariane de Rothschild. [DOJ]
+
+---
+
+### 2016-02 — Eva Dubin Introduces Honeycomb Asset Management to Epstein
+**People:** Eva Andersson Dubin, Jeffrey Epstein, Glenn Dubin
+**Source:** DOJ Files supplement
+
+David Fiszel (Honeycomb Asset Management) emailed Epstein: "Eva Dubin gave me your email address." Epstein became a "day-one investor and co-investment partner" in Honeycomb, which grew to approximately $1.5 billion AUM. One of the latest documented instances of Epstein's financial network operating through the Dubin family connection, eight years after his conviction. [DOJ]
+
+---
+
+### 2016-03-15 — Rothschild Baron Fraud Indictment Forwarded to Epstein
+**People:** Ariane de Rothschild, Jeffrey Epstein
+**Source:** DOJ EFTA Dataset 11
+**EFTA:** EFTA02365448
+
+Ariane forwards Epstein a news story about a Rothschild baron being indicted for fraud. Epstein continues as her financial/legal news confidant post-$25M payment.
+
+---
+
 ### 2016-04 — "Katie Johnson" Lawsuit Filed and Forwarded to Barrack
 **People:** Donald Trump, Jeffrey Epstein, Tom Barrack, "Katie Johnson" (pseudonym)
 **Source:** CBS News, Trump-Epstein Connections
@@ -640,11 +1007,47 @@ Maxwell's confidential April 22, 2016 videotaped deposition was taken in the Giu
 
 ---
 
+### 2016-05-02 — 1MDB Crisis: Ariane Turns to Epstein
+**People:** Ariane de Rothschild, Jeffrey Epstein
+**Source:** EFTA00828304, EFTA00699353 [A2]
+**EFTA Doc:** EFTA00828304, EFTA00699353
+
+Ariane to Epstein: "Sorry had my phone off to take a break. Was quite depressed. I'm taking a lot of heat for malaysia and rumored the cousins are pushing the subject in the press." Epstein: "crisis mgmt is a skill set. i know how debiltating it can be. lets choose a team and deal with it." Approximately $472.5 million of the $4.5 billion looted from Malaysia's 1MDB sovereign wealth fund had flowed through the Edmond de Rothschild bank. [A2]
+
+---
+
 ### 2016-05-03 — Epstein Alerts Ruemmler About Brunel's Cooperation Plans
 **People:** Jeffrey Epstein, Jean-Luc Brunel, Kathy Ruemmler
 **Source:** DOJ Files supplement
 
 Epstein learned of Brunel's planned cooperation with federal prosecutors and alerted Kathy Ruemmler, claiming someone demanded "$3 million so that Jean Luc would not go in." Brunel went silent thereafter.
+
+---
+
+### 2016-06-29 — Police Raid on Edmond de Rothschild Bank
+**People:** Ariane de Rothschild, Jeffrey Epstein
+**Source:** DOJ EFTA Dataset 11
+**EFTA:** EFTA02459026
+
+Ariane messages Epstein during a live law enforcement raid: "Shit is hitting the fan. Police throughout the bank — full bank search with people locked out and not allowed to get out." Her first call during active law enforcement action is to Epstein — establishing him as her crisis contact during the most serious regulatory event in the correspondence.
+
+---
+
+### 2016-07-20 — Ariane Asks Epstein: "What Do DOJ Guys Prefer?"
+**People:** Ariane de Rothschild, Jeffrey Epstein
+**Source:** EFTA02456426 [A2]
+**EFTA Doc:** EFTA02456426
+
+Ariane to Epstein: "If I don't go, I die. What do DOJ guys prefer?" Epstein responded: "you might want be sensitive to the perception of you leaving, for Africa, when the DOJ guys think this is the beginning." Ariane asked Epstein what the Department of Justice would prefer she do; Epstein answered as if he knew. [A2]
+
+---
+
+### 2016-07-31 — "Batman" Monthly Payments to Young Woman
+**People:** Jeffrey Epstein, Ted Waitt, Mélusine Ruspoli
+**Source:** DOJ EFTA Dataset 9
+**EFTA:** EFTA00822913
+
+Epstein receives email in which the sender describes telling him "how much Batman gave me per month." Epstein responds that Batman "wants to keep you short so that you can never be independent." Establishes Ted Waitt (Batman) in the role of financial provider to a young woman in Epstein's orbit, with Epstein managing the relationship and counseling against financial independence — consistent with documented patterns of creating financial dependency.
 
 ---
 
@@ -664,11 +1067,38 @@ Epstein's calendar shows a lunch at his house with Barrack, Barak, and Russian U
 
 ---
 
+### 2016-09-02 — Ruemmler Forwards EdR Raid Headline to Epstein
+**People:** Kathy Ruemmler, Jeffrey Epstein
+**Source:** EFTA02452636 [A2]
+**EFTA Doc:** EFTA02452636
+
+Ruemmler forwarded Epstein a headline: "90 Federal Police Officers Raided Edmond de Rothschild Bank!" Epstein replied with two words: "1 Toobin, 2 griffin." Ruemmler: "I am proud to know you, and very proud you are my friend." [A2]
+
+---
+
+### 2016-10-04 — "Saudi Trump Rothschild" Agenda Item
+**People:** Jeffrey Epstein
+**Source:** EFTA02449600 [A2]
+**EFTA Doc:** EFTA02449600
+
+Single-line agenda item: "saudi trump rothschild." Three geopolitical power centers. One month before the election. One convicted sex offender connecting them all. [A2]
+
+---
+
 ### 2016-11-04 — Katie Johnson Lawsuit Dismissed
 **People:** Donald Trump, Jeffrey Epstein, "Katie Johnson"
 **Source:** Trump-Epstein Connections
 
 The third "Katie Johnson" filing was voluntarily dismissed on November 4, 2016 — six days before the election. Lisa Bloom stated the plaintiff received "a number of threats" and was "too afraid." Attorney Goldman said "Johnson's car and cellphone were stolen."
+
+---
+
+### 2016-11-24 — Epstein Tells Chopra "Donald Is Here in Palm Beach"
+**People:** Jeffrey Epstein, Deepak Chopra, Donald Trump
+**Source:** DOJ EFTA Dataset 9
+**EFTA:** EFTA01060982
+
+Three weeks after Trump's election victory, Epstein casually informs Deepak Chopra that Trump is in Palm Beach. Chopra responds: "Can you get him in trouble please" (EFTA01060990). Places Epstein as someone with real-time awareness of Trump's post-election movements who considered it natural social information to share.
 
 ---
 
@@ -688,11 +1118,116 @@ The 86-page SDNY memo "Investigation into Potential Co-Conspirators of Jeffrey E
 
 ---
 
+### 2017-01-29 — Kathy Ruemmler Flies to Little St. James Island
+**People:** Kathy Ruemmler, Jeffrey Epstein
+**Source:** jmail flight record [A2]
+
+Nine days after Obama left office, Ruemmler flew to Epstein's Little St. James Island from St. Lucia. [A2]
+
+---
+
+### 2017-02 — Collardi Meets Epstein at Julius Baer to Discuss EdR Acquisition
+**People:** Boris Collardi, Jeffrey Epstein, Ehud Barak, Ariane de Rothschild
+**Source:** Swiss financial press [B]
+
+Boris Collardi, then-CEO of Julius Baer, met Epstein at Julius Baer's Zurich headquarters to discuss acquiring the Edmond de Rothschild bank. Barak served as a Julius Baer advisor. Over several months, Collardi and Epstein exchanged confidential bank financial data. The deal collapsed. Collardi resigned November 27, 2017. [B]
+
+---
+
+### 2017-02 — EdR Infrastructure Pitch: "Donald Loves the Rothschild Name"
+**People:** Jeffrey Epstein, Johnny el Hachem, Ariane de Rothschild, Donald Trump
+**Source:** HOUSE_OVERSIGHT_026069 [A2]
+
+Johnny el Hachem from EdR Private Equity in Geneva pitched Epstein on two infrastructure platforms: TIIC (EUR135M equity) and BRIDGE (GBP 1B debt). Epstein's response invoked the incoming president: "donald loves the rothschild name." [A2]
+
+---
+
+### 2017-03-06 to 2017-03-16 — Nili Priell Barak Email Chain and $40K Wire to Achrayut Leumit
+**People:** Nili Priell Barak, Jeffrey Epstein, Ehud Barak, Richard Kahn
+**Source:** EFTA02350723, EFTA02657336, EFTA02657848, EFTA02386927, EFTA01297175 [A1]
+**EFTA Doc:** EFTA02350723, EFTA02657336, EFTA02657848, EFTA02386927, EFTA01297175
+
+March 6: Nili emails Epstein with transfer info for Achrayut Leumit, signed "EB." March 12: Epstein replies "Name on the account? I was going to wait until I saw Ehud in Paris." Nili sends full Bank Leumi Branch 666 banking details. March 12-13: Epstein forwards to Kahn; Kahn: "Please advise on amount to send." March 16: HBRK Associates wires $40,000. Deutsche Bank compliance flagged the wire (Case 141374) but closed it after Kahn said "Friend." [A1]
+
+---
+
+### 2017-03-20 — DNA Testing Kits Shipped to Ariane de Rothschild in Geneva
+**People:** Jeffrey Epstein, Ariane de Rothschild, Lesley Groff
+**Source:** EFTA02657180 [B]
+**EFTA Doc:** EFTA02657180
+
+Four 23andMe DNA testing kits arrived at Ariane's home in Geneva. Part of a systematic 30-kit VIP program ordered by Lesley Groff ($199 each, $6,000+ total). Named recipients: Ariane de Rothschild, Sultan Ahmed bin Sulayem (Chairman of Dubai World/DP World), Woody Allen, Noam Chomsky. DropSite News separately reported Epstein recruited NSA codebreakers for a genome "Manhattan Project" connected to Russia's Skolkovo innovation hub and Bill Gates/MIT. In 2025, 23andMe filed for bankruptcy; fate of collected VIP DNA data unknown. [B]
+
+---
+
 ### 2017 — Black Final Payment to Epstein ($8 Million)
 **People:** Leon Black, Jeffrey Epstein
 **Source:** DOJ Files supplement
 
 A final $8 million payment was made by Black to Epstein in April 2017. Black also made $22.5 million and $8 million loans to Epstein in early 2017 via BV70 LLC → Plan D LLC; Epstein repaid only $10 million before his death.
+
+---
+
+### 2017-04-05 — Rothschild Requests Secure Communications Channel
+**People:** Ariane de Rothschild, Jeffrey Epstein
+**Source:** DOJ EFTA Dataset 11
+**EFTA:** EFTA02341138
+
+Ariane writes to Epstein: "Please avoid these emails as all my assistants read them." This suggests heightened operational security concerns and that more sensitive communications were being routed through a different channel not captured in the DOJ EFTA release.
+
+---
+
+### 2017-04-20 — Woody Allen: "Swiss Bank Account" Comment
+**People:** Woody Allen, Jeffrey Epstein
+**Source:** DOJ EFTA Dataset 9
+**EFTA:** EFTA01209136
+
+Woody Allen writes to Epstein: "I hope it wasn't my comment about the Swiss Bank account that made you sick." The casual tone suggests ongoing social contact and that "Swiss bank account" was shared sensitive knowledge — occurring in the same period as the Ariane de Rothschild correspondence and shortly after the $25M Rothschild wire. The same document thread contains the MIT "secret society" discussion involving Joi Ito, Ed Boyden, Geoff Ling, and Bill Helman.
+
+---
+
+### 2017-06-03 — Epstein Asks Ribis About Trump "Betrayal"
+**People:** Jeffrey Epstein, Nicholas Ribis, Donald Trump
+**Source:** DOJ EFTA Dataset 11
+**EFTA:** EFTA02647764
+
+Epstein emails Nicholas Ribis (former CEO of Trump Hotels and Casino Resorts): "Donald has recently said that I betrayed him 15 years ago. He said there was a lawsuit that he asked me to get involved in and help, and I refused. Do you have any insight?" Ribis responds: "[Trump] said that because he wants to discredit or downgrade you with the person he said it to" (EFTA02647612). Confirms a specific ~2002 falling-out, shows Epstein actively managing his relationship with Trump through intermediaries.
+
+---
+
+### 2017-06-07 — Rothschild and Epstein Hosted by Castro Family
+**People:** Ariane de Rothschild, Jeffrey Epstein
+**Source:** DOJ EFTA Dataset 11
+**EFTA:** EFTA02648079
+
+Ariane and Epstein scheduled to be hosted by the Castro family. Context unclear but suggests continued high-level social/political network access through 2017.
+
+---
+
+### 2017-11-29 — Epstein Proposes Rothschild Bank Merger or Acquisition
+**People:** Ariane de Rothschild, Jeffrey Epstein
+**Source:** DOJ EFTA Dataset 11
+**EFTA:** EFTA02561152
+
+Epstein proposes either a merger between Ariane's entity and "JB" or acquisition by "CS" (likely Credit Suisse). This establishes Epstein was involved in high-level strategic discussions about the future of Edmond de Rothschild Group two years after the $25M payment.
+
+---
+
+### 2017-12-03 — Epstein: "Cleaning the Bank Was Brilliant"
+**People:** Ariane de Rothschild, Jeffrey Epstein
+**Source:** DOJ EFTA Dataset 11
+**EFTA:** EFTA02561008
+
+Epstein comments that "cleaning the bank was brilliant." Combined with the June 2016 police raid email, the DOJ delay strategy, and the "I restructure the bank" July 2014 email, this refers to account/documentation restructuring in anticipation of or response to law enforcement. He also notes "Cynthia and Emmanuelle are not capable of helping her" — referring to unidentified figures.
+
+---
+
+### 2017-08-07 — Epstein to Peter Thiel: "Trump Is Vindictive"
+**People:** Jeffrey Epstein, Peter Thiel, Donald Trump
+**Source:** DOJ EFTA Dataset 11
+**EFTA:** EFTA02640733
+
+Epstein writes to Peter Thiel — a Trump donor and supporter: "Trump is vindictive, especially when it is pointed out that he is not the smartest person in the room." The first documented instance of Epstein making a direct psychological assessment of Trump to a third party. Coming from someone who knew Trump personally for decades, the observation carries particular weight.
 
 ---
 
@@ -702,6 +1237,15 @@ A final $8 million payment was made by Black to Epstein in April 2017. Black als
 **EFTA:** EFTA02637845
 
 On August 20, 2017, Epstein texted Wolff: "Tillerson probably leaving, Ivanka wants Nikki Haley" — passing White House political intelligence to a journalist. Rex Tillerson was indeed fired in March 2018. This documents Epstein's access to White House personnel decisions before they were publicly known.
+
+---
+
+### 2017-11-29 — Dinner with Lajčák, Woody Allen, Soon-Yi, and Deepak Chopra
+**People:** Jeffrey Epstein, Miroslav Lajčák, Woody Allen, Soon-Yi Previn, Deepak Chopra
+**Source:** epstein_themes_synthesis.md
+**EFTA Doc:** EFTA02231879
+
+At 1:21 PM on November 29, 2017, Epstein's assistant emailed Deepak Chopra: "I know you are confirmed for 7pm tonight…we are hoping you will be pleased to join Jeffrey, Woody Allen and his wife, Soon Yi, as well as Miroslav Lajcak, MFA Slovakia Foreign Minister, for dinner!" At 1:42 PM, Chopra replied: "Ok. Looking forward to it." Hours later, Chopra wrote back saying he was delayed in Washington, D.C. with Congressional meetings and could not attend. The dinner appears to have proceeded without Chopra. **Important note:** The email identifies Lajčák as "MFA Slovakia Foreign Minister," but on that date he was actually serving as President of the 72nd session of the UN General Assembly (September 2017–September 2018). Lajčák resigned from his Slovak government advisory role after his name surfaced in the EFTA files.
 
 ---
 
@@ -760,6 +1304,15 @@ In a December 2018 exchange, Barak wrote: "you should make clear that i dont wor
 **Source:** OSINT Database
 
 On June 15, 2007 (noted in source; possible date discrepancy — this may be a 2007 event): Epstein transferred $7.4 million from BNY to Maxwell's JPMorgan account; Maxwell moved it the same day to "Air Ghislaine, Inc."; three days later $7.3 million went to Sikorsky Aircraft for a helicopter. **[DISCREPANCY: source lists this as June 15, 2007 — placed here for context but may belong in Era 3]**
+
+---
+
+### 2018-07-17 — Epstein to Bannon: "Heart Attack" Email
+**People:** Jeffrey Epstein, Steve Bannon, Donald Trump
+**Source:** DOJ EFTA Dataset 10
+**EFTA:** EFTA01615208
+
+Epstein emails Steve Bannon: "There's an argument to be made that it takes you out of the blast radius. I asked today, how many people around Donald can have a heart attack the same week and not look suspicious." Whether metaphorical (referring to political careers dying) or more literal, it reflects Epstein's dark calculus about Trump's orbit and a discussion about distancing from Trump's inner circle.
 
 ---
 
@@ -830,11 +1383,37 @@ Bannon iMessage to Epstein on May 26, 2019: "Macron down, Boris up, Merkel down.
 
 ---
 
+### 2019-01 — Epstein to Ruemmler: "I Know How Dirty Donald Is"
+**People:** Jeffrey Epstein, Kathy Ruemmler, Donald Trump, Michael Cohen
+**Source:** DOJ EFTA Dataset 11
+**EFTA:** EFTA02606388
+
+Epstein writes to Kathy Ruemmler (former Obama White House Counsel): "I know how dirty Donald is. My guess is that non-lawyers NY biz people have no idea what it means to have your fixer flip." Written in the context of Michael Cohen's cooperation with prosecutors. Epstein explicitly claims specific knowledge of Trump's wrongdoing. In a separate January 2019 email, Epstein outlines to Ruemmler a theory of how Trump could be brought down (EFTA02625442) — a former White House Counsel receiving a takedown strategy from someone claiming intimate knowledge of the President's financial misconduct.
+
+---
+
 ### 2019-01-31 — Epstein "Knew About the Girls" Email to Wolff
 **People:** Jeffrey Epstein, Michael Wolff, Donald Trump, Ghislaine Maxwell
 **Source:** CBS News, OSINT Database, Trump-Epstein Connections
 
 Epstein wrote to journalist Michael Wolff: "[Victim] mara lago. [identifier]. Trump said he asked me to resign, never a member ever. Of course he knew about the girls as he asked ghislaine to stop." This is the most widely covered email in the releases, generating massive press attention. Released by House Oversight Democrats on November 12, 2025.
+
+---
+
+### 2019-02-01 — Ariane Plans Family Visit to Epstein with Daughters
+**People:** Ariane de Rothschild, Jeffrey Epstein
+**Source:** v6.0 neo4j mining discovery [A2]
+
+Ariane to Epstein: "I have had to cancel my trip to NY but will come 3rd week of feb with Eve and Olivia." Eve and Olivia are her daughters. Five months before Epstein's arrest, Ariane was planning to bring her children to visit him in New York. A January 21, 2019 email: Ariane wished Epstein a "Belated happy birthday." Zero distancing. Active forward planning with family involvement. [A2]
+
+---
+
+### 2019-03 — Deutsche Bank Reference Letter to Bank Leumi After Terminating Epstein
+**People:** Stewart Oldfield, Darren Indyke, Jeffrey Epstein
+**Source:** EFTA01416824, EFTA01426608, EFTA01426547 [A1]
+**EFTA Doc:** EFTA01416824
+
+Stewart Oldfield wrote a reference letter on Deutsche Bank letterhead to Bank Leumi Le Israel Ltd., Pinkas 48, Tel-Aviv, vouching for Southern Trust Company as a client in good standing. This was three months after Deutsche Bank had decided to terminate Epstein as a client. Indyke had requested: "Great if you can provide me with that letter today addressed to Bank Leumi" (EFTA01426547). [A1]
 
 ---
 
@@ -990,11 +1569,12 @@ Crime scene photographs released in EFTA files document multiple anomalies: no e
 
 ---
 
-### 2019-08-19 — "Investigation into the Murder of Jeffrey Epstein" DOJ Email
+### 2020-06-11 — AUSA Email Refers to "Investigation into the Murder of Jeffrey Epstein"
 **People:** AUSA (EDNY), Jeffrey Epstein
 **Source:** OSINT Database
 
-A 2020 DOJ email from an AUSA in the Eastern District of New York referred to an "investigation into the murder of Jeffrey Epstein" — notable given the official suicide ruling.
+EFTA document 00023753 contains a June 11, 2020 email from an individual identifying themselves as an AUSA in the Eastern District of New York. The email reads: "I'm an AUSA in EDNY and am working on an investigation into the death of an inmate at the Brooklyn MDC. The [Office of the Chief Medical Examiner] told me that it signed a confidentiality agreement in connection with the investigation into the murder of Jeffrey Epstein. We were hoping to extend a similar agreement." The use of "murder" rather than "suicide" is notable — this was 10 months after Epstein's death was officially ruled a suicide on August 16, 2019. The email also reveals the OCME had signed a confidentiality agreement/NDA related to the investigation. First publicly reported around February 22–23, 2026.
+**EFTA Doc:** EFTA00023753
 
 ---
 
@@ -1011,6 +1591,14 @@ The 86-page SDNY memo was sent to U.S. Attorney Berman on December 19, 2019. Con
 **Source:** CBS News, Trump-Epstein Connections
 
 Reiter told the FBI in an October 2019 interview about Trump's 2006 phone call: "Thank goodness you're stopping him, everyone has known he's been doing this." And Trump's characterization of Maxwell as Epstein's "operative" and "evil."
+
+---
+
+### 2019-11 — Anonymous Zorro Ranch Body Burial Allegation Sent to FBI
+**People:** Jeffrey Epstein, Ghislaine Maxwell (referenced)
+**Source:** DOJ Files supplement
+
+In November 2019 — several months after Epstein's August 10, 2019 death — an anonymous email was sent to Eddy Aragon, a conservative talk radio host and former Albuquerque mayoral candidate. The sender claimed to be a former Zorro Ranch staff member and alleged that "two foreign girls were buried on orders of Jeffrey and Madam G" (presumably Ghislaine Maxwell), claiming "both died by strangulation during rough, fetish sex." The email also claimed to possess video footage and requested 1 bitcoin in exchange for a USB drive with seven alleged videos. Aragon never paid and forwarded the email to the FBI; a 2021 FBI report documented his visit. The allegation became public in early February 2026 as part of EFTA document releases, prompting NM Land Commissioner Stephanie Garcia Richard to urge investigation and NM Attorney General Raúl Torrez to reopen the criminal investigation into Zorro Ranch. The allegation is **unverified**.
 
 ---
 
@@ -1059,6 +1647,14 @@ Brunel was found hanged in a Paris prison on February 19, 2022, while awaiting t
 **Source:** Multiple
 
 Maxwell was sentenced to 20 years in federal prison on June 28, 2022, by Judge Alison Nathan.
+
+---
+
+### 2023-01 — Leon Black Pays $62.5 Million for USVI Criminal Immunity
+**People:** Leon Black, Jeffrey Epstein
+**Source:** DOJ Files supplement, CBS News
+
+Black paid $62.5 million to the U.S. Virgin Islands for criminal immunity explicitly covering himself, his attorneys, agents, and private entities. The settlement acknowledged that "Jeffrey Epstein used the money Black paid him to partially fund his operations in the Virgin Islands." This was the most expensive individual immunity settlement in the Epstein case. [DOJ, CBS]
 
 ---
 
@@ -1125,6 +1721,14 @@ The FBI destroyed its master copy of the MCC surveillance video (evidence item 1
 **Source:** Multiple
 
 (Full entry above — listed here for correct era placement.) Giuffre died by suicide on April 25, 2025, at age 41, in Western Australia.
+
+---
+
+### 2025-05 — Barak Emails Leaked; EdR Convicted of Money Laundering
+**People:** Ehud Barak, Jeffrey Epstein, Ariane de Rothschild
+**Source:** Leaked correspondence; Luxembourg court ruling [A2/A1]
+
+Hackers leaked Barak's email correspondence with Epstein showing Epstein brokering: an Israel-Mongolia security agreement, an Israel-Russia backchannel during the Syrian civil war, and a mass surveillance proposal for Ivory Coast. Separately, Edmond de Rothschild Europe became the first banking institution convicted of money laundering in Luxembourg in connection with the 1MDB scandal. [A2/A1]
 
 ---
 
@@ -1237,6 +1841,14 @@ In the Oval Office (October 2025), asked about a possible Maxwell pardon: "I hav
 **Source:** Trump-Epstein Connections
 
 "Nobody's Girl" published October 21, 2025. Describes meeting Trump at Mar-a-Lago with no allegations of wrongdoing: "Trump couldn't have been friendlier, telling me it was fantastic that I was there. 'Do you like kids?' he asked."
+
+---
+
+### 2025-11 — Axon Acquires Carbyne for $625 Million; Drop Site News Reveals AMAN Officer
+**People:** Ehud Barak, Jeffrey Epstein, Yoni Koren
+**Source:** Axon acquisition filing [A1]; Drop Site News [B]
+
+Axon — provider of body cameras and technology to 18,000+ US law enforcement agencies — acquired Carbyne for $625 million. Epstein-funded, Israeli intelligence-developed surveillance technology now embedded in American policing infrastructure. The pipeline: 911 call → dispatch → body cameras → evidence management → prosecution. Seeded with a documented $1 million wire from Epstein's Southern Trust to Bank Leumi, reference: "Reporty Investment." Separately, Drop Site News revealed that Yoni Koren — a senior AMAN officer — stayed at Epstein's Manhattan apartment three times (2013–2015). [A1/B]
 
 ---
 
@@ -1379,6 +1991,14 @@ Bondi's 5+ hour hearing before the House Judiciary and Oversight Committees. Rep
 
 ---
 
+### 2026-02-12 — Kathy Ruemmler Resigns from Goldman Sachs
+**People:** Kathy Ruemmler
+**Source:** CNBC [B]
+
+Ruemmler resigned from Goldman Sachs, where she had been General Counsel. The departure was linked to the release of Epstein emails about Rothschild bank matters. [B]
+
+---
+
 ### 2026-02-13 — Ehud Barak Publicly Apologizes
 **People:** Ehud Barak
 **Source:** DOJ Files supplement
@@ -1435,11 +2055,19 @@ Mandelson was arrested on February 23, 2026, accused of passing market-sensitive
 
 ---
 
-### 2026-02-24 — NPR Investigation Published (53 Missing Pages)
-**People:** Stephen Fowler (NPR), DOJ, FBI, unnamed Trump accuser
-**Source:** OSINT Database, Trump-Epstein Connections
+### 2026-02-09 — Khanna and Massie Review Unredacted Files at DOJ
+**People:** Rep. Ro Khanna, Rep. Thomas Massie, Leslie Wexner, Sultan Ahmed bin Sulayem
+**Source:** CBS News, DOJ
 
-NPR's investigation published February 24, 2026 by Stephen Fowler found 53+ pages of FBI interview materials related to a Trump accuser (from ~1983 allegations) withheld or removed from the public database. NPR identified the gaps through systematic serial number analysis, cross-referencing against FBI case records, emails, and Maxwell case discovery logs. Of 15 documents in a Maxwell discovery log for this accuser, only 7 are publicly available.
+Reps. Ro Khanna and Thomas Massie, co-sponsors of EFTA, reviewed unredacted files at DOJ. Khanna subsequently read six improperly redacted names on the House floor: Salvatore Nuara, Zurab Mikeladze, Leonic Leonov, Nicola Caputo, Sultan Ahmed bin Sulayem, and Leslie Wexner. Wexner was labeled by FBI as a "co-conspirator" in an August 15, 2019 Criminal Investigative Division document. [CBS]
+
+---
+
+### 2026-02-24 — NPR/CNN Confirm 90+ FBI Interview Records Missing from EFTA Database
+**People:** Stephen Fowler (NPR), DOJ, FBI, unnamed Trump accuser, AG Pam Bondi
+**Source:** NPR, CNN
+
+NPR's Stephen Fowler identified 53 pages of missing FBI interviews related to a Trump accuser from ~1983. Of 15 documents listed in Maxwell discovery for this accuser, only 7 are public. CNN independently confirmed 90+ of approximately 325 FBI witness interview records (over 25%) are missing from the DOJ website. Community researcher separately identified 151 unreleased FD-302 documents from case 31E-NY-3027571/50D-NY-3027571 via serial number cross-referencing of EFTA01684300.pdf. Case50d.com now catalogs 617 FBI documents, 88 investigative stories, and 93 identified victims. Rep. Garcia: DOJ "appears to have illegally withheld FBI interviews." [NPR, CNN]
 
 ---
 
@@ -1456,6 +2084,22 @@ Jagland, former Norwegian PM and Council of Europe Secretary General, was charge
 **Source:** OSINT Database, Beyond Existing Research
 
 The DOJ removed Datasets 9–11 from its public website in February 2026. Community researchers scrambled to preserve the 218 GB of data; the GitHub repository yung-megafone/Epstein-Files (418 stars) maintains magnet links, SHA256 hashes, and mirrors for all 12 datasets. The Democracy Defenders Fund filed an OIG complaint.
+
+---
+
+### 2026-02-25 — Democrats Demand Special Counsel Investigation of Bondi for Perjury
+**People:** AG Pam Bondi, Donald Trump, Geoffrey Berman
+**Source:** CBS, CNN
+
+Reps. Lieu and Goldman demanded special counsel investigation of AG Pam Bondi for potential perjury after her February 11 testimony that "there is no evidence that Donald Trump has committed a crime." Bondi refused to provide the 86-page SDNY prosecution memo ("Investigation into Potential Co-Conspirators") sent to US Attorney Geoffrey Berman December 19, 2019, or a draft Florida indictment against co-conspirators. Rep. Garcia, having reviewed unredacted files, stated the only remaining explanation under EFTA exemption categories is that "President Trump is under a federal investigation." [CBS, CNN]
+
+---
+
+### 2026-02-26 — WEF President Børge Brende Resigns Over Epstein Connections
+**People:** Børge Brende, Terje Rød-Larsen, Jeffrey Epstein
+**Source:** AP, CNN, Bloomberg
+
+Børge Brende resigned as WEF President/CEO after EFTA files revealed three business dinners with Epstein (one 2018, two 2019), all arranged by Terje Rød-Larsen. In a 2018 email Epstein proposed "Davos can really replace the UN." Second 2019 meeting planned weeks before Epstein's July arrest. Brende joins growing list of EFTA-triggered departures including Tom Pritzker, Kathy Ruemmler, Casey Wasserman, Peter Attia, Larry Summers, and Brad Karp. [AP, CNN, Bloomberg]
 
 ---
 
@@ -1493,31 +2137,20 @@ The Economist partnered with Jmail (jmail.world) to produce an LLM-scored "alarm
 
 ## Appendix A: Undated Events and Relationships
 
-| Event | People | Source |
-|-------|--------|--------|
-| Epstein "purchased" Marcinkova at age 15 from family in Yugoslavia | Epstein, Marcinkova | DOJ |
-| Epstein's Palm Beach mansion at 358/360 El Brillo Way acquired (date uncertain) | Epstein | Multiple |
-| Epstein's Paris apartment on Avenue Foch acquired | Epstein | Multiple |
-| MC2 Model Management founding (~1990s) | Brunel, Epstein | DOJ |
-| 301 E 66th St apartment acquired (year uncertain) | Epstein, Mark Epstein, Barak | DOJ |
-| Gratitude America phantom donations (~2010–2017) | Epstein, Black, 10+ nonprofits | DOJ, CBS |
-| SLK Designs LLC / Hyperion Air connections to DEA probe | Darren Indyke | CBS |
-| Epstein email to journalist offering "photos of donald and girls" | Epstein, Thomas, Trump (alleged) | JMail |
-| Dinner with UN GA President Lajčák, Woody Allen, Soon-Yi Previn, and Deepak Chopra (EFTA02231879) | Epstein, Lajčák, Woody Allen, Soon-Yi Previn, Deepak Chopra | epstein_themes_synthesis.md |
-| "Baby Stuff" thread: Barnaby Marsh to Epstein "baby smell" content (EFTA02646618); Epstein wanting baby blankets for a "plan" — associate "Shelley" responds "not on God's earth" (EFTA00702932); "Baby girl 2013 — Taylor" document (EFTA01414279); "Kidnapped as baby" reference (EFTA01249616); JE Angels emails to Karyna Shuliak (EFTA00528713, EFTA02302410) | Epstein, Barnaby Marsh, Karyna Shuliak, associate "Shelley" | epstein_themes_synthesis.md |
-| "Whoops" emails — spanning 2009–2018: To Maxwell with attachment "The_Bear074.jpg" (EFTA00739120); to Jean-Luc Brunel (EFTA01988549); Jun 30, 2014 email with "permission to kill him" (EFTA01922235); Aug 20, 2017 redacted sender "turns out Ornella was raped when she was just 18" (EFTA01056353); Dec 19, 2016 to Brad Karp about extortion payments (EFTA02665413); Jan 20, 2017 on Inauguration Day (EFTA02662769); to Michael Wolff "question about Jamie Dimon. whoops" (EFTA02548441); DIA officer Mike Huffman "whoops" (EFTA00736184) | Multiple correspondents including Epstein, Maxwell, Brunel, Karp, Wolff, DIA officer | epstein_themes_synthesis.md |
-| Katie Couric dinner praising Epstein's lasagna | Couric, Epstein | Beyond Existing Research |
-| Sarah Ferguson "brother" emails | Ferguson, Epstein | Beyond Existing Research |
-| David Copperfield photographed with Maxwell | Copperfield, Maxwell | DOJ |
-| Epstein's household manual "see nothing, hear nothing" | Maxwell, all staff | Maxwell trial (GX 606) |
-| Epstein pays recruiter $200 per girl brought; "the younger the better" | Epstein, Haley Robson | CBS |
-| Georgarage LLC established with George Church | Epstein, Church | DOJ |
-| Androcyte/BetterHumans biotech funded | Epstein | DOJ |
-| Epstein to redacted: "I convinced Harry Reid not to be Pelosi's bitch" (EFTA01211522) **[UNVERIFIED claim]** | Epstein, Sen. Harry Reid | epstein_themes_synthesis.md |
-| Epstein to redacted: "feeling suicidal and perfectly understand that Romanian girl" (EFTA01837996) — rare instance of Epstein himself using the word "suicidal" in correspondence | Epstein, unidentified recipient | epstein_themes_synthesis.md |
-| Anonymous allegations of bodies buried at Zorro Ranch — documented in DOJ files; not verified | Unknown | DOJ |
-| AUSA 2020 email refers to "investigation into the murder of Jeffrey Epstein" — notable given suicide ruling | AUSA (EDNY) | OSINT Database |
-| Three discs of Maxwell wiretap results not publicly released | Maxwell, FBI | DOJ |
+Events that have been assigned dates are now incorporated into the main timeline. The following items remain undated or only partially datable from public sources.
+
+| Event | People | Source | Date Status |
+|-------|--------|--------|------------|
+| Epstein "purchased" Marcinkova at age 15 from family in Yugoslavia | Epstein, Marcinkova | DOJ | ~2000–2001 (arrival consistent across sources; exact month unknown) |
+| 301 E 66th St apartment building — Mark Epstein/Ossa Properties acquisition | Epstein, Mark Epstein, Barak | DOJ | Early 1990s, likely 1990–1992; NYC ACRIS records would confirm |
+| Gratitude America Ltd. phantom donations — 56 charities listed as recipients, 10 confirmed receiving nothing | Epstein, Black, 10+ nonprofits | DOJ, CBS | 2010–2017 (IRS filings and press releases); foundation became tax-exempt September 2012 |
+| "Baby Stuff" thread: Barnaby Marsh to Epstein "baby smell" content (EFTA02646618); Epstein wanting baby blankets for a "plan" — associate "Shelley" responds "not on God's earth" (EFTA00702932); "Baby girl 2013 — Taylor" document (EFTA01414279); "Kidnapped as baby" reference (EFTA01249616); JE Angels emails to Karyna Shuliak (EFTA00528713, EFTA02302410) | Epstein, Barnaby Marsh, Karyna Shuliak, associate "Shelley" | epstein_themes_synthesis.md | UNKNOWN — documents unanalyzed in public reporting as of February 2026 |
+| "Whoops" emails — undated subset: To Maxwell with attachment "The_Bear074.jpg" (EFTA00739120); to Jean-Luc Brunel (EFTA01988549); to Michael Wolff "question about Jamie Dimon. whoops" (EFTA02548441) — likely 2017–2018; DIA officer Mike Huffman "whoops" (EFTA00736184) — EFTA 007-range suggests earlier dataset. Note: Jun 30, 2014 (EFTA01922235), Aug 20, 2017 (EFTA01056353), Dec 19, 2016 (EFTA02665413), and Jan 20, 2017 (EFTA02662769) are already dated in the main timeline. | Multiple correspondents including Epstein, Maxwell, Brunel, Wolff, DIA officer | epstein_themes_synthesis.md | Partial — 4 of 8 "whoops" emails confirmed dated; 4 remain undated |
+| David Copperfield photographed with Ghislaine Maxwell in white bathrobes | Copperfield, Maxwell | DOJ | Photo released December 19, 2025 in first EFTA photo batch; date photo taken is UNKNOWN. Friendship documented from 2004 (Sjoberg testimony, 16 phone calls 2004–2005) |
+| Epstein pays recruiter $200 per girl brought to mansion; "the younger the better" | Epstein, Haley Robson | CBS | 2005–2006 Palm Beach Police investigation period |
+| Epstein to redacted: "I convinced Harry Reid not to be Pelosi's bitch" (EFTA01211522) **[UNVERIFIED claim]** | Epstein, Sen. Harry Reid (possible — may refer to Reid Weingarten or Reid Hoffman per disambiguation warnings) | epstein_themes_synthesis.md | UNKNOWN — document unanalyzed in public reporting; if political Reid, likely 2007–2011 |
+| Epstein to redacted: "feeling suicidal and perfectly understand that Romanian girl" (EFTA01837996) — rare instance of Epstein himself using the word "suicidal" | Epstein, unidentified recipient | epstein_themes_synthesis.md | UNKNOWN — document unanalyzed in public reporting; email archives span 2002–2019 |
+| Three discs of court-authorized intercepts of phone number "previously belonging to Ghislaine Maxwell" — not publicly released | Maxwell, FBI | DOJ | Likely 2019–2020 based on investigation timeline; existence confirmed in Phase 1 EFTA evidence index |
 
 ---
 
@@ -1612,20 +2245,24 @@ The Economist partnered with Jmail (jmail.world) to produce an LLM-scored "alarm
 | 2013–2019 | 50 meetings with wires | Ariane de Rothschild / Epstein | OSINT |
 | 2014 | $70M | Black → Epstein (ad hoc, no written agreement) | DOJ |
 | 2015 | $30M | Black → Epstein | DOJ |
+| 2015-03-16 | $1,000,000 | Southern Trust → Bank Leumi Branch 771 / ERGO Ltd. ("Reporty Investment") | EFTA01404004 |
 | 2015-10-05 | $25M contract | Rothschild Group → Southern Trust | OSINT |
 | 2015-12-17 & 21 | $25M total | Rothschild Group → Epstein accounts | OSINT |
 | 2016-08-30 | ~$1M | Epstein → Colony Capital stock (Barrack's company) | CBS |
 | 2017 | $8M | Black → Epstein (final payment) | DOJ |
 | 2017 | $22.5M + $8M loans | Black (BV70 LLC → Plan D LLC) → Epstein | DOJ |
 | 2017 | $10M repaid | Epstein → Black (partial repayment before death) | DOJ |
+| 2017-03-16 | $40,000 | HBRK Associates → Achrayut Leumit at Bank Leumi Branch 666 | EFTA01297175 |
 | 2017 | $2.3M total (2004–2006) | Wexner Foundation → Barak (two research studies) | DOJ |
 | 2018 | $270,000 | Epstein → Chomsky | OSINT |
 | 2018-12-06 | Amount unspecified | Epstein → sulfuric acid purchase (330 gallons) | Beyond Existing Research |
+| 2019-03 | $3,600,000 | Tomer Toor/Furth Wilensky → Bank Leumi Branch 832 | EFTA02634615 |
 | 2019-08-08 | $577–600M estate | Epstein → 1953 Trust (will) | CBS, OSINT |
 | 2019-09 | $1.1–1.3B (retroactive SARs) | JPMorgan (two SARs filed after Epstein death) | OSINT |
 | 2019–2020 | $378M (270 wires) | BNY Mellon for Epstein | OSINT |
 | 2019–2020 | ~$400M | Deutsche Bank SARs | OSINT |
 | 2019–2020 | $170M | Bank of America SARs (Black-Epstein) | OSINT |
+| Total Israeli bank flows | $4,640,000+ | Via three Bank Leumi branches (771, 832, 666) | Multiple EFTA docs |
 | Total suspicious activity | $1.5B+ | Across 4 banks | CBS, OSINT |
 | 2020 | $62.5M USVI settlement | Black → USVI (acknowledging Epstein used funds for VI ops) | DOJ |
 | 2023 | $290M | JPMorgan → victims (settlement) | Multiple |

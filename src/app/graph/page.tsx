@@ -7,7 +7,7 @@ import peopleData from '@/data/people.json';
 import connectionsData from '@/data/connections.json';
 import NetworkGraph from '@/components/graph/NetworkGraph';
 import Badge from '@/components/shared/Badge';
-import { RotateCcw, Monitor } from 'lucide-react';
+import { RotateCcw, Monitor, DollarSign } from 'lucide-react';
 
 const people = peopleData as Person[];
 const connections = connectionsData as Connection[];
@@ -22,7 +22,25 @@ export default function GraphPage() {
   const [minStrength, setMinStrength] = useState<1 | 2 | 3>(1);
   const [focusPerson, setFocusPerson] = useState<string | null>(null);
   const [selectedPerson, setSelectedPerson] = useState<Person | null>(null);
+  const [financialMode, setFinancialMode] = useState(false);
   const router = useRouter();
+
+  // In financial mode, show only financial connections and entities with financial connections or shell-entity subcategory
+  const financialPersonIds = financialMode
+    ? new Set(
+        connections
+          .filter(c => c.relationshipType === 'financial')
+          .flatMap(c => [c.sourcePersonId, c.targetPersonId])
+      )
+    : null;
+
+  const filteredPeople = financialMode
+    ? people.filter(p => (financialPersonIds as Set<string>).has(p.id) || p.subcategory === 'shell-entity')
+    : people;
+
+  const filteredConnections = financialMode
+    ? connections.filter(c => c.relationshipType === 'financial')
+    : connections;
 
   function toggleCategory(cat: PersonCategory) {
     setSelectedCategories((prev) => {
@@ -94,11 +112,24 @@ export default function GraphPage() {
           </div>
 
           <button
+            onClick={() => setFinancialMode(!financialMode)}
+            aria-pressed={financialMode}
+            className={`w-full flex items-center justify-center gap-1.5 text-xs py-1.5 rounded border transition-colors ${
+              financialMode
+                ? 'border-[#10b981] text-[#10b981] bg-[#10b981]/10'
+                : 'border-surface-border text-text-muted hover:text-text-secondary'
+            }`}
+          >
+            <DollarSign size={12} /> {financialMode ? 'Showing Financial Network' : 'Show Financial Network'}
+          </button>
+
+          <button
             onClick={() => {
               setSelectedCategories(new Set());
               setMinStrength(1);
               setFocusPerson(null);
               setSelectedPerson(null);
+              setFinancialMode(false);
             }}
             className="w-full flex items-center justify-center gap-1.5 text-xs text-text-muted
                        hover:text-text-secondary border border-surface-border rounded py-1.5 transition-colors"
@@ -110,8 +141,8 @@ export default function GraphPage() {
         {/* Graph canvas */}
         <div className="flex-1">
           <NetworkGraph
-            people={people}
-            connections={connections}
+            people={filteredPeople}
+            connections={filteredConnections}
             filterCategories={selectedCategories.size > 0 ? selectedCategories : undefined}
             filterStrength={minStrength}
             focusPersonId={focusPerson}

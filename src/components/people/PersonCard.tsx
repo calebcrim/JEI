@@ -77,7 +77,7 @@ export default function PersonCard({ person }: Props) {
         {person.sources.length > 0 && (
           <div className="flex items-center gap-1 flex-wrap pt-1">
             {person.sources.slice(0, 5).map((src) => (
-              <SourceTag key={src} source={src} />
+              <SourceTag key={src} source={src} plain />
             ))}
           </div>
         )}

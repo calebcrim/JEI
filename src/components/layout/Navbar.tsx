@@ -11,6 +11,7 @@ const NAV_LINKS = [
   { href: '/timeline/', label: 'Timeline' },
   { href: '/themes/', label: 'Themes' },
   { href: '/graph/', label: 'Graph' },
+  { href: '/financial/', label: 'Financial' },
 ];
 
 export default function Navbar() {

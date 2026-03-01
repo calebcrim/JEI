@@ -34,6 +34,7 @@ interface TimelineEvent {
   id: string;
   title: string;
   body: string;
+  summary?: string;
   dateDisplay: string;
   era: string;
   sources: string[];
@@ -100,7 +101,7 @@ const index: SearchIndexEntry[] = [
     type: 'event' as const,
     id: e.id,
     title: e.title,
-    excerpt: truncate(stripMarkdown(e.body), 200),
+    excerpt: truncate(stripMarkdown(e.summary || e.body), 200),
     date: e.dateDisplay,
     era: e.era,
     fullText: stripMarkdown(`${e.title} ${e.body}`),

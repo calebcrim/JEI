@@ -68,6 +68,12 @@ const SOURCES = [
     notes: '',
   },
   {
+    abbr: 'AP',
+    full: 'Associated Press',
+    type: 'Journalism',
+    notes: '',
+  },
+  {
     abbr: 'JMail',
     full: 'jmail.world — 1,038,603 Epstein emails indexed',
     type: 'Community',
@@ -102,6 +108,12 @@ const SOURCES = [
     full: 'Palm Beach Police Department investigation records (2005–2006)',
     type: 'Law enforcement',
     notes: '',
+  },
+  {
+    abbr: 'ForensicFinance',
+    full: 'epstein-forensic-finance by Randall Scott Taylor — computational forensic accounting of 1.48M EFTA documents (CC BY 4.0)',
+    type: 'Community',
+    notes: 'All amounts are automated extractions (Unverified). Only Bates-stamped bank documents constitute verified evidence.',
   },
 ] as const;
 

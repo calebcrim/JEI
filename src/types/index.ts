@@ -1,3 +1,5 @@
+export type DisclosureLevel = 0 | 1 | 2 | 3;
+
 export type PersonCategory =
   | 'principal'
   | 'inner-circle'
@@ -14,9 +16,12 @@ export type PersonCategory =
 export type VerificationStatus = 'verified' | 'unverified' | 'contested' | 'discrepancy';
 
 export type SourceTag =
-  | 'CBS' | 'NPR' | 'WSJ' | 'NYT' | 'CNN' | 'Bloomberg'
+  | 'CBS' | 'NPR' | 'WSJ' | 'NYT' | 'CNN' | 'Bloomberg' | 'AP'
   | 'DOJ' | 'FBI' | 'HO' | 'SJ' | 'JMail' | 'GH' | 'OSINT'
-  | 'Maxwell-trial' | 'Giuffre-deposition' | 'Palm-Beach-PD';
+  | 'Maxwell-trial' | 'Giuffre-deposition' | 'Palm-Beach-PD'
+  | 'ForensicFinance'
+  | 'FBI-Mogilevich'
+  | 'EFTA-Science';
 
 export interface Person {
   id: string;
@@ -43,6 +48,13 @@ export interface PersonSection {
   verificationStatus?: VerificationStatus;
   sources: SourceTag[];
   efta?: string[];
+  eftaLinks?: Array<{
+    number: string;
+    url: string;
+    description?: string;
+    mediaType?: 'pdf' | 'video';
+    sensitive?: boolean;
+  }>;
 }
 
 export interface TimelineEvent {
@@ -58,6 +70,26 @@ export interface TimelineEvent {
   efta?: string[];
   verificationStatus?: VerificationStatus;
   tags: string[];
+
+  // Phase 1 — derived at parse time
+  summary: string;
+
+  // Phase 2 — populated by build-event-relations
+  eftaLinks?: Array<{
+    number: string;
+    url: string;
+    description?: string;
+    mediaType?: 'pdf' | 'video';
+    sensitive?: boolean;
+  }>;
+  relatedEventIds?: string[];
+  relatedThemeIds?: string[];
+  discrepancies?: Array<{
+    sourceA: string;
+    sourceB: string;
+    claimA: string;
+    claimB: string;
+  }>;
 }
 
 export type TimelineEra =
@@ -78,6 +110,14 @@ export interface ThemeSection {
   timelineEventIds: string[];
   sources: SourceTag[];
   tags: string[];
+  efta?: string[];
+  eftaLinks?: Array<{
+    number: string;
+    url: string;
+    description?: string;
+    mediaType?: 'pdf' | 'video';
+    sensitive?: boolean;
+  }>;
 }
 
 export interface Connection {

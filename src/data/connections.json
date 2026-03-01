@@ -159,11 +159,13 @@
     "sourcePersonId": "jeffrey-epstein",
     "targetPersonId": "leon-black",
     "relationshipType": "financial",
-    "strength": 2,
-    "description": "Black paid Epstein approximately $158 million in advisory fees, according to an independent investigation. Resigned as Apollo CEO following disclosure.",
+    "strength": 3,
+    "description": "Black paid Epstein $158-170M (2012-2017) from 7+ entities through Deutsche Bank. Payments mapped onto Apollo Fund VIII ($18.4B) and Fund IX ($24.6B) fundraises. $62.5M USVI immunity settlement. ~$100M paid without written contract. | $76,953,939 across 4 wire transfers (05/31/2008 to 12/31/2008). Bates: EFTA01075607. (Unverified — automated extraction)",
     "sources": [
       "DOJ",
-      "WSJ"
+      "WSJ",
+      "CBS",
+      "ForensicFinance"
     ],
     "verificationStatus": "verified"
   },
@@ -194,6 +196,302 @@
     "verificationStatus": "verified"
   },
   {
+    "id": "rothschild-epstein-financial",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "ariane-de-rothschild",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "Ariane de Rothschild signed a $25M contract with Epstein (Southern Trust) for DOJ crisis management. DOJ emails reveal Epstein coordinated document delay strategy, provided financial structuring advice on wire payments, and served as her crisis contact during a 2016 police bank raid. ~50 documented meetings 2013-2019.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "rothschild-barak-social",
+    "sourcePersonId": "ariane-de-rothschild",
+    "targetPersonId": "ehud-barak",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Ariane asked Epstein about Ehud Barak in June 2013 DOJ email correspondence (EFTA01967168).",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "rothschild-prince-andrew-social",
+    "sourcePersonId": "ariane-de-rothschild",
+    "targetPersonId": "prince-andrew-duke-of-york",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Ariane asked Epstein 'Do you know Prince Andrew?' in October 2014 DOJ email (EFTA02516685), seeking access through Epstein's network.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "waitt-maxwell-social",
+    "sourcePersonId": "ted-waitt",
+    "targetPersonId": "ghislaine-maxwell",
+    "relationshipType": "social",
+    "strength": 3,
+    "description": "Ted Waitt was Ghislaine Maxwell's long-term romantic partner (2003-2010) per Maxwell legal filings. Maxwell attended Chelsea Clinton's 2010 wedding as Waitt's guest and helped him obtain the yacht Plan B.",
+    "sources": [
+      "DOJ",
+      "Maxwell-trial"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "waitt-epstein-financial",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "ted-waitt",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Epstein identified Waitt as 'Batman' in Oct 2004 email. Waitt provided monthly financial payments to at least one young woman in Epstein's network. Epstein counseled her that Waitt was 'keeping her short' to prevent independence.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "ruspoli-epstein-victim-perpetrator",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "mlusine-ruspoli",
+    "relationshipType": "victim-perpetrator",
+    "strength": 2,
+    "description": "Probable grooming victim. Epstein provided education funding and financial support. Application essay co-written by Epstein included 'I also will learn to give pleasure to men.' Financial dependency through monthly payments and education funding.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "ribis-epstein-social",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "nicholas-ribis",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Epstein contacted Ribis (former CEO of Trump Hotels) in June 2017 for intelligence on Trump's grudge. Ribis served as back-channel between Trump's business orbit and Epstein.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "ribis-trump-social",
+    "sourcePersonId": "nicholas-ribis",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "employer-employee",
+    "strength": 2,
+    "description": "Ribis served as CEO of Trump Hotels and Casino Resorts. Provided Epstein intelligence on Trump's motivations in June 2017.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "merkin-epstein-social",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "richard-merkin",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Merkin relayed to Epstein that Trump was '100% behind Jimmy Cayne' in June 2011, linking the Trump, Bear Stearns, and Epstein networks.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "lutnick-epstein-financial",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "howard-lutnick",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "AdFin Solutions co-investment signed December 28, 2012 (4 days after island visit). Epstein signed for Southern Trust, Lutnick for CVAFH I (Cantor Fitzgerald). Ongoing through at least May 2018. EFTA00289560.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "gates-epstein-financial",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "bill-gates",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Epstein orchestrated $2M MIT Media Lab grant and ~$8.5M in IPI grants through Gates Foundation. Proposed multibillion-dollar DAF vehicle. No direct Cascade Investment co-investments found.",
+    "sources": [
+      "DOJ",
+      "NYT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "dubin-epstein-financial",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "glenn-dubin",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "Epstein brokered the JPMorgan-Highbridge Capital $1.3B acquisition (~$15-20M fee), invested $10M in Highbridge. Named Celina Dubin beneficiary of ~$50M trust. JPMorgan post-death SAR named Dubin among counterparties in $1B+ transactions.",
+    "sources": [
+      "DOJ",
+      "Bloomberg"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "dubin-staley-financial",
+    "sourcePersonId": "glenn-dubin",
+    "targetPersonId": "jes-staley",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Epstein introduced Staley to Dubin circa 1998, leading to JPMorgan's acquisition of 55% of Highbridge Capital for $1.3 billion in 2004.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "eva-dubin-epstein-social",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "eva-andersson-dubin-eva-dubin",
+    "relationshipType": "social",
+    "strength": 3,
+    "description": "11-year romantic relationship pre-marriage. Eva facilitated Epstein's hedge fund connections through at least 2016 (Honeycomb). Wrote probation officer she was '100% comfortable with Jeffrey Epstein around my children.' Hosted Epstein for Thanksgiving 2009.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "gates-nikolic-academic",
+    "sourcePersonId": "bill-gates",
+    "targetPersonId": "boris-nikolic",
+    "relationshipType": "academic",
+    "strength": 2,
+    "description": "Nikolic served as Gates advisor and intermediary for Gates-Epstein communications. Coordinated MIT/Gates Foundation donations through Epstein. Named backup executor in Epstein's $578M estate will.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "gates-staley-financial",
+    "sourcePersonId": "bill-gates",
+    "targetPersonId": "jes-staley",
+    "relationshipType": "financial",
+    "strength": 1,
+    "description": "Gates and Staley attended May 3, 2011 meeting at Epstein's townhouse with Larry Summers and Boris Nikolic. The meeting preceded Epstein's pitch of a multibillion-dollar DAF through the Gates Foundation.",
+    "sources": [
+      "DOJ",
+      "NYT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "black-dubin-financial",
+    "sourcePersonId": "leon-black",
+    "targetPersonId": "glenn-dubin",
+    "relationshipType": "financial",
+    "strength": 1,
+    "description": "Both named in JPMorgan's post-death SAR covering 4,700+ transactions exceeding $1 billion. Both part of Epstein's financial network through JPMorgan Private Bank.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "rothschild-ruemmler-legal",
+    "sourcePersonId": "ariane-de-rothschild",
+    "targetPersonId": "kathy-ruemmler",
+    "relationshipType": "legal-representation",
+    "strength": 2,
+    "description": "Epstein introduced Ruemmler to Ariane de Rothschild as DOJ counsel for the $45.2M non-prosecution agreement (December 2015).",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "lutnick-epstein-social",
+    "sourcePersonId": "howard-lutnick",
+    "targetPersonId": "jeffrey-epstein",
+    "relationshipType": "social",
+    "strength": 2,
+    "description": "Lutnick invited Epstein to 'a very intimate fundraising event with Hillary Clinton' (Nov 2015). Epstein donated $50,000 to UJA dinner honoring Lutnick (2017). Contact documented through at least May 2018.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "brende-rod-larsen-social",
+    "sourcePersonId": "brge-brende",
+    "targetPersonId": "terje-rd-larsen",
+    "relationshipType": "social",
+    "strength": 3,
+    "description": "Rød-Larsen introduced Brende to Epstein at all three documented dinners (2018-2019).",
+    "sources": [
+      "AP",
+      "CNN"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "brende-epstein-social",
+    "sourcePersonId": "brge-brende",
+    "targetPersonId": "jeffrey-epstein",
+    "relationshipType": "social",
+    "strength": 2,
+    "description": "Three business dinners (one 2018, two 2019). Email exchange about 'Davos replacing the UN.'",
+    "sources": [
+      "AP"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "kemp-rod-larsen-social",
+    "sourcePersonId": "walter-kemp",
+    "targetPersonId": "terje-rd-larsen",
+    "relationshipType": "social",
+    "strength": 2,
+    "description": "IPI Director for Europe under Rød-Larsen's IPI presidency. Sent 'Preparing for Pandemics' email forwarded to Epstein.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "casriel-maxwell-financial",
+    "sourcePersonId": "lyle-casriel",
+    "targetPersonId": "ghislaine-maxwell",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "Routed $92.5M to Maxwell across 176 payments per forensic finance analysis. | $992,187 across 19 wire transfers.",
+    "sources": [
+      "GH",
+      "ForensicFinance"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "alexanderson-indyke-financial",
+    "sourcePersonId": "eileen-alexanderson",
+    "targetPersonId": "darren-indyke",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Both identified as operator-tier financial conduits in Epstein shell entity network.",
+    "sources": [
+      "GH"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
     "id": "explicit-darren-indyke-alan-dershowitz-legal-representation",
     "sourcePersonId": "darren-indyke",
     "targetPersonId": "alan-dershowitz",
@@ -203,7 +501,8 @@
     "sources": [
       "CBS",
       "OSINT",
-      "DOJ"
+      "DOJ",
+      "GH"
     ],
     "verificationStatus": "verified"
   },
@@ -213,7 +512,7 @@
     "targetPersonId": "leslie-wexner-les-wexner",
     "relationshipType": "social",
     "strength": 1,
-    "description": "Co-appear in 3 documented events.",
+    "description": "Co-appear in 4 documented events.",
     "sources": [
       "DOJ"
     ],
@@ -225,7 +524,31 @@
     "targetPersonId": "ghislaine-maxwell",
     "relationshipType": "social",
     "strength": 2,
-    "description": "Co-appear in 12 documented events.",
+    "description": "Co-appear in 17 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-lynn-forester-de-rothschild",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "lynn-forester-de-rothschild",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 4 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-bill-clinton",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "bill-clinton",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 3 documented events.",
     "sources": [
       "DOJ"
     ],
@@ -249,7 +572,19 @@
     "targetPersonId": "jean-luc-brunel",
     "relationshipType": "social",
     "strength": 1,
-    "description": "Co-appear in 2 documented events.",
+    "description": "Co-appear in 3 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-prince-andrew-duke-of-york",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "prince-andrew-duke-of-york",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 3 documented events.",
     "sources": [
       "DOJ"
     ],
@@ -259,6 +594,30 @@
     "id": "cooccur-jeffrey-epstein-sarah-kellen",
     "sourcePersonId": "jeffrey-epstein",
     "targetPersonId": "sarah-kellen",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-jes-staley",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "jes-staley",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 3 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-glenn-dubin",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "glenn-dubin",
     "relationshipType": "social",
     "strength": 1,
     "description": "Co-appear in 2 documented events.",
@@ -280,6 +639,18 @@
     "verificationStatus": "verified"
   },
   {
+    "id": "cooccur-jeffrey-epstein-george-church",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "george-church",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 3 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
     "id": "cooccur-jeffrey-epstein-virginia-giuffre-ne-roberts",
     "sourcePersonId": "jeffrey-epstein",
     "targetPersonId": "virginia-giuffre-ne-roberts",
@@ -292,12 +663,24 @@
     "verificationStatus": "verified"
   },
   {
-    "id": "cooccur-jeffrey-epstein-bill-clinton",
+    "id": "cooccur-jeffrey-epstein-ariane-de-rothschild",
     "sourcePersonId": "jeffrey-epstein",
-    "targetPersonId": "bill-clinton",
+    "targetPersonId": "ariane-de-rothschild",
+    "relationshipType": "social",
+    "strength": 2,
+    "description": "Co-appear in 26 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-ted-waitt",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "ted-waitt",
     "relationshipType": "social",
     "strength": 1,
-    "description": "Co-appear in 2 documented events.",
+    "description": "Co-appear in 3 documented events.",
     "sources": [
       "DOJ"
     ],
@@ -333,7 +716,7 @@
     "targetPersonId": "lesley-groff",
     "relationshipType": "social",
     "strength": 2,
-    "description": "Co-appear in 6 documented events.",
+    "description": "Co-appear in 7 documented events.",
     "sources": [
       "DOJ"
     ],
@@ -357,7 +740,7 @@
     "targetPersonId": "bill-gates",
     "relationshipType": "social",
     "strength": 2,
-    "description": "Co-appear in 6 documented events.",
+    "description": "Co-appear in 12 documented events.",
     "sources": [
       "DOJ"
     ],
@@ -368,8 +751,20 @@
     "sourcePersonId": "jeffrey-epstein",
     "targetPersonId": "leon-black",
     "relationshipType": "social",
+    "strength": 2,
+    "description": "Co-appear in 6 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-woody-allen",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "woody-allen",
+    "relationshipType": "social",
     "strength": 1,
-    "description": "Co-appear in 5 documented events.",
+    "description": "Co-appear in 3 documented events.",
     "sources": [
       "DOJ"
     ],
@@ -381,7 +776,31 @@
     "targetPersonId": "larry-summers",
     "relationshipType": "social",
     "strength": 1,
-    "description": "Co-appear in 4 documented events.",
+    "description": "Co-appear in 5 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-boris-nikolic",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "boris-nikolic",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 3 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-ehud-barak",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "ehud-barak",
+    "relationshipType": "social",
+    "strength": 2,
+    "description": "Co-appear in 12 documented events.",
     "sources": [
       "DOJ"
     ],
@@ -393,6 +812,42 @@
     "targetPersonId": "darren-indyke",
     "relationshipType": "social",
     "strength": 1,
+    "description": "Co-appear in 5 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-peter-thiel",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "peter-thiel",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 3 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-kathy-ruemmler",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "kathy-ruemmler",
+    "relationshipType": "social",
+    "strength": 2,
+    "description": "Co-appear in 7 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-terje-rd-larsen",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "terje-rd-larsen",
+    "relationshipType": "social",
+    "strength": 1,
     "description": "Co-appear in 2 documented events.",
     "sources": [
       "DOJ"
@@ -400,12 +855,12 @@
     "verificationStatus": "verified"
   },
   {
-    "id": "cooccur-jeffrey-epstein-ehud-barak",
+    "id": "cooccur-jeffrey-epstein-mlusine-ruspoli",
     "sourcePersonId": "jeffrey-epstein",
-    "targetPersonId": "ehud-barak",
+    "targetPersonId": "mlusine-ruspoli",
     "relationshipType": "social",
     "strength": 1,
-    "description": "Co-appear in 5 documented events.",
+    "description": "Co-appear in 2 documented events.",
     "sources": [
       "DOJ"
     ],
@@ -424,6 +879,18 @@
     "verificationStatus": "verified"
   },
   {
+    "id": "cooccur-jeffrey-epstein-nili-priell-barak",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "nili-priell-barak",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
     "id": "cooccur-jeffrey-epstein-katie-johnson-jane-doe",
     "sourcePersonId": "jeffrey-epstein",
     "targetPersonId": "katie-johnson-jane-doe",
@@ -436,12 +903,24 @@
     "verificationStatus": "verified"
   },
   {
-    "id": "cooccur-jeffrey-epstein-steve-bannon",
+    "id": "cooccur-jeffrey-epstein-deepak-chopra",
     "sourcePersonId": "jeffrey-epstein",
-    "targetPersonId": "steve-bannon",
+    "targetPersonId": "deepak-chopra",
     "relationshipType": "social",
-    "strength": 2,
-    "description": "Co-appear in 8 documented events.",
+    "strength": 1,
+    "description": "Co-appear in 3 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-richard-kahn",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "richard-kahn",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
     "sources": [
       "DOJ"
     ],
@@ -451,6 +930,30 @@
     "id": "cooccur-jeffrey-epstein-miroslav-lajk-miro-lajcak",
     "sourcePersonId": "jeffrey-epstein",
     "targetPersonId": "miroslav-lajk-miro-lajcak",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 3 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-jeffrey-epstein-steve-bannon",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "steve-bannon",
+    "relationshipType": "social",
+    "strength": 2,
+    "description": "Co-appear in 9 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-leslie-wexner-les-wexner-rep-ro-khanna",
+    "sourcePersonId": "leslie-wexner-les-wexner",
+    "targetPersonId": "rep-ro-khanna",
     "relationshipType": "social",
     "strength": 1,
     "description": "Co-appear in 2 documented events.",
@@ -532,9 +1035,9 @@
     "verificationStatus": "verified"
   },
   {
-    "id": "cooccur-donald-trump-steve-bannon",
+    "id": "cooccur-donald-trump-deepak-chopra",
     "sourcePersonId": "donald-trump",
-    "targetPersonId": "steve-bannon",
+    "targetPersonId": "deepak-chopra",
     "relationshipType": "social",
     "strength": 1,
     "description": "Co-appear in 2 documented events.",
@@ -544,9 +1047,45 @@
     "verificationStatus": "verified"
   },
   {
+    "id": "cooccur-donald-trump-steve-bannon",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "steve-bannon",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 3 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
     "id": "cooccur-donald-trump-khadeeja-safdar-joe-palazzolo",
     "sourcePersonId": "donald-trump",
     "targetPersonId": "khadeeja-safdar-joe-palazzolo",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-ghislaine-maxwell-lynn-forester-de-rothschild",
+    "sourcePersonId": "ghislaine-maxwell",
+    "targetPersonId": "lynn-forester-de-rothschild",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-ghislaine-maxwell-bill-clinton",
+    "sourcePersonId": "ghislaine-maxwell",
+    "targetPersonId": "bill-clinton",
     "relationshipType": "social",
     "strength": 1,
     "description": "Co-appear in 2 documented events.",
@@ -568,8 +1107,20 @@
     "verificationStatus": "verified"
   },
   {
-    "id": "cooccur-ghislaine-maxwell-bill-clinton",
+    "id": "cooccur-ghislaine-maxwell-michael-wolff",
     "sourcePersonId": "ghislaine-maxwell",
+    "targetPersonId": "michael-wolff",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-lynn-forester-de-rothschild-bill-clinton",
+    "sourcePersonId": "lynn-forester-de-rothschild",
     "targetPersonId": "bill-clinton",
     "relationshipType": "social",
     "strength": 1,
@@ -580,9 +1131,33 @@
     "verificationStatus": "verified"
   },
   {
-    "id": "cooccur-ghislaine-maxwell-michael-wolff",
-    "sourcePersonId": "ghislaine-maxwell",
-    "targetPersonId": "michael-wolff",
+    "id": "cooccur-jes-staley-bill-gates",
+    "sourcePersonId": "jes-staley",
+    "targetPersonId": "bill-gates",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-ariane-de-rothschild-kathy-ruemmler",
+    "sourcePersonId": "ariane-de-rothschild",
+    "targetPersonId": "kathy-ruemmler",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-ted-waitt-mlusine-ruspoli",
+    "sourcePersonId": "ted-waitt",
+    "targetPersonId": "mlusine-ruspoli",
     "relationshipType": "social",
     "strength": 1,
     "description": "Co-appear in 2 documented events.",
@@ -604,9 +1179,45 @@
     "verificationStatus": "verified"
   },
   {
-    "id": "cooccur-steve-bannon-miroslav-lajk-miro-lajcak",
-    "sourcePersonId": "steve-bannon",
-    "targetPersonId": "miroslav-lajk-miro-lajcak",
+    "id": "cooccur-bill-gates-larry-summers",
+    "sourcePersonId": "bill-gates",
+    "targetPersonId": "larry-summers",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-bill-gates-boris-nikolic",
+    "sourcePersonId": "bill-gates",
+    "targetPersonId": "boris-nikolic",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 3 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-ehud-barak-nili-priell-barak",
+    "sourcePersonId": "ehud-barak",
+    "targetPersonId": "nili-priell-barak",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Co-appear in 2 documented events.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cooccur-miroslav-lajk-miro-lajcak-steve-bannon",
+    "sourcePersonId": "miroslav-lajk-miro-lajcak",
+    "targetPersonId": "steve-bannon",
     "relationshipType": "social",
     "strength": 1,
     "description": "Co-appear in 2 documented events.",
@@ -785,6 +1396,58 @@
     "verificationStatus": "verified"
   },
   {
+    "id": "mention-darren-indyke-nili-priell-barak",
+    "sourcePersonId": "darren-indyke",
+    "targetPersonId": "nili-priell-barak",
+    "relationshipType": "legal-representation",
+    "strength": 1,
+    "description": "Nili Priell Barak mentioned in Darren Indyke's documented profile.",
+    "sources": [
+      "CBS",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-darren-indyke-tomer-toor",
+    "sourcePersonId": "darren-indyke",
+    "targetPersonId": "tomer-toor",
+    "relationshipType": "legal-representation",
+    "strength": 1,
+    "description": "Tomer Toor mentioned in Darren Indyke's documented profile.",
+    "sources": [
+      "CBS",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-richard-kahn-ehud-barak",
+    "sourcePersonId": "richard-kahn",
+    "targetPersonId": "ehud-barak",
+    "relationshipType": "legal-representation",
+    "strength": 1,
+    "description": "Ehud Barak mentioned in Richard Kahn's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-richard-kahn-danya-friedman",
+    "sourcePersonId": "richard-kahn",
+    "targetPersonId": "danya-friedman",
+    "relationshipType": "legal-representation",
+    "strength": 1,
+    "description": "Danya Friedman mentioned in Richard Kahn's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
     "id": "mention-alfredo-rodriguez-alan-dershowitz",
     "sourcePersonId": "alfredo-rodriguez",
     "targetPersonId": "alan-dershowitz",
@@ -876,6 +1539,32 @@
     "verificationStatus": "verified"
   },
   {
+    "id": "mention-ted-waitt-ghislaine-maxwell",
+    "sourcePersonId": "ted-waitt",
+    "targetPersonId": "ghislaine-maxwell",
+    "relationshipType": "legal-representation",
+    "strength": 1,
+    "description": "Ghislaine Maxwell mentioned in Ted Waitt's documented profile.",
+    "sources": [
+      "DOJ",
+      "Maxwell-trial"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ted-waitt-mlusine-ruspoli",
+    "sourcePersonId": "ted-waitt",
+    "targetPersonId": "mlusine-ruspoli",
+    "relationshipType": "legal-representation",
+    "strength": 1,
+    "description": "Mélusine Ruspoli mentioned in Ted Waitt's documented profile.",
+    "sources": [
+      "DOJ",
+      "Maxwell-trial"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
     "id": "mention-pam-bondi-todd-blanche",
     "sourcePersonId": "pam-bondi",
     "targetPersonId": "todd-blanche",
@@ -938,10 +1627,23 @@
     "verificationStatus": "verified"
   },
   {
+    "id": "mention-kathy-ruemmler-donald-trump",
+    "sourcePersonId": "kathy-ruemmler",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Donald Trump mentioned in Kathy Ruemmler's documented profile.",
+    "sources": [
+      "DOJ",
+      "GH"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
     "id": "mention-donald-trump-brad-edwards",
     "sourcePersonId": "donald-trump",
     "targetPersonId": "brad-edwards",
-    "relationshipType": "flew-together",
+    "relationshipType": "legal-representation",
     "strength": 1,
     "description": "Brad Edwards mentioned in Donald Trump's documented profile.",
     "sources": [
@@ -954,7 +1656,7 @@
     "id": "mention-donald-trump-melania-trump",
     "sourcePersonId": "donald-trump",
     "targetPersonId": "melania-trump",
-    "relationshipType": "flew-together",
+    "relationshipType": "legal-representation",
     "strength": 1,
     "description": "Melania Trump mentioned in Donald Trump's documented profile.",
     "sources": [
@@ -967,9 +1669,48 @@
     "id": "mention-donald-trump-larry-summers",
     "sourcePersonId": "donald-trump",
     "targetPersonId": "larry-summers",
-    "relationshipType": "flew-together",
+    "relationshipType": "legal-representation",
     "strength": 1,
     "description": "Larry Summers mentioned in Donald Trump's documented profile.",
+    "sources": [
+      "NYT",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-donald-trump-nicholas-ribis",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "nicholas-ribis",
+    "relationshipType": "legal-representation",
+    "strength": 1,
+    "description": "Nicholas Ribis mentioned in Donald Trump's documented profile.",
+    "sources": [
+      "NYT",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-donald-trump-richard-merkin",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "richard-merkin",
+    "relationshipType": "legal-representation",
+    "strength": 1,
+    "description": "Richard Merkin mentioned in Donald Trump's documented profile.",
+    "sources": [
+      "NYT",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-donald-trump-larry-cohen",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "larry-cohen",
+    "relationshipType": "legal-representation",
+    "strength": 1,
+    "description": "Larry Cohen mentioned in Donald Trump's documented profile.",
     "sources": [
       "NYT",
       "CBS"
@@ -980,7 +1721,7 @@
     "id": "mention-donald-trump-michael-wolff",
     "sourcePersonId": "donald-trump",
     "targetPersonId": "michael-wolff",
-    "relationshipType": "flew-together",
+    "relationshipType": "legal-representation",
     "strength": 1,
     "description": "Michael Wolff mentioned in Donald Trump's documented profile.",
     "sources": [
@@ -993,7 +1734,7 @@
     "id": "mention-donald-trump-landon-thomas-jr",
     "sourcePersonId": "donald-trump",
     "targetPersonId": "landon-thomas-jr",
-    "relationshipType": "flew-together",
+    "relationshipType": "legal-representation",
     "strength": 1,
     "description": "Landon Thomas Jr. mentioned in Donald Trump's documented profile.",
     "sources": [
@@ -1006,7 +1747,7 @@
     "id": "mention-donald-trump-jane-interlochen-victim",
     "sourcePersonId": "donald-trump",
     "targetPersonId": "jane-interlochen-victim",
-    "relationshipType": "flew-together",
+    "relationshipType": "legal-representation",
     "strength": 1,
     "description": "\"Jane\" / Interlochen victim mentioned in Donald Trump's documented profile.",
     "sources": [
@@ -1019,7 +1760,7 @@
     "id": "mention-donald-trump-stacey-williams",
     "sourcePersonId": "donald-trump",
     "targetPersonId": "stacey-williams",
-    "relationshipType": "flew-together",
+    "relationshipType": "legal-representation",
     "strength": 1,
     "description": "Stacey Williams mentioned in Donald Trump's documented profile.",
     "sources": [
@@ -1032,7 +1773,7 @@
     "id": "mention-donald-trump-madeleine-westerhout",
     "sourcePersonId": "donald-trump",
     "targetPersonId": "madeleine-westerhout",
-    "relationshipType": "flew-together",
+    "relationshipType": "legal-representation",
     "strength": 1,
     "description": "Madeleine Westerhout mentioned in Donald Trump's documented profile.",
     "sources": [
@@ -1045,7 +1786,7 @@
     "id": "mention-donald-trump-robert-maxwell",
     "sourcePersonId": "donald-trump",
     "targetPersonId": "robert-maxwell",
-    "relationshipType": "flew-together",
+    "relationshipType": "legal-representation",
     "strength": 1,
     "description": "Robert Maxwell mentioned in Donald Trump's documented profile.",
     "sources": [
@@ -1058,7 +1799,7 @@
     "id": "mention-donald-trump-michael-thomas",
     "sourcePersonId": "donald-trump",
     "targetPersonId": "michael-thomas",
-    "relationshipType": "flew-together",
+    "relationshipType": "legal-representation",
     "strength": 1,
     "description": "Michael Thomas mentioned in Donald Trump's documented profile.",
     "sources": [
@@ -1071,7 +1812,7 @@
     "id": "mention-donald-trump-michael-reiter",
     "sourcePersonId": "donald-trump",
     "targetPersonId": "michael-reiter",
-    "relationshipType": "flew-together",
+    "relationshipType": "legal-representation",
     "strength": 1,
     "description": "Michael Reiter mentioned in Donald Trump's documented profile.",
     "sources": [
@@ -1147,6 +1888,16 @@
     "verificationStatus": "verified"
   },
   {
+    "id": "mention-steve-bannon-donald-trump",
+    "sourcePersonId": "steve-bannon",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "legal-representation",
+    "strength": 1,
+    "description": "Donald Trump mentioned in Steve Bannon's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
     "id": "mention-steve-bannon-melania-trump",
     "sourcePersonId": "steve-bannon",
     "targetPersonId": "melania-trump",
@@ -1199,7 +1950,7 @@
     "id": "mention-howard-lutnick-john-phelan",
     "sourcePersonId": "howard-lutnick",
     "targetPersonId": "john-phelan",
-    "relationshipType": "employer-employee",
+    "relationshipType": "co-conspirator",
     "strength": 1,
     "description": "John Phelan mentioned in Howard Lutnick's documented profile.",
     "sources": [
@@ -1212,9 +1963,22 @@
     "id": "mention-howard-lutnick-steve-feinberg",
     "sourcePersonId": "howard-lutnick",
     "targetPersonId": "steve-feinberg",
-    "relationshipType": "employer-employee",
+    "relationshipType": "co-conspirator",
     "strength": 1,
     "description": "Steve Feinberg mentioned in Howard Lutnick's documented profile.",
+    "sources": [
+      "CBS",
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ehud-barak-darren-indyke",
+    "sourcePersonId": "ehud-barak",
+    "targetPersonId": "darren-indyke",
+    "relationshipType": "financial",
+    "strength": 1,
+    "description": "Darren Indyke mentioned in Ehud Barak's documented profile.",
     "sources": [
       "CBS",
       "DOJ"
@@ -1300,15 +2064,28 @@
     "verificationStatus": "verified"
   },
   {
-    "id": "mention-ehud-barak-nili-priell",
+    "id": "mention-ehud-barak-yoni-koren",
     "sourcePersonId": "ehud-barak",
-    "targetPersonId": "nili-priell",
+    "targetPersonId": "yoni-koren",
     "relationshipType": "financial",
     "strength": 1,
-    "description": "Nili Priell mentioned in Ehud Barak's documented profile.",
+    "description": "Yoni Koren mentioned in Ehud Barak's documented profile.",
     "sources": [
       "CBS",
       "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-brge-brende-terje-rd-larsen",
+    "sourcePersonId": "brge-brende",
+    "targetPersonId": "terje-rd-larsen",
+    "relationshipType": "legal-representation",
+    "strength": 1,
+    "description": "Terje Rød-Larsen mentioned in Børge Brende's documented profile.",
+    "sources": [
+      "AP",
+      "CNN"
     ],
     "verificationStatus": "verified"
   },
@@ -1386,6 +2163,32 @@
     "verificationStatus": "verified"
   },
   {
+    "id": "mention-rep-ro-khanna-rep-thomas-massie",
+    "sourcePersonId": "rep-ro-khanna",
+    "targetPersonId": "rep-thomas-massie",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Rep. Thomas Massie mentioned in Rep. Ro Khanna's documented profile.",
+    "sources": [
+      "CBS",
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-rep-ro-khanna-sultan-ahmed-bin-sulayem",
+    "sourcePersonId": "rep-ro-khanna",
+    "targetPersonId": "sultan-ahmed-bin-sulayem",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Sultan Ahmed bin Sulayem mentioned in Rep. Ro Khanna's documented profile.",
+    "sources": [
+      "CBS",
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
     "id": "mention-rep-ted-lieu-donald-trump",
     "sourcePersonId": "rep-ted-lieu",
     "targetPersonId": "donald-trump",
@@ -1413,6 +2216,18 @@
     "strength": 1,
     "description": "Kevin McAleenan mentioned in Wilbur Ross's documented profile.",
     "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-nicholas-ribis-donald-trump",
+    "sourcePersonId": "nicholas-ribis",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Donald Trump mentioned in Nicholas Ribis's documented profile.",
+    "sources": [
+      "DOJ"
+    ],
     "verificationStatus": "verified"
   },
   {
@@ -1445,7 +2260,7 @@
     "id": "mention-glenn-dubin-ghislaine-maxwell",
     "sourcePersonId": "glenn-dubin",
     "targetPersonId": "ghislaine-maxwell",
-    "relationshipType": "employer-employee",
+    "relationshipType": "financial",
     "strength": 1,
     "description": "Ghislaine Maxwell mentioned in Glenn Dubin's documented profile.",
     "sources": [
@@ -1458,9 +2273,48 @@
     "id": "mention-glenn-dubin-rinaldo-rizzo",
     "sourcePersonId": "glenn-dubin",
     "targetPersonId": "rinaldo-rizzo",
-    "relationshipType": "employer-employee",
+    "relationshipType": "financial",
     "strength": 1,
     "description": "Rinaldo Rizzo mentioned in Glenn Dubin's documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-glenn-dubin-david-boies",
+    "sourcePersonId": "glenn-dubin",
+    "targetPersonId": "david-boies",
+    "relationshipType": "financial",
+    "strength": 1,
+    "description": "David Boies mentioned in Glenn Dubin's documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-glenn-dubin-david-fiszel",
+    "sourcePersonId": "glenn-dubin",
+    "targetPersonId": "david-fiszel",
+    "relationshipType": "financial",
+    "strength": 1,
+    "description": "David Fiszel mentioned in Glenn Dubin's documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-glenn-dubin-sergey-brin",
+    "sourcePersonId": "glenn-dubin",
+    "targetPersonId": "sergey-brin",
+    "relationshipType": "financial",
+    "strength": 1,
+    "description": "Sergey Brin mentioned in Glenn Dubin's documented profile.",
     "sources": [
       "DOJ",
       "CBS"
@@ -1481,6 +2335,19 @@
     "verificationStatus": "verified"
   },
   {
+    "id": "mention-eva-andersson-dubin-eva-dubin-david-fiszel",
+    "sourcePersonId": "eva-andersson-dubin-eva-dubin",
+    "targetPersonId": "david-fiszel",
+    "relationshipType": "flew-together",
+    "strength": 1,
+    "description": "David Fiszel mentioned in Eva Andersson Dubin (Eva Dubin)'s documented profile.",
+    "sources": [
+      "DOJ",
+      "GH"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
     "id": "mention-mary-erdoes-john-duffy",
     "sourcePersonId": "mary-erdoes",
     "targetPersonId": "john-duffy",
@@ -1489,6 +2356,226 @@
     "description": "John Duffy mentioned in Mary Erdoes's documented profile.",
     "sources": [
       "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ariane-de-rothschild-lesley-groff",
+    "sourcePersonId": "ariane-de-rothschild",
+    "targetPersonId": "lesley-groff",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Lesley Groff mentioned in Ariane de Rothschild's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ariane-de-rothschild-donald-trump",
+    "sourcePersonId": "ariane-de-rothschild",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Donald Trump mentioned in Ariane de Rothschild's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ariane-de-rothschild-ehud-barak",
+    "sourcePersonId": "ariane-de-rothschild",
+    "targetPersonId": "ehud-barak",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Ehud Barak mentioned in Ariane de Rothschild's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ariane-de-rothschild-larry-summers",
+    "sourcePersonId": "ariane-de-rothschild",
+    "targetPersonId": "larry-summers",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Larry Summers mentioned in Ariane de Rothschild's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ariane-de-rothschild-leon-black",
+    "sourcePersonId": "ariane-de-rothschild",
+    "targetPersonId": "leon-black",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Leon Black mentioned in Ariane de Rothschild's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ariane-de-rothschild-noam-chomsky",
+    "sourcePersonId": "ariane-de-rothschild",
+    "targetPersonId": "noam-chomsky",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Noam Chomsky mentioned in Ariane de Rothschild's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ariane-de-rothschild-peter-thiel",
+    "sourcePersonId": "ariane-de-rothschild",
+    "targetPersonId": "peter-thiel",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Peter Thiel mentioned in Ariane de Rothschild's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ariane-de-rothschild-woody-allen",
+    "sourcePersonId": "ariane-de-rothschild",
+    "targetPersonId": "woody-allen",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Woody Allen mentioned in Ariane de Rothschild's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ariane-de-rothschild-david-de-rothschild",
+    "sourcePersonId": "ariane-de-rothschild",
+    "targetPersonId": "david-de-rothschild",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "David de Rothschild mentioned in Ariane de Rothschild's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ariane-de-rothschild-benjamin-de-rothschild",
+    "sourcePersonId": "ariane-de-rothschild",
+    "targetPersonId": "benjamin-de-rothschild",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Benjamin de Rothschild mentioned in Ariane de Rothschild's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-ariane-de-rothschild-lord-jacob-rothschild",
+    "sourcePersonId": "ariane-de-rothschild",
+    "targetPersonId": "lord-jacob-rothschild",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Lord Jacob Rothschild mentioned in Ariane de Rothschild's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-lynn-forester-de-rothschild-ghislaine-maxwell",
+    "sourcePersonId": "lynn-forester-de-rothschild",
+    "targetPersonId": "ghislaine-maxwell",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Ghislaine Maxwell mentioned in Lynn Forester de Rothschild's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-lynn-forester-de-rothschild-alan-dershowitz",
+    "sourcePersonId": "lynn-forester-de-rothschild",
+    "targetPersonId": "alan-dershowitz",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Alan Dershowitz mentioned in Lynn Forester de Rothschild's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-lynn-forester-de-rothschild-bill-clinton",
+    "sourcePersonId": "lynn-forester-de-rothschild",
+    "targetPersonId": "bill-clinton",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Bill Clinton mentioned in Lynn Forester de Rothschild's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-lynn-forester-de-rothschild-ariane-de-rothschild",
+    "sourcePersonId": "lynn-forester-de-rothschild",
+    "targetPersonId": "ariane-de-rothschild",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Ariane de Rothschild mentioned in Lynn Forester de Rothschild's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-lynn-forester-de-rothschild-sir-evelyn-de-rothschild",
+    "sourcePersonId": "lynn-forester-de-rothschild",
+    "targetPersonId": "sir-evelyn-de-rothschild",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Sir Evelyn de Rothschild mentioned in Lynn Forester de Rothschild's documented profile.",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-lyle-casriel-ghislaine-maxwell",
+    "sourcePersonId": "lyle-casriel",
+    "targetPersonId": "ghislaine-maxwell",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Ghislaine Maxwell mentioned in Lyle Casriel's documented profile.",
+    "sources": [
+      "GH"
     ],
     "verificationStatus": "verified"
   },
@@ -1602,19 +2689,6 @@
     "verificationStatus": "verified"
   },
   {
-    "id": "mention-boris-nikolic-bill-gates",
-    "sourcePersonId": "boris-nikolic",
-    "targetPersonId": "bill-gates",
-    "relationshipType": "social",
-    "strength": 1,
-    "description": "Bill Gates mentioned in Boris Nikolic's documented profile.",
-    "sources": [
-      "DOJ",
-      "OSINT"
-    ],
-    "verificationStatus": "verified"
-  },
-  {
     "id": "mention-larry-cohen-bill-gates",
     "sourcePersonId": "larry-cohen",
     "targetPersonId": "bill-gates",
@@ -1672,6 +2746,19 @@
     "sources": [
       "DOJ",
       "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-terje-rd-larsen-brge-brende",
+    "sourcePersonId": "terje-rd-larsen",
+    "targetPersonId": "brge-brende",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Børge Brende mentioned in Terje Rød-Larsen's documented profile.",
+    "sources": [
+      "DOJ",
+      "AP"
     ],
     "verificationStatus": "verified"
   },
@@ -1764,6 +2851,18 @@
     "verificationStatus": "verified"
   },
   {
+    "id": "mention-mlusine-ruspoli-ted-waitt",
+    "sourcePersonId": "mlusine-ruspoli",
+    "targetPersonId": "ted-waitt",
+    "relationshipType": "financial",
+    "strength": 1,
+    "description": "Ted Waitt mentioned in Mélusine Ruspoli's documented profile.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
     "id": "mention-kimbal-musk-boris-nikolic",
     "sourcePersonId": "kimbal-musk",
     "targetPersonId": "boris-nikolic",
@@ -1787,9 +2886,48 @@
     "id": "mention-bill-gates-tom-barrack",
     "sourcePersonId": "bill-gates",
     "targetPersonId": "tom-barrack",
-    "relationshipType": "social",
+    "relationshipType": "legal-representation",
     "strength": 1,
     "description": "Tom Barrack mentioned in Bill Gates's documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-bill-gates-larry-summers",
+    "sourcePersonId": "bill-gates",
+    "targetPersonId": "larry-summers",
+    "relationshipType": "legal-representation",
+    "strength": 1,
+    "description": "Larry Summers mentioned in Bill Gates's documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-bill-gates-jes-staley",
+    "sourcePersonId": "bill-gates",
+    "targetPersonId": "jes-staley",
+    "relationshipType": "legal-representation",
+    "strength": 1,
+    "description": "Jes Staley mentioned in Bill Gates's documented profile.",
+    "sources": [
+      "DOJ",
+      "CBS"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-bill-gates-boris-nikolic",
+    "sourcePersonId": "bill-gates",
+    "targetPersonId": "boris-nikolic",
+    "relationshipType": "legal-representation",
+    "strength": 1,
+    "description": "Boris Nikolic mentioned in Bill Gates's documented profile.",
     "sources": [
       "DOJ",
       "CBS"
@@ -1800,7 +2938,7 @@
     "id": "mention-bill-gates-larry-cohen",
     "sourcePersonId": "bill-gates",
     "targetPersonId": "larry-cohen",
-    "relationshipType": "social",
+    "relationshipType": "legal-representation",
     "strength": 1,
     "description": "Larry Cohen mentioned in Bill Gates's documented profile.",
     "sources": [
@@ -1813,9 +2951,21 @@
     "id": "mention-peter-thiel-ehud-barak",
     "sourcePersonId": "peter-thiel",
     "targetPersonId": "ehud-barak",
-    "relationshipType": "academic",
+    "relationshipType": "intelligence",
     "strength": 1,
     "description": "Ehud Barak mentioned in Peter Thiel's documented profile.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-peter-thiel-ariane-de-rothschild",
+    "sourcePersonId": "peter-thiel",
+    "targetPersonId": "ariane-de-rothschild",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Ariane de Rothschild mentioned in Peter Thiel's documented profile.",
     "sources": [
       "DOJ"
     ],
@@ -1832,12 +2982,12 @@
     "verificationStatus": "verified"
   },
   {
-    "id": "mention-madeleine-westerhout-donald-trump",
-    "sourcePersonId": "madeleine-westerhout",
-    "targetPersonId": "donald-trump",
-    "relationshipType": "legal-representation",
+    "id": "mention-woody-allen-joi-ito",
+    "sourcePersonId": "woody-allen",
+    "targetPersonId": "joi-ito",
+    "relationshipType": "intelligence",
     "strength": 1,
-    "description": "Donald Trump mentioned in Madeleine Westerhout's documented profile.",
+    "description": "Joi Ito mentioned in Woody Allen's documented profile.",
     "sources": [],
     "verificationStatus": "verified"
   },
@@ -1845,7 +2995,7 @@
     "id": "mention-woody-allen-deepak-chopra",
     "sourcePersonId": "woody-allen",
     "targetPersonId": "deepak-chopra",
-    "relationshipType": "social",
+    "relationshipType": "intelligence",
     "strength": 1,
     "description": "Deepak Chopra mentioned in Woody Allen's documented profile.",
     "sources": [],
@@ -1912,12 +3062,36 @@
     "verificationStatus": "verified"
   },
   {
-    "id": "mention-nili-priell-ehud-barak",
-    "sourcePersonId": "nili-priell",
-    "targetPersonId": "ehud-barak",
-    "relationshipType": "social",
+    "id": "mention-nili-priell-barak-darren-indyke",
+    "sourcePersonId": "nili-priell-barak",
+    "targetPersonId": "darren-indyke",
+    "relationshipType": "intelligence",
     "strength": 1,
-    "description": "Ehud Barak mentioned in Nili Priell's documented profile.",
+    "description": "Darren Indyke mentioned in Nili Priell Barak's documented profile.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-nili-priell-barak-richard-kahn",
+    "sourcePersonId": "nili-priell-barak",
+    "targetPersonId": "richard-kahn",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Richard Kahn mentioned in Nili Priell Barak's documented profile.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-nili-priell-barak-ehud-barak",
+    "sourcePersonId": "nili-priell-barak",
+    "targetPersonId": "ehud-barak",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Ehud Barak mentioned in Nili Priell Barak's documented profile.",
     "sources": [
       "DOJ"
     ],
@@ -1931,6 +3105,1814 @@
     "strength": 1,
     "description": "Rinaldo Rizzo mentioned in Rinaldo Rizzo (listed also in Category 2)'s documented profile.",
     "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-randall-scott-taylor-darren-indyke",
+    "sourcePersonId": "randall-scott-taylor",
+    "targetPersonId": "darren-indyke",
+    "relationshipType": "financial",
+    "strength": 1,
+    "description": "Darren Indyke mentioned in Randall Scott Taylor's documented profile.",
+    "sources": [
+      "GH"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-randall-scott-taylor-leon-black",
+    "sourcePersonId": "randall-scott-taylor",
+    "targetPersonId": "leon-black",
+    "relationshipType": "financial",
+    "strength": 1,
+    "description": "Leon Black mentioned in Randall Scott Taylor's documented profile.",
+    "sources": [
+      "GH"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-randall-scott-taylor-eileen-alexanderson",
+    "sourcePersonId": "randall-scott-taylor",
+    "targetPersonId": "eileen-alexanderson",
+    "relationshipType": "financial",
+    "strength": 1,
+    "description": "Eileen Alexanderson mentioned in Randall Scott Taylor's documented profile.",
+    "sources": [
+      "GH"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-randall-scott-taylor-lyle-casriel",
+    "sourcePersonId": "randall-scott-taylor",
+    "targetPersonId": "lyle-casriel",
+    "relationshipType": "financial",
+    "strength": 1,
+    "description": "Lyle Casriel mentioned in Randall Scott Taylor's documented profile.",
+    "sources": [
+      "GH"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-stewart-oldfield-danya-friedman",
+    "sourcePersonId": "stewart-oldfield",
+    "targetPersonId": "danya-friedman",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Danya Friedman mentioned in Stewart Oldfield's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-boris-collardi-ehud-barak",
+    "sourcePersonId": "boris-collardi",
+    "targetPersonId": "ehud-barak",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Ehud Barak mentioned in Boris Collardi's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-olivier-colom-ariane-de-rothschild",
+    "sourcePersonId": "olivier-colom",
+    "targetPersonId": "ariane-de-rothschild",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Ariane de Rothschild mentioned in Olivier Colom's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-yoni-koren-ehud-barak",
+    "sourcePersonId": "yoni-koren",
+    "targetPersonId": "ehud-barak",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Ehud Barak mentioned in Yoni Koren's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-benjamin-de-rothschild-kathy-ruemmler",
+    "sourcePersonId": "benjamin-de-rothschild",
+    "targetPersonId": "kathy-ruemmler",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Kathy Ruemmler mentioned in Benjamin de Rothschild's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-benjamin-de-rothschild-ariane-de-rothschild",
+    "sourcePersonId": "benjamin-de-rothschild",
+    "targetPersonId": "ariane-de-rothschild",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Ariane de Rothschild mentioned in Benjamin de Rothschild's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-sir-evelyn-de-rothschild-bill-clinton",
+    "sourcePersonId": "sir-evelyn-de-rothschild",
+    "targetPersonId": "bill-clinton",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Bill Clinton mentioned in Sir Evelyn de Rothschild's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mention-tomer-toor-darren-indyke",
+    "sourcePersonId": "tomer-toor",
+    "targetPersonId": "darren-indyke",
+    "relationshipType": "intelligence",
+    "strength": 1,
+    "description": "Darren Indyke mentioned in Tomer Toor's documented profile.",
+    "sources": [],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "harth-trump-victim-perpetrator",
+    "sourcePersonId": "jill-harth",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "victim-perpetrator",
+    "strength": 2,
+    "description": "Filed 1997 lawsuit alleging sexual harassment and groping at Mar-a-Lago.",
+    "sources": [
+      "NYT"
+    ],
+    "verificationStatus": "contested"
+  },
+  {
+    "id": "houraney-trump-financial",
+    "sourcePersonId": "george-houraney",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Organized events for Trump including the calendar girl competition.",
+    "sources": [
+      "NYT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "houraney-epstein-social",
+    "sourcePersonId": "george-houraney",
+    "targetPersonId": "jeffrey-epstein",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Organized the calendar girl competition where Trump and Epstein were the only guests.",
+    "sources": [
+      "NYT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "harth-houraney-social",
+    "sourcePersonId": "jill-harth",
+    "targetPersonId": "george-houraney",
+    "relationshipType": "social",
+    "strength": 2,
+    "description": "Then-boyfriend/girlfriend during the Mar-a-Lago events.",
+    "sources": [
+      "NYT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "bloom-doe-legal-representation",
+    "sourcePersonId": "lisa-bloom",
+    "targetPersonId": "katie-johnson-jane-doe",
+    "relationshipType": "legal-representation",
+    "strength": 2,
+    "description": "Attorney who represented Jane Doe in the 2016 Trump-Epstein rape lawsuit.",
+    "sources": [
+      "NYT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "lubow-doe-social",
+    "sourcePersonId": "norm-lubow",
+    "targetPersonId": "katie-johnson-jane-doe",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Played a role in filing the lawsuit under false name \"Al Taylor\". Former Jerry Springer producer.",
+    "sources": [
+      "OSINT"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "lucchesi-trump-social",
+    "sourcePersonId": "andy-lucchesi",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Alleged witnessing Trump at underage sex parties in the 1990s.",
+    "sources": [
+      "OSINT"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "accuser-jessica-leeds-donald-trump",
+    "sourcePersonId": "jessica-leeds",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Jessica Leeds: Businesswoman who alleged Trump groped her on a first-class flight in the early 1980s. \"He was like ",
+    "sources": [
+      "NYT"
+    ],
+    "verificationStatus": "contested"
+  },
+  {
+    "id": "accuser-kristin-anderson-donald-trump",
+    "sourcePersonId": "kristin-anderson",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Kristin Anderson: Alleged Trump groped her beneath her skirt at a Manhattan nightclub in the early 1990s. She was an a",
+    "sources": [
+      "OSINT"
+    ],
+    "verificationStatus": "contested"
+  },
+  {
+    "id": "accuser-cathy-heller-donald-trump",
+    "sourcePersonId": "cathy-heller",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Cathy Heller: Alleged Trump grabbed and kissed her at a Mother's Day brunch at Mar-a-Lago in 1997. Husband and chi",
+    "sources": [
+      "OSINT"
+    ],
+    "verificationStatus": "contested"
+  },
+  {
+    "id": "accuser-temple-taggart-mcdowell-donald-trump",
+    "sourcePersonId": "temple-taggart-mcdowell",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Temple Taggart McDowell: Miss Utah USA 1997. Accused Trump of unwanted kisses and embraces; chaperone instructed she never be",
+    "sources": [
+      "NYT"
+    ],
+    "verificationStatus": "contested"
+  },
+  {
+    "id": "accuser-karena-virginia-donald-trump",
+    "sourcePersonId": "karena-virginia",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Karena Virginia: Alleged Trump grabbed her arm and touched her breast while waiting for a ride after the 1998 U.S. Op",
+    "sources": [
+      "CBS"
+    ],
+    "verificationStatus": "contested"
+  },
+  {
+    "id": "accuser-karen-johnson-donald-trump",
+    "sourcePersonId": "karen-johnson",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Karen Johnson: Alleged Trump grabbed her genitals and forcibly kissed her at a Mar-a-Lago New Year's Eve party in t",
+    "sources": [
+      "OSINT"
+    ],
+    "verificationStatus": "contested"
+  },
+  {
+    "id": "accuser-rachel-crooks-donald-trump",
+    "sourcePersonId": "rachel-crooks",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Rachel Crooks: Receptionist at Trump Tower who alleged Trump kissed her on the mouth without consent in an elevator",
+    "sources": [
+      "NYT"
+    ],
+    "verificationStatus": "contested"
+  },
+  {
+    "id": "accuser-natasha-stoynoff-donald-trump",
+    "sourcePersonId": "natasha-stoynoff",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Natasha Stoynoff: People magazine journalist who alleged Trump pushed her against a wall and forced his tongue into he",
+    "sources": [
+      "OSINT"
+    ],
+    "verificationStatus": "contested"
+  },
+  {
+    "id": "accuser-summer-zervos-donald-trump",
+    "sourcePersonId": "summer-zervos",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Summer Zervos: Apprentice contestant who alleged sexual assault in 2007 at the Beverly Hills Hotel. Filed defamatio",
+    "sources": [
+      "OSINT"
+    ],
+    "verificationStatus": "contested"
+  },
+  {
+    "id": "accuser-jessica-drake-donald-trump",
+    "sourcePersonId": "jessica-drake",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Jessica Drake: Alleged Trump kissed her without permission at a 2006 charity golf event and later offered $10,000 a",
+    "sources": [
+      "CBS"
+    ],
+    "verificationStatus": "contested"
+  },
+  {
+    "id": "accuser-ninni-laaksonen-donald-trump",
+    "sourcePersonId": "ninni-laaksonen",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Ninni Laaksonen: Miss Finland 2006. Alleged Trump grabbed her buttocks backstage before a Letterman taping.",
+    "sources": [
+      "OSINT"
+    ],
+    "verificationStatus": "contested"
+  },
+  {
+    "id": "accuser-cassandra-searles-donald-trump",
+    "sourcePersonId": "cassandra-searles",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Cassandra Searles: Miss Washington USA 2013. Alleged Trump continually groped her buttocks and asked her to his hotel r",
+    "sources": [
+      "NPR"
+    ],
+    "verificationStatus": "contested"
+  },
+  {
+    "id": "accuser-mariah-billado-donald-trump",
+    "sourcePersonId": "mariah-billado",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Mariah Billado: Miss Vermont Teen USA 1997. Reported Trump entered the teen dressing room; told Ivanka, who said \"Ye",
+    "sources": [
+      "OSINT"
+    ],
+    "verificationStatus": "contested"
+  },
+  {
+    "id": "accuser-tasha-dixon-donald-trump",
+    "sourcePersonId": "tasha-dixon",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Tasha Dixon: Miss Arizona USA 2001. Reported Trump entered dressing room where contestants were topless/naked.",
+    "sources": [
+      "CBS"
+    ],
+    "verificationStatus": "contested"
+  },
+  {
+    "id": "accuser-samantha-holvey-donald-trump",
+    "sourcePersonId": "samantha-holvey",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Samantha Holvey: Miss North Carolina USA 2006. Described Trump entering dressing room and \"eyeing me like a piece of ",
+    "sources": [
+      "CBS"
+    ],
+    "verificationStatus": "contested"
+  },
+  {
+    "id": "accuser-e-jean-carroll-donald-trump",
+    "sourcePersonId": "e-jean-carroll",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "E. Jean Carroll: Writer. Jury found Trump liable for sexual abuse (1995/1996) and defamation. Awarded $5M + $83.3M. B",
+    "sources": [
+      "NYT"
+    ],
+    "verificationStatus": "contested"
+  },
+  {
+    "id": "accuser-alva-johnson-donald-trump",
+    "sourcePersonId": "alva-johnson",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Alva Johnson: Former Trump campaign worker who alleged forcible kiss at a 2016 Florida rally. Lawsuit dismissed; s",
+    "sources": [
+      "OSINT"
+    ],
+    "verificationStatus": "contested"
+  },
+  {
+    "id": "accuser-juliet-huddy-donald-trump",
+    "sourcePersonId": "juliet-huddy",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Juliet Huddy: Reporter who said Trump kissed her on the lips in an elevator at Trump Tower in 2005 or 2006.",
+    "sources": [
+      "OSINT"
+    ],
+    "verificationStatus": "contested"
+  },
+  {
+    "id": "accuser-amy-dorris-donald-trump",
+    "sourcePersonId": "amy-dorris",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Amy Dorris: Former model who alleged Trump groped and forcibly kissed her at the 1997 U.S. Open. Mother and frie",
+    "sources": [
+      "OSINT"
+    ],
+    "verificationStatus": "contested"
+  },
+  {
+    "id": "accuser-beatrice-keul-donald-trump",
+    "sourcePersonId": "beatrice-keul",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "victim-perpetrator",
+    "strength": 1,
+    "description": "Beatrice Keul: Swiss model who alleged Trump groped her in his Plaza Hotel suite in 1993.",
+    "sources": [
+      "OSINT"
+    ],
+    "verificationStatus": "contested"
+  },
+  {
+    "id": "ginsberg-maxwell-social",
+    "sourcePersonId": "gary-ginsberg",
+    "targetPersonId": "ghislaine-maxwell",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Wrote flirtatious email to Maxwell in 2003.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "ff-wire-haze-trust-southern-financial-llc",
+    "sourcePersonId": "haze-trust",
+    "targetPersonId": "southern-financial-llc",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "$72,855,320 across 9 wire transfers (2018-06-22 to 2019-02-22). Bates: DB-SDNY-0008063, DB-SDNY-0007361, DB-SDNY-0007635 (+4 more).",
+    "sources": [
+      "ForensicFinance"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "ff-wire-bv70-llc-plan-d-llc",
+    "sourcePersonId": "bv70-llc",
+    "targetPersonId": "plan-d-llc",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "$30,500,000 across 2 wire transfers (2017-03-31 to 2017-04-17). Bates: DB-SDNY-0006113, DB-SDNY-0006197. | $10,000,000 across 1 wire transfer (2018-10-02 to 2018-10-02). Bates: DB-SDNY-0007669.",
+    "sources": [
+      "ForensicFinance"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "ff-wire-narrow-holdings-llc-southern-trust-company",
+    "sourcePersonId": "narrow-holdings-llc",
+    "targetPersonId": "southern-trust-company",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "$20,000,000 across 1 wire transfer (2014-07-15 to 2014-07-15). Bates: DB-SDNY-0004009.",
+    "sources": [
+      "ForensicFinance"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "ff-wire-southern-trust-company-honeycomb-partners",
+    "sourcePersonId": "southern-trust-company",
+    "targetPersonId": "honeycomb-partners",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "$54,000,000 across 6 wire transfers (2016-05-31 to 2019-03-28). Bates: DB-SDNY-0005457, DB-SDNY-0008154, DB-SDNY-0007348 (+2 more).",
+    "sources": [
+      "ForensicFinance"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "ff-wire-haze-trust-jeffrey-epstein",
+    "sourcePersonId": "haze-trust",
+    "targetPersonId": "jeffrey-epstein",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "$27,000,000 across 2 wire transfers (2016-01-08 to 2019-02-22). Bates: DB-SDNY-0005135, DB-SDNY-0008063. | $7,000,000 across 1 wire transfer (2019-02-19 to 2019-02-19). Bates: DB-SDNY-0008063.",
+    "sources": [
+      "ForensicFinance"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "ff-wire-leon-black-southern-trust-company",
+    "sourcePersonId": "leon-black",
+    "targetPersonId": "southern-trust-company",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "$106,500,000 across 14 wire transfers (2013-10-15 to 2017-04-25). Bates: DB-SDNY-0003819, DB-SDNY-0004172, DB-SDNY-0003484 (+6 more). | $16,500,000 across 2 wire transfers (10/15/2013 to 9/5/2018).",
+    "sources": [
+      "ForensicFinance"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "ff-wire-benjamin-de-rothschild-southern-trust-company",
+    "sourcePersonId": "benjamin-de-rothschild",
+    "targetPersonId": "southern-trust-company",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "$24,999,980 across 2 wire transfers (2015-12-17 to 2015-12-21). Bates: DB-SDNY-0005122.",
+    "sources": [
+      "ForensicFinance"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "ff-wire-haze-trust-southern-trust-company",
+    "sourcePersonId": "haze-trust",
+    "targetPersonId": "southern-trust-company",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "$10,000,000 across 1 wire transfer (2018-10-01 to 2018-10-01). Bates: DB-SDNY-0007725.",
+    "sources": [
+      "ForensicFinance"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "ff-wire-caterpillar-trust-2017-honeycomb-partners",
+    "sourcePersonId": "caterpillar-trust-2017",
+    "targetPersonId": "honeycomb-partners",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "$10,000,000 across 1 wire transfer (2019-03-13 to 2019-03-13). Bates: DB-SDNY-0008151.",
+    "sources": [
+      "ForensicFinance"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "ff-wire-boothbay-fund-southern-financial-llc",
+    "sourcePersonId": "boothbay-fund",
+    "targetPersonId": "southern-financial-llc",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "$10,000,000 across 1 wire transfer (2017-01-06 to 2017-01-06). Bates: DB-SDNY-0005951. | $38,250,000 across 6 wire transfers (2014-05-02 to 2016-03-31). Bates: DB-SDNY-0005280, DB-SDNY-0003845, DB-SDNY-0004745 (+3 more).",
+    "sources": [
+      "ForensicFinance"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "ff-wire-bv70-llc-gratitude-america",
+    "sourcePersonId": "bv70-llc",
+    "targetPersonId": "gratitude-america",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "$10,000,000 across 1 wire transfer (2015-10-14 to 2015-10-14). Bates: DB-SDNY-0004999.",
+    "sources": [
+      "ForensicFinance"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "ff-wire-plan-d-llc-leon-black",
+    "sourcePersonId": "plan-d-llc",
+    "targetPersonId": "leon-black",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "$18,000,000 across 4 wire transfers (10/22/2014 to 4/25/2014). Bates: DB-SDNY-0005123, DB-SDNY-0003484, DB-SDNY-0004173 (+1 more).",
+    "sources": [
+      "ForensicFinance"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "ff-wire-eileen-alexanderson-leon-black",
+    "sourcePersonId": "eileen-alexanderson",
+    "targetPersonId": "leon-black",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "$5,067,000 across 2 wire transfers (4/25/2014 to 4/25/2014).",
+    "sources": [
+      "ForensicFinance"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "ff-wire-jeepers-inc-jeffrey-epstein",
+    "sourcePersonId": "jeepers-inc",
+    "targetPersonId": "jeffrey-epstein",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "$51,876,640 across 21 wire transfers (2013-10-11 to 2019-02-07). Bates: DB-SDNY-0003640, DB-SDNY-0003769, DB-SDNY-0008016 (+18 more).",
+    "sources": [
+      "ForensicFinance"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "ff-wire-darren-indyke-jeffrey-epstein",
+    "sourcePersonId": "darren-indyke",
+    "targetPersonId": "jeffrey-epstein",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "$1,223,000 across 2 wire transfers (2014-05-21 to 2014-05-21). Bates: DB-SDNY-0003833, DB-SDNY-0003834.",
+    "sources": [
+      "ForensicFinance"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "ff-wire-nes-llc-ghislaine-maxwell",
+    "sourcePersonId": "nes-llc",
+    "targetPersonId": "ghislaine-maxwell",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "$538,617 across 4 wire transfers.",
+    "sources": [
+      "ForensicFinance"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "ff-wire-jeffrey-epstein-alfredo-rodriguez",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "alfredo-rodriguez",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "$50,000 across 1 wire transfer.",
+    "sources": [
+      "ForensicFinance"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "ff-wire-karyna-shuliak-darren-indyke",
+    "sourcePersonId": "karyna-shuliak",
+    "targetPersonId": "darren-indyke",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "$50,000 across 1 wire transfer.",
+    "sources": [
+      "ForensicFinance"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mog-alexei-alexandrov",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "alexei-alexandrov-mog",
+    "relationshipType": "co-conspirator",
+    "strength": 3,
+    "description": "Alexei Alexandrov served as Mogilevich's chief negotiator in Prague, running the Arigon subsidiary and managing prostitution placement operations.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-savalovsky",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "vitaly-savalovsky",
+    "relationshipType": "co-conspirator",
+    "strength": 3,
+    "description": "Vitaly Savalovsky is the underboss to Mogilevich, handling protection, smuggling, and prostitution operations.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-fisherman",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "igor-fisherman",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "Igor Fisherman runs Mogilevich's international financial operations as president of YBM Magnex and VP of Arigon Ltd.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-bogatin",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "jacob-bogatin",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Jacob Bogatin serves as Group VP of YBM Magnex, Mogilevich's primary US front company.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-roudavsky",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "alexander-roudavsky",
+    "relationshipType": "co-conspirator",
+    "strength": 2,
+    "description": "Alexander Roudavsky is the connection between Mogilevich's LA and Philadelphia operations, linking to YBM Magnex.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-v-berkovich",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "vladimir-berkovich-mog",
+    "relationshipType": "co-conspirator",
+    "strength": 3,
+    "description": "Vladimir Berkovich is a principal lieutenant in Los Angeles, running front businesses and allegedly arranging contract murders.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-o-berkovich",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "oleg-berkovich",
+    "relationshipType": "co-conspirator",
+    "strength": 2,
+    "description": "Oleg Berkovich, a relative, is connected to Mogilevich's Hungarian operations (Magnex Ltd.) and convicted of solicitation to murder.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-garmel",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "eduard-garmel",
+    "relationshipType": "co-conspirator",
+    "strength": 2,
+    "description": "Eduard Garmel is Mogilevich's lieutenant in LA, brokering stolen auto shipments and business sales, with Genovese LCN contacts.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-yarmolkin",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "leib-yarmolkin",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Leib Yarmolkin runs FNJ Trade Management in LA, which received $748,500 from Arigon Ltd. Used Mogilevich's name in extortion threats.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-kulachenko",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "anatoly-kulachenko",
+    "relationshipType": "co-conspirator",
+    "strength": 3,
+    "description": "Anatoly Kulachenko is director of Arigon Ltd. and chairman of YBM Magnex. Close associate involved in prostitution in Hungary.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-katrich",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "anatoly-katrich",
+    "relationshipType": "co-conspirator",
+    "strength": 3,
+    "description": "Anatoly Katrich was the key figure in Czech Republic operations, managing U Holubu restaurant and French drug trafficking operations.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-korol",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "igor-korol",
+    "relationshipType": "co-conspirator",
+    "strength": 2,
+    "description": "Igor Korol heads a group of gangsters operating in Budapest and Prague with access to Mogilevich's phones and vehicles.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-ubiriya",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "vahtang-ubiriya",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "Vahtang Ubiriya is the primary contact for Arigon's oil sales to Ukrainian railways. 20-year acquaintance involved in extortion, fraud, and currency operations.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-naishuller",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "viktor-naishuller",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "Viktor Naishuller controls the Balchug Group and helped Mogilevich finance the Army Co-op acquisition and DIGEP privatization.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-ivankov",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "vyacheslav-ivankov",
+    "relationshipType": "co-conspirator",
+    "strength": 3,
+    "description": "Mogilevich allegedly secured Ivankov's early release from Russian prison. Co-owners of Arbat International and Black and White Nightclub investment. Regular meetings in NYC and Europe.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-mikhailov",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "sergei-mikhailov-sol",
+    "relationshipType": "co-conspirator",
+    "strength": 3,
+    "description": "Mogilevich established 100+ front companies and bank accounts for Mikhailov's Solntsevskaya Organization. Relationship \"characterized by fear, but not subservience.\" Shared proceeds from extortion schemes.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-averin",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "viktor-averin",
+    "relationshipType": "co-conspirator",
+    "strength": 3,
+    "description": "Viktor Averin, co-leader of Solntsevskaya, uses Mogilevich to establish financial operations. Co-invested in art theft scheme and multiple business ventures.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-elson",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "monya-elson",
+    "relationshipType": "co-conspirator",
+    "strength": 2,
+    "description": "Mogilevich arranged Elson's safe departure from the US after assassination attempts. Connected through Tzigan in LA, who launders money for both.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-kalmanovich",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "shabtai-kalmanovich",
+    "relationshipType": "intelligence",
+    "strength": 2,
+    "description": "Shabtai Kalmanovich provides Israeli passports for Mogilevich associates, leveraging Israeli government connections. Co-partner in Moskva Spartak basketball team.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mikhailov-averin",
+    "sourcePersonId": "sergei-mikhailov-sol",
+    "targetPersonId": "viktor-averin",
+    "relationshipType": "co-conspirator",
+    "strength": 3,
+    "description": "Co-leaders of the Solntsevskaya Organization, Moscow's largest OC group (~230–1,000 members).",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mikhailov-ivankov",
+    "sourcePersonId": "sergei-mikhailov-sol",
+    "targetPersonId": "vyacheslav-ivankov",
+    "relationshipType": "co-conspirator",
+    "strength": 2,
+    "description": "Co-owners of Arbat International in Moscow. Ivankov was the most influential Eurasian criminal before his 1995 arrest.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "fisherman-bogatin",
+    "sourcePersonId": "igor-fisherman",
+    "targetPersonId": "jacob-bogatin",
+    "relationshipType": "co-conspirator",
+    "strength": 2,
+    "description": "President and Group VP of YBM Magnex — Mogilevich's primary US financial front in Newtown, Pennsylvania.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "fisherman-ubiriya",
+    "sourcePersonId": "igor-fisherman",
+    "targetPersonId": "vahtang-ubiriya",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Fisherman is the commercial middleman between Mogilevich and Ubiriya, coordinating criminal activities across multiple countries.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "v-berkovich-o-berkovich",
+    "sourcePersonId": "vladimir-berkovich-mog",
+    "targetPersonId": "oleg-berkovich",
+    "relationshipType": "co-conspirator",
+    "strength": 3,
+    "description": "Father and son. Both Mogilevich relatives in Los Angeles involved in criminal activities.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "yarmolkin-mog-la",
+    "sourcePersonId": "leib-yarmolkin",
+    "targetPersonId": "vladimir-berkovich-mog",
+    "relationshipType": "co-conspirator",
+    "strength": 1,
+    "description": "Both operate in Mogilevich's Los Angeles orbit — Yarmolkin at FNJ Trade, Berkovich at Palm Terrace restaurant.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-putin",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "vladimir-putin",
+    "relationshipType": "intelligence",
+    "strength": 3,
+    "description": "Personal relationship since 1990s. Documented in Melnychenko tapes and Litvinenko testimony before assassination. Energy interests overlap through Gazprom/RosUkrEnergo.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-firtash",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "dmytro-firtash",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "Firtash admitted getting into business with Mogilevich's permission (told U.S. Ambassador 2008). DOJ: \"upper-echelon associate of Russian organized crime.\"",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-orban",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "viktor-orban",
+    "relationshipType": "intelligence",
+    "strength": 2,
+    "description": "Alleged kompromat video from 1990s. Mogilevich based in Budapest during Orbán's rise. Interior Minister Pintér allegedly paid 10,000 DM/month by Mogilevich network.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-fico",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "robert-fico",
+    "relationshipType": "intelligence",
+    "strength": 2,
+    "description": "Connected through organizational operatives. Investigative journalist Kuciak murdered while probing Fico-Mogilevich-'Ndrangheta corruption networks.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-david-bogatin",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "david-bogatin",
+    "relationshipType": "co-conspirator",
+    "strength": 3,
+    "description": "Key Mogilevich member who bought 5 Trump Tower condos (seized for laundering). Brother of Jacob Bogatin (YBM Magnex VP).",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-sater",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "felix-sater",
+    "relationshipType": "co-conspirator",
+    "strength": 2,
+    "description": "Sater's father Mikhail Sheferovsky was a Mogilevich crime syndicate boss (FBI files). Sater became Trump adviser through Bayrock Group.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-robert-maxwell",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "robert-maxwell",
+    "relationshipType": "intelligence",
+    "strength": 2,
+    "description": "Robert Maxwell (Mossad agent) obtained Israeli passports for Mogilevich and his associates in the late 1980s. Maxwell's money laundering for Mossad became a model for transnational OC.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "trump-bogatin",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "david-bogatin",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Bogatin (key Mogilevich member) bought 5 condos in Trump Tower, all seized for money laundering.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "trump-ivankov-tower",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "vyacheslav-ivankov",
+    "relationshipType": "social",
+    "strength": 2,
+    "description": "Ivankov (Mogilevich lieutenant) lived at Trump Tower and possessed Trump Organization phone numbers.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "trump-sater",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "felix-sater",
+    "relationshipType": "employer-employee",
+    "strength": 3,
+    "description": "Sater served as senior adviser to Trump (business card: \"Senior Adviser to Donald Trump\"). Managing director of Bayrock which co-developed Trump SoHo. Son of Mogilevich syndicate boss.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "trump-arif",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "tevfik-arif",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "Arif's Bayrock Group co-developed Trump SoHo. Bayrock offices on 24th floor of Trump Tower. Arif spent 17 years in USSR Ministry of Commerce.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "trump-cohn",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "roy-cohn",
+    "relationshipType": "legal-representation",
+    "strength": 3,
+    "description": "Personal attorney from 1970s. Mob consigliere for Gambino and Genovese families. Brokered Trump-Salerno meeting (1983).",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "trump-manafort",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "paul-manafort",
+    "relationshipType": "employer-employee",
+    "strength": 3,
+    "description": "Campaign chairman June–August 2016. Connected to Firtash ($850M Drake deal), who admitted Mogilevich connection. Gave polling data to Russian intel-linked Kilimnik.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "trump-salerno",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "fat-tony-salerno",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Met through Roy Cohn in 1983. S&A Concrete (Salerno/Castellano joint venture) built Trump Tower and Trump Plaza.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "trump-castellano",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "paul-castellano",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Castellano (Gambino boss) co-owned S&A Concrete which built Trump Tower and Trump Plaza. Connected through Roy Cohn.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "trump-cody",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "john-cody",
+    "relationshipType": "social",
+    "strength": 2,
+    "description": "Teamsters Local 282 boss controlled concrete deliveries to Trump Tower. Dealt with Trump \"through Roy Cohn.\" Girlfriend given apartment below Trump penthouse.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "trump-cohen-mog",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "michael-cohen",
+    "relationshipType": "employer-employee",
+    "strength": 3,
+    "description": "Trump fixer attorney. Family owned El Caribe (Russian mob hangout). Childhood friend of Felix Sater (Mogilevich syndicate connection).",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "trump-sapir",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "tamir-sapir",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Trump SoHo co-developer. Business partner of Semion Kislin (KGB link).",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "manafort-firtash",
+    "sourcePersonId": "paul-manafort",
+    "targetPersonId": "dmytro-firtash",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "$850M Drake Hotel deal. Firtash described as friend. Both defendants in Tymoshenko lawsuit. Firtash admitted Mogilevich connection.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "manafort-kilimnik",
+    "sourcePersonId": "paul-manafort",
+    "targetPersonId": "konstantin-kilimnik",
+    "relationshipType": "intelligence",
+    "strength": 3,
+    "description": "Manafort shared Trump campaign polling data with Russian intelligence-linked Kilimnik during 2016 campaign.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "manafort-deripaska",
+    "sourcePersonId": "paul-manafort",
+    "targetPersonId": "oleg-deripaska",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Deripaska paid $7.35M in management fees to Manafort.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "sater-cohen",
+    "sourcePersonId": "felix-sater",
+    "targetPersonId": "michael-cohen",
+    "relationshipType": "social",
+    "strength": 3,
+    "description": "Childhood friends. Cohen's family owned El Caribe (Russian mob hangout). Together connected Trump to Russian-linked financing through Bayrock.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "sater-arif",
+    "sourcePersonId": "felix-sater",
+    "targetPersonId": "tevfik-arif",
+    "relationshipType": "employer-employee",
+    "strength": 3,
+    "description": "Sater was managing director at Bayrock. \"Arif was the boss.\" Together co-developed Trump SoHo.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "arif-mashkevitch",
+    "sourcePersonId": "tevfik-arif",
+    "targetPersonId": "alexander-mashkevitch",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Mashkevitch funded Bayrock. Co-arrested on yacht in Turkey 2010.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "cohn-salerno",
+    "sourcePersonId": "roy-cohn",
+    "targetPersonId": "fat-tony-salerno",
+    "relationshipType": "legal-representation",
+    "strength": 3,
+    "description": "Client relationship. Brokered meeting between Salerno and Trump in 1983.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cohn-castellano",
+    "sourcePersonId": "roy-cohn",
+    "targetPersonId": "paul-castellano",
+    "relationshipType": "legal-representation",
+    "strength": 3,
+    "description": "Client relationship. Castellano co-owned S&A Concrete with Salerno.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fred-trump-donald",
+    "sourcePersonId": "fred-trump",
+    "targetPersonId": "donald-trump",
+    "relationshipType": "social",
+    "strength": 3,
+    "description": "Father and son. Fred's mob connections (Tomasello, Cohn, FHA fraud) established the pattern of organized crime associations.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "robert-maxwell-ghislaine-mog",
+    "sourcePersonId": "robert-maxwell",
+    "targetPersonId": "ghislaine-maxwell",
+    "relationshipType": "social",
+    "strength": 3,
+    "description": "Father and daughter. Robert (Mossad agent) obtained passports for Mogilevich. Ghislaine's involvement with Epstein connects organized crime, intelligence, and political figures.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "litvinenko-mogilevich",
+    "sourcePersonId": "alexander-litvinenko",
+    "targetPersonId": "semion-mogilevich",
+    "relationshipType": "intelligence",
+    "strength": 2,
+    "description": "Litvinenko testified about Mogilevich-Putin relationship before his assassination with polonium-210. Primary source for the Mogilevich-state connection.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "firtash-putin",
+    "sourcePersonId": "dmytro-firtash",
+    "targetPersonId": "vladimir-putin",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Sweetheart gas deals brokered by Putin associates at Gazprom. RosUkrEnergo intermediary controlled by Firtash.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "orban-putin",
+    "sourcePersonId": "viktor-orban",
+    "targetPersonId": "vladimir-putin",
+    "relationshipType": "social",
+    "strength": 2,
+    "description": "Met at 2009 United Russia convention. Key Putin supporter in EU. Rosatom Paks II nuclear deal. Energy dependency through South Stream/TurkStream.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "kuciak-fico",
+    "sourcePersonId": "jan-kuciak",
+    "targetPersonId": "robert-fico",
+    "relationshipType": "social",
+    "strength": 2,
+    "description": "Kuciak investigated Fico's 'Ndrangheta connections. His murder triggered mass protests and Fico's resignation.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "trump-wray",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "christopher-wray",
+    "relationshipType": "employer-employee",
+    "strength": 2,
+    "description": "Trump appointed Wray as FBI Director. Wray's former firm King & Spalding represented Gazprom, Rosneft, Sberbank, and Alfa Bank.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "trump-tillerson",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "rex-tillerson",
+    "relationshipType": "employer-employee",
+    "strength": 2,
+    "description": "Trump appointed Tillerson as Secretary of State. Tillerson's ExxonMobil had a pending $500B deal with Rosneft.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "giuliani-parnas",
+    "sourcePersonId": "rudy-giuliani",
+    "targetPersonId": "lev-parnas",
+    "relationshipType": "co-conspirator",
+    "strength": 3,
+    "description": "Parnas was Giuliani's key associate for Ukrainian ventures. Parnas was also employed by Firtash's legal team.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "parnas-fruman",
+    "sourcePersonId": "lev-parnas",
+    "targetPersonId": "igor-fruman",
+    "relationshipType": "co-conspirator",
+    "strength": 3,
+    "description": "Parnas and Fruman operated together as intermediaries connecting Giuliani to Ukrainian interests. Both convicted on campaign finance charges.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "parnas-firtash",
+    "sourcePersonId": "lev-parnas",
+    "targetPersonId": "dmytro-firtash",
+    "relationshipType": "employer-employee",
+    "strength": 2,
+    "description": "Parnas was employed by Firtash's legal team. Firtash admitted getting into business with Mogilevich's permission.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "trump-giuliani",
+    "sourcePersonId": "donald-trump",
+    "targetPersonId": "rudy-giuliani",
+    "relationshipType": "legal-representation",
+    "strength": 3,
+    "description": "Giuliani served as Trump's personal attorney. Connected to Firtash (Mogilevich associate) through Parnas/Fruman.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "manafort-yanukovych",
+    "sourcePersonId": "paul-manafort",
+    "targetPersonId": "viktor-yanukovych",
+    "relationshipType": "employer-employee",
+    "strength": 3,
+    "description": "Manafort worked for Yanukovych's Party of Regions 10+ years, earning $17M+.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "manafort-zackson",
+    "sourcePersonId": "paul-manafort",
+    "targetPersonId": "brad-zackson",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Drake Hotel deal partners. Zackson was formerly Fred Trump's exclusive property broker.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "firtash-yanukovych",
+    "sourcePersonId": "dmytro-firtash",
+    "targetPersonId": "viktor-yanukovych",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "Firtash was a major financial backer of Yanukovych. Both connected to Party of Regions and Ukrainian energy sector.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "firtash-lyovochkin",
+    "sourcePersonId": "dmytro-firtash",
+    "targetPersonId": "serhiy-lyovochkin",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Business partners in gas sector. Lyovochkin funded Habsburg Group (Manafort's European lobbying).",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "patten-lyovochkin",
+    "sourcePersonId": "sam-patten",
+    "targetPersonId": "serhiy-lyovochkin",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Patten funneled $50K from Lyovochkin into Trump inaugural, connecting Ukrainian oligarch money to the inauguration.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "fred-trump-tomasello",
+    "sourcePersonId": "fred-trump",
+    "targetPersonId": "willie-tomasello",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "25% partnership in Beach Haven. Tomasello was a Genovese and Gambino associate.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fred-trump-cohn",
+    "sourcePersonId": "fred-trump",
+    "targetPersonId": "roy-cohn",
+    "relationshipType": "legal-representation",
+    "strength": 3,
+    "description": "Cohn represented both Fred and Donald Trump, while also serving as consigliere for Gambino and Genovese families.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "fred-trump-zackson",
+    "sourcePersonId": "fred-trump",
+    "targetPersonId": "brad-zackson",
+    "relationshipType": "employer-employee",
+    "strength": 2,
+    "description": "Zackson was Fred Trump's exclusive property broker. Later partnered with Manafort on Drake Hotel deal with Firtash.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "cody-hixon",
+    "sourcePersonId": "john-cody",
+    "targetPersonId": "verina-hixon",
+    "relationshipType": "social",
+    "strength": 3,
+    "description": "Hixon was Cody's girlfriend. Given apartment directly below Trump's penthouse in Trump Tower.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "mog-birshtein",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "boris-birshtein",
+    "relationshipType": "co-conspirator",
+    "strength": 2,
+    "description": "Birshtein hosted the October 1995 OC summit in his Tel Aviv diamond center office. Summit discussed sharing interests in Ukraine.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "mog-rabinovich",
+    "sourcePersonId": "semion-mogilevich",
+    "targetPersonId": "vadim-rabinovich",
+    "relationshipType": "co-conspirator",
+    "strength": 2,
+    "description": "Rabinovich attended the 1995 Tel Aviv OC summit alongside Mogilevich, Mikhailov, and Averin.",
+    "sources": [
+      "FBI-Mogilevich"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "epstein-wolfe-science",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "nathan-wolfe",
+    "relationshipType": "social",
+    "strength": 3,
+    "description": "Wolfe corresponded with Epstein 2008–2013, visited his homes in New York and Florida, proposed the \"horny virus hypothesis\" study, and invited Epstein to a dinner with \"hottie interns from WEF.\" 589 DOJ mentions. Wolfe denies receiving funding or visiting the island.",
+    "sources": [
+      "EFTA-Science"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "epstein-thakuria-genetic-testing",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "joseph-thakuria",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Epstein paid Thakuria $160K+ for novel genetic testing and proposed CRISPR gene-editing of his stem cells for longevity (\"The Venus Project\").",
+    "sources": [
+      "EFTA-Science"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "epstein-lloyd-funding",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "seth-lloyd",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Seth Lloyd received Epstein-related funding as part of MIT's total donations. Attended Edge Foundation science dinners funded by Epstein.",
+    "sources": [
+      "EFTA-Science"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "epstein-krauss-funding",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "lawrence-krauss",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Krauss received $250K+ from Epstein for ASU Origins Project. DOJ emails (EFTA01614010) show Krauss sought Epstein's advice when facing his own misconduct allegations.",
+    "sources": [
+      "EFTA-Science"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "epstein-lander-meetings",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "eric-lander",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Eric Lander met Epstein twice in 2012. The meetings later delayed his confirmation as Biden's science adviser.",
+    "sources": [
+      "EFTA-Science"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "wolfe-nowak-science-network",
+    "sourcePersonId": "nathan-wolfe",
+    "targetPersonId": "martin-nowak",
+    "relationshipType": "academic",
+    "strength": 1,
+    "description": "Both in Epstein's documented science orbit — Wolfe (virology/pandemic preparedness) and Nowak (virus dynamics/R₀). No direct collaboration documented.",
+    "sources": [
+      "EFTA-Science"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "wolfe-church-science-network",
+    "sourcePersonId": "nathan-wolfe",
+    "targetPersonId": "george-church",
+    "relationshipType": "academic",
+    "strength": 1,
+    "description": "Both in Epstein's documented science orbit — Wolfe (virology) and Church (synthetic biology/genetics). Both at Stanford/Harvard respectively.",
+    "sources": [
+      "EFTA-Science"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "nikolic-church-biomatics",
+    "sourcePersonId": "boris-nikolic",
+    "targetPersonId": "george-church",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Nikolic's Biomatics Capital invested in eGenesis, a gene-editing company co-founded by George Church.",
+    "sources": [
+      "EFTA-Science"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "nowak-church-ped-meetings",
+    "sourcePersonId": "martin-nowak",
+    "targetPersonId": "george-church",
+    "relationshipType": "academic",
+    "strength": 2,
+    "description": "Church attended meetings at Nowak's Program for Evolutionary Dynamics at Harvard, where Epstein maintained an office (Room 610).",
+    "sources": [
+      "EFTA-Science"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "brockman-church-edge",
+    "sourcePersonId": "john-brockman",
+    "targetPersonId": "george-church",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Church attended Edge Foundation science dinners organized by Brockman and funded by Epstein ($638K).",
+    "sources": [
+      "EFTA-Science"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "brockman-lloyd-edge",
+    "sourcePersonId": "john-brockman",
+    "targetPersonId": "seth-lloyd",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Lloyd attended Edge Foundation science dinners organized by Brockman and funded by Epstein.",
+    "sources": [
+      "EFTA-Science"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "church-thakuria-harvard-genetics",
+    "sourcePersonId": "george-church",
+    "targetPersonId": "joseph-thakuria",
+    "relationshipType": "academic",
+    "strength": 1,
+    "description": "Both Harvard geneticists in Epstein's orbit — Church (CRISPR/synthetic biology) and Thakuria (longevity genetics/Venus Project).",
+    "sources": [
+      "EFTA-Science"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "elkman-epstein",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "steven-elkman",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Elkman was a Deutsche Bank Managing Director during the period Epstein banked there (2013–2018). Referenced as \"Elkman\" in a \"whoops\" email on the day of his NYT obituary (May 11, 2015).",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "eisenstein-epstein",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "warren-eisenstein",
+    "relationshipType": "associate",
+    "strength": 3,
+    "description": "Childhood friends from Brooklyn's Sea Gate. Eisenstein's obituary listed Epstein as \"lifelong friend and soulmate.\" 1981 SEC deposition: Epstein fined for loaning Eisenstein money at Bear Stearns.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "myhrvold-epstein",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "nathan-myhrvold",
+    "relationshipType": "associate",
+    "strength": 3,
+    "description": "Decades-long friendship from 1996 through 2018. Multiple flight logs, sexually explicit emails, birthday book contribution. Myhrvold hosted Putin's wife and daughter on his superyacht (2010 email).",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "farkas-epstein",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "jonathan-farkas",
+    "relationshipType": "associate",
+    "strength": 2,
+    "description": "35-year social relationship beginning in the Hamptons (early 1980s). Received \"whoops\" email May 11, 2015 on date of Elkman obituary. Wife Somers Farkas later appointed US Ambassador to Malta.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "previn-epstein",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "soon-yi-previn",
+    "relationshipType": "associate",
+    "strength": 2,
+    "description": "Frequent dinner scheduling correspondence. Previn and Woody Allen commiserated with Epstein about sexual misconduct accusations. Epstein arranged a White House tour for them (Dec 2015).",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "junkermann-epstein",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "nicole-junkermann",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "On Epstein's 2002 flight logs. Emailed \"Will you have a baby with me?\" (2010). Board of Carbyne (Epstein investment via Southern Trust). \"Whoops\" email July 15, 2018.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified"
+  },
+  {
+    "id": "huffman-epstein",
+    "sourcePersonId": "mike-huffman-dia",
+    "targetPersonId": "jeffrey-epstein",
+    "relationshipType": "associate",
+    "strength": 1,
+    "description": "DIA faculty at Joint Military Attaché School. Epstein received email from Huffman@ucia.gov containing apparently classified material, forwarded to defense attorney (July 1, 2010).",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "unverified"
+  },
+  {
+    "id": "althani-epstein",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "jabor-al-thani",
+    "relationshipType": "political",
+    "strength": 2,
+    "description": "Epstein served as diplomatic intermediary during 2017–2021 Qatar blockade. Brokered Dec 2018 secret meeting between former Qatari PM and Ehud Barak at One Hyde Park, London.",
+    "sources": [
+      "DOJ"
+    ],
     "verificationStatus": "verified"
   }
 ]

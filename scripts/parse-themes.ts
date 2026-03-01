@@ -7,7 +7,7 @@ import fs from 'fs';
 import path from 'path';
 
 type SourceTag =
-  | 'CBS' | 'NPR' | 'WSJ' | 'NYT' | 'CNN' | 'Bloomberg'
+  | 'CBS' | 'NPR' | 'WSJ' | 'NYT' | 'CNN' | 'Bloomberg' | 'AP'
   | 'DOJ' | 'FBI' | 'HO' | 'SJ' | 'JMail' | 'GH' | 'OSINT'
   | 'Maxwell-trial' | 'Giuffre-deposition' | 'Palm-Beach-PD';
 
@@ -25,7 +25,7 @@ interface ThemeSection {
 
 // ─── Source tag extraction ─────────────────────────────────────────────────
 const VALID_SOURCES = new Set<SourceTag>([
-  'CBS', 'NPR', 'WSJ', 'NYT', 'CNN', 'Bloomberg',
+  'CBS', 'NPR', 'WSJ', 'NYT', 'CNN', 'Bloomberg', 'AP',
   'DOJ', 'FBI', 'HO', 'SJ', 'JMail', 'GH', 'OSINT',
   'Maxwell-trial', 'Giuffre-deposition', 'Palm-Beach-PD',
 ]);

@@ -22,6 +22,8 @@
 15. [International Consequences & Fallout](#15-international-consequences--fallout)
 16. [Media & Congressional Investigations](#16-media--congressional-investigations)
 17. [Community Research Tools & Architecture](#17-community-research-tools--architecture)
+18. [Cross-Network Financial Analysis: Epstein as Financial Hub](#18-cross-network-financial-analysis-epstein-as-financial-hub)
+19. [The Rothschild Dynasty — $25 Million, Access Brokerage & Intelligence Nexus](#19-the-rothschild-dynasty--25-million-access-brokerage--intelligence-nexus)
 
 ---
 
@@ -467,6 +469,10 @@ Processed $378 million through **270 wire transfers** without identifying a legi
 
 Filed only 2 delayed SARs (2020) covering $170M in Epstein–Leon Black transactions — $12M more than Apollo's own investigation identified. Trial set for May 11, 2026.
 
+### Leon Black Payment Architecture ($158–170 Million)
+
+The $158–170 million in payments from Leon Black to Epstein flowed from at least seven entities — Black Family Partners, Narrows Holdings, Elysium Management, BV70 LLC, and others — to Southern Trust Company, Financial Trust Company, Plan D LLC, and Gratitude America Ltd. The Dechert investigation found $158 million; the Senate Finance Committee found $170 million, identifying $12 million in previously unknown wire transfers. Approximately $100 million (2014–2017) was paid without any written contract. The stated justification — tax advisory on a defective 2006 GRAT — was described by Black's own attorneys as advice "in the public domain and originated with Black's other legal advisors." The payment timeline maps onto Apollo Fund VIII ($18.4 billion, largest PE fund since the financial crisis) and Fund IX ($24.6 billion, largest buyout fund in history). Black paid $62.5 million to USVI for criminal immunity in January 2023. Neither the GRATs nor the trust structures were ever audited by the IRS.
+
 ### The Treasury "Epstein File"
 
 A Treasury Department "Epstein File" identified by Sen. Ron Wyden's investigation contains **4,725 wire transfers totaling approximately $1.1 billion** from a single JPMorgan account, with additional hundreds of millions through other accounts. The file shows Epstein used **multiple Russian banks now under sanctions** to process payments correlated with movement of women and girls from Russia, Belarus, Turkey, and Turkmenistan. The Trump administration has refused to produce this file to the Senate; Sen. Wyden introduced the **"Produce Epstein Treasury Records Act" (S.2746)** to compel disclosure.
@@ -480,6 +486,22 @@ A previously undisclosed DEA investigation (reported exclusively by CBS, Februar
 **Southern Trust Company, Inc.** (USVI, Epstein as president): Registered as a biomedical/financial informatics company, performed no such services. Grew from $198.5M in assets (2013) to $391.3M (2017) employing only 13 people (11 in administrative roles). Received a 10-year EDC tax incentive: **90% income tax exemption**. Generated $250M+ in revenues. Epstein personally received a **$71.3 million income tax exemption** through Southern Trust's S-Corp election. The USVI AG alleged it "acted as a conduit for payment to foreign women, credit cards, airplanes and other instrumentalities" of trafficking.
 
 **$25 million Edmond de Rothschild agreement (October 5, 2015):** Epstein's Southern Trust signed a contract with the Rothschild Group for "risk analysis" services, with wires of $25M hitting Epstein accounts on December 17 and 21, 2015 — payment triggered when the Rothschild Group completed a $45.2M DOJ Swiss Bank Program penalty. Approximately 50 meetings between Epstein and Ariane de Rothschild from 2013–2019. Howard Lutnick co-invested through **"Adfin"** with Epstein via this entity structure.
+
+### The Southern Trust Nexus — Where All Money Converged
+
+Southern Trust Company was the single most important financial convergence point in the entire Epstein architecture. It is where patronage money (Rothschild $25M, Black $140M), intelligence-adjacent money (Carbyne/Reporty $1M to Bank Leumi), and criminal infrastructure ("Epstein Enterprise") all met — one shell company, three functions, $166 million+ from two separate billionaire sources alone.
+
+**Money flowing into Southern Trust:**
+- Rothschild Group: $25M — "algorithm services" with no algorithm; DOJ-linked sliding scale bounty
+- Leon Black: $140M — undisclosed "consulting"; Senate Finance Committee documented
+- Multiple other sources
+
+**Money flowing out of Southern Trust:**
+- Bank Leumi Branch 771: $1M — "Reporty Investment" (Carbyne/Barak's surveillance company, Unit 8200 founders)
+- "Epstein Enterprise" — USVI DOJ: payments to foreign women, credit cards, airplanes
+- Deutsche Bank: $157M+ across 13 accounts, 7 entities
+
+The financial infrastructure IS the intelligence infrastructure. They were never separate tracks. [A1/A2]
 
 **Complete corporate entity list (from Produce Epstein Treasury Records Act, S.2746):** Financial Trust Co., Southern Trust Co., Southern Financial LLC, Haze Trust, The 1953 Trust, Plan D LLC (Boeing 727 "Lolita Express," Gulfstream G550), Great St. Jim LLC, Nautilus Inc., Hyperion Air LLC (helicopters; formerly Air Ghislaine → Shmitka Air → Freedom Air International → Hyperion Air), Poplar Inc., J Epstein VI Foundation, Gratitude America Ltd., Butterfly Trust, La Hougue, HBRK Associates, Coatue Enterprises, C.O.U.Q. Foundation, Enhanced Education, JEGE Inc./LLC, NES LLC.
 
@@ -505,6 +527,10 @@ Executor Darren Indyke appears in the prison visitors log on **July 22, 2019** �
 - Casino chip scheme involving Trump's father (Trump had to borrow $11M from his brother and sister to survive 1990s financial crisis — [EFTA01211522](https://www.justice.gov/epstein/files/DataSet%209/EFTA01211522.pdf))
 - Tom Barrack tax evasion discussions appear in files
 
+### Forensic Finance Repository (February 2026)
+
+The randallscott25-star/epstein-forensic-finance GitHub repository represents the most systematic computational forensic accounting of the EFTA corpus. Key findings: $2.146B net flows through eight shell entities (Southern Trust $692M, Haze Trust $618M, Southern Financial LLC $606.9M). Southern Financial LLC shows unexplained $412.3M net positive surplus. Banking tier: Deutsche Bank $851.9M, JPMorgan $670.8M, Bank of America $486.4M (all unverified aggregates). Operator tier: Darren Indyke $320.1M, Eileen Alexanderson $294M ($285M gap), Lyle Casriel $92.5M to Maxwell (176 payments). Eight inter-shell transfers totaling $260.4M circulated funds internally. Leon Black: $310.5M verified across 42 wire transfers from five entities (Bates stamps DB-SDNY-0002962 through DB-SDNY-0006113, EFTA01075607). Single October 2008 wire: $50M (EFTA01075607). Critical caveat: 94.8% of NLP-extracted records are low-confidence noise. Celebrity names produce $0 verified: Trump ($64.7M claimed), Gates ($36.6M), Clinton ($17.6M), Prince Andrew ($13.9M). [GH]
+
 ---
 
 ## 9. Intelligence Connections
@@ -518,6 +544,68 @@ Separately, journalist Vicky Ward reported Acosta told the Trump transition team
 ### Carbyne & Israeli Intelligence
 
 Epstein and Barak **co-founded Carbyne**, a cybersecurity/surveillance startup **staffed by ex-Israeli intelligence operatives**. Congressional statements from Rep. Thomas Massie ("Epstein had close ties to our own intelligence agencies and Israel's") and Rep. Nancy Mace ("I believe Epstein was an intel asset") reflect growing political scrutiny.
+
+### Bank Leumi Corridor — $4.64 Million to Israeli Banks
+
+Across four rounds of database analysis — 863 query groups, roughly 25,000 data rows — nobody had ever searched for "Bank Leumi" in the EFTA corpus. When finally searched, 186 documents mentioning Israeli banks appeared. The full picture: Epstein's Bank Leumi relationship was three separate branches, each serving a different function:
+
+| Branch | Location | Purpose | Amount |
+|--------|----------|---------|--------|
+| Branch 771 | Shaul Hamelech, Tel Aviv | Investment | $1,000,000 — wire to ERGO Ltd. / "Reporty Investment" (Carbyne), authorized by Darren Indyke, March 16, 2015 (EFTA01404004) |
+| Branch 832 | Pinkas 48, Tel Aviv | Corporate banking | $3,600,000 — Tomer Toor / Furth Wilensky wire; Southern Trust account; Deutsche Bank reference letter destination (EFTA02634615) |
+| Branch 666 | 2 Shoham St, Ramat Gan | Political money | $40,000 — HBRK wire to Achrayut Leumit (Barak's political entity), traced through the Nili Priell Barak email chain (EFTA01297175) |
+
+**Total documented Israeli bank flows: $4.64 million minimum.** Euroclear Bank Brussels wire reports show institutional-level settlement routing to both Bank Leumi Le-Israel and Israel Discount Bank — a dual Israeli bank architecture suggesting total flows could be substantially higher.
+
+The three men who controlled Epstein's money on a daily basis — Darren Indyke (attorney, $1M Reporty wire), Richard Kahn (estate executor, $40K HBRK wire), and Stewart Oldfield (Deutsche Bank relationship manager, reference letter) — were all routing funds to the same place: Israeli banking and political infrastructure connected to Ehud Barak.
+
+When Tomer Toor requested Southern Trust's controlling person identity, Indyke responded: "I thought we did not want your name associated with this Investment." When compliance flagged the $40K wire, Oldfield missed the deadline and Kahn said "Friend." When Deutsche Bank terminated Epstein, Oldfield wrote a reference letter to Bank Leumi anyway — three months after termination. [A1/A2]
+
+### The Mega Group — Billionaire Intelligence Vehicle
+
+In 1991, Charles Bronfman and Les Wexner founded an exclusive organization of Jewish-American billionaires called the Mega Group (sometimes "Study Group"). Stated purpose: strategic philanthropy benefiting Israel. A former NSA counterspy described it as "viewed by Israeli intelligence officials as a vehicle for espionage and influence operations in the United States."
+
+The term appears 30 times in previously redacted documents but nearly zero in publicly available text — systematically hidden. The alternative name "Study Group" shows the same pattern. When searched in intelligence wiretap records, the codename was first intercepted during surveillance of the Jonathan Pollard spy case in 1987.
+
+**Members overlapping with Epstein's network:**
+
+| Member | Epstein Connection |
+|--------|-------------------|
+| Les Wexner | Primary funder ($60-100M+), co-conspirator designation |
+| Edgar Bronfman Sr. | Epstein's first major client (~1977), 36 documented relationships |
+| Ronald Lauder | 20+ emails in Epstein archive; 11 White House visits during Biden administration |
+| Michael Steinhardt | Investment correspondence in email archive |
+| Leonard Stern | Listed in Epstein's black book |
+
+30 redacted entities appear in documents that also contain the words "intelligence," "classified," "Mossad," or "CIA." Barak's name appeared 21 times in previously redacted text — his involvement was considered sensitive enough to warrant concealment. [B/D]
+
+### Surveillance Infrastructure — From Epstein's Cameras to 18,000 Police Departments
+
+"24 HOUR VIDEO SURVEILLANCE" signs were posted on doors at Epstein's properties — visible in FBI photographs released in January 2026. Across 38,955 AI-analyzed photographs from the DOJ release: cameras, monitors, DVDs, hard drives, computers, safes, and security equipment documented at every property — Manhattan, Palm Beach, Little St. James, Zorro Ranch.
+
+Epstein and Barak co-invested in Carbyne (originally Reporty) — an emergency communications company founded by Unit 8200 alumni (Israel's NSA equivalent). The company's pitch deck stated: "As former Israeli intelligence officers we know how to dig up the elusive." The $1 million seed wire is documented: Southern Trust account 9244 to Bank Leumi Branch 771, beneficiary ERGO Ltd., reference "Reporty Investment," authorized by Indyke, March 16, 2015 (EFTA01404004).
+
+In November 2025, Axon — provider of body cameras to 18,000+ US law enforcement agencies — acquired Carbyne for $625 million. The surveillance pipeline is now: 911 call → dispatch → body cameras → evidence management → prosecution. All Axon. Seeded with documented Epstein money.
+
+126 CDs and DVDs were seized from suitcases belonging to Richard Kahn. Their contents have never been publicly disclosed. [A1/B]
+
+### MCC Death Footage Forensics
+
+UC Berkeley Professor Hany Farid analyzed the MCC surveillance footage from the night Epstein died. Findings: the footage was processed using Adobe Premiere Pro (professional video editing software, not a direct prison system export), assembled from at least two separate source clips, with approximately 2 minutes and 53 seconds missing at a critical juncture. The DOJ labeled this footage "full raw video." Newly released surveillance logs document an "orange-colored figure" moving toward Epstein's locked housing tier at 10:39 PM on August 9, 2019 — the night before he was found dead. [B]
+
+### Ghost Files — Systematically Hidden Figures
+
+The FBI's most heavily redacted entity has 23 documented relationships — more connections than many named individuals. Hidden behind the label "fbi-redacted-unknown_0." Connected to Barry Krischer (Palm Beach State Attorney who gave Epstein the original sweetheart deal), Virginia Giuffre, and the investigating Special Agent.
+
+**Ghost Score Detection System:**
+
+| Name | Ghost Score | Meaning |
+|------|-----------|---------|
+| "Gaver" | 50 | Highest score. Appears once, surrounded by 5 redactions. Identity unknown. |
+| AUSA Barnes | 40 | An Assistant US Attorney with 4 redaction-proximity connections. Nearly invisible. |
+| R. Alexander Acosta | 10 | Signed Epstein's 2008 plea deal. 1 document with nearby redactions. |
+
+[B/D]
 
 ### Barak Apartment Surveillance
 
@@ -778,6 +866,10 @@ The FBI evidence inventory references a "Little Saint James logbook" and multipl
 - December 2025 Reuters poll: Only **23%** approved of Trump's handling of the Epstein case
 - January 2026 CNN poll: 49% dissatisfied with release volume; **two-thirds** said the government was deliberately withholding information
 
+### Norwegian Network Prosecutions
+
+The EFTA releases exposed a concentrated Norwegian cluster connected through intermediary Terje Rød-Larsen (former diplomat, IPI president, described Epstein as "best friend"). Criminal charges filed: Thorbjørn Jagland (former PM, Council of Europe SG) charged with aggravated corruption by Økokrim; Rød-Larsen and wife Mona Juul both charged; Børge Brende resigned as WEF President February 26, 2026; Crown Princess Mette-Marit issued public apology. IPI allegedly brought in young unqualified women from Eastern Europe on short internships — pattern parallels documented trafficking methodology. [AP, CNN, Bloomberg]
+
 ---
 
 ## 16. Media & Congressional Investigations
@@ -917,6 +1009,121 @@ Cross-reference tool: epsteinexposed.com/diff (329 black book contacts against 9
 - The full contents of **40 seized computers** (300+ GB documented)
 - The **complete TECS II customs records** for all Epstein passengers
 - Complete Maxwell trial grand jury transcripts
+
+### New Research Databases (February 2026)
+
+Six complementary community tools have emerged: (1) **justice.geeken.dev** tracks DOJ deletions using SHA256 hashes and HTTP ETags, identified 10.1GB removed video files including EFTA00276494.ts (4.29GB) and EFTA01244748.wmv (3.90GB), community upvoting ranks deleted documents by significance. (2) **tommycarstensen.com/epstein/** maintained by bioinformatician Tommy Carstensen, contains 313,000+ extracted images with OpenCV facial recognition (388 individuals identified), Whisper-transcribed videos, decoded victim diaries using rail fence cipher, identifies Leon Black as "Human Trafficking Subject" in SDNY emails (EFTA02731636, EFTA00156644), documents rape accusations against Jes Staley in forensically-verified diary (EFTA02731465), names Ted Leonsis and AOL executives. (3) **epsteinalysis.com** indexes 1.05M documents/2.08M pages, uses MinHash LSH for redaction inconsistency detection — identifying same document with different redactions across releases. (4) **case50d.com** catalogs 617 FBI documents, 88 stories, 93 victims from the primary case file (50D-NY-3027571). (5) **GitHub yung-megafone/Epstein-Files** provides public archive index for all 12 DOJ dataset releases with torrent magnets and integrity verification. (6) **epsteinexposed.com** cross-references searchable database with people summaries and connection mapping. [GH, OSINT]
+
+---
+
+## 18. Cross-Network Financial Analysis: Epstein as Financial Hub
+
+Jeffrey Epstein's post-conviction relationships with five major financial figures — Howard Lutnick, Bill Gates, Leon Black, Glenn Dubin, and Ariane de Rothschild — reveal a pattern of documented contact closely bracketing significant financial transactions. While temporal proximity does not establish causation, the density of these correlations across multiple independent subjects suggests Epstein functioned as a node in an elite financial network where information, introductions, and capital flowed in ways that merit scrutiny. This report maps each documented contact point against proximate financial activity, drawing primarily on DOJ/EFTA document releases (2025–2026), SEC filings, court records, and investigative journalism.
+
+### JPMorgan Chase as Institutional Backbone
+
+JPMorgan appears as the institutional backbone across all five subjects. Epstein was the bank's top private-client revenue generator, referring Dubin, Gates, Black, and others. The JPMorgan-Highbridge acquisition ($1.3 billion) was Epstein-brokered. The proposed Gates Foundation DAF would have involved JPMorgan. The bank retained Epstein as a client until 2013 despite compliance concerns, and its post-death SAR flagged over $1 billion in Epstein-connected transactions naming multiple subjects.
+
+### Deutsche Bank as Successor Institution
+
+Deutsche Bank became the successor institution after JPMorgan's exit, onboarding Epstein as a client in 2013 — the same year Lynn Forester de Rothschild joined its advisory board and the same period Leon Black's payments to Epstein's Southern Trust Company flowed through Deutsche Bank accounts.
+
+### Coordinated Philanthropy: MIT Media Lab
+
+MIT Media Lab received orchestrated donations from both Gates ($2 million) and Black ($5 million), with Epstein serving as the coordinator for both. MIT's own staff noted: "Though the money was coming from Gates and Black, the money was Jeffrey's."
+
+### Southern Trust Company as Central Counterparty
+
+Southern Trust Company, Inc. (Epstein's USVI entity) was the counterparty in the Lutnick AdFin co-investment (EFTA00289560), the Rothschild $25 million contract, and received the bulk of Black's $170 million in payments. The entity grew from $198.5 million in assets (2013) to $391.3 million (2017) employing only 13 people.
+
+### The Kathryn Ruemmler Connection
+
+Kathryn Ruemmler links the Gates and Rothschild threads: Epstein introduced Ruemmler to Ariane de Rothschild for the DOJ settlement, and separately suggested Ruemmler could help convince Melinda Gates to accept Epstein. Ruemmler, a former Obama White House Counsel, called Epstein "Uncle Jeffrey."
+
+### Payment Timeline Summary
+
+| Subject | Amount | Period | Key Correlation |
+|---------|--------|--------|-----------------|
+| Leon Black | $158–170M | 2012–2017 | Apollo Fund VIII ($18.4B) and IX ($24.6B) fundraises |
+| Ariane de Rothschild | $25M | Dec 2015 | DOJ non-prosecution agreement (next day) |
+| Howard Lutnick | Co-investment | Dec 2012 | AdFin signed 4 days after island visit; eSpeed $1.234B sale 4 months later |
+| Bill Gates | $10.5M+ (via grants) | 2013–2014 | MIT $2M + IPI $8.5M channeled through Epstein |
+| Glenn Dubin | $15–20M (est. fee) | ~1998 | JPMorgan-Highbridge $1.3B acquisition |
+
+### What Remains Undetermined
+
+Whether these correlations reflect coordination, information-sharing, or simply the overlapping activities of individuals operating in the same financial ecosystem. The Treasury Department's Epstein file, containing records of 4,725 wire transfers totaling over $1 billion from a single account, remains unreleased as of February 2026 despite Congressional subpoenas — and may hold the answers that the documentary record so far only implies.
+
+---
+
+## 19. The Rothschild Dynasty — $25 Million, Access Brokerage & Intelligence Nexus
+
+### The $25 Million Contract That Bought No Algorithm
+
+On October 5, 2015, Epstein's Southern Trust Company signed a contract with the Edmond de Rothschild Group for $25 million. Stated purpose: "risk analysis and algorithm-related services" (EFTA00310331). No algorithm was ever produced. No code. No papers. No product. The USVI DOJ found Southern Trust performed "no real data-mining or algorithm services."
+
+Payment was tied to a sliding scale linked to the DOJ: $25 million if the settlement came in under $75 million. On December 18, 2015, EdR received a Non-Prosecution Agreement with a $45.2 million settlement — triggering the full $25 million. Wire transfers hit December 17 and 21 (EFTA00310331). This wasn't a consulting fee. It was a bounty — paid upon successful DOJ resolution.
+
+Two algorithm-related documents were found in the corpus — both incoming pitches to Epstein, not services from him: a cousin's currency trading algorithm (EFTA00812783) and a discussion with Danny Hillis about Fast Fourier Transforms (EFTA00823410). [A1]
+
+### Kathy Ruemmler — Three Hats
+
+Kathryn Ruemmler served as Obama's White House Counsel (2011–2014). She then simultaneously wore three hats:
+
+**Hat 1: Epstein's Attorney.** Over 100 emails — "wonderful Jeffrey," "sweetie," "Uncle Jeffrey." Named backup executor of Epstein's January 2019 will.
+
+**Hat 2: The Rothschild NPA.** "Kathy got stuck working on Rothschild stuff" (EFTA02715306, October 15, 2015). Two months later, EdR received its $45.2M NPA — triggering Epstein's $25M bounty. Reportedly paid $10M from the Rothschild family through Epstein.
+
+**Hat 3: The CIA Medal.** Received the CIA Agency Medal from Director Brennan on January 8, 2015. Never publicly disclosed. Emailed Epstein about receiving it hours after the ceremony.
+
+Career trajectory: Obama White House Counsel → CIA Medal from Brennan (Jan 2015) → "Rothschild stuff" (Oct 2015) → EdR NPA triggers $25M (Dec 2015) → Little St. James Island (Jan 29, 2017) → Backup executor of Epstein's will (Jan 2019) → Goldman Sachs General Counsel (2020) → Resigns Goldman after emails surface (Feb 12, 2026). [A2/B]
+
+### The Access Broker Network
+
+The $25 million wasn't buying algorithms. It was buying access — and Epstein was the broker.
+
+| Connection Brokered | Evidence | Date |
+|--------------------|----------|------|
+| Ariane ↔ Ehud Barak | Breakfast orchestrated by Epstein | Sep 2013 |
+| Ariane ↔ Leon Black | Black requesting Ariane's cell number through Epstein | Jan 2016 |
+| Ariane ↔ Larry Summers | "show rothschild around harvard sat" | Oct 2016 |
+| Ariane ↔ Qatari royals | VIP list: Jabor Althani, HBJ, Ariane | Jan 2018 |
+| Jacob Rothschild ↔ SocGen | Epstein "midwifed" RIT stake sale | ~2012 |
+| Pritzker ↔ Macron admin | Through Jacques Lang | Oct 2018 |
+| Rothschild ↔ Trump admin | "donald loves the rothschild name" | Feb 2017 |
+
+Summers tracked the relationship obsessively: "News re Kazakhs or Rothschild??" and "Working on Kazakhstan Rothschild?" (EFTA02394675, EFTA02368796). [A2]
+
+### The Four Hypotheses — Who Was Epstein Working For?
+
+Testing four hypotheses about who Epstein served against 237,000 documents and 5.37 million data points:
+
+| Rank | Hypothesis | Grade | Key Evidence |
+|------|-----------|-------|-------------|
+| 1 | Israeli Intelligence | A+ | $4.64M+ across three Bank Leumi branches; $1M funding Barak's Carbyne; formal consulting agreement with Barak's wife (2008); AMAN officer in apartment |
+| 2 | Wexner Patronage | A+ (money) / B+ (as principal) | $60-100M+ documented from Wexner. But where did it end up? $4.64M+ flowing to Israeli banks. |
+| 3 | Multi-Principal Agent | B+ | $1.1B in wire transfers; $200M through sanctioned Russian banks; CIA/NSA Glomar responses |
+| 4 | Self-Directed Criminal | C- | Cannot explain AMAN officer, $625M surveillance company, diplomatic brokering, or money routing to Israeli political infrastructure |
+
+The Rothschild $25M didn't go to Israel directly. It went to Southern Trust — the same shell company that routed the $1M "Reporty Investment" to Bank Leumi Branch 771 for Barak's surveillance company. The financial infrastructure IS the intelligence infrastructure. The Rothschild money didn't have to go to Israel. It just had to go through the same pipe. [A2/D]
+
+### The DNA Collection Program
+
+On March 20, 2017, four DNA testing kits arrived at Ariane de Rothschild's home in Geneva. Part of a systematic 30-kit VIP program ordered by Lesley Groff from 23andMe at $199 each ($6,000+). Named recipients: Ariane de Rothschild, Sultan Ahmed bin Sulayem (Chairman of Dubai World/DP World), Woody Allen, Noam Chomsky (EFTA02657180).
+
+DropSite News reported separately that Epstein recruited NSA codebreakers for a genome "Manhattan Project" connected to Russia's Skolkovo innovation hub and Bill Gates/MIT. The 23andMe kit distribution was data collection for a broader genetic initiative involving signals intelligence veterans and billionaire-backed science programs.
+
+In 2025, 23andMe filed for bankruptcy. The fate of the collected DNA data — including samples from Epstein's VIP network — remains unknown. [B]
+
+### Unanswered Questions
+
+1. Who received the surveillance recordings? Cameras in every room. DVDs, hard drives seized. 126 CDs from Kahn's suitcases. No document shows who got the tapes.
+2. What's in the $1.1 billion Treasury wire transfer file? 4,725 transfers, ~$200M through sanctioned Russian banks.
+3. Who is "Gaver"? Highest ghost score in the database. One mention, five redactions.
+4. What did the CIA classify? Both CIA and NSA issued Glomar responses to Epstein's own FOIA requests in 2014.
+5. What was on the edited death footage? Adobe Premiere Pro metadata. Two source clips. 2:53 missing.
+6. How much more flowed to Israel beyond the documented $4.64 million?
+7. What happens when Carbyne goes fully operational inside Axon? 18,000+ US law enforcement agencies.
 
 ---
 

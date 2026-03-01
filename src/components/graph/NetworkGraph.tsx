@@ -46,6 +46,7 @@ interface SimNode extends d3Types.SimulationNodeDatum {
   id: string;
   name: string;
   category: string;
+  subcategory?: string;
   mentionCount?: number;
   flightLegs?: number;
   currentStatus?: string;
@@ -55,6 +56,7 @@ interface SimNode extends d3Types.SimulationNodeDatum {
 interface SimLink extends d3Types.SimulationLinkDatum<SimNode> {
   relationshipType: string;
   strength: number;
+  verificationStatus?: string;
 }
 
 export default function NetworkGraph({
@@ -91,6 +93,7 @@ export default function NetworkGraph({
         id: p.id,
         name: p.name,
         category: p.category,
+        subcategory: p.subcategory,
         mentionCount: p.mentionCount,
         flightLegs: p.flightLegs,
         currentStatus: p.currentStatus,
@@ -110,6 +113,7 @@ export default function NetworkGraph({
           target: c.targetPersonId,
           relationshipType: c.relationshipType,
           strength: c.strength,
+          verificationStatus: c.verificationStatus,
         }));
 
       const mentionCounts = filteredPeople.map((p) => p.mentionCount ?? 1);
@@ -141,7 +145,7 @@ export default function NetworkGraph({
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       (svg as any).call(zoom);
 
-      // Edges
+      // Edges — verified financial connections get solid green, unverified get dashed
       const link = g.append('g').selectAll<SVGLineElement, SimLink>('line')
         .data(filteredEdges)
         .enter()
@@ -150,7 +154,9 @@ export default function NetworkGraph({
         .attr('stroke', (d: any) => EDGE_COLORS[d.relationshipType] ?? '#2a3347')
         .attr('stroke-opacity', 0.5)
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        .attr('stroke-width', (d: any) => d.strength);
+        .attr('stroke-width', (d: any) => d.relationshipType === 'financial' && d.verificationStatus === 'verified' ? Math.max(d.strength, 2) : d.strength)
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        .attr('stroke-dasharray', (d: any) => d.relationshipType === 'financial' && d.verificationStatus !== 'verified' ? '4,4' : 'none');
 
       // Nodes
       const nodeG = g.append('g').selectAll<SVGGElement, SimNode>('g')
@@ -176,16 +182,42 @@ export default function NetworkGraph({
         });
       nodeG.call(drag);
 
-      // Circles
-      nodeG.append('circle')
-        .attr('r', (d: SimNode) => nodeRadius(d.mentionCount ?? 1))
-        .attr('fill', (d: SimNode) => CATEGORY_COLORS[d.category] ?? '#475569')
-        .attr('fill-opacity', 0.85)
-        .attr('stroke', (d: SimNode) =>
-          focusPersonId === d.id ? '#e8eaf0' : (CATEGORY_COLORS[d.category] ?? '#475569')
-        )
-        .attr('stroke-width', (d: SimNode) => (focusPersonId === d.id ? 2 : 0.5))
-        .attr('stroke-opacity', 0.5);
+      // Node shapes — circles for people, diamonds for shell entities
+      nodeG.each(function (this: SVGGElement, d: SimNode) {
+        const el = d3.select(this);
+        const r = nodeRadius(d.mentionCount ?? 1);
+        const isShell = d.subcategory === 'shell-entity';
+        const fillColor = isShell ? '#FFB020' : (CATEGORY_COLORS[d.category] ?? '#475569');
+        const strokeColor = focusPersonId === d.id ? '#e8eaf0' : fillColor;
+        const strokeW = focusPersonId === d.id ? 2 : 0.5;
+
+        if (isShell) {
+          // Diamond shape (rotated square)
+          const s = r * 1.1;
+          el.append('rect')
+            .attr('width', s * 2)
+            .attr('height', s * 2)
+            .attr('x', -s)
+            .attr('y', -s)
+            .attr('rx', 2)
+            .attr('transform', `rotate(45)`)
+            .attr('fill', fillColor)
+            .attr('fill-opacity', 0.85)
+            .attr('stroke', strokeColor)
+            .attr('stroke-width', strokeW)
+            .attr('stroke-opacity', 0.5)
+            .classed('node-shape', true);
+        } else {
+          el.append('circle')
+            .attr('r', r)
+            .attr('fill', fillColor)
+            .attr('fill-opacity', 0.85)
+            .attr('stroke', strokeColor)
+            .attr('stroke-width', strokeW)
+            .attr('stroke-opacity', 0.5)
+            .classed('node-shape', true);
+        }
+      });
 
       // Labels
       nodeG.append('text')
@@ -203,7 +235,7 @@ export default function NetworkGraph({
       // Events
       nodeG
         .on('mouseover', function (this: SVGGElement, ev: MouseEvent, d: SimNode) {
-          d3.select(this).select('circle').attr('fill-opacity', 1);
+          d3.select(this).select('.node-shape').attr('fill-opacity', 1);
           const b = containerRef.current?.getBoundingClientRect();
           if (b) setTooltip({ x: ev.clientX - b.left, y: ev.clientY - b.top, person: d });
           // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -221,7 +253,7 @@ export default function NetworkGraph({
           if (b) setTooltip((p) => p ? { ...p, x: ev.clientX - b.left, y: ev.clientY - b.top } : null);
         })
         .on('mouseout', function (this: SVGGElement) {
-          d3.select(this).select('circle').attr('fill-opacity', 0.85);
+          d3.select(this).select('.node-shape').attr('fill-opacity', 0.85);
           setTooltip(null);
           // eslint-disable-next-line @typescript-eslint/no-explicit-any
           link.attr('stroke-opacity', 0.5).attr('stroke-width', (c: any) => (c as SimLink).strength);

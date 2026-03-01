@@ -108,6 +108,36 @@ function ThemeSectionItem({ theme }: { theme: ThemeSection }) {
                 </div>
               </div>
             )}
+
+            {/* EFTA Documents */}
+            {theme.eftaLinks && theme.eftaLinks.length > 0 && (
+              <div className="border-t border-surface-border pt-3">
+                <p className="text-xs font-medium text-text-secondary mb-2">
+                  EFTA Documents ({theme.eftaLinks.length})
+                </p>
+                <div className="rounded border border-surface-border bg-surface-card divide-y divide-surface-border max-h-48 overflow-y-auto">
+                  {theme.eftaLinks.map((link: { number: string; url: string; description?: string; mediaType?: string; sensitive?: boolean }) => (
+                    <a
+                      key={link.number}
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-between gap-3 px-3 py-2 text-xs hover:bg-surface-elevated transition-colors group"
+                    >
+                      <div className="flex items-center gap-2 min-w-0">
+                        <span className="font-mono text-text-primary shrink-0">{link.number}</span>
+                        {link.description && (
+                          <span className="text-text-muted truncate">{link.description}</span>
+                        )}
+                      </div>
+                      <span className="flex items-center gap-1 text-accent-blue group-hover:text-accent-blueHover shrink-0">
+                        {link.mediaType === 'video' ? 'Open Video' : 'Open PDF'}
+                      </span>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         )}
       </div>
