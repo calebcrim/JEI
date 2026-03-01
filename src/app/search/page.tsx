@@ -57,18 +57,21 @@ function SearchResults({ query }: { query: string }) {
   const people = results.filter((r) => r.type === 'person');
   const events = results.filter((r) => r.type === 'event');
   const themes = results.filter((r) => r.type === 'theme');
+  const investigationResults = results.filter((r) => r.type === 'investigation');
 
   const HREF = (r: SearchResult) => {
     if (r.type === 'person') return `/people/${r.id}/`;
     if (r.type === 'event') return `/timeline/#${r.id}`;
+    if (r.type === 'investigation') return `/investigations/#${r.id}`;
     return `/themes/#${r.id}`;
   };
 
-  const TYPE_LABEL = { person: 'Person', event: 'Event', theme: 'Theme' };
+  const TYPE_LABEL: Record<string, string> = { person: 'Person', event: 'Event', theme: 'Theme', investigation: 'Investigation' };
   const TYPE_COLOR: Record<string, string> = {
     person: 'text-accent-blue',
     event: 'text-category-financial',
     theme: 'text-category-media',
+    investigation: 'text-amber-400',
   };
 
   function ResultGroup({ title, items }: { title: string; items: SearchResult[] }) {
@@ -120,6 +123,7 @@ function SearchResults({ query }: { query: string }) {
       <p className="text-sm text-text-secondary mb-6">
         {results.length} results for &ldquo;<span className="text-text-primary">{query}</span>&rdquo;
       </p>
+      <ResultGroup title="Investigations" items={investigationResults} />
       <ResultGroup title="People" items={people} />
       <ResultGroup title="Timeline Events" items={events} />
       <ResultGroup title="Themes" items={themes} />

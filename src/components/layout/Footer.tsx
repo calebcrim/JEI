@@ -20,6 +20,9 @@ export default function Footer() {
             <Link href="/sources/" className="hover:text-text-secondary transition-colors">
               Sources
             </Link>
+            <Link href="/evidence/" className="hover:text-text-secondary transition-colors">
+              Evidence
+            </Link>
           </div>
         </div>
         <p className="mt-4 text-xs text-text-muted leading-relaxed max-w-2xl">

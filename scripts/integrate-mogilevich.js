@@ -117,7 +117,8 @@ function makeConnection(opts) {
     strength: opts.strength || 2,
     description: opts.description,
     sources: opts.sources || [SRC],
-    verificationStatus: opts.verification || 'unverified'
+    verificationStatus: opts.verification || 'unverified',
+    activeEras: []
   };
 }
 

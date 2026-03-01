@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -10,6 +10,12 @@ import SourceTag from '@/components/shared/SourceTag';
 import UnverifiedBanner from '@/components/shared/UnverifiedBanner';
 import DiscrepancyFlag from '@/components/shared/DiscrepancyFlag';
 import ConnectionList from '@/components/people/ConnectionList';
+import RoleInStoryBlock from '@/components/people/RoleInStoryBlock';
+import ThematicInvolvementRow from '@/components/people/ThematicInvolvementRow';
+import PersonMiniTimeline from '@/components/people/PersonMiniTimeline';
+import PersonEgoGraph from '@/components/people/PersonEgoGraph';
+import ActiveInvestigationPanel from '@/components/shared/ActiveInvestigationPanel';
+import { getProceedingsForPerson } from '@/data/investigation-status';
 import { ChevronDown, ChevronUp, Info } from 'lucide-react';
 
 type Tab = 'overview' | 'timeline' | 'connections' | 'sources';
@@ -133,6 +139,11 @@ export default function PersonDetailClient({ person, connections, events, allPeo
   const isNotCharged = person.currentStatus?.toLowerCase().includes('not charged') ||
                        person.currentStatus?.toLowerCase().includes('immunity');
 
+  const personProceedings = useMemo(
+    () => getProceedingsForPerson(person.id),
+    [person.id]
+  );
+
   const tabs: { id: Tab; label: string }[] = [
     { id: 'overview', label: 'Overview' },
     { id: 'timeline', label: `Timeline (${events.length})` },
@@ -186,7 +197,25 @@ export default function PersonDetailClient({ person, connections, events, allPeo
         <p className="text-sm text-text-secondary leading-relaxed max-w-2xl">
           {person.summary}
         </p>
+
+        <RoleInStoryBlock personId={person.id} personName={person.name} />
       </div>
+
+      {/* Thematic involvement */}
+      <ThematicInvolvementRow
+        themeIds={person.themeIds ?? []}
+        personName={person.name}
+      />
+
+      {/* Active investigation status — Gap 7 */}
+      {personProceedings.length > 0 && (
+        <div className="mb-4">
+          <ActiveInvestigationPanel
+            proceedings={personProceedings}
+            compact={false}
+          />
+        </div>
+      )}
 
       {/* Legal status note */}
       {isNotCharged && (
@@ -224,11 +253,20 @@ export default function PersonDetailClient({ person, connections, events, allPeo
       {/* Tab panels */}
       <div id={`tab-panel-overview`} role="tabpanel" hidden={activeTab !== 'overview'}>
         {activeTab === 'overview' && (
-          <div className="space-y-3">
-            {person.sections.map((section, i) => (
-              <SectionAccordion key={`${section.title}-${i}`} section={section} />
-            ))}
-          </div>
+          <>
+            <div className="space-y-3">
+              {person.sections.map((section, i) => (
+                <SectionAccordion key={`${section.title}-${i}`} section={section} />
+              ))}
+            </div>
+
+            {/* Compact timeline preview — always visible in Overview */}
+            {events.length > 0 && (
+              <div className="mt-6 pt-6 border-t border-surface-border">
+                <PersonMiniTimeline events={events} personName={person.name} />
+              </div>
+            )}
+          </>
         )}
       </div>
 
@@ -274,11 +312,18 @@ export default function PersonDetailClient({ person, connections, events, allPeo
 
       <div id={`tab-panel-connections`} role="tabpanel" hidden={activeTab !== 'connections'}>
         {activeTab === 'connections' && (
-          <ConnectionList
-            personId={person.id}
-            connections={connections}
-            people={allPeople}
-          />
+          <div>
+            <PersonEgoGraph
+              person={person}
+              connections={connections}
+              allPeople={allPeople}
+            />
+            <ConnectionList
+              personId={person.id}
+              connections={connections}
+              people={allPeople}
+            />
+          </div>
         )}
       </div>
 

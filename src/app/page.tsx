@@ -2,7 +2,7 @@ import Link from 'next/link';
 import type { Person } from '@/types';
 import peopleData from '@/data/people.json';
 import PersonCard from '@/components/people/PersonCard';
-import { Users, Calendar, BookOpen, Database } from 'lucide-react';
+import { Users, Calendar, BookOpen, Database, ArrowRight } from 'lucide-react';
 
 const people = peopleData as Person[];
 
@@ -130,6 +130,39 @@ export default function HomePage() {
       {/* Entry point cards */}
       <section className="max-w-screen-lg mx-auto px-4 py-12">
         <h2 className="text-xl font-semibold text-text-primary mb-6">Explore the database</h2>
+
+        {/* Featured: Investigations narrative entry point */}
+        <div className="mb-6">
+          <Link
+            href="/investigations/"
+            className="flex items-center justify-between p-5 border border-surface-border
+                       rounded-lg hover:bg-surface-elevated hover:border-surface-border/80
+                       transition-colors group bg-surface-card"
+            aria-label="Read the narrative overview — recommended starting point"
+          >
+            <div>
+              <div className="flex items-center gap-2 mb-1.5">
+                <span className="text-[10px] font-mono text-amber-400 uppercase tracking-widest">
+                  Start here
+                </span>
+              </div>
+              <h3 className="text-base font-semibold text-text-primary mb-1">
+                The Investigation — A Narrative Overview
+              </h3>
+              <p className="text-xs text-text-secondary max-w-md">
+                Seven chapters covering the Epstein case in sequence: the operation,
+                the protection network, the plea deal, the death, the document release,
+                the financial trail, and what remains unknown. ~10 minutes.
+              </p>
+            </div>
+            <ArrowRight
+              size={18}
+              className="shrink-0 ml-4 text-text-muted group-hover:text-text-secondary transition-colors"
+              aria-hidden
+            />
+          </Link>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {ENTRY_POINTS.map((ep) => {
             const Icon = ep.icon;

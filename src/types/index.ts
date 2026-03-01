@@ -138,10 +138,11 @@ export interface Connection {
   description: string;
   sources: SourceTag[];
   verificationStatus: VerificationStatus;
+  activeEras: TimelineEra[];
 }
 
 export interface SearchResult {
-  type: 'person' | 'event' | 'theme';
+  type: 'person' | 'event' | 'theme' | 'investigation';
   id: string;
   title: string;
   excerpt: string;
@@ -152,7 +153,7 @@ export interface SearchResult {
 
 // Extended type used in the search index (includes fields Fuse.js searches)
 export interface SearchIndexEntry {
-  type: 'person' | 'event' | 'theme';
+  type: 'person' | 'event' | 'theme' | 'investigation';
   id: string;
   title: string;
   aliases?: string;
@@ -162,4 +163,32 @@ export interface SearchIndexEntry {
   era?: string;
   fullText: string;
   sources: string;
+}
+
+export interface InvestigationDeepDiveLink {
+  label: string;
+  href: string;
+  type: 'people' | 'timeline' | 'themes' | 'financial';
+  description: string;
+}
+
+export interface InvestigationKeyFact {
+  value: string;
+  label: string;
+}
+
+export interface InvestigationChapter {
+  id: string;
+  chapterNumber: number;
+  title: string;
+  subtitle: string;
+  era: string;
+  bodyParagraphs: string[];
+  pullQuote?: string;
+  pullQuoteSource?: string;
+  relatedPeople: string[];
+  relatedThemeIds: string[];
+  relatedTimelineEra: string;
+  deepDiveLinks: InvestigationDeepDiveLink[];
+  keyFacts: InvestigationKeyFact[];
 }

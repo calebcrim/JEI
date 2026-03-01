@@ -85,6 +85,7 @@ export default function GlobalSearch() {
     setQuery('');
     if (result.type === 'person') router.push(`/people/${result.id}/`);
     else if (result.type === 'event') router.push(`/timeline/#${result.id}`);
+    else if (result.type === 'investigation') router.push(`/investigations/#${result.id}`);
     else router.push(`/themes/#${result.id}`);
   }
 
@@ -92,11 +93,13 @@ export default function GlobalSearch() {
     person: 'Person',
     event: 'Event',
     theme: 'Theme',
+    investigation: 'Investigation',
   };
   const TYPE_COLOR: Record<string, string> = {
     person: 'text-accent-blue',
     event: 'text-category-financial',
     theme: 'text-category-media',
+    investigation: 'text-amber-400',
   };
 
   return (
@@ -176,7 +179,7 @@ export default function GlobalSearch() {
 }
 
 interface SearchDropdownResult {
-  type: 'person' | 'event' | 'theme';
+  type: 'person' | 'event' | 'theme' | 'investigation';
   id: string;
   title: string;
   excerpt: string;

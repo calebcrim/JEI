@@ -11,6 +11,11 @@ interface Props {
   filterStrength?: number;
   focusPersonId?: string | null;
   onPersonClick?: (person: Person) => void;
+  // Gap 3 additions
+  viewMode?: 'network' | 'cluster';
+  highlightThemePersonIds?: Set<string> | null;
+  highlightPath?: string[] | null;
+  filterEra?: string | null;
 }
 
 const CATEGORY_COLORS: Record<string, string> = {
@@ -42,6 +47,23 @@ const EDGE_COLORS: Record<string, string> = {
 const MIN_RADIUS = 8;
 const MAX_RADIUS = 30;
 
+// Cluster positions as fractions of canvas width/height.
+// Arranged in a 2-column layout: operational left, support right.
+const CLUSTER_POSITIONS: Record<string, { col: number; row: number }> = {
+  'principal':           { col: 0.5, row: 0.15 },
+  'inner-circle':        { col: 0.25, row: 0.32 },
+  'victim':              { col: 0.75, row: 0.32 },
+  'co-conspirator':      { col: 0.20, row: 0.50 },
+  'financial':           { col: 0.80, row: 0.50 },
+  'political':           { col: 0.30, row: 0.68 },
+  'intelligence':        { col: 0.70, row: 0.68 },
+  'legal':               { col: 0.20, row: 0.82 },
+  'academic-scientific': { col: 0.50, row: 0.85 },
+  'media':               { col: 0.80, row: 0.82 },
+  'law-enforcement':     { col: 0.50, row: 0.95 },
+  'other':               { col: 0.50, row: 0.50 },
+};
+
 interface SimNode extends d3Types.SimulationNodeDatum {
   id: string;
   name: string;
@@ -57,6 +79,7 @@ interface SimLink extends d3Types.SimulationLinkDatum<SimNode> {
   relationshipType: string;
   strength: number;
   verificationStatus?: string;
+  id: string;
 }
 
 export default function NetworkGraph({
@@ -66,6 +89,10 @@ export default function NetworkGraph({
   filterStrength = 1,
   focusPersonId,
   onPersonClick,
+  viewMode = 'network',
+  highlightThemePersonIds = null,
+  highlightPath = null,
+  filterEra = null,
 }: Props) {
   const svgRef = useRef<SVGSVGElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -106,7 +133,8 @@ export default function NetworkGraph({
           (c) =>
             c.strength >= filterStrength &&
             personIds.has(c.sourcePersonId) &&
-            personIds.has(c.targetPersonId)
+            personIds.has(c.targetPersonId) &&
+            (filterEra === null || (c.activeEras ?? []).includes(filterEra as Connection['activeEras'][number]))
         )
         .map((c) => ({
           source: c.sourcePersonId,
@@ -114,6 +142,7 @@ export default function NetworkGraph({
           relationshipType: c.relationshipType,
           strength: c.strength,
           verificationStatus: c.verificationStatus,
+          id: c.id,
         }));
 
       const mentionCounts = filteredPeople.map((p) => p.mentionCount ?? 1);
@@ -232,6 +261,109 @@ export default function NetworkGraph({
         .attr('fill', '#8b95a8')
         .attr('pointer-events', 'none');
 
+      // ── Theme highlight mode ───────────────────────────────────────────────
+      if (highlightThemePersonIds && highlightThemePersonIds.size > 0) {
+        // Fade all edges
+        link.attr('stroke-opacity', (d: SimLink) => {
+          const srcId = typeof d.source === 'string' ? d.source : (d.source as SimNode).id;
+          const tgtId = typeof d.target === 'string' ? d.target : (d.target as SimNode).id;
+          const srcIn = highlightThemePersonIds.has(srcId);
+          const tgtIn = highlightThemePersonIds.has(tgtId);
+          return (srcIn && tgtIn) ? 0.8 : (srcIn || tgtIn) ? 0.3 : 0.04;
+        });
+
+        // Fade non-highlighted nodes; add glow ring to highlighted ones
+        nodeG.each(function(this: SVGGElement, d: SimNode) {
+          const inTheme = highlightThemePersonIds.has(d.id);
+          d3.select(this).select('.node-shape')
+            .attr('fill-opacity', inTheme ? 1 : 0.07)
+            .attr('stroke-opacity', inTheme ? 1 : 0.04);
+          // Add highlight ring for in-theme nodes
+          if (inTheme) {
+            const r = nodeRadius(d.mentionCount ?? 1);
+            d3.select(this).append('circle')
+              .attr('r', r + 4)
+              .attr('fill', 'none')
+              .attr('stroke', '#f59e0b')
+              .attr('stroke-width', 1.5)
+              .attr('stroke-opacity', 0.7)
+              .attr('pointer-events', 'none')
+              .classed('theme-ring', true);
+          }
+          // Fade labels for non-highlighted nodes
+          d3.select(this).select('text')
+            .attr('fill-opacity', inTheme ? 1 : 0.05);
+        });
+      }
+
+      // ── Path highlight mode ────────────────────────────────────────────────
+      if (highlightPath && highlightPath.length >= 2) {
+        const pathSet = new Set(highlightPath);
+
+        // Build set of path edge pairs (as "a|b" and "b|a" for undirected)
+        const pathEdgePairs = new Set<string>();
+        for (let i = 0; i < highlightPath.length - 1; i++) {
+          const a = highlightPath[i];
+          const b = highlightPath[i + 1];
+          pathEdgePairs.add(`${a}|${b}`);
+          pathEdgePairs.add(`${b}|${a}`);
+        }
+
+        // Fade non-path nodes
+        nodeG.each(function(this: SVGGElement, d: SimNode) {
+          const onPath = pathSet.has(d.id);
+          d3.select(this).select('.node-shape')
+            .attr('fill-opacity', onPath ? 1 : 0.08)
+            .attr('stroke-opacity', onPath ? 1 : 0.04);
+          d3.select(this).select('text')
+            .attr('fill-opacity', onPath ? 1 : 0.04);
+
+          // Add amber ring to path nodes
+          if (onPath) {
+            const r = nodeRadius(d.mentionCount ?? 1);
+            const isEndpoint = d.id === highlightPath[0] || d.id === highlightPath[highlightPath.length - 1];
+            d3.select(this).append('circle')
+              .attr('r', r + 5)
+              .attr('fill', 'none')
+              .attr('stroke', isEndpoint ? '#f59e0b' : '#fbbf24')
+              .attr('stroke-width', isEndpoint ? 2.5 : 1.5)
+              .attr('stroke-opacity', 0.9)
+              .attr('pointer-events', 'none')
+              .classed('path-ring', true);
+
+            // Add step number label for non-endpoints
+            const stepIdx = highlightPath.indexOf(d.id);
+            if (stepIdx > 0 && stepIdx < highlightPath.length - 1) {
+              d3.select(this).append('text')
+                .attr('dy', -r - 6)
+                .attr('text-anchor', 'middle')
+                .attr('font-size', '9px')
+                .attr('fill', '#fbbf24')
+                .attr('pointer-events', 'none')
+                .text(String(stepIdx + 1));
+            }
+          }
+        });
+
+        // Highlight path edges; fade others
+        link.attr('stroke-opacity', (d: SimLink) => {
+          const srcId = typeof d.source === 'string' ? d.source : (d.source as SimNode).id;
+          const tgtId = typeof d.target === 'string' ? d.target : (d.target as SimNode).id;
+          if (pathEdgePairs.has(`${srcId}|${tgtId}`) || pathEdgePairs.has(`${tgtId}|${srcId}`)) return 1;
+          return 0.04;
+        }).attr('stroke', (d: SimLink) => {
+          const srcId = typeof d.source === 'string' ? d.source : (d.source as SimNode).id;
+          const tgtId = typeof d.target === 'string' ? d.target : (d.target as SimNode).id;
+          if (pathEdgePairs.has(`${srcId}|${tgtId}`) || pathEdgePairs.has(`${tgtId}|${srcId}`)) return '#f59e0b';
+          return EDGE_COLORS[d.relationshipType] ?? '#2a3347';
+        }).attr('stroke-width', (d: SimLink) => {
+          const srcId = typeof d.source === 'string' ? d.source : (d.source as SimNode).id;
+          const tgtId = typeof d.target === 'string' ? d.target : (d.target as SimNode).id;
+          if (pathEdgePairs.has(`${srcId}|${tgtId}`) || pathEdgePairs.has(`${tgtId}|${srcId}`)) return 3;
+          return d.strength;
+        });
+      }
+
       // Events
       nodeG
         .on('mouseover', function (this: SVGGElement, ev: MouseEvent, d: SimNode) {
@@ -263,17 +395,66 @@ export default function NetworkGraph({
           if (p) onPersonClick?.(p);
         });
 
-      // Simulation
-      sim = d3.forceSimulation<SimNode>(filteredPeople)
+      // Simulation — conditionally apply cluster or network forces
+      const baseSimulation = d3.forceSimulation<SimNode>(filteredPeople)
         .force(
           'link',
           d3.forceLink<SimNode, SimLink>(filteredEdges)
             .id((d) => d.id)
             .distance((d) => 80 / d.strength)
         )
-        .force('charge', d3.forceManyBody().strength(-120))
-        .force('center', d3.forceCenter(width / 2, height / 2))
         .force('collision', d3.forceCollide<SimNode>().radius((d) => nodeRadius(d.mentionCount ?? 1) + 4));
+
+      if (viewMode === 'cluster') {
+        baseSimulation
+          .force('charge', d3.forceManyBody().strength(-60))
+          .force(
+            'x',
+            d3.forceX<SimNode>((d) => {
+              const pos = CLUSTER_POSITIONS[d.category] ?? CLUSTER_POSITIONS['other'];
+              return pos.col * width;
+            }).strength(0.4)
+          )
+          .force(
+            'y',
+            d3.forceY<SimNode>((d) => {
+              const pos = CLUSTER_POSITIONS[d.category] ?? CLUSTER_POSITIONS['other'];
+              return pos.row * height;
+            }).strength(0.4)
+          );
+      } else {
+        baseSimulation
+          .force('charge', d3.forceManyBody().strength(-120))
+          .force('center', d3.forceCenter(width / 2, height / 2));
+      }
+
+      sim = baseSimulation;
+
+      // Cluster labels overlay (cluster mode only)
+      if (viewMode === 'cluster') {
+        const labelData = Object.entries(CLUSTER_POSITIONS).map(([cat, pos]) => ({
+          category: cat,
+          x: pos.col * width,
+          y: pos.row * height - 35,
+          label: cat.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase()),
+        }));
+
+        g.append('g')
+          .attr('class', 'cluster-labels')
+          .selectAll('text')
+          .data(labelData)
+          .enter()
+          .append('text')
+          .attr('x', (d) => d.x)
+          .attr('y', (d) => d.y)
+          .attr('text-anchor', 'middle')
+          .attr('font-size', '10px')
+          .attr('font-family', 'monospace')
+          .attr('fill', '#475569')
+          .attr('letter-spacing', '0.08em')
+          .attr('pointer-events', 'none')
+          .text((d) => d.label.toUpperCase());
+      }
 
       sim.on('tick', () => {
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -295,7 +476,8 @@ export default function NetworkGraph({
       cancelled = true;
       if (sim) sim.stop();
     };
-  }, [people, connections, filterCategories, filterStrength, focusPersonId, onPersonClick]);
+  }, [people, connections, filterCategories, filterStrength, focusPersonId, onPersonClick,
+      viewMode, highlightThemePersonIds, highlightPath, filterEra]);
 
   return (
     <div ref={containerRef} className="relative w-full h-full">

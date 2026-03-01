@@ -7,9 +7,11 @@ import { Menu, X } from 'lucide-react';
 import GlobalSearch from './GlobalSearch';
 
 const NAV_LINKS = [
+  { href: '/investigations/', label: 'Investigations' },
   { href: '/people/', label: 'People' },
   { href: '/timeline/', label: 'Timeline' },
   { href: '/themes/', label: 'Themes' },
+  { href: '/evidence/', label: 'Evidence' },
   { href: '/graph/', label: 'Graph' },
   { href: '/financial/', label: 'Financial' },
 ];

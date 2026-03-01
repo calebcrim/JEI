@@ -10,7 +10,14 @@
       "DOJ",
       "Maxwell-trial"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "wexner-epstein-financial",
@@ -23,7 +30,15 @@
       "DOJ",
       "HO"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "kellen-epstein-co-conspirator",
@@ -36,7 +51,11 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2001-2007"
+    ]
   },
   {
     "id": "groff-epstein-employer-employee",
@@ -49,7 +68,11 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2001-2007",
+      "2008-2018"
+    ]
   },
   {
     "id": "indyke-epstein-legal",
@@ -61,7 +84,11 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2019"
+    ]
   },
   {
     "id": "dershowitz-epstein-legal",
@@ -74,7 +101,15 @@
       "DOJ",
       "Giuffre-deposition"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "clinton-epstein-flew-together",
@@ -87,7 +122,10 @@
       "DOJ",
       "Maxwell-trial"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000"
+    ]
   },
   {
     "id": "trump-epstein-social",
@@ -100,7 +138,14 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "barak-epstein-social",
@@ -113,7 +158,11 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "contested"
+    "verificationStatus": "contested",
+    "activeEras": [
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "maxwell-kellen-co-conspirator",
@@ -126,7 +175,10 @@
       "Maxwell-trial",
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000"
+    ]
   },
   {
     "id": "brunel-epstein-co-conspirator",
@@ -139,7 +191,12 @@
       "DOJ",
       "Maxwell-trial"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2001-2007",
+      "2008-2018"
+    ]
   },
   {
     "id": "acosta-epstein-legal",
@@ -152,7 +209,15 @@
       "DOJ",
       "HO"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "black-epstein-financial",
@@ -167,7 +232,11 @@
       "CBS",
       "ForensicFinance"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2019"
+    ]
   },
   {
     "id": "staley-epstein-financial",
@@ -180,7 +249,11 @@
       "DOJ",
       "GH"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018"
+    ]
   },
   {
     "id": "marcinkova-epstein-victim-perpetrator",
@@ -193,7 +266,10 @@
       "Palm-Beach-PD",
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2001-2007"
+    ]
   },
   {
     "id": "rothschild-epstein-financial",
@@ -206,7 +282,12 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "rothschild-barak-social",
@@ -218,7 +299,11 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "rothschild-prince-andrew-social",
@@ -230,7 +315,12 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "waitt-maxwell-social",
@@ -243,7 +333,10 @@
       "DOJ",
       "Maxwell-trial"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2001-2007"
+    ]
   },
   {
     "id": "waitt-epstein-financial",
@@ -255,7 +348,11 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2001-2007",
+      "2008-2018"
+    ]
   },
   {
     "id": "ruspoli-epstein-victim-perpetrator",
@@ -267,7 +364,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "ribis-epstein-social",
@@ -279,7 +379,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "ribis-trump-social",
@@ -291,7 +394,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "merkin-epstein-social",
@@ -303,7 +409,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "lutnick-epstein-financial",
@@ -316,7 +425,10 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "gates-epstein-financial",
@@ -329,7 +441,10 @@
       "DOJ",
       "NYT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "dubin-epstein-financial",
@@ -342,7 +457,11 @@
       "DOJ",
       "Bloomberg"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018"
+    ]
   },
   {
     "id": "dubin-staley-financial",
@@ -354,7 +473,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000"
+    ]
   },
   {
     "id": "eva-dubin-epstein-social",
@@ -366,7 +488,15 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "gates-nikolic-academic",
@@ -378,7 +508,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "gates-staley-financial",
@@ -391,7 +524,10 @@
       "DOJ",
       "NYT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "black-dubin-financial",
@@ -403,7 +539,12 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018",
+      "2019"
+    ]
   },
   {
     "id": "rothschild-ruemmler-legal",
@@ -415,7 +556,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "lutnick-epstein-social",
@@ -427,7 +571,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "brende-rod-larsen-social",
@@ -440,7 +587,10 @@
       "AP",
       "CNN"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2020-present"
+    ]
   },
   {
     "id": "brende-epstein-social",
@@ -452,7 +602,10 @@
     "sources": [
       "AP"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2020-present"
+    ]
   },
   {
     "id": "kemp-rod-larsen-social",
@@ -464,7 +617,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "casriel-maxwell-financial",
@@ -477,7 +633,14 @@
       "GH",
       "ForensicFinance"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "alexanderson-indyke-financial",
@@ -489,7 +652,11 @@
     "sources": [
       "GH"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": [
+      "2008-2018",
+      "2019"
+    ]
   },
   {
     "id": "explicit-darren-indyke-alan-dershowitz-legal-representation",
@@ -504,7 +671,11 @@
       "DOJ",
       "GH"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2019"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-leslie-wexner-les-wexner",
@@ -516,7 +687,15 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-ghislaine-maxwell",
@@ -528,7 +707,14 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-lynn-forester-de-rothschild",
@@ -540,7 +726,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-bill-clinton",
@@ -552,7 +741,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-fbi-director-kash-patel",
@@ -564,7 +756,15 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-jean-luc-brunel",
@@ -576,7 +776,12 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2001-2007",
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-prince-andrew-duke-of-york",
@@ -588,7 +793,15 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-sarah-kellen",
@@ -600,7 +813,11 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2001-2007"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-jes-staley",
@@ -612,7 +829,11 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-glenn-dubin",
@@ -624,7 +845,11 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-martin-nowak",
@@ -636,7 +861,11 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2001-2007"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-george-church",
@@ -648,7 +877,11 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-virginia-giuffre-ne-roberts",
@@ -660,7 +893,15 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-ariane-de-rothschild",
@@ -672,7 +913,12 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-ted-waitt",
@@ -684,7 +930,11 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2001-2007",
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-adriana-ross-ne-adriana-mucinska",
@@ -696,7 +946,15 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-marie-villafaa-jo-ann-villafaa",
@@ -708,7 +966,15 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-lesley-groff",
@@ -720,7 +986,11 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2001-2007",
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-tom-barrack",
@@ -732,7 +1002,11 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-bill-gates",
@@ -744,7 +1018,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-leon-black",
@@ -756,7 +1033,11 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2019"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-woody-allen",
@@ -768,7 +1049,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-larry-summers",
@@ -780,7 +1064,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-boris-nikolic",
@@ -792,7 +1079,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-ehud-barak",
@@ -804,7 +1094,11 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-darren-indyke",
@@ -816,7 +1110,11 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2019"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-peter-thiel",
@@ -828,7 +1126,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-kathy-ruemmler",
@@ -840,7 +1141,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-terje-rd-larsen",
@@ -852,7 +1156,11 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-mlusine-ruspoli",
@@ -864,7 +1172,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-michael-wolff",
@@ -876,7 +1187,11 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-nili-priell-barak",
@@ -888,7 +1203,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-katie-johnson-jane-doe",
@@ -900,7 +1218,15 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-deepak-chopra",
@@ -912,7 +1238,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-richard-kahn",
@@ -924,7 +1253,11 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2019"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-miroslav-lajk-miro-lajcak",
@@ -936,7 +1269,15 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "cooccur-jeffrey-epstein-steve-bannon",
@@ -948,7 +1289,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-leslie-wexner-les-wexner-rep-ro-khanna",
@@ -960,7 +1304,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2020-present"
+    ]
   },
   {
     "id": "cooccur-donald-trump-ghislaine-maxwell",
@@ -972,7 +1319,12 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "cooccur-donald-trump-virginia-giuffre-ne-roberts",
@@ -984,7 +1336,15 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "cooccur-donald-trump-michael-reiter",
@@ -996,7 +1356,11 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2001-2007",
+      "2019"
+    ]
   },
   {
     "id": "cooccur-donald-trump-brad-edwards",
@@ -1008,7 +1372,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-donald-trump-michael-wolff",
@@ -1020,7 +1387,11 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "cooccur-donald-trump-katie-johnson-jane-doe",
@@ -1032,7 +1403,15 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "cooccur-donald-trump-deepak-chopra",
@@ -1044,7 +1423,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-donald-trump-steve-bannon",
@@ -1056,7 +1438,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-donald-trump-khadeeja-safdar-joe-palazzolo",
@@ -1068,7 +1453,15 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "cooccur-ghislaine-maxwell-lynn-forester-de-rothschild",
@@ -1080,7 +1473,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000"
+    ]
   },
   {
     "id": "cooccur-ghislaine-maxwell-bill-clinton",
@@ -1092,7 +1488,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000"
+    ]
   },
   {
     "id": "cooccur-ghislaine-maxwell-virginia-giuffre-ne-roberts",
@@ -1104,7 +1503,14 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "cooccur-ghislaine-maxwell-michael-wolff",
@@ -1116,7 +1522,11 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "cooccur-lynn-forester-de-rothschild-bill-clinton",
@@ -1128,7 +1538,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000"
+    ]
   },
   {
     "id": "cooccur-jes-staley-bill-gates",
@@ -1140,7 +1553,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-ariane-de-rothschild-kathy-ruemmler",
@@ -1152,7 +1568,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-ted-waitt-mlusine-ruspoli",
@@ -1164,7 +1583,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-lesley-groff-bill-gates",
@@ -1176,7 +1598,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-bill-gates-larry-summers",
@@ -1188,7 +1613,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-bill-gates-boris-nikolic",
@@ -1200,7 +1628,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-ehud-barak-nili-priell-barak",
@@ -1212,7 +1643,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "cooccur-miroslav-lajk-miro-lajcak-steve-bannon",
@@ -1224,7 +1658,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-ghislaine-maxwell-juan-alessi",
@@ -1237,7 +1674,14 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-ghislaine-maxwell-todd-blanche",
@@ -1250,7 +1694,14 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-ghislaine-maxwell-melania-trump",
@@ -1263,7 +1714,10 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000"
+    ]
   },
   {
     "id": "mention-ghislaine-maxwell-robert-maxwell",
@@ -1276,7 +1730,10 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000"
+    ]
   },
   {
     "id": "mention-ghislaine-maxwell-judge-alison-nathan",
@@ -1289,7 +1746,10 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2019"
+    ]
   },
   {
     "id": "mention-sarah-kellen-judge-alison-nathan",
@@ -1302,7 +1762,12 @@
       "CBS",
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2001-2007",
+      "2019"
+    ]
   },
   {
     "id": "mention-lesley-groff-leon-black",
@@ -1315,7 +1780,10 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-lesley-groff-jes-staley",
@@ -1328,7 +1796,10 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-lesley-groff-bill-gates",
@@ -1341,7 +1812,10 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-nadia-marcinkova-alan-dershowitz",
@@ -1354,7 +1828,10 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2001-2007"
+    ]
   },
   {
     "id": "mention-adriana-ross-ne-adriana-mucinska-janusz-banasiak",
@@ -1367,7 +1844,10 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2001-2007"
+    ]
   },
   {
     "id": "mention-adriana-ross-ne-adriana-mucinska-sandy-berger",
@@ -1380,7 +1860,10 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-darren-indyke-richard-kahn",
@@ -1393,7 +1876,10 @@
       "CBS",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2019"
+    ]
   },
   {
     "id": "mention-darren-indyke-nili-priell-barak",
@@ -1406,7 +1892,11 @@
       "CBS",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2019"
+    ]
   },
   {
     "id": "mention-darren-indyke-tomer-toor",
@@ -1419,7 +1909,11 @@
       "CBS",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2019"
+    ]
   },
   {
     "id": "mention-richard-kahn-ehud-barak",
@@ -1432,7 +1926,10 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-richard-kahn-danya-friedman",
@@ -1445,7 +1942,11 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2019"
+    ]
   },
   {
     "id": "mention-alfredo-rodriguez-alan-dershowitz",
@@ -1458,7 +1959,10 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2001-2007"
+    ]
   },
   {
     "id": "mention-alfredo-rodriguez-donald-trump",
@@ -1471,7 +1975,15 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-alfredo-rodriguez-ehud-barak",
@@ -1484,7 +1996,12 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2001-2007",
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-alfredo-rodriguez-bill-richardson",
@@ -1497,7 +2014,10 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2001-2007"
+    ]
   },
   {
     "id": "mention-alfredo-rodriguez-courtney-love",
@@ -1510,7 +2030,10 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2001-2007"
+    ]
   },
   {
     "id": "mention-alfredo-rodriguez-david-koch",
@@ -1523,7 +2046,10 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2001-2007"
+    ]
   },
   {
     "id": "mention-larry-lawrence-visoski-david-rodgers",
@@ -1536,7 +2062,15 @@
       "DOJ",
       "GH"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-ted-waitt-ghislaine-maxwell",
@@ -1549,7 +2083,10 @@
       "DOJ",
       "Maxwell-trial"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2001-2007"
+    ]
   },
   {
     "id": "mention-ted-waitt-mlusine-ruspoli",
@@ -1562,7 +2099,10 @@
       "DOJ",
       "Maxwell-trial"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-pam-bondi-todd-blanche",
@@ -1575,7 +2115,10 @@
       "CBS",
       "HO"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2020-present"
+    ]
   },
   {
     "id": "mention-pam-bondi-rep-ted-lieu",
@@ -1588,7 +2131,10 @@
       "CBS",
       "HO"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2020-present"
+    ]
   },
   {
     "id": "mention-pam-bondi-joseph-schnitt",
@@ -1601,7 +2147,10 @@
       "CBS",
       "HO"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2020-present"
+    ]
   },
   {
     "id": "mention-pam-bondi-james-okeefe",
@@ -1614,7 +2163,10 @@
       "CBS",
       "HO"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2020-present"
+    ]
   },
   {
     "id": "mention-brad-edwards-rep-jamie-raskin",
@@ -1624,7 +2176,10 @@
     "strength": 1,
     "description": "Rep. Jamie Raskin mentioned in Brad Edwards's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-kathy-ruemmler-donald-trump",
@@ -1637,7 +2192,10 @@
       "DOJ",
       "GH"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-donald-trump-brad-edwards",
@@ -1650,7 +2208,10 @@
       "NYT",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-donald-trump-melania-trump",
@@ -1663,7 +2224,15 @@
       "NYT",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-donald-trump-larry-summers",
@@ -1676,7 +2245,10 @@
       "NYT",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-donald-trump-nicholas-ribis",
@@ -1689,7 +2261,10 @@
       "NYT",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-donald-trump-richard-merkin",
@@ -1702,7 +2277,10 @@
       "NYT",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-donald-trump-larry-cohen",
@@ -1715,7 +2293,15 @@
       "NYT",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-donald-trump-michael-wolff",
@@ -1728,7 +2314,11 @@
       "NYT",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-donald-trump-landon-thomas-jr",
@@ -1741,7 +2331,10 @@
       "NYT",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-donald-trump-jane-interlochen-victim",
@@ -1754,7 +2347,15 @@
       "NYT",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-donald-trump-stacey-williams",
@@ -1767,7 +2368,15 @@
       "NYT",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-donald-trump-madeleine-westerhout",
@@ -1780,7 +2389,15 @@
       "NYT",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-donald-trump-robert-maxwell",
@@ -1793,7 +2410,15 @@
       "NYT",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-donald-trump-michael-thomas",
@@ -1806,7 +2431,15 @@
       "NYT",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-donald-trump-michael-reiter",
@@ -1819,7 +2452,11 @@
       "NYT",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2001-2007",
+      "2019"
+    ]
   },
   {
     "id": "mention-melania-trump-ghislaine-maxwell",
@@ -1829,7 +2466,10 @@
     "strength": 1,
     "description": "Ghislaine Maxwell mentioned in Melania Trump's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000"
+    ]
   },
   {
     "id": "mention-melania-trump-donald-trump",
@@ -1839,7 +2479,15 @@
     "strength": 1,
     "description": "Donald Trump mentioned in Melania Trump's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-melania-trump-boris-nikolic",
@@ -1849,7 +2497,11 @@
     "strength": 1,
     "description": "Boris Nikolic mentioned in Melania Trump's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-melania-trump-michael-wolff",
@@ -1859,7 +2511,12 @@
     "strength": 1,
     "description": "Michael Wolff mentioned in Melania Trump's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-bill-clinton-johanna-sjoberg",
@@ -1872,7 +2529,12 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-bill-clinton-doug-band",
@@ -1885,7 +2547,10 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000"
+    ]
   },
   {
     "id": "mention-steve-bannon-donald-trump",
@@ -1895,7 +2560,10 @@
     "strength": 1,
     "description": "Donald Trump mentioned in Steve Bannon's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-steve-bannon-melania-trump",
@@ -1905,7 +2573,11 @@
     "strength": 1,
     "description": "Melania Trump mentioned in Steve Bannon's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-tom-barrack-ehud-barak",
@@ -1918,7 +2590,10 @@
       "CBS",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-tom-barrack-vitaly-churkin",
@@ -1931,7 +2606,10 @@
       "CBS",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-tom-barrack-peter-thiel",
@@ -1944,7 +2622,11 @@
       "CBS",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-howard-lutnick-john-phelan",
@@ -1957,7 +2639,10 @@
       "CBS",
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-howard-lutnick-steve-feinberg",
@@ -1970,7 +2655,10 @@
       "CBS",
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-ehud-barak-darren-indyke",
@@ -1983,7 +2671,10 @@
       "CBS",
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-ehud-barak-tom-barrack",
@@ -1996,7 +2687,10 @@
       "CBS",
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-ehud-barak-larry-summers",
@@ -2009,7 +2703,10 @@
       "CBS",
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-ehud-barak-vitaly-churkin",
@@ -2022,7 +2719,10 @@
       "CBS",
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-ehud-barak-peter-thiel",
@@ -2035,7 +2735,10 @@
       "CBS",
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-ehud-barak-mark-epstein",
@@ -2048,7 +2751,12 @@
       "CBS",
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-ehud-barak-rafi-shlomo",
@@ -2061,7 +2769,10 @@
       "CBS",
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-ehud-barak-yoni-koren",
@@ -2074,7 +2785,10 @@
       "CBS",
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2020-present"
+    ]
   },
   {
     "id": "mention-brge-brende-terje-rd-larsen",
@@ -2087,7 +2801,10 @@
       "AP",
       "CNN"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2020-present"
+    ]
   },
   {
     "id": "mention-miroslav-lajk-miro-lajcak-steve-bannon",
@@ -2097,7 +2814,10 @@
     "strength": 1,
     "description": "Steve Bannon mentioned in Miroslav Lajčák (Miro Lajcak)'s documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-miroslav-lajk-miro-lajcak-wilbur-ross",
@@ -2107,7 +2827,10 @@
     "strength": 1,
     "description": "Wilbur Ross mentioned in Miroslav Lajčák (Miro Lajcak)'s documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-miroslav-lajk-miro-lajcak-kevin-mcaleenan",
@@ -2117,7 +2840,10 @@
     "strength": 1,
     "description": "Kevin McAleenan mentioned in Miroslav Lajčák (Miro Lajcak)'s documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-miroslav-lajk-miro-lajcak-tom-pritzker",
@@ -2127,7 +2853,15 @@
     "strength": 1,
     "description": "Tom Pritzker mentioned in Miroslav Lajčák (Miro Lajcak)'s documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-miroslav-lajk-miro-lajcak-deepak-chopra",
@@ -2137,7 +2871,10 @@
     "strength": 1,
     "description": "Deepak Chopra mentioned in Miroslav Lajčák (Miro Lajcak)'s documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-miroslav-lajk-miro-lajcak-woody-allen",
@@ -2147,7 +2884,10 @@
     "strength": 1,
     "description": "Woody Allen mentioned in Miroslav Lajčák (Miro Lajcak)'s documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-sen-ron-wyden-leon-black",
@@ -2160,7 +2900,11 @@
       "CBS",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2019"
+    ]
   },
   {
     "id": "mention-rep-ro-khanna-rep-thomas-massie",
@@ -2173,7 +2917,10 @@
       "CBS",
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2020-present"
+    ]
   },
   {
     "id": "mention-rep-ro-khanna-sultan-ahmed-bin-sulayem",
@@ -2186,7 +2933,10 @@
       "CBS",
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2020-present"
+    ]
   },
   {
     "id": "mention-rep-ted-lieu-donald-trump",
@@ -2196,7 +2946,15 @@
     "strength": 1,
     "description": "Donald Trump mentioned in Rep. Ted Lieu's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-wilbur-ross-steve-bannon",
@@ -2206,7 +2964,10 @@
     "strength": 1,
     "description": "Steve Bannon mentioned in Wilbur Ross's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-wilbur-ross-kevin-mcaleenan",
@@ -2216,7 +2977,10 @@
     "strength": 1,
     "description": "Kevin McAleenan mentioned in Wilbur Ross's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-nicholas-ribis-donald-trump",
@@ -2228,7 +2992,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-leslie-wexner-les-wexner-ehud-barak",
@@ -2241,7 +3008,11 @@
       "CBS",
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-leslie-wexner-les-wexner-rep-ro-khanna",
@@ -2254,7 +3025,10 @@
       "CBS",
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2020-present"
+    ]
   },
   {
     "id": "mention-glenn-dubin-ghislaine-maxwell",
@@ -2267,7 +3041,14 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-glenn-dubin-rinaldo-rizzo",
@@ -2280,7 +3061,11 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-glenn-dubin-david-boies",
@@ -2293,7 +3078,11 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-glenn-dubin-david-fiszel",
@@ -2306,7 +3095,11 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-glenn-dubin-sergey-brin",
@@ -2319,7 +3112,11 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-eva-andersson-dubin-eva-dubin-glenn-dubin",
@@ -2332,7 +3129,11 @@
       "DOJ",
       "GH"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-eva-andersson-dubin-eva-dubin-david-fiszel",
@@ -2345,7 +3146,15 @@
       "DOJ",
       "GH"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-mary-erdoes-john-duffy",
@@ -2357,7 +3166,15 @@
     "sources": [
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-ariane-de-rothschild-lesley-groff",
@@ -2370,7 +3187,10 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-ariane-de-rothschild-donald-trump",
@@ -2383,7 +3203,10 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-ariane-de-rothschild-ehud-barak",
@@ -2396,7 +3219,11 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-ariane-de-rothschild-larry-summers",
@@ -2409,7 +3236,12 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-ariane-de-rothschild-leon-black",
@@ -2422,7 +3254,13 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-ariane-de-rothschild-noam-chomsky",
@@ -2435,7 +3273,12 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-ariane-de-rothschild-peter-thiel",
@@ -2448,7 +3291,10 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-ariane-de-rothschild-woody-allen",
@@ -2461,7 +3307,12 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-ariane-de-rothschild-david-de-rothschild",
@@ -2474,7 +3325,12 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-ariane-de-rothschild-benjamin-de-rothschild",
@@ -2487,7 +3343,12 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-ariane-de-rothschild-lord-jacob-rothschild",
@@ -2500,7 +3361,12 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-lynn-forester-de-rothschild-ghislaine-maxwell",
@@ -2513,7 +3379,10 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000"
+    ]
   },
   {
     "id": "mention-lynn-forester-de-rothschild-alan-dershowitz",
@@ -2526,7 +3395,10 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000"
+    ]
   },
   {
     "id": "mention-lynn-forester-de-rothschild-bill-clinton",
@@ -2539,7 +3411,10 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000"
+    ]
   },
   {
     "id": "mention-lynn-forester-de-rothschild-ariane-de-rothschild",
@@ -2552,7 +3427,12 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-lynn-forester-de-rothschild-sir-evelyn-de-rothschild",
@@ -2565,7 +3445,10 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000"
+    ]
   },
   {
     "id": "mention-lyle-casriel-ghislaine-maxwell",
@@ -2577,7 +3460,14 @@
     "sources": [
       "GH"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-jill-dodd-adnan-khashoggi",
@@ -2589,7 +3479,15 @@
     "sources": [
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-jill-dodd-jean-luc-brunel",
@@ -2601,7 +3499,13 @@
     "sources": [
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019"
+    ]
   },
   {
     "id": "mention-adnan-khashoggi-jean-luc-brunel",
@@ -2613,7 +3517,13 @@
     "sources": [
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019"
+    ]
   },
   {
     "id": "mention-dmitry-rybolovlev-michael-wolff",
@@ -2625,7 +3535,11 @@
     "sources": [
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-joi-ito-george-church",
@@ -2637,7 +3551,11 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-joi-ito-boris-nikolic",
@@ -2649,7 +3567,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-joi-ito-larry-cohen",
@@ -2661,7 +3582,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-joi-ito-reid-hoffman",
@@ -2673,7 +3597,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-boris-nikolic-kimbal-musk",
@@ -2686,7 +3613,10 @@
       "DOJ",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-larry-cohen-bill-gates",
@@ -2698,7 +3628,11 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-michael-wolff-madeleine-westerhout",
@@ -2711,7 +3645,11 @@
       "CBS",
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-ken-starr-alan-dershowitz",
@@ -2721,7 +3659,15 @@
     "strength": 1,
     "description": "Alan Dershowitz mentioned in Ken Starr's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-prince-andrew-duke-of-york-johanna-sjoberg",
@@ -2734,7 +3680,10 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2019"
+    ]
   },
   {
     "id": "mention-jean-luc-brunel-kathy-ruemmler",
@@ -2747,7 +3696,10 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-terje-rd-larsen-brge-brende",
@@ -2760,7 +3712,10 @@
       "DOJ",
       "AP"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2020-present"
+    ]
   },
   {
     "id": "mention-virginia-giuffre-ne-roberts-donald-trump",
@@ -2773,7 +3728,15 @@
       "CBS",
       "Giuffre-deposition"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-virginia-giuffre-ne-roberts-bill-richardson",
@@ -2786,7 +3749,15 @@
       "CBS",
       "Giuffre-deposition"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-virginia-giuffre-ne-roberts-glenn-dubin",
@@ -2799,7 +3770,11 @@
       "CBS",
       "Giuffre-deposition"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-virginia-giuffre-ne-roberts-marvin-minsky",
@@ -2812,7 +3787,15 @@
       "CBS",
       "Giuffre-deposition"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-virginia-giuffre-ne-roberts-jean-luc-brunel",
@@ -2825,7 +3808,13 @@
       "CBS",
       "Giuffre-deposition"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019"
+    ]
   },
   {
     "id": "mention-carolyn-sarah-kellen",
@@ -2838,7 +3827,11 @@
       "DOJ",
       "Maxwell-trial"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2001-2007"
+    ]
   },
   {
     "id": "mention-stacey-williams-donald-trump",
@@ -2848,7 +3841,15 @@
     "strength": 1,
     "description": "Donald Trump mentioned in Stacey Williams's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-mlusine-ruspoli-ted-waitt",
@@ -2860,7 +3861,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-kimbal-musk-boris-nikolic",
@@ -2870,7 +3874,10 @@
     "strength": 1,
     "description": "Boris Nikolic mentioned in Kimbal Musk's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-kimbal-musk-elon-musk",
@@ -2880,7 +3887,10 @@
     "strength": 1,
     "description": "Elon Musk mentioned in Kimbal Musk's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-bill-gates-tom-barrack",
@@ -2893,7 +3903,11 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-bill-gates-larry-summers",
@@ -2906,7 +3920,10 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-bill-gates-jes-staley",
@@ -2919,7 +3936,10 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-bill-gates-boris-nikolic",
@@ -2932,7 +3952,10 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-bill-gates-larry-cohen",
@@ -2945,7 +3968,11 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-peter-thiel-ehud-barak",
@@ -2957,7 +3984,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-peter-thiel-ariane-de-rothschild",
@@ -2969,7 +3999,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-richard-branson-bill-gates",
@@ -2979,7 +4012,11 @@
     "strength": 1,
     "description": "Bill Gates mentioned in Richard Branson's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-woody-allen-joi-ito",
@@ -2989,7 +4026,10 @@
     "strength": 1,
     "description": "Joi Ito mentioned in Woody Allen's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-woody-allen-deepak-chopra",
@@ -2999,7 +4039,10 @@
     "strength": 1,
     "description": "Deepak Chopra mentioned in Woody Allen's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-doug-band-bill-clinton",
@@ -3011,7 +4054,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000"
+    ]
   },
   {
     "id": "mention-robert-maxwell-ghislaine-maxwell",
@@ -3023,7 +4069,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000"
+    ]
   },
   {
     "id": "mention-mark-epstein-ehud-barak",
@@ -3036,7 +4085,12 @@
       "DOJ",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-dr-kristin-roman-mark-epstein",
@@ -3049,7 +4103,11 @@
       "OSINT",
       "CBS"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "2019"
+    ]
   },
   {
     "id": "mention-joseph-schnitt-james-okeefe",
@@ -3059,7 +4117,10 @@
     "strength": 1,
     "description": "James O'Keefe mentioned in Joseph Schnitt's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2020-present"
+    ]
   },
   {
     "id": "mention-nili-priell-barak-darren-indyke",
@@ -3071,7 +4132,11 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2019"
+    ]
   },
   {
     "id": "mention-nili-priell-barak-richard-kahn",
@@ -3083,7 +4148,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-nili-priell-barak-ehud-barak",
@@ -3095,7 +4163,10 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-rinaldo-rizzo-listed-also-in-category-2-rinaldo-rizzo",
@@ -3105,7 +4176,15 @@
     "strength": 1,
     "description": "Rinaldo Rizzo mentioned in Rinaldo Rizzo (listed also in Category 2)'s documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-randall-scott-taylor-darren-indyke",
@@ -3117,7 +4196,11 @@
     "sources": [
       "GH"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2019"
+    ]
   },
   {
     "id": "mention-randall-scott-taylor-leon-black",
@@ -3129,7 +4212,11 @@
     "sources": [
       "GH"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2019"
+    ]
   },
   {
     "id": "mention-randall-scott-taylor-eileen-alexanderson",
@@ -3141,7 +4228,15 @@
     "sources": [
       "GH"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-randall-scott-taylor-lyle-casriel",
@@ -3153,7 +4248,15 @@
     "sources": [
       "GH"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "pre-1990",
+      "1990-2000",
+      "2001-2007",
+      "2008-2018",
+      "2019",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-stewart-oldfield-danya-friedman",
@@ -3163,7 +4266,10 @@
     "strength": 1,
     "description": "Danya Friedman mentioned in Stewart Oldfield's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-boris-collardi-ehud-barak",
@@ -3173,7 +4279,10 @@
     "strength": 1,
     "description": "Ehud Barak mentioned in Boris Collardi's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
   },
   {
     "id": "mention-olivier-colom-ariane-de-rothschild",
@@ -3183,7 +4292,12 @@
     "strength": 1,
     "description": "Ariane de Rothschild mentioned in Olivier Colom's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-yoni-koren-ehud-barak",
@@ -3193,7 +4307,10 @@
     "strength": 1,
     "description": "Ehud Barak mentioned in Yoni Koren's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2020-present"
+    ]
   },
   {
     "id": "mention-benjamin-de-rothschild-kathy-ruemmler",
@@ -3203,7 +4320,11 @@
     "strength": 1,
     "description": "Kathy Ruemmler mentioned in Benjamin de Rothschild's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-benjamin-de-rothschild-ariane-de-rothschild",
@@ -3213,7 +4334,12 @@
     "strength": 1,
     "description": "Ariane de Rothschild mentioned in Benjamin de Rothschild's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000",
+      "2008-2018",
+      "2020-present"
+    ]
   },
   {
     "id": "mention-sir-evelyn-de-rothschild-bill-clinton",
@@ -3223,7 +4349,10 @@
     "strength": 1,
     "description": "Bill Clinton mentioned in Sir Evelyn de Rothschild's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "1990-2000"
+    ]
   },
   {
     "id": "mention-tomer-toor-darren-indyke",
@@ -3233,7 +4362,11 @@
     "strength": 1,
     "description": "Darren Indyke mentioned in Tomer Toor's documented profile.",
     "sources": [],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018",
+      "2019"
+    ]
   },
   {
     "id": "harth-trump-victim-perpetrator",
@@ -3245,7 +4378,8 @@
     "sources": [
       "NYT"
     ],
-    "verificationStatus": "contested"
+    "verificationStatus": "contested",
+    "activeEras": []
   },
   {
     "id": "houraney-trump-financial",
@@ -3257,7 +4391,8 @@
     "sources": [
       "NYT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "houraney-epstein-social",
@@ -3269,7 +4404,8 @@
     "sources": [
       "NYT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "harth-houraney-social",
@@ -3281,7 +4417,8 @@
     "sources": [
       "NYT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "bloom-doe-legal-representation",
@@ -3293,7 +4430,8 @@
     "sources": [
       "NYT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "lubow-doe-social",
@@ -3305,7 +4443,8 @@
     "sources": [
       "OSINT"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "lucchesi-trump-social",
@@ -3317,7 +4456,8 @@
     "sources": [
       "OSINT"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "accuser-jessica-leeds-donald-trump",
@@ -3329,7 +4469,8 @@
     "sources": [
       "NYT"
     ],
-    "verificationStatus": "contested"
+    "verificationStatus": "contested",
+    "activeEras": []
   },
   {
     "id": "accuser-kristin-anderson-donald-trump",
@@ -3341,7 +4482,8 @@
     "sources": [
       "OSINT"
     ],
-    "verificationStatus": "contested"
+    "verificationStatus": "contested",
+    "activeEras": []
   },
   {
     "id": "accuser-cathy-heller-donald-trump",
@@ -3353,7 +4495,8 @@
     "sources": [
       "OSINT"
     ],
-    "verificationStatus": "contested"
+    "verificationStatus": "contested",
+    "activeEras": []
   },
   {
     "id": "accuser-temple-taggart-mcdowell-donald-trump",
@@ -3365,7 +4508,8 @@
     "sources": [
       "NYT"
     ],
-    "verificationStatus": "contested"
+    "verificationStatus": "contested",
+    "activeEras": []
   },
   {
     "id": "accuser-karena-virginia-donald-trump",
@@ -3377,7 +4521,8 @@
     "sources": [
       "CBS"
     ],
-    "verificationStatus": "contested"
+    "verificationStatus": "contested",
+    "activeEras": []
   },
   {
     "id": "accuser-karen-johnson-donald-trump",
@@ -3389,7 +4534,8 @@
     "sources": [
       "OSINT"
     ],
-    "verificationStatus": "contested"
+    "verificationStatus": "contested",
+    "activeEras": []
   },
   {
     "id": "accuser-rachel-crooks-donald-trump",
@@ -3401,7 +4547,8 @@
     "sources": [
       "NYT"
     ],
-    "verificationStatus": "contested"
+    "verificationStatus": "contested",
+    "activeEras": []
   },
   {
     "id": "accuser-natasha-stoynoff-donald-trump",
@@ -3413,7 +4560,8 @@
     "sources": [
       "OSINT"
     ],
-    "verificationStatus": "contested"
+    "verificationStatus": "contested",
+    "activeEras": []
   },
   {
     "id": "accuser-summer-zervos-donald-trump",
@@ -3425,7 +4573,8 @@
     "sources": [
       "OSINT"
     ],
-    "verificationStatus": "contested"
+    "verificationStatus": "contested",
+    "activeEras": []
   },
   {
     "id": "accuser-jessica-drake-donald-trump",
@@ -3437,7 +4586,8 @@
     "sources": [
       "CBS"
     ],
-    "verificationStatus": "contested"
+    "verificationStatus": "contested",
+    "activeEras": []
   },
   {
     "id": "accuser-ninni-laaksonen-donald-trump",
@@ -3449,7 +4599,8 @@
     "sources": [
       "OSINT"
     ],
-    "verificationStatus": "contested"
+    "verificationStatus": "contested",
+    "activeEras": []
   },
   {
     "id": "accuser-cassandra-searles-donald-trump",
@@ -3461,7 +4612,8 @@
     "sources": [
       "NPR"
     ],
-    "verificationStatus": "contested"
+    "verificationStatus": "contested",
+    "activeEras": []
   },
   {
     "id": "accuser-mariah-billado-donald-trump",
@@ -3473,7 +4625,8 @@
     "sources": [
       "OSINT"
     ],
-    "verificationStatus": "contested"
+    "verificationStatus": "contested",
+    "activeEras": []
   },
   {
     "id": "accuser-tasha-dixon-donald-trump",
@@ -3485,7 +4638,8 @@
     "sources": [
       "CBS"
     ],
-    "verificationStatus": "contested"
+    "verificationStatus": "contested",
+    "activeEras": []
   },
   {
     "id": "accuser-samantha-holvey-donald-trump",
@@ -3497,7 +4651,8 @@
     "sources": [
       "CBS"
     ],
-    "verificationStatus": "contested"
+    "verificationStatus": "contested",
+    "activeEras": []
   },
   {
     "id": "accuser-e-jean-carroll-donald-trump",
@@ -3509,7 +4664,8 @@
     "sources": [
       "NYT"
     ],
-    "verificationStatus": "contested"
+    "verificationStatus": "contested",
+    "activeEras": []
   },
   {
     "id": "accuser-alva-johnson-donald-trump",
@@ -3521,7 +4677,8 @@
     "sources": [
       "OSINT"
     ],
-    "verificationStatus": "contested"
+    "verificationStatus": "contested",
+    "activeEras": []
   },
   {
     "id": "accuser-juliet-huddy-donald-trump",
@@ -3533,7 +4690,8 @@
     "sources": [
       "OSINT"
     ],
-    "verificationStatus": "contested"
+    "verificationStatus": "contested",
+    "activeEras": []
   },
   {
     "id": "accuser-amy-dorris-donald-trump",
@@ -3545,7 +4703,8 @@
     "sources": [
       "OSINT"
     ],
-    "verificationStatus": "contested"
+    "verificationStatus": "contested",
+    "activeEras": []
   },
   {
     "id": "accuser-beatrice-keul-donald-trump",
@@ -3557,7 +4716,8 @@
     "sources": [
       "OSINT"
     ],
-    "verificationStatus": "contested"
+    "verificationStatus": "contested",
+    "activeEras": []
   },
   {
     "id": "ginsberg-maxwell-social",
@@ -3569,7 +4729,8 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "ff-wire-haze-trust-southern-financial-llc",
@@ -3581,7 +4742,8 @@
     "sources": [
       "ForensicFinance"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "ff-wire-bv70-llc-plan-d-llc",
@@ -3593,7 +4755,8 @@
     "sources": [
       "ForensicFinance"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "ff-wire-narrow-holdings-llc-southern-trust-company",
@@ -3605,7 +4768,8 @@
     "sources": [
       "ForensicFinance"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "ff-wire-southern-trust-company-honeycomb-partners",
@@ -3617,7 +4781,8 @@
     "sources": [
       "ForensicFinance"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "ff-wire-haze-trust-jeffrey-epstein",
@@ -3629,7 +4794,8 @@
     "sources": [
       "ForensicFinance"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "ff-wire-leon-black-southern-trust-company",
@@ -3641,7 +4807,8 @@
     "sources": [
       "ForensicFinance"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "ff-wire-benjamin-de-rothschild-southern-trust-company",
@@ -3653,7 +4820,8 @@
     "sources": [
       "ForensicFinance"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "ff-wire-haze-trust-southern-trust-company",
@@ -3665,7 +4833,8 @@
     "sources": [
       "ForensicFinance"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "ff-wire-caterpillar-trust-2017-honeycomb-partners",
@@ -3677,7 +4846,8 @@
     "sources": [
       "ForensicFinance"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "ff-wire-boothbay-fund-southern-financial-llc",
@@ -3689,7 +4859,8 @@
     "sources": [
       "ForensicFinance"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "ff-wire-bv70-llc-gratitude-america",
@@ -3701,7 +4872,8 @@
     "sources": [
       "ForensicFinance"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "ff-wire-plan-d-llc-leon-black",
@@ -3713,7 +4885,8 @@
     "sources": [
       "ForensicFinance"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "ff-wire-eileen-alexanderson-leon-black",
@@ -3725,7 +4898,8 @@
     "sources": [
       "ForensicFinance"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "ff-wire-jeepers-inc-jeffrey-epstein",
@@ -3737,7 +4911,8 @@
     "sources": [
       "ForensicFinance"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "ff-wire-darren-indyke-jeffrey-epstein",
@@ -3749,7 +4924,8 @@
     "sources": [
       "ForensicFinance"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "ff-wire-nes-llc-ghislaine-maxwell",
@@ -3761,7 +4937,8 @@
     "sources": [
       "ForensicFinance"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "ff-wire-jeffrey-epstein-alfredo-rodriguez",
@@ -3773,7 +4950,8 @@
     "sources": [
       "ForensicFinance"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "ff-wire-karyna-shuliak-darren-indyke",
@@ -3785,7 +4963,8 @@
     "sources": [
       "ForensicFinance"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "mog-alexei-alexandrov",
@@ -3797,7 +4976,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-savalovsky",
@@ -3809,7 +4989,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-fisherman",
@@ -3821,7 +5002,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-bogatin",
@@ -3833,7 +5015,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-roudavsky",
@@ -3845,7 +5028,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-v-berkovich",
@@ -3857,7 +5041,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-o-berkovich",
@@ -3869,7 +5054,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-garmel",
@@ -3881,7 +5067,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-yarmolkin",
@@ -3893,7 +5080,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-kulachenko",
@@ -3905,7 +5093,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-katrich",
@@ -3917,7 +5106,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-korol",
@@ -3929,7 +5119,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-ubiriya",
@@ -3941,7 +5132,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-naishuller",
@@ -3953,7 +5145,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-ivankov",
@@ -3965,7 +5158,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-mikhailov",
@@ -3977,7 +5171,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-averin",
@@ -3989,7 +5184,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-elson",
@@ -4001,7 +5197,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-kalmanovich",
@@ -4013,7 +5210,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mikhailov-averin",
@@ -4025,7 +5223,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mikhailov-ivankov",
@@ -4037,7 +5236,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "fisherman-bogatin",
@@ -4049,7 +5249,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "fisherman-ubiriya",
@@ -4061,7 +5262,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "v-berkovich-o-berkovich",
@@ -4073,7 +5275,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "yarmolkin-mog-la",
@@ -4085,7 +5288,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-putin",
@@ -4097,7 +5301,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-firtash",
@@ -4109,7 +5314,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-orban",
@@ -4121,7 +5327,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-fico",
@@ -4133,7 +5340,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-david-bogatin",
@@ -4145,7 +5353,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-sater",
@@ -4157,7 +5366,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-robert-maxwell",
@@ -4169,7 +5379,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "trump-bogatin",
@@ -4181,7 +5392,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "trump-ivankov-tower",
@@ -4193,7 +5405,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "trump-sater",
@@ -4205,7 +5418,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "trump-arif",
@@ -4217,7 +5431,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "trump-cohn",
@@ -4229,7 +5444,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "trump-manafort",
@@ -4241,7 +5457,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "trump-salerno",
@@ -4253,7 +5470,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "trump-castellano",
@@ -4265,7 +5483,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "trump-cody",
@@ -4277,7 +5496,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "trump-cohen-mog",
@@ -4289,7 +5509,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "trump-sapir",
@@ -4301,7 +5522,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "manafort-firtash",
@@ -4313,7 +5535,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "manafort-kilimnik",
@@ -4325,7 +5548,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "manafort-deripaska",
@@ -4337,7 +5561,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "sater-cohen",
@@ -4349,7 +5574,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "sater-arif",
@@ -4361,7 +5587,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "arif-mashkevitch",
@@ -4373,7 +5600,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "cohn-salerno",
@@ -4385,7 +5613,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "cohn-castellano",
@@ -4397,7 +5626,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "fred-trump-donald",
@@ -4409,7 +5639,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "robert-maxwell-ghislaine-mog",
@@ -4421,7 +5652,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "litvinenko-mogilevich",
@@ -4433,7 +5665,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "firtash-putin",
@@ -4445,7 +5678,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "orban-putin",
@@ -4457,7 +5691,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "kuciak-fico",
@@ -4469,7 +5704,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "trump-wray",
@@ -4481,7 +5717,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "trump-tillerson",
@@ -4493,7 +5730,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "giuliani-parnas",
@@ -4505,7 +5743,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "parnas-fruman",
@@ -4517,7 +5756,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "parnas-firtash",
@@ -4529,7 +5769,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "trump-giuliani",
@@ -4541,7 +5782,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "manafort-yanukovych",
@@ -4553,7 +5795,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "manafort-zackson",
@@ -4565,7 +5808,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "firtash-yanukovych",
@@ -4577,7 +5821,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "firtash-lyovochkin",
@@ -4589,7 +5834,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "patten-lyovochkin",
@@ -4601,7 +5847,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "fred-trump-tomasello",
@@ -4613,7 +5860,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "fred-trump-cohn",
@@ -4625,7 +5873,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "fred-trump-zackson",
@@ -4637,7 +5886,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "cody-hixon",
@@ -4649,7 +5899,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "mog-birshtein",
@@ -4661,7 +5912,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "mog-rabinovich",
@@ -4673,7 +5925,8 @@
     "sources": [
       "FBI-Mogilevich"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "epstein-wolfe-science",
@@ -4685,7 +5938,8 @@
     "sources": [
       "EFTA-Science"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "epstein-thakuria-genetic-testing",
@@ -4697,7 +5951,8 @@
     "sources": [
       "EFTA-Science"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "epstein-lloyd-funding",
@@ -4709,7 +5964,8 @@
     "sources": [
       "EFTA-Science"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "epstein-krauss-funding",
@@ -4721,7 +5977,8 @@
     "sources": [
       "EFTA-Science"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "epstein-lander-meetings",
@@ -4733,7 +5990,8 @@
     "sources": [
       "EFTA-Science"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "wolfe-nowak-science-network",
@@ -4745,7 +6003,8 @@
     "sources": [
       "EFTA-Science"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "wolfe-church-science-network",
@@ -4757,7 +6016,8 @@
     "sources": [
       "EFTA-Science"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "nikolic-church-biomatics",
@@ -4769,7 +6029,8 @@
     "sources": [
       "EFTA-Science"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "nowak-church-ped-meetings",
@@ -4781,7 +6042,8 @@
     "sources": [
       "EFTA-Science"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "brockman-church-edge",
@@ -4793,7 +6055,8 @@
     "sources": [
       "EFTA-Science"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "brockman-lloyd-edge",
@@ -4805,7 +6068,8 @@
     "sources": [
       "EFTA-Science"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "church-thakuria-harvard-genetics",
@@ -4817,7 +6081,8 @@
     "sources": [
       "EFTA-Science"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "elkman-epstein",
@@ -4829,7 +6094,8 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "eisenstein-epstein",
@@ -4841,7 +6107,8 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "myhrvold-epstein",
@@ -4853,7 +6120,8 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "farkas-epstein",
@@ -4865,7 +6133,8 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "previn-epstein",
@@ -4877,7 +6146,8 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "junkermann-epstein",
@@ -4889,7 +6159,8 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   },
   {
     "id": "huffman-epstein",
@@ -4901,7 +6172,8 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "unverified"
+    "verificationStatus": "unverified",
+    "activeEras": []
   },
   {
     "id": "althani-epstein",
@@ -4913,6 +6185,7 @@
     "sources": [
       "DOJ"
     ],
-    "verificationStatus": "verified"
+    "verificationStatus": "verified",
+    "activeEras": []
   }
 ]

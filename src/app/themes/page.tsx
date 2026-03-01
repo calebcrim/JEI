@@ -8,6 +8,9 @@ import themesData from '@/data/themes.json';
 import peopleData from '@/data/people.json';
 import Badge from '@/components/shared/Badge';
 import SourceTag from '@/components/shared/SourceTag';
+import ThemeConnectsTo from '@/components/themes/ThemeConnectsTo';
+import ThemeRelationMap from '@/components/themes/ThemeRelationMap';
+import { getConnections } from '@/data/theme-connections';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 
 const themes = themesData as ThemeSection[];
@@ -138,6 +141,9 @@ function ThemeSectionItem({ theme }: { theme: ThemeSection }) {
                 </div>
               </div>
             )}
+
+            {/* Cross-theme connections — only shown when expanded */}
+            <ThemeConnectsTo themeId={theme.id} />
           </div>
         )}
       </div>
@@ -168,6 +174,9 @@ export default function ThemesPage() {
         </p>
       </div>
 
+      {/* Theme relationship map — collapsed by default, expandable */}
+      <ThemeRelationMap />
+
       <div className="flex gap-8">
         {/* Sidebar — sticky on desktop */}
         <aside className="hidden lg:block w-64 shrink-0">
@@ -175,20 +184,36 @@ export default function ThemesPage() {
             <p className="text-xs font-semibold text-text-muted uppercase tracking-wider mb-3">
               Sections
             </p>
-            {themes.map((theme) => (
-              <button
-                key={theme.id}
-                onClick={() => scrollToTheme(theme.id)}
-                className={`w-full text-left text-xs px-3 py-2 rounded transition-colors ${
-                  activeId === theme.id
-                    ? 'text-accent-blue bg-accent-blue/10'
-                    : 'text-text-muted hover:text-text-secondary hover:bg-surface-elevated'
-                }`}
-              >
-                <span className="font-mono mr-1.5">{theme.sectionNumber}.</span>
-                {theme.title}
-              </button>
-            ))}
+            {themes.map((theme) => {
+              const connCount = getConnections(theme.id).length;
+              return (
+                <button
+                  key={theme.id}
+                  onClick={() => scrollToTheme(theme.id)}
+                  className={`w-full text-left text-xs px-3 py-2 rounded transition-colors flex
+                              items-center justify-between gap-1
+                              ${activeId === theme.id
+                                ? 'text-accent-blue bg-accent-blue/10'
+                                : 'text-text-muted hover:text-text-secondary hover:bg-surface-elevated'
+                              }`}
+                >
+                  <span className="flex items-center min-w-0">
+                    <span className="font-mono mr-1.5 shrink-0">{theme.sectionNumber}.</span>
+                    <span className="truncate">{theme.title}</span>
+                  </span>
+                  {connCount > 0 && (
+                    <span
+                      className="shrink-0 text-[10px] text-text-muted px-1.5 py-0.5
+                                 rounded-full border border-surface-border ml-1"
+                      title={`${connCount} connected threads`}
+                      aria-label={`${connCount} connections`}
+                    >
+                      {connCount}
+                    </span>
+                  )}
+                </button>
+              );
+            })}
           </div>
         </aside>
 

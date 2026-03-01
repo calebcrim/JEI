@@ -5,9 +5,10 @@
 
 import fs from 'fs';
 import path from 'path';
+import { investigations } from '../src/data/investigations';
 
 interface SearchIndexEntry {
-  type: 'person' | 'event' | 'theme';
+  type: 'person' | 'event' | 'theme' | 'investigation';
   id: string;
   title: string;
   aliases?: string;
@@ -117,6 +118,17 @@ const index: SearchIndexEntry[] = [
     fullText: stripMarkdown(`${t.title} ${t.summary} ${t.content}`),
     sources: t.sources.join(' '),
   })),
+
+  // Investigations
+  ...investigations.map((ch) => ({
+    type: 'investigation' as const,
+    id: ch.id,
+    title: ch.title,
+    excerpt: ch.subtitle,
+    category: `Chapter ${ch.chapterNumber}`,
+    fullText: `${ch.title} ${ch.subtitle} ${ch.bodyParagraphs.join(' ')}`,
+    sources: '',
+  })),
 ];
 
 const outPath = path.join(dataDir, 'search-index.json');
@@ -126,6 +138,7 @@ console.log(`\n✓ Search index built:`);
 console.log(`  People: ${people.length}`);
 console.log(`  Events: ${events.length}`);
 console.log(`  Themes: ${themes.length}`);
+console.log(`  Investigations: ${investigations.length}`);
 console.log(`  Total entries: ${index.length}`);
 
 const fileSize = Math.round(fs.statSync(outPath).size / 1024);

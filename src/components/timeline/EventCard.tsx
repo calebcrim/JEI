@@ -1,12 +1,16 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import type { TimelineEvent, DisclosureLevel } from '@/types';
 import Badge from '@/components/shared/Badge';
 import SourceTag from '@/components/shared/SourceTag';
 import SourcesEvidencePanel from '@/components/timeline/SourcesEvidencePanel';
+import CausalAnnotation from '@/components/timeline/CausalAnnotation';
+import EventThemeLinks from '@/components/timeline/EventThemeLinks';
+import ActiveInvestigationPanel from '@/components/shared/ActiveInvestigationPanel';
+import { getProceedingsForPerson } from '@/data/investigation-status';
 import { ChevronDown, ChevronUp, FileText, Database } from 'lucide-react';
 
 const EXPAND_LABELS: Record<DisclosureLevel, string | null> = {
@@ -71,6 +75,23 @@ export default function EventCard({ event, initialLevel = 0, onNavigateToEvent }
       collapse();
     }
   }
+
+  // Collect proceedings for all people mentioned in this event
+  const eventProceedings = useMemo(() => {
+    const seen = new Set<string>();
+    const result = [];
+    for (const pid of event.peopleIds) {
+      for (const proc of getProceedingsForPerson(pid)) {
+        if (!seen.has(proc.id)) {
+          seen.add(proc.id);
+          result.push(proc);
+        }
+      }
+    }
+    // Sort: active first, then scheduled, then pending
+    const order: Record<string, number> = { active: 0, scheduled: 1, pending: 2, stalled: 3, resolved: 4 };
+    return result.sort((a, b) => (order[a.status] ?? 9) - (order[b.status] ?? 9));
+  }, [event.peopleIds]);
 
   const borderClass =
     event.verificationStatus === 'unverified'
@@ -170,6 +191,28 @@ export default function EventCard({ event, initialLevel = 0, onNavigateToEvent }
           {event.verificationStatus === 'discrepancy' && (
             <div className="mt-2 px-3 py-2 rounded border border-status-discrepancy/30 bg-status-discrepancy/5 text-xs text-status-discrepancy">
               Discrepancy noted — source files give conflicting information on this point.
+            </div>
+          )}
+
+          {/* Causal annotations — only at Level 1+ */}
+          <CausalAnnotation
+            eventId={event.id}
+            onNavigate={onNavigateToEvent}
+          />
+
+          {/* Theme links — which investigation threads this event belongs to */}
+          <EventThemeLinks
+            themeIds={event.themeIds ?? []}
+          />
+
+          {/* Active proceedings for people mentioned in this event */}
+          {eventProceedings.length > 0 && (
+            <div className="mt-3">
+              <ActiveInvestigationPanel
+                proceedings={eventProceedings}
+                compact={true}
+                label={`${eventProceedings.length} active proceeding${eventProceedings.length !== 1 ? 's' : ''} — people in this event`}
+              />
             </div>
           )}
         </div>

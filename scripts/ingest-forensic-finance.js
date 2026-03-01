@@ -623,7 +623,8 @@ Object.values(pairAggregates).forEach(agg => {
     strength: strength,
     description: description,
     sources: ['ForensicFinance'],
-    verificationStatus: verificationStatus
+    verificationStatus: verificationStatus,
+    activeEras: []
   });
 
   if (result) connAdded++;

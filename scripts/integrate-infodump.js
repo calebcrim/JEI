@@ -815,6 +815,7 @@ if (!findPersonById('gary-ginsberg')) {
     description: 'Wrote flirtatious email to Maxwell in 2003.',
     sources: ['DOJ'],
     verificationStatus: 'verified',
+    activeEras: [],
   });
 } else {
   console.log('  SKIP (exists): gary-ginsberg');

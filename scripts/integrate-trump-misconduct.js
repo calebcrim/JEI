@@ -792,7 +792,8 @@ const newConnections = [
     strength: 2,
     description: 'Filed 1997 lawsuit alleging sexual harassment and groping at Mar-a-Lago.',
     sources: ['NYT'],
-    verificationStatus: 'contested'
+    verificationStatus: 'contested',
+    activeEras: []
   },
   {
     id: 'houraney-trump-financial',
@@ -802,7 +803,8 @@ const newConnections = [
     strength: 2,
     description: 'Organized events for Trump including the calendar girl competition.',
     sources: ['NYT'],
-    verificationStatus: 'verified'
+    verificationStatus: 'verified',
+    activeEras: []
   },
   {
     id: 'houraney-epstein-social',
@@ -812,7 +814,8 @@ const newConnections = [
     strength: 1,
     description: 'Organized the calendar girl competition where Trump and Epstein were the only guests.',
     sources: ['NYT'],
-    verificationStatus: 'verified'
+    verificationStatus: 'verified',
+    activeEras: []
   },
   {
     id: 'harth-houraney-social',
@@ -822,7 +825,8 @@ const newConnections = [
     strength: 2,
     description: 'Then-boyfriend/girlfriend during the Mar-a-Lago events.',
     sources: ['NYT'],
-    verificationStatus: 'verified'
+    verificationStatus: 'verified',
+    activeEras: []
   },
   {
     id: 'bloom-doe-legal-representation',
@@ -832,7 +836,8 @@ const newConnections = [
     strength: 2,
     description: 'Attorney who represented Jane Doe in the 2016 Trump-Epstein rape lawsuit.',
     sources: ['NYT'],
-    verificationStatus: 'verified'
+    verificationStatus: 'verified',
+    activeEras: []
   },
   {
     id: 'lubow-doe-social',
@@ -842,7 +847,8 @@ const newConnections = [
     strength: 1,
     description: 'Played a role in filing the lawsuit under false name "Al Taylor". Former Jerry Springer producer.',
     sources: ['OSINT'],
-    verificationStatus: 'verified'
+    verificationStatus: 'verified',
+    activeEras: []
   },
   {
     id: 'lucchesi-trump-social',
@@ -852,7 +858,8 @@ const newConnections = [
     strength: 1,
     description: 'Alleged witnessing Trump at underage sex parties in the 1990s.',
     sources: ['OSINT'],
-    verificationStatus: 'unverified'
+    verificationStatus: 'unverified',
+    activeEras: []
   }
 ];
 
@@ -867,7 +874,8 @@ accuserEntries.forEach(a => {
     strength: 1,
     description: `${a.name}: ${a.summary.substring(0, 100)}`,
     sources: a.sources,
-    verificationStatus: 'contested'
+    verificationStatus: 'contested',
+    activeEras: []
   });
 });
 

@@ -4,6 +4,9 @@ import { useState, useMemo, useRef, useEffect } from 'react';
 import type { TimelineEvent, TimelineEra, DisclosureLevel } from '@/types';
 import timelineData from '@/data/timeline.json';
 import EventCard from '@/components/timeline/EventCard';
+import EraSynthesisBlock from '@/components/timeline/EraSynthesisBlock';
+import { getEraSynthesis } from '@/data/timeline-causality';
+import ActiveInvestigationBanner from '@/components/timeline/ActiveInvestigationBanner';
 import { Filter } from 'lucide-react';
 
 const events = timelineData as TimelineEvent[];
@@ -23,6 +26,21 @@ const ERAS: TimelineEra[] = [
 
 const TAG_FILTERS = ['trafficking', 'financial', 'legal', 'political', 'media', 'death', 'intelligence', 'flight'];
 
+// Event type cluster groups — ordered by default display sequence
+const TYPE_CLUSTER_GROUPS: Array<{ key: string; label: string; icon: string }> = [
+  { key: 'trafficking', label: 'Trafficking',    icon: '\u26A0' },
+  { key: 'legal',       label: 'Legal',           icon: '\u2696' },
+  { key: 'financial',   label: 'Financial',        icon: '$' },
+  { key: 'political',   label: 'Political',        icon: '\u25C8' },
+  { key: 'intelligence',label: 'Intelligence',     icon: '\u25C9' },
+  { key: 'death',       label: 'Death / Prison',   icon: '\u2715' },
+  { key: 'media',       label: 'Media',            icon: '\u25CE' },
+  { key: 'flight',      label: 'Flight / Travel',  icon: '\u2192' },
+];
+
+// Events not matching any type group tag fall into "Other"
+const UNCLUSTERED_LABEL = 'Other';
+
 export default function TimelinePage() {
   const [selectedEras, setSelectedEras] = useState<Set<TimelineEra>>(new Set());
   const [selectedTags, setSelectedTags] = useState<Set<string>>(new Set());
@@ -38,6 +56,9 @@ export default function TimelinePage() {
 
   // Hash-based auto-expand
   const [initialExpandId, setInitialExpandId] = useState<string | null>(null);
+
+  // Event-type clustering toggle
+  const [clusterByType, setClusterByType] = useState(false);
 
   useEffect(() => {
     const hash = window.location.hash.slice(1);
@@ -127,6 +148,9 @@ export default function TimelinePage() {
           {events.length} events across 6 chronological eras
         </p>
       </div>
+
+      {/* Active investigation banner */}
+      <ActiveInvestigationBanner />
 
       {/* Era quick-jump + filter toggle */}
       <div className="flex items-center justify-between gap-4 mb-4 flex-wrap">
@@ -254,7 +278,7 @@ export default function TimelinePage() {
             aria-labelledby={`era-${era}`}
           >
             {/* Era divider */}
-            <div className="flex items-center gap-4 mb-6">
+            <div className="flex items-center gap-4 mb-4">
               <div className="flex-1 h-px bg-surface-border" />
               <h2
                 id={`era-${era}`}
@@ -265,8 +289,26 @@ export default function TimelinePage() {
               <div className="flex-1 h-px bg-surface-border" />
             </div>
 
-            {/* Bulk expand button */}
-            <div className="flex justify-end mb-3 print:hidden">
+            {/* Era synthesis — collapsed by default */}
+            {getEraSynthesis(era) && (
+              <EraSynthesisBlock synthesis={getEraSynthesis(era)!} />
+            )}
+
+            {/* Bulk expand + cluster toggle row */}
+            <div className="flex items-center justify-between mb-3 print:hidden">
+              <button
+                onClick={() => setClusterByType((c) => !c)}
+                aria-pressed={clusterByType}
+                className={`flex items-center gap-1.5 text-xs px-2.5 py-1 rounded border
+                            transition-colors
+                            ${clusterByType
+                              ? 'border-accent-blue/50 text-accent-blue bg-accent-blue/8'
+                              : 'border-surface-border text-text-muted hover:text-text-secondary'
+                            }`}
+              >
+                <span aria-hidden>{'\u229E'}</span>
+                {clusterByType ? 'Grouped by type' : 'Group by type'}
+              </button>
               <button
                 onClick={() => setEraExpandLevel(era, 1)}
                 className="text-xs text-text-muted hover:text-text-secondary transition-colors"
@@ -275,23 +317,95 @@ export default function TimelinePage() {
               </button>
             </div>
 
-            <div className="space-y-4">
-              {eraEvents.map((event) => {
-                const overrideLevel = expandedEvents.get(event.id);
-                const eraLevel = eraLevels.get(event.era);
-                const hashLevel = initialExpandId === event.id ? 1 : undefined;
-                const effectiveLevel = (overrideLevel ?? hashLevel ?? eraLevel ?? 0) as DisclosureLevel;
+            {clusterByType ? (
+              // Grouped rendering
+              <div className="space-y-6">
+                {(() => {
+                  // Assign each event to its primary type group
+                  const grouped = new Map<string, TimelineEvent[]>();
+                  const unkeyed: TimelineEvent[] = [];
 
-                return (
-                  <EventCard
-                    key={`${event.id}-${effectiveLevel}`}
-                    event={event}
-                    initialLevel={effectiveLevel}
-                    onNavigateToEvent={handleNavigateToEvent}
-                  />
-                );
-              })}
-            </div>
+                  for (const event of eraEvents) {
+                    const matchedGroup = TYPE_CLUSTER_GROUPS.find((g) =>
+                      event.tags.includes(g.key)
+                    );
+                    if (matchedGroup) {
+                      if (!grouped.has(matchedGroup.key)) grouped.set(matchedGroup.key, []);
+                      grouped.get(matchedGroup.key)!.push(event);
+                    } else {
+                      unkeyed.push(event);
+                    }
+                  }
+
+                  const sections: Array<{ key: string; label: string; icon: string; events: TimelineEvent[] }> = [];
+                  for (const group of TYPE_CLUSTER_GROUPS) {
+                    const groupEvents = grouped.get(group.key);
+                    if (groupEvents && groupEvents.length > 0) {
+                      sections.push({ ...group, events: groupEvents });
+                    }
+                  }
+                  if (unkeyed.length > 0) {
+                    sections.push({ key: 'other', label: UNCLUSTERED_LABEL, icon: '\u00B7', events: unkeyed });
+                  }
+
+                  if (sections.length === 0) return null;
+
+                  return sections.map((section) => (
+                    <div key={section.key}>
+                      {/* Type group header */}
+                      <div className="flex items-center gap-2 mb-3">
+                        <span className="text-[10px] text-text-muted" aria-hidden>
+                          {section.icon}
+                        </span>
+                        <span className="text-[10px] font-mono text-text-muted uppercase tracking-widest">
+                          {section.label}
+                        </span>
+                        <span className="text-[10px] text-text-muted">
+                          ({section.events.length})
+                        </span>
+                        <div className="flex-1 h-px bg-surface-border/50 ml-1" />
+                      </div>
+                      {/* Events in this type group */}
+                      <div className="space-y-4">
+                        {section.events.map((event) => {
+                          const overrideLevel = expandedEvents.get(event.id);
+                          const eraLevel = eraLevels.get(event.era);
+                          const hashLevel = initialExpandId === event.id ? 1 : undefined;
+                          const effectiveLevel = (overrideLevel ?? hashLevel ?? eraLevel ?? 0) as DisclosureLevel;
+                          return (
+                            <EventCard
+                              key={`${event.id}-${effectiveLevel}`}
+                              event={event}
+                              initialLevel={effectiveLevel}
+                              onNavigateToEvent={handleNavigateToEvent}
+                            />
+                          );
+                        })}
+                      </div>
+                    </div>
+                  ));
+                })()}
+              </div>
+            ) : (
+              // Flat rendering — original behavior
+              <div className="space-y-4">
+                {eraEvents.map((event) => {
+                  const overrideLevel = expandedEvents.get(event.id);
+                  const eraLevel = eraLevels.get(event.era);
+                  const hashLevel = initialExpandId === event.id ? 1 : undefined;
+                  const effectiveLevel = (overrideLevel ?? hashLevel ?? eraLevel ?? 0) as DisclosureLevel;
+
+                  return (
+                    <EventCard
+                      key={`${event.id}-${effectiveLevel}`}
+                      event={event}
+                      initialLevel={effectiveLevel}
+                      onNavigateToEvent={handleNavigateToEvent}
+                    />
+                  );
+                })}
+              </div>
+            )}
           </section>
         );
       })}

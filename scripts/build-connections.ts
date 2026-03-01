@@ -27,6 +27,7 @@ interface Connection {
   description: string;
   sources: SourceTag[];
   verificationStatus: VerificationStatus;
+  activeEras: string[];
 }
 
 interface Person {
@@ -76,12 +77,16 @@ const themes: ThemeSection[] = JSON.parse(
   fs.readFileSync(path.join(dataDir, 'themes.json'), 'utf-8')
 );
 
-const manualConnections: Connection[] = JSON.parse(
+const manualConnectionsRaw: Array<Omit<Connection, 'activeEras'> & { activeEras?: string[] }> = JSON.parse(
   fs.readFileSync(
     path.join(process.cwd(), 'scripts', 'connections-manual.json'),
     'utf-8'
   )
 );
+const manualConnections: Connection[] = manualConnectionsRaw.map((c) => ({
+  ...c,
+  activeEras: c.activeEras ?? [],
+}));
 
 // ─── Slugify (must match parse-people.ts) ──────────────────────────────────
 function slugify(name: string): string {
@@ -155,6 +160,7 @@ function deriveFlightConnections(): Connection[] {
           description: `Flew together approximately ${m[3]} times.`,
           sources: ['DOJ'],
           verificationStatus: 'verified',
+          activeEras: [],
         });
       }
     }
@@ -176,6 +182,7 @@ function deriveFlightConnections(): Connection[] {
           description: `${count} documented flight legs together.`,
           sources: ['DOJ'],
           verificationStatus: 'verified',
+          activeEras: [],
         });
       }
     }
@@ -220,6 +227,7 @@ function deriveExplicitConnections(): Connection[] {
             description: `Documented ${rp.type} relationship.`,
             sources: person.sources as SourceTag[],
             verificationStatus: 'verified',
+            activeEras: [],
           });
         }
       }
@@ -268,6 +276,7 @@ function deriveTimelineCooccurrences(): Connection[] {
           description: `Co-appear in ${shared.length} documented events.`,
           sources: ['DOJ'],
           verificationStatus: 'verified',
+          activeEras: [],
         });
       }
     }
@@ -301,6 +310,7 @@ function deriveFinancialConnections(): Connection[] {
           description: `Documented wire transfer between accounts.`,
           sources: ['DOJ'],
           verificationStatus: 'verified',
+          activeEras: [],
         });
       }
     }
@@ -345,6 +355,7 @@ function deriveProfileMentionConnections(): Connection[] {
           description: `${other.name} mentioned in ${person.name}'s documented profile.`,
           sources: person.sources.slice(0, 2) as SourceTag[],
           verificationStatus: 'verified',
+          activeEras: [],
         });
       }
     }
@@ -502,6 +513,72 @@ console.log(`  After dedup + validation: ${allConnections.length} connections`);
 // Cross-reference pass
 crossReference(people, events, themes, allConnections);
 
+// ─── Populate activeEras on each connection ────────────────────────────────
+// Strategy: for each connection, find all timeline events where both people appear.
+// Collect the eras of those events. If none found, mark as all eras (connection
+// predates our timeline data or is a general relationship without dated events).
+
+const ALL_ERAS = ['pre-1990', '1990-2000', '2001-2007', '2008-2018', '2019', '2020-present'];
+
+// Build a map: personId → Set of timeline event eras
+const personEventEras = new Map<string, Set<string>>();
+for (const event of events) {
+  for (const personId of event.peopleIds ?? []) {
+    if (!personEventEras.has(personId)) {
+      personEventEras.set(personId, new Set());
+    }
+    if (event.era) {
+      personEventEras.get(personId)!.add(event.era);
+    }
+  }
+}
+
+// Build a map: personId → Set of event IDs (to find co-occurrence)
+const personEventIds = new Map<string, Set<string>>();
+for (const event of events) {
+  for (const personId of event.peopleIds ?? []) {
+    if (!personEventIds.has(personId)) {
+      personEventIds.set(personId, new Set());
+    }
+    personEventIds.get(personId)!.add(event.id);
+  }
+}
+
+// For each connection, find co-occurring events and extract their eras
+for (const conn of allConnections) {
+  const aEvents = personEventIds.get(conn.sourcePersonId) ?? new Set<string>();
+  const bEvents = personEventIds.get(conn.targetPersonId) ?? new Set<string>();
+
+  // Intersection: events where both people appear
+  const sharedEventIds = new Set<string>();
+  for (const id of aEvents) {
+    if (bEvents.has(id)) sharedEventIds.add(id);
+  }
+
+  const eras = new Set<string>();
+  for (const eventId of sharedEventIds) {
+    const event = events.find((e) => e.id === eventId);
+    if (event?.era) eras.add(event.era);
+  }
+
+  // If no shared events found, infer from individual person event eras
+  // (the connection was active whenever either person was active)
+  if (eras.size === 0) {
+    const aEras = personEventEras.get(conn.sourcePersonId) ?? new Set<string>();
+    const bEras = personEventEras.get(conn.targetPersonId) ?? new Set<string>();
+    // Use union of their individual eras as a fallback
+    for (const e of aEras) eras.add(e);
+    for (const e of bEras) eras.add(e);
+  }
+
+  // If still nothing, assume all eras (connection exists but isn't dated)
+  conn.activeEras = eras.size > 0
+    ? ALL_ERAS.filter((e) => eras.has(e))  // preserve era order
+    : ALL_ERAS;
+}
+
+console.log('✓ Populated activeEras on all connections');
+
 // Write updated data files (with populated *Ids arrays)
 fs.writeFileSync(
   path.join(dataDir, 'people.json'),
@@ -520,3 +597,75 @@ const connectionsOut = path.join(dataDir, 'connections.json');
 fs.writeFileSync(connectionsOut, JSON.stringify(allConnections, null, 2));
 console.log(`\n✓ Written ${allConnections.length} connections to ${connectionsOut}`);
 console.log('✓ Updated people.json, timeline.json, themes.json with cross-references\n');
+
+// ─── Cross-reference: populate themeIds on each person (bidirectional) ────
+const peoplePath = path.join(process.cwd(), 'src', 'data', 'people.json');
+const themesPath = path.join(process.cwd(), 'src', 'data', 'themes.json');
+
+// Only run if both files exist (themes may not exist on first parse run)
+if (fs.existsSync(peoplePath) && fs.existsSync(themesPath)) {
+  const peopleReload: Array<{ id: string; themeIds: string[]; [key: string]: unknown }> =
+    JSON.parse(fs.readFileSync(peoplePath, 'utf-8'));
+  const themesReload: Array<{ id: string; peopleIds: string[] }> =
+    JSON.parse(fs.readFileSync(themesPath, 'utf-8'));
+
+  // Build person → themes map
+  const personThemeMap = new Map<string, Set<string>>();
+  for (const theme of themesReload) {
+    for (const personId of theme.peopleIds) {
+      if (!personThemeMap.has(personId)) {
+        personThemeMap.set(personId, new Set());
+      }
+      personThemeMap.get(personId)!.add(theme.id);
+    }
+  }
+
+  // Apply to people
+  let themeUpdated = 0;
+  for (const person of peopleReload) {
+    const themeIds = personThemeMap.get(person.id);
+    if (themeIds && themeIds.size > 0) {
+      person.themeIds = Array.from(themeIds);
+      themeUpdated++;
+    }
+  }
+
+  fs.writeFileSync(peoplePath, JSON.stringify(peopleReload, null, 2));
+  console.log(`✓ Cross-referenced themeIds: ${themeUpdated} people updated with theme associations`);
+} else {
+  console.warn('⚠ Cross-reference skipped: people.json or themes.json not found');
+}
+
+// ─── Cross-reference: populate timelineEventIds on each person ────────────
+const timelinePath = path.join(process.cwd(), 'src', 'data', 'timeline.json');
+
+if (fs.existsSync(peoplePath) && fs.existsSync(timelinePath)) {
+  // Reload people (may have been updated above)
+  const peopleReload2: Array<{ id: string; timelineEventIds: string[]; [key: string]: unknown }> =
+    JSON.parse(fs.readFileSync(peoplePath, 'utf-8'));
+  const eventsReload: Array<{ id: string; personIds: string[] }> =
+    JSON.parse(fs.readFileSync(timelinePath, 'utf-8'));
+
+  const personEventMap = new Map<string, Set<string>>();
+  for (const event of eventsReload) {
+    for (const personId of (event.personIds ?? [])) {
+      if (!personEventMap.has(personId)) {
+        personEventMap.set(personId, new Set());
+      }
+      personEventMap.get(personId)!.add(event.id);
+    }
+  }
+
+  let eventUpdated = 0;
+  for (const person of peopleReload2) {
+    const eventIds = personEventMap.get(person.id);
+    if (eventIds && eventIds.size > 0) {
+      const merged = new Set([...person.timelineEventIds, ...Array.from(eventIds)]);
+      person.timelineEventIds = Array.from(merged);
+      eventUpdated++;
+    }
+  }
+
+  fs.writeFileSync(peoplePath, JSON.stringify(peopleReload2, null, 2));
+  console.log(`✓ Cross-referenced timelineEventIds: ${eventUpdated} people updated`);
+}
