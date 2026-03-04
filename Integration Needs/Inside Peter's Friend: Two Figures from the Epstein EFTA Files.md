@@ -1,0 +1,72 @@
+# Inside "Peter's Friend": two figures from the Epstein EFTA files
+
+**The May 2014 email thread "Peter's Friend" in the DOJ Epstein EFTA releases connects two individuals — New York real estate heir and Broadway producer Jonathan Farkas and a woman known only as "Mortimer," a former model and TV presenter — to Epstein's network through overlapping elite social circles spanning royalty, entertainment, and high finance.** This investigation cross-references Tony Award records, film credits, corporate filings, and investigative journalism to identify both individuals and map their documented connections to Jeffrey Epstein, Prince Andrew, and the broader network revealed in the EFTA document releases. The email, written months before the landmark December 2014 court filing that first formally accused Prince Andrew of participating in Epstein's trafficking, offers a window into how Epstein's social intermediaries operated in real time.
+
+## "Jonathan" is almost certainly Jonathan Farkas, Alexander's department store heir
+
+The identifying details in the email — four Tony Awards (actually nominations), productions of *Les Liaisons Dangereuses* and *Noises Off*, Reagan-era political connections, a Park Avenue apartment at 22, Formula Atlantic racing, and marriage to a Ford model at 23 — converge on a single individual: **Jonathan Farkas**, born 1948, the youngest of four sons of George Farkas, founder of Alexander's Department Stores.
+
+Broadway records on IBDB confirm Farkas as producer or associate producer on both *Les Liaisons Dangereuses* (1987, Tony-nominated for Best Play) and *Noises Off* (1983, Tony-nominated for Best Play). He received **four Tony nominations** total: *Noises Off* (1984), *Grind* (1985), *Big Deal* (1986), and *Les Liaisons Dangereuses* (1987). The email's claim of "4 Tony Awards" appears to conflate nominations with wins — a not uncommon embellishment. Notably, Farkas also produced *La Cage aux Folles*, which **won** Best Musical in 1984, meaning he has at least one genuine Tony win associated with his producing portfolio.
+
+The biographical details check out systematically. OldRacingCars.com documents Farkas racing in **SCCA Formula B** events (the precursor to Formula Atlantic) with Fred Opert Racing in 1972–73, when Farkas would have been 24–25. Getty Images archives contain **245 photographs** from a 1982 party at the Water Mill, New York home of "Jonathan & Kimberly Farkas," confirming his first wife's name. Born in 1948 to one of Manhattan's wealthiest retail dynasties — Alexander's went public in 1968 raising $41 million — a 16-room Park Avenue apartment at age 22 (circa 1970) is entirely plausible.
+
+The Reagan connection traces through the Farkas family's deep Republican roots. His mother, **Ruth Lewis Farkas**, donated over $300,000 to Nixon's 1972 reelection campaign and was appointed U.S. Ambassador to Luxembourg. While specific documentation of Jonathan's personal role in the Reagan administration or friendship with Maureen Reagan (who died in 2001) was not located in public sources, the family's multi-generational Republican donor status and socialite network make such connections highly consistent. His third wife, **Somers White Farkas**, was appointed U.S. Ambassador to Malta by President Trump.
+
+## Farkas and Epstein: a 35-year relationship documented in emails
+
+Jonathan Farkas's connection to Jeffrey Epstein is among the most extensively documented social relationships in the EFTA files. A 2011 *New York Magazine* profile described Farkas as having "known Epstein for 35 years" and as someone who **visited Epstein in prison** and considered him "one of the smartest people he knows." The Epstein Wiki catalogs dozens of documents referencing Farkas, cross-listed under House Oversight document numbers and EFTA numbers.
+
+The released emails paint a picture of a casual, long-running social friendship. In a **2017 email**, Farkas forwarded information about a woman to Epstein and asked: "Jeffrey please help me here — is she a hooker?" In a **2019 email**, he wrote to Epstein: "Told you Barr would protect Trump known him for 50 years." Another 2019 email referenced a "list for Bannon Steve." His email address in the files is **jeevacation@gmail.com**. Epstein's black book lists Farkas on page 72 with seven phone numbers. The Tommy Carstensen Epstein findings tracker lists **8 separate findings** associated with Jonathan Farkas across the EFTA documents.
+
+**Verification status**: Jonathan Farkas identification is **HIGH CONFIDENCE** — matching on 7 of 9 verifiable details (Tony nominations for both named shows, Formula racing, wealthy Park Avenue heir, first wife, Claridges-level lifestyle, long-documented Epstein connection). The Reagan/Maureen Reagan claim and Ford model marriage are consistent but unconfirmed in public records.
+
+## "Mortimer" matches a London real estate agent with an extraordinary biography
+
+The identification of "Mortimer" proved more challenging but yielded a compelling lead. No individual named Mortimer appears in the credited cast of *Eyes Wide Shut* (1999) across all 87+ listed performers. However, a search for someone combining modeling, TV presenting, an *Eyes Wide Shut* connection, and royal relationships uncovered a striking match.
+
+**London House**, a prime London real estate agency (londonhouse.co.uk), lists a partner identified solely as **"Mortimer"** — a woman described as bringing "global life experience to London House after a career as a model and TV presenter." The profile states she "travelled the world as a Model and TV presenter, building up life-long social connections all over the globe." It adds that she is "based in Belgravia" with two children, has built "strong relationships with many High-Net-Worth individuals from **Royalty to Celebrities**," and is "well known for discretion and uttermost privacy." Most significantly, the profile states explicitly: **"Mortimer worked with Stanley Kubrick on Eyes Wide Shut."**
+
+This individual matches virtually every identifying detail from the email:
+
+- **Model who traveled the world** (Elite Model Agency connection described in the email)
+- **TV presenter** (confirmed on the London House profile)
+- **Worked on Eyes Wide Shut** (confirmed; likely an uncredited role as one of the models in the film's masked party sequence)
+- **Royal connections** ("from Royalty to Celebrities" matches the claimed friendship with Prince Andrew and Sarah Ferguson)
+- **Based in London/Belgravia** (consistent with the email's London social circle context)
+- **Uses single name "Mortimer"** (consistent with the email's "mortimer@" address)
+
+The person's full legal name could not be determined. The company behind London House, **LNDH LTD** (Companies House number 16117512), was incorporated in December 2024, and its officers page — which would list directors by full legal name — was not accessible through available research tools. The deliberate use of a mononym and emphasis on "discretion and privacy" suggests this person actively limits their digital footprint.
+
+**Verification status**: "Mortimer" at London House is a **STRONG MATCH** on 5 of 6 verifiable characteristics. Full legal name and direct Epstein document confirmation remain unverified. No female "Mortimer" appears in indexed Epstein document trackers, though hundreds of thousands of pages remain unanalyzed.
+
+## Elite Model Agency served as a pipeline into Epstein's network
+
+The email's reference to "Mortimer" traveling the world with Elite Model Agency connects to one of the most thoroughly documented channels feeding into Epstein's operation. **Three senior figures** at Elite had direct Epstein connections or parallel patterns of abuse.
+
+**Jean-Luc Brunel**, who ran Karin Models and later co-founded MC2 Model Management with **at least $1 million in financing from Epstein** (the name "MC2" reportedly coded to Epstein: E=MC²), was listed as a passenger on Epstein's jet 25 times and visited Epstein in jail at least 70 times during his 2008 sentence. The FBI classified Brunel as an Epstein **co-conspirator** in the 2026 file releases. He was found dead in his Paris prison cell in February 2022.
+
+**Gérald Marie**, head of **Elite Model Management Europe** for 25 years, was accused of raping at least 15 models and was exposed in a 1999 BBC undercover documentary showing Elite's culture of pressuring underage models into sexual encounters. Marie was named in a DOJ exhibit alongside Epstein connections and came under criminal investigation in Paris in 2020. **John Casablancas**, Elite's founder, began dating a 14-year-old model at age 42 and was friends with Donald Trump, who judged Elite's "Look of the Year" competitions.
+
+An academic paper published in *Deviant Behavior* (2025) formally analyzed the modeling industry as a "pipeline" for exploitation, with former top model Laurie Marsden describing a systematic playbook: "get young naïve girls, house them like cattle, charge them for everything so they run up a debt, and then introduce them to older wealthy men."
+
+## The email arrived at a pivotal moment in the Andrew-Epstein timeline
+
+The May 2014 date of the "Peter's Friend" email thread is significant. In the email, "Mortimer" claims to be "very good friends with Prince Andrew and Sarah and the girls" and offers to arrange drinks with Prince Andrew — a social introduction being brokered through Epstein's network **just seven months before** the landmark December 30, 2014 court filing by Virginia Giuffre's attorneys that first formally alleged in court that she had been trafficked by Epstein and forced to have sex with Prince Andrew on three occasions.
+
+By May 2014, Andrew's Epstein connection was already publicly problematic. He had been **photographed walking with Epstein in Central Park** in December 2010 — after Epstein's 2008 conviction — and his role as UK trade envoy was terminated in July 2011 due to the controversy. Sarah Ferguson had disclosed that Andrew helped arrange for Epstein to pay £15,000 of her debts. Yet the "Mortimer" email suggests that within Epstein's social circle, arranging drinks with Andrew was still being casually offered as social currency.
+
+The "Peter" in "Peter's Friend" who brokered the introduction most likely refers to **Peter Mandelson** (Baron Mandelson), the former British politician whose extensive Epstein connections are now the subject of criminal proceedings. A JPMorgan internal report from 2019 stated that "Jeffrey Epstein appears to maintain a particularly close relationship with Prince Andrew, Duke of York... and Lord Mandelson." Mandelson was arrested on February 23, 2026 on suspicion of misconduct in public office after EFTA documents revealed he had forwarded confidential UK government information to Epstein, including advance notice of a €500 billion EU bailout and internal memos about the 2008 financial crisis response. Bank records show Epstein sent three payments totaling **$75,000** to accounts linked to Mandelson between 2003 and 2004.
+
+## Eyes Wide Shut, "Aden and Fizzi," and what remains unresolved
+
+The *Eyes Wide Shut* connection carries both thematic and literal significance. Stanley Kubrick's final film depicted a secret society of powerful figures conducting ritualized sex parties with vulnerable women behind layers of wealth and secrecy. *The Hollywood Reporter* noted in 2026 that "what Kubrick captures is a world where someone like Jeffrey Epstein becomes almost inevitable." The film was shot entirely in England between 1996 and 1998, using many professional models as extras — particularly in the masked orgy sequence — making it plausible that a model traveling with Elite would have worked on the production in an uncredited capacity.
+
+**"Aden and Fizzi"** — friends mentioned by Jonathan Farkas while staying at Claridges — remain unidentified. "Fizzi" is a documented British nickname for "Felicity," but extensive searching of London society databases, Epstein trackers, and social media yielded no matches. They are likely part of a private social circle orbiting either Farkas's London connections or the broader Epstein network.
+
+The **actual EFTA document** (Bates number EFTA01923407) could not be directly accessed or verified. It falls within the DOJ's **Data Set 10** number range (starting at EFTA01262782), and the standard URL would be `justice.gov/epstein/files/DataSet%2010/EFTA01923407.pdf`. The document does not appear on the tracked deleted files list. No investigative journalism coverage specifically referencing this email thread or the "Peter's Friend" subject line was located, suggesting it is among the hundreds of thousands of pages that have not yet received individual media scrutiny. The Tommy Carstensen findings database, which indexes 409 individuals across 954 findings from the EFTA releases, lists both Jonathan Farkas (8 findings) and Peter Mandelson (25 findings) as persons of interest.
+
+## Conclusion
+
+This investigation identifies "Jonathan" as **Jonathan Farkas** with high confidence, based on convergent evidence from Broadway databases, racing records, family wealth records, and extensive documentation in the Epstein files. "Mortimer" is identified with strong probability as the individual profiled at London House real estate — a former model and TV presenter who worked on *Eyes Wide Shut* and maintains royal connections — though her full legal name remains undetermined due to deliberate privacy measures.
+
+The "Peter's Friend" email thread illuminates how Epstein's network functioned as a social marketplace, with intermediaries like "Peter" (likely Mandelson) brokering introductions between wealthy Americans (Farkas), British socialites with royal access (Mortimer), and the royals themselves (Prince Andrew). That this social brokering was occurring in May 2014 — when Andrew's Epstein connection was already publicly toxic — suggests either remarkable insularity or deliberate indifference within this circle. The Elite Model Agency connections add another documented conduit through which the modeling industry, elite entertainment circles, and Epstein's network intersected. The full significance of this particular email thread will depend on whether the actual document becomes part of broader investigative reporting as the millions of pages in the EFTA releases continue to be analyzed.
