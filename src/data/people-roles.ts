@@ -87,8 +87,10 @@ export const peopleRoles: Record<string, string> = {
 
   'william-barr': `As U.S. Attorney General, Barr oversaw the 2019 prosecution and was the
     senior DOJ official responsible for Epstein's pretrial detention conditions. His father,
-    Donald Barr, hired Epstein to teach at the Dalton School in 1974 without a college
-    degree, decades before Epstein's wealth or prominence. Barr recused himself from the
+    Donald Barr, was headmaster of the Dalton School until June 30, 1974 — seven months
+    before Epstein began teaching there in September 1974. Whether Barr made the hiring
+    decision in advance is unverified; Peter Branch (interim headmaster from July 1, 1974)
+    is the more likely hiring authority. Barr recused himself from the
     investigation but later contradicted that recusal in public statements. He has called the
     death a suicide and rejected conspiracy theories, but the circumstances under his watch —
     the removal from suicide watch, the sleeping guards, the destroyed surveillance footage —

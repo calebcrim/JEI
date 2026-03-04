@@ -24,6 +24,49 @@
         "sources": []
       },
       {
+        "title": "Scopolamine & Trumpet Plant Thread",
+        "content": "Four independent EFTA documents confirm trumpet vine was ordered, invoiced, and physically planted at Zorro Ranch, New Mexico in 2013. The property management log (EFTA01124666) records: \"Trumpet Vine planted along pathway between MH [Main House] & Dog Pen\" on June 27, 2013. A separate November 2013 email (EFTA01950280) confirms Epstein also instructed staff about \"trumpet flowers\" at Little St. James, placing the plant interest at both properties.\n\nOn January 27, 2015 — one month after the Manzaro scopolamine incident (December 26, 2014) — Epstein was forwarded a detailed Daily Mail article titled \"Scopolamine: Powerful drug growing in the forests of Colombia that ELIMINATES free will.\" The email chain originated with fashion photographer Antoine Verglas (EFTA00865569). The article described scopolamine being blown into victims' faces, rendering them compliant with no memory formation.\n\nAngel Trumpet (*Brugmansia* / *Datura*) plants are a natural source of scopolamine. The combination of confirmed planting at Epstein properties and documented receipt of a criminal application article establishes a corroborated investigative thread.",
+        "verificationStatus": "verified",
+        "sources": [
+          "DOJ"
+        ],
+        "efta": [
+          "EFTA00984429",
+          "EFTA00865569",
+          "EFTA01950280",
+          "EFTA01124666",
+          "EFTA01177625",
+          "EFTA01124580",
+          "EFTA00587280"
+        ]
+      },
+      {
+        "title": "Wolff Profile: Operational & Financial Details (EFTA01132579)",
+        "content": "Wolff's draft profile (EFTA01132579, ~late 2014/early 2015) provides intimate access-journalism detail of Epstein's daily operations at his Manhattan townhouse. Epstein operated from a windowless dining room, hosting world leaders, finance ministers, and billionaires on an hourly appointment basis.\n\nKey operational and financial details from the profile:\n- Purchased the largest private house in Manhattan from Les Wexner (confirmed)\n- Paris apartment: 10,000 square feet on Avenue Foch, with a stuffed baby elephant as décor\n- Described as the \"biggest landowner in New Mexico\" (Bill Richardson quote)\n- Paid $200 per massage — the stated payment figure (own account)\n- Volunteered to invest $20 million in *New York* magazine when it was for sale in 2004\n\nEpstein's own account of the 2008 plea deal mechanics describes the process as \"ass-backwards\": his lawyers had to persuade Palm Beach authorities to charge him with an offense that would produce sex offender status. A mere solicitation charge would not. He agreed to procurement/pimping charges (despite having paid rather than received money) and agreed to pay legal fees for any girl who sued him and not to contest their civil suits, resulting in high six-figure settlements per victim.\n\nEpstein's advance predictions on oil, yen, ruble, and euro prices all bore out between September 2014 and January 2015, suggesting access to information beyond what was publicly available.\n\n---",
+        "sources": [
+          "EFTA-Wolff"
+        ],
+        "verificationStatus": "verified",
+        "efta": [
+          "EFTA01132579"
+        ]
+      },
+      {
+        "title": "4chan / Christopher Poole Thread (2011–2017)",
+        "content": "In October 2011, Boris Nikolic introduced Epstein to 4chan founder Christopher Poole (\"moot\"), explicitly citing \"the potential for manipulation is huge\" (EFTA_R1_00482682). 4chan's /pol/ board launched October 23, 2011 — three days after the introduction email. Epstein met Poole at a social event around October 22–24 and told Nikolic \"I liked him a lot\" (EFTA01852812). Meeting scheduling continued through early 2012 but Poole \"kept flaking.\" No contact documented after February 2012.\n\nEpstein's 4chan interest persisted: in 2017 he sent girlfriend Karyna Shuliak a 4chan link with explicit content, and that same year discussed using 4chan and cryptocurrency for populist/nationalist coalition-building with Steve Bannon (introduced via Michael Wolff).\n\n---",
+        "sources": [
+          "DOJ",
+          "OSINT"
+        ],
+        "verificationStatus": "verified",
+        "efta": [
+          "EFTA_R1_00486371",
+          "EFTA01852812",
+          "EFTA_R1_00498434",
+          "EFTA_R1_00482682"
+        ]
+      },
+      {
         "title": "Source files",
         "content": "All 9 source files",
         "sources": []
@@ -867,7 +910,33 @@
       "ff-wire-2016-01-08-haze-trust-jeffrey-epstein",
       "2026-02-forensic-finance-repo-published",
       "2008-wolfe-epstein-correspondence-begins",
-      "2013-epstein-personal-genome-project"
+      "2013-epstein-personal-genome-project",
+      "zorro-ranch-trumpet-vine-proposal-mallory-2013",
+      "zorro-ranch-trumpet-vine-proposal-aspen-2013",
+      "zorro-ranch-trumpet-vine-planted-2013",
+      "lsj-trumpet-flowers-2013",
+      "epstein-scopolamine-article-2015",
+      "snow-white-now-what-2009",
+      "snow-white-brett-ratner-2010",
+      "snow-white-email-2010",
+      "snow-white-assault-reference-2010",
+      "siegel-epstein-contact-aug-2009",
+      "siegel-visits-epstein-house-nov-2010",
+      "siegel-women-in-world-epstein-press-march-2011",
+      "weinstein-siegel-epstein-flight-europe",
+      "2002-ted-google-founders-epstein-727",
+      "2014-summer-gates-rehabilitation-push",
+      "2014-09-late-qatar-delegation",
+      "2014-09-late-summers-bitcoin-pierce",
+      "2014-09-late-ruemmler-barak-breakfast",
+      "2014-09-late-rudd-jagland-cocktail",
+      "2014-09-late-holder-resignation-prediction",
+      "2015-01-dershowitz-prince-andrew-filing",
+      "2010-02-10-frankel-body-boxes",
+      "2010-03-07-frankel-pb-visit",
+      "2011-07-15-stern-odessa-email",
+      "2011-10-20-nikolic-introduces-poole",
+      "2012-01-27-poole-meeting-cancelled"
     ],
     "themeIds": [
       "the-trafficking-operation",
@@ -882,7 +951,10 @@
       "community-research-tools-architecture",
       "cross-network-financial-analysis-epstein-as-financial-hub",
       "the-rothschild-dynasty-25-million-access-brokerage-intelligence-nexus",
-      "whoops-emails"
+      "whoops-emails",
+      "chemical-drugging",
+      "coded-communications-snow-white",
+      "chicken-pattern-analysis"
     ],
     "connectionIds": [
       "ghislaine-maxwell",
@@ -1002,7 +1074,23 @@
       "epstein-thakuria-genetic-testing",
       "epstein-lloyd-funding",
       "epstein-krauss-funding",
-      "epstein-lander-meetings"
+      "epstein-lander-meetings",
+      "verglas-epstein-scopolamine-article",
+      "rodriguez-epstein-inner-circle",
+      "staley-epstein-snow-white",
+      "epstein-peggy-siegel-post-conviction",
+      "weinstein-epstein-social-overlap",
+      "pierce-epstein-financial-advisory",
+      "jagland-epstein-social",
+      "weingarten-epstein-legal",
+      "rudd-epstein-social",
+      "carter-epstein-media",
+      "page-epstein-social",
+      "new-epstein-academic",
+      "hamad-epstein-political",
+      "frankel-epstein-business",
+      "stern-epstein-correspondence",
+      "poole-epstein-scheduled"
     ],
     "sources": [
       "HO",
@@ -1011,7 +1099,8 @@
       "JMail",
       "OSINT",
       "Palm-Beach-PD",
-      "ForensicFinance"
+      "ForensicFinance",
+      "EFTA-Wolff"
     ]
   },
   {
@@ -1229,7 +1318,8 @@
       "intelligence-connections",
       "media-congressional-investigations",
       "community-research-tools-architecture",
-      "whoops-emails"
+      "whoops-emails",
+      "chicken-pattern-analysis"
     ],
     "connectionIds": [
       "jeffrey-epstein",
@@ -1379,7 +1469,9 @@
       "2016-12-19-86-page-sdny-co-conspirators-memo",
       "2017-03-20-dna-testing-kits-shipped-to-ariane-de-ro",
       "2018-12-13-epstein-tells-summers-trump-was-talking-",
-      "2020-02-lesley-groff-attorney-proffer"
+      "2020-02-lesley-groff-attorney-proffer",
+      "siegel-epstein-contact-aug-2009",
+      "siegel-visits-epstein-house-nov-2010"
     ],
     "themeIds": [
       "efta-release-framework-document-architecture",
@@ -1387,7 +1479,8 @@
       "the-acosta-plea-deal-legal-history",
       "community-research-tools-architecture",
       "the-rothschild-dynasty-25-million-access-brokerage-intelligence-nexus",
-      "whoops-emails"
+      "whoops-emails",
+      "chicken-pattern-analysis"
     ],
     "connectionIds": [
       "jeffrey-epstein",
@@ -2368,7 +2461,8 @@
       "mention-pam-bondi-todd-blanche",
       "mention-pam-bondi-rep-ted-lieu",
       "mention-pam-bondi-joseph-schnitt",
-      "mention-pam-bondi-james-okeefe"
+      "mention-pam-bondi-james-okeefe",
+      "frankel-bondi-social"
     ],
     "sources": [
       "CBS",
@@ -2562,6 +2656,17 @@
         "sources": []
       },
       {
+        "title": "AG Withdrawal & Epstein Breakfast (EFTA01132579)",
+        "content": "Wolff's draft profile (EFTA01132579) explicitly states Ruemmler \"will withdraw from consideration [for Attorney General] in part to work with Epstein.\" At the time of writing, she had \"just left her job as White House Counsel\" and was already being discussed as a possible next Attorney General.\n\nRuemmler joined an Epstein breakfast meeting alongside Ehud Barak during UN week (late September 2014). This is the clearest contemporaneous documentation of her decision to work with Epstein being directly connected to withdrawing from AG consideration.\n\n---",
+        "sources": [
+          "EFTA-Wolff"
+        ],
+        "verificationStatus": "verified",
+        "efta": [
+          "EFTA01132579"
+        ]
+      },
+      {
         "title": "Source files",
         "content": "Multiple\n\nRuemmler, former White House Counsel under President Obama and later a Goldman Sachs partner, called Epstein \"Uncle Jeffrey\" and received Hermès bags and other gifts from him. A May 3, 2016 email shows Epstein alerting Ruemmler about Brunel's planned visit to the U.S. Attorney's office. She was listed as backup executor on Epstein's will. She resigned from Goldman Sachs after these revelations. \n\n**\"Dirty Donald\" Email:** In an undated email during the Michael Cohen cooperation period (context January 2019), Epstein wrote to Ruemmler: \"I know how dirty Donald is. My guess is that non-lawyers NY biz people have no idea what it means to have your fixer flip\" (EFTA02606388). Epstein explicitly claimed specific knowledge of Trump's wrongdoing and contextualized Cohen's \"flipping\" as catastrophic for Trump — from someone who knew Trump's business well.",
         "sources": [
@@ -2641,7 +2746,8 @@
       "2016-09-02-ruemmler-forwards-edr-raid-headline-to-e",
       "2017-01-29-kathy-ruemmler-flies-to-little-st-james-",
       "2019-01-epstein-to-ruemmler-i-know-how-dirty-don",
-      "2026-02-12-kathy-ruemmler-resigns-from-goldman-sach"
+      "2026-02-12-kathy-ruemmler-resigns-from-goldman-sach",
+      "2014-09-late-ruemmler-barak-breakfast"
     ],
     "themeIds": [
       "the-trafficking-operation",
@@ -2665,7 +2771,8 @@
     ],
     "sources": [
       "DOJ",
-      "GH"
+      "GH",
+      "EFTA-Wolff"
     ]
   },
   {
@@ -4220,7 +4327,8 @@
       "the-co-conspirators-immunity-grantees",
       "financial-crimes-money-laundering",
       "media-congressional-investigations",
-      "community-research-tools-architecture"
+      "community-research-tools-architecture",
+      "chicken-pattern-analysis"
     ],
     "connectionIds": [
       "jeffrey-epstein",
@@ -4575,6 +4683,17 @@
         "sources": []
       },
       {
+        "title": "UN Week Breakfast (EFTA01132579)",
+        "content": "Present for breakfast at Epstein's Manhattan townhouse during UN week (late September / early October 2014), described as \"able to defend both Obama and Putin.\" The casual breakfast setting and first-name-only reference (\"it's Ehud Barack\") underscores the normalization and regularity of contact.\n\nRuemmler joined this breakfast meeting, demonstrating the cross-pollination of Epstein's political, legal, and intelligence contacts.\n\n---",
+        "sources": [
+          "EFTA-Wolff"
+        ],
+        "verificationStatus": "verified",
+        "efta": [
+          "EFTA01132579"
+        ]
+      },
+      {
         "title": "Source files",
         "content": "Multiple",
         "sources": []
@@ -4634,7 +4753,8 @@
       "2018-epstein-barak-unfortunately-not-mossad-e",
       "2025-05-barak-emails-leaked-edr-convicted-of-mon",
       "2025-11-axon-acquires-carbyne-for-625-million-dr",
-      "2026-02-13-ehud-barak-publicly-apologizes"
+      "2026-02-13-ehud-barak-publicly-apologizes",
+      "2014-09-late-ruemmler-barak-breakfast"
     ],
     "themeIds": [
       "trumpepstein-connections",
@@ -4687,7 +4807,8 @@
     "sources": [
       "CBS",
       "DOJ",
-      "OSINT"
+      "OSINT",
+      "EFTA-Wolff"
     ]
   },
   {
@@ -4700,6 +4821,17 @@
         "title": "Category",
         "content": "Former Treasury Secretary / Harvard president / economist",
         "sources": []
+      },
+      {
+        "title": "UN Week & Bitcoin Discussion (EFTA01132579)",
+        "content": "Present at Epstein's Manhattan townhouse during UN week (late September 2014). Arrived during a Bitcoin explanation meeting with Brock Pierce. Summers expressed reluctance to invest in Bitcoin citing reputational risk — compared losing money vs. losing credibility as his primary decision calculus.\n\nHis wife Elisa New (Harvard American poetry professor) was also present, seeking Epstein's advice on finding funding for a WGBH poetry series — Epstein \"makes mince meat of her budget.\"\n\n---",
+        "sources": [
+          "EFTA-Wolff"
+        ],
+        "verificationStatus": "verified",
+        "efta": [
+          "EFTA01132579"
+        ]
       },
       {
         "title": "Source files",
@@ -4761,7 +4893,8 @@
       "2011-05-03-gates-epstein-staley-summers-townhouse-m",
       "2014-barak-and-barak-summers-recording",
       "2018-12-21-summers-asks-about-mar-a-lago",
-      "2018-12-25-epstein-tells-summers-being-asked-for-3-"
+      "2018-12-25-epstein-tells-summers-being-asked-for-3-",
+      "2014-09-late-summers-bitcoin-pierce"
     ],
     "themeIds": [
       "trumpepstein-connections",
@@ -4781,12 +4914,14 @@
       "mention-donald-trump-larry-summers",
       "mention-ehud-barak-larry-summers",
       "mention-ariane-de-rothschild-larry-summers",
-      "mention-bill-gates-larry-summers"
+      "mention-bill-gates-larry-summers",
+      "pierce-summers-bitcoin-meeting"
     ],
     "sources": [
       "DOJ",
       "JMail",
-      "OSINT"
+      "OSINT",
+      "EFTA-Wolff"
     ]
   },
   {
@@ -4800,6 +4935,17 @@
         "title": "Category",
         "content": "Former Governor of New Mexico / political figure",
         "sources": []
+      },
+      {
+        "title": "New Mexico Connection Quote (EFTA01132579)",
+        "content": "At lunch in Epstein's dining room during the period described in Wolff's profile (late 2014), Richardson explained how they met: \"Jeffrey is the biggest landowner in New Mexico\" — stated as self-evident, requiring no further explanation. This is a direct contemporaneous quote confirming the New Mexico/Richardson connection.\n\n---",
+        "sources": [
+          "EFTA-Wolff"
+        ],
+        "verificationStatus": "verified",
+        "efta": [
+          "EFTA01132579"
+        ]
       },
       {
         "title": "Source files",
@@ -4823,7 +4969,8 @@
     ],
     "sources": [
       "DOJ",
-      "Giuffre-deposition"
+      "Giuffre-deposition",
+      "EFTA-Wolff"
     ]
   },
   {
@@ -4891,7 +5038,8 @@
     "themeIds": [
       "the-co-conspirators-immunity-grantees",
       "international-consequences-fallout",
-      "whoops-emails"
+      "whoops-emails",
+      "chicken-pattern-analysis"
     ],
     "connectionIds": [],
     "sources": [
@@ -6211,7 +6359,8 @@
       "mention-glenn-dubin-david-fiszel",
       "mention-glenn-dubin-sergey-brin",
       "mention-eva-andersson-dubin-eva-dubin-glenn-dubin",
-      "mention-virginia-giuffre-ne-roberts-glenn-dubin"
+      "mention-virginia-giuffre-ne-roberts-glenn-dubin",
+      "staley-dubin-epstein-introduction"
     ],
     "sources": [
       "DOJ",
@@ -6237,6 +6386,17 @@
         "sources": [
           "DOJ",
           "OSINT"
+        ]
+      },
+      {
+        "title": "Wolff Profile Details (EFTA01132579)",
+        "content": "Described in Wolff's profile as a former Epstein girlfriend, \"a Swedish model and Miss Universe finalist\" who went on to become a doctor and married hedge fund manager Glenn Dubin. She and Glenn Dubin jointly finance the Dubin Breast Center at Mount Sinai Hospital.\n\n---",
+        "sources": [
+          "EFTA-Wolff"
+        ],
+        "verificationStatus": "verified",
+        "efta": [
+          "EFTA01132579"
         ]
       },
       {
@@ -6316,7 +6476,8 @@
     "sources": [
       "DOJ",
       "GH",
-      "OSINT"
+      "OSINT",
+      "EFTA-Wolff"
     ]
   },
   {
@@ -6352,14 +6513,46 @@
   },
   {
     "id": "jes-staley",
-    "name": "Jes Staley",
+    "name": "James Edward 'Jes' Staley",
     "category": "financial",
-    "summary": "Category: Barclays CEO / JPMorgan executive Source files: Multiple",
+    "summary": "Former head of JPMorgan Chase's Private Bank and later CEO of Barclays. Staley developed what the USVI court complaint describes as a 'close personal' and 'profound' friendship with Jeffrey Epstein between approximately 2008 and 2012, exchanging roughly 1,200 emails from his JPMorgan corporate account. In July 2010, Staley sent Epstein the message: 'That was fun. Say hi to Snow White.' Epstein replied: 'what character would you like next?' Cited in USVI v. JPMorgan federal complaint (1:22-cv-10904-JSR) as suggesting Staley 'may have been involved in Epstein's sex-trafficking operation.' JPMorgan paid $290M to DOJ and $75M to USVI in settlements.",
     "sections": [
       {
         "title": "Category",
         "content": "Barclays CEO / JPMorgan executive",
         "sources": []
+      },
+      {
+        "title": "JPMorgan Private Bank & Epstein Relationship",
+        "content": "Staley was head of JPMorgan Chase's Private Bank — the division serving clients with at least $10 million in assets. He exchanged approximately 1,200 emails with Epstein from his JPMorgan corporate account between 2008 and 2012 (USVI Complaint ¶53). Epstein introduced Staley to Glenn Dubin (Highbridge Capital Management) in 2004, facilitating JPMorgan's subsequent acquisition of Highbridge and advancing Staley's career.\n\nJPMorgan maintained Epstein accounts from approximately 1998–2013, servicing approximately 55 Epstein-related accounts collectively worth hundreds of millions of dollars. A senior JPMorgan compliance official reviewing Epstein's file in 2011 wrote: \"Lots of smoke. Lots of questions.\" The file noted that Epstein was \"an alleged personal associate of the CEO of the Investment Bank (Jes Staley).\"",
+        "verificationStatus": "verified",
+        "sources": [
+          "DOJ"
+        ],
+        "efta": [
+          "EFTA00145666"
+        ]
+      },
+      {
+        "title": "Snow White Email Exchange (July 9-10, 2010)",
+        "content": "On July 9, 2010 — two years after Epstein's 2008 conviction — Staley sent Epstein the message: \"Maybe they're tracking u?? That was fun. Say hi to Snow White.\" Epstein replied: \"what character would you like next?\" Staley then said \"Beauty and the Beast,\" and Epstein replied \"well one side is available.\"\n\nThis exchange is confirmed in primary EFTA documents (EFTA00188290, EFTA00188291) and quoted in the USVI government's federal lawsuit against JPMorgan at ¶61 of the Second Amended Complaint (Case 1:22-cv-10904-JSR, Document 119, April 12, 2023).\n\n**Correction:** Community researcher \"not.an.official.news.source\" (Instagram) originally attributed this email to \"Jess Stolle,\" a long-term JPMorgan employee. This identification was incorrect. The sender is confirmed as Jes Staley by both EFTA document headers and the federal court filing.",
+        "verificationStatus": "verified",
+        "sources": [
+          "DOJ"
+        ],
+        "efta": [
+          "EFTA00188290",
+          "EFTA00188291",
+          "EFTA00145666"
+        ]
+      },
+      {
+        "title": "Legal Consequences & Barclays Departure",
+        "content": "JPMorgan tasked Staley to conduct the bank's internal discussions with Epstein about human trafficking allegations, despite his obvious personal relationship (Complaint ¶¶47, 62). At least $1.5 million was paid from JPMorgan accounts to known recruiters including the MC2 modeling agency, and Epstein withdrew more than $775,000 in cash from JPMorgan accounts.\n\nStaley left JPMorgan in 2013 and became CEO of Barclays. He resigned in November 2021 after the UK Financial Conduct Authority concluded an investigation into his characterization of his relationship with Epstein. JPMorgan was subsequently named as a defendant in a trafficking lawsuit by the US Virgin Islands government and paid $290 million to DOJ and $75 million to USVI in settlements.",
+        "verificationStatus": "verified",
+        "sources": [
+          "DOJ"
+        ]
       },
       {
         "title": "Source files",
@@ -6370,11 +6563,14 @@
     "timelineEventIds": [
       "1998-epstein-brokers-staley-dubin-introductio",
       "2010-groff-schedules-gates-staley-black-meeti",
-      "2011-05-03-gates-epstein-staley-summers-townhouse-m"
+      "2011-05-03-gates-epstein-staley-summers-townhouse-m",
+      "snow-white-email-2010"
     ],
     "themeIds": [
       "the-co-conspirators-immunity-grantees",
-      "community-research-tools-architecture"
+      "community-research-tools-architecture",
+      "coded-communications-snow-white",
+      "financial-crimes-money-laundering"
     ],
     "connectionIds": [
       "jeffrey-epstein",
@@ -6387,9 +6583,13 @@
       "cooccur-jeffrey-epstein-jes-staley",
       "cooccur-jes-staley-bill-gates",
       "mention-lesley-groff-jes-staley",
-      "mention-bill-gates-jes-staley"
+      "mention-bill-gates-jes-staley",
+      "staley-epstein-snow-white",
+      "staley-dubin-epstein-introduction"
     ],
-    "sources": []
+    "sources": [
+      "DOJ"
+    ]
   },
   {
     "id": "ariane-de-rothschild",
@@ -7517,7 +7717,8 @@
     "timelineEventIds": [],
     "themeIds": [
       "political-intelligence-network",
-      "the-co-conspirators-immunity-grantees"
+      "the-co-conspirators-immunity-grantees",
+      "chicken-pattern-analysis"
     ],
     "connectionIds": [
       "miroslav-lajk-miro-lajcak",
@@ -8073,6 +8274,19 @@
         ]
       },
       {
+        "title": "4chan / Christopher Poole Introduction (Oct 2011)",
+        "content": "In October 2011, while serving as Chief Advisor for Science and Technology to Bill Gates at bgC3 (Kirkland, WA), Nikolic met 4chan founder Christopher Poole (\"moot\") in San Francisco and immediately flagged him to Epstein: \"There is a cool guy (KID) that you should meet\" (EFTA_R1_00486371, Oct 20, 2011).\n\nNikolic orchestrated a planned three-way meeting at Epstein's NYC townhouse for November 10–12 and a covert Seattle trip with Poole that Poole did not know about: \"he does NOT know that yet — please keep it confidential\" (EFTA_R1_00498434, Oct 25). The Seattle trip — to Nikolic's own base at bgC3 — may have been a planned introduction to Bill Gates.\n\nEight days after the introduction, Nikolic sent Epstein a Washington Post article documenting 4chan's capacity for anonymous mass manipulation with the explicit assessment: **\"The potential for manipulation is huge\"** (EFTA_R1_00482682, Oct 28, 2011).\n\nThe WaPo article (\"4chan users seize Internet's power for mass disruptions,\" Ariana Eunjung Cha, Aug 10, 2010) documented 4chan coordinating market manipulation, hoax events, and information ecosystem gaming — all at zero cost with complete anonymity.\n\n---",
+        "sources": [
+          "DOJ"
+        ],
+        "verificationStatus": "verified",
+        "efta": [
+          "EFTA_R1_00486371",
+          "EFTA_R1_00498434",
+          "EFTA_R1_00482682"
+        ]
+      },
+      {
         "title": "Source files",
         "content": "Multiple\n\nNikolic coordinated Gates-Epstein communications and Epstein-facilitated MIT/Gates Foundation donations. DOJ files document that Epstein engineered an intimate relationship between **Kimbal Musk** and a young woman via Nikolic. Nikolic was later listed as a backup executor in Epstein's will (a fact that surprised him). \n\n---",
         "sources": [
@@ -8086,7 +8300,8 @@
       "2013-07-04-epstein-biggest-hypocrite-email-about-ga",
       "2014-11-gates-2-million-mit-media-lab-donation-w",
       "2017-05-nikolic-pandemic-donor-advised-fund",
-      "2019-08-nikolic-named-epstein-will-executor"
+      "2019-08-nikolic-named-epstein-will-executor",
+      "2011-10-20-nikolic-introduces-poole"
     ],
     "themeIds": [
       "melania-trump-thread",
@@ -8109,7 +8324,8 @@
       "mention-boris-nikolic-kimbal-musk",
       "mention-kimbal-musk-boris-nikolic",
       "mention-bill-gates-boris-nikolic",
-      "nikolic-church-biomatics"
+      "nikolic-church-biomatics",
+      "nikolic-poole-broker"
     ],
     "sources": [
       "DOJ",
@@ -8229,6 +8445,17 @@
         ]
       },
       {
+        "title": "Wolff Profile of Epstein (EFTA01132579)",
+        "content": "Wolff authored a sympathetic, long-form access profile of Jeffrey Epstein for what appears to be *New York* magazine, at Epstein's invitation, as part of a Gates-backed rehabilitation push (summer 2014). Wolff had been a regular visitor to Epstein's home for more than ten years prior to this writing, keeping off-the-record everything he heard there by his own account.\n\nThe origin of the Wolff–Epstein relationship was the 2002 TED conference: Wolff participated in an Epstein-hosted flight on Epstein's 727, alongside Google founders Larry Page and Sergey Brin. This is the foundation document for the intelligence-exchange relationship documented in later EFTA emails.\n\nWolff acknowledges that Vanity Fair editor Graydon Carter specifically seeded the \"Epstein secretly films guests\" rumor and warned Wolff against visiting; Wolff went anyway. The profile was suppressed when the Daily Mail ran the Dershowitz/Prince Andrew \"sex slave\" filing in early January 2015 — which Epstein had correctly predicted would become \"quite a show.\"\n\nThe article ends with Wolff expressing hope to be invited back to Epstein's house — capturing the transactional access dynamic that continued for years afterward.\n\n---",
+        "sources": [
+          "EFTA-Wolff"
+        ],
+        "verificationStatus": "verified",
+        "efta": [
+          "EFTA01132579"
+        ]
+      },
+      {
         "title": "Source files",
         "content": "Multiple\n\nExtensive email exchange with Epstein documented in DOJ files. December 2015: Wolff advised Epstein to let Trump \"hang himself\" over Epstein denials, calling such denials \"valuable PR and political currency.\" December 2018: Wolff counseled \"He never tries to explain. He denies, blames media, denigrates someone else.\" January 31, 2019: Epstein to Wolff: \"Trump said he asked me to resign, never a member ever. Of course he knew about the girls as he asked ghislaine to stop.\" Wolff shared a draft excerpt from \"Siege\" describing Madeleine Westerhout finding Trump \"in his underwear\" in the residence — edited from the published book. Bloomberg independently obtained and authenticated ~18,700 emails in September 2025. \n\n---",
         "sources": [
@@ -8242,7 +8469,11 @@
       "2015-12-epstein-wolff-hang-him-exchange",
       "2017-08-20-epstein-tips-wolff-tillerson-probably-le",
       "2019-01-31-epstein-knew-about-the-girls-email-to-wo",
-      "2025-11-12-house-oversight-democrats-release-three-"
+      "2025-11-12-house-oversight-democrats-release-three-",
+      "2002-ted-google-founders-epstein-727",
+      "2014-summer-gates-rehabilitation-push",
+      "2014-09-late-holder-resignation-prediction",
+      "2015-01-dershowitz-prince-andrew-filing"
     ],
     "themeIds": [
       "trumpepstein-connections",
@@ -8268,7 +8499,8 @@
     "sources": [
       "CBS",
       "OSINT",
-      "JMail"
+      "JMail",
+      "EFTA-Wolff"
     ]
   },
   {
@@ -8493,7 +8725,8 @@
       "efta-release-framework-document-architecture",
       "the-trafficking-operation",
       "whoops-emails",
-      "community-research-tools-architecture"
+      "community-research-tools-architecture",
+      "chicken-pattern-analysis"
     ],
     "connectionIds": [
       "jeffrey-epstein",
@@ -9161,6 +9394,17 @@
         "sources": []
       },
       {
+        "title": "Gates-Backed Rehabilitation Push (EFTA01132579)",
+        "content": "Wolff's draft profile (EFTA01132579) explicitly states: \"it is Gates who at the end of the summer began prodding Epstein to begin a process of public rehabilitation\" (summer 2014). Gates's public association with Epstein was the stated impetus for commissioning the Wolff profile — Epstein wanted to get \"out in front\" of any negative press when the Gates connection became public.\n\nAt this time, Epstein was advising Gates on a Gates Foundation expansion model: adding funds from other wealthy individuals to be deployed through Gates infrastructure but directed to separate causes. The Gates Foundation employed 1,200 people at this time.\n\n---",
+        "sources": [
+          "EFTA-Wolff"
+        ],
+        "verificationStatus": "verified",
+        "efta": [
+          "EFTA01132579"
+        ]
+      },
+      {
         "title": "Source files",
         "content": "All 9 source files\n\nThe Gates-Epstein relationship, documented across at least six confirmed meetings from 2011 to 2014, operated primarily through philanthropic channels rather than direct co-investment — but the financial flows it generated were substantial and traceable. December 1–3, 2010 scheduling emails show Groff coordinating a Gates dinner at Epstein's residence. A February 2011 email from Epstein reads: \"You and I are invited to Seattle to spend serious time with Bill Gates.\" Gates canceled his keynote at the India AI Summit on February 19, 2026, saying he was \"foolish\" to spend time with Epstein.",
         "sources": [
@@ -9210,7 +9454,8 @@
       "2018-07-18-gates-draft-emails-with-russian-girls-al",
       "2026-02-19-house-oversight-releases-wexner-depositi",
       "2017-05-nikolic-pandemic-donor-advised-fund",
-      "2017-bgc3-strain-pandemic-simulation"
+      "2017-bgc3-strain-pandemic-simulation",
+      "2014-summer-gates-rehabilitation-push"
     ],
     "themeIds": [
       "the-co-conspirators-immunity-grantees",
@@ -9249,7 +9494,8 @@
       "DOJ",
       "CBS",
       "OSINT",
-      "NYT"
+      "NYT",
+      "EFTA-Wolff"
     ]
   },
   {
@@ -9264,20 +9510,36 @@
         "sources": []
       },
       {
+        "title": "TED 2002 Epstein 727 Visit (EFTA01132579)",
+        "content": "Co-founder of Google. Visited Epstein's Boeing 727 at the TED conference in 2002, alongside Larry Page. Google was \"still in its infancy\" at the time. Per Wolff's account, both Brin and Page ran \"whooping\" from one end of the plane to the other and pitched Epstein on a \"Google bras\" brand extension — Wolff notes uncertainty whether this was a joke or genuine pitch. They claimed the name \"Google\" was chosen because men focus on words with two O's.\n\nThis is the earliest documented Google/Epstein connection in the EFTA files.\n\n---",
+        "sources": [
+          "EFTA-Wolff"
+        ],
+        "verificationStatus": "verified",
+        "efta": [
+          "EFTA01132579"
+        ]
+      },
+      {
         "title": "Source files",
         "content": "Beyond Existing Research\n\n2003 dinner plans with Maxwell; visited Epstein's island; photos at estate events. [Beyond Existing Research]\n\n---",
         "sources": []
       }
     ],
-    "timelineEventIds": [],
+    "timelineEventIds": [
+      "2002-ted-google-founders-epstein-727"
+    ],
     "themeIds": [
       "the-co-conspirators-immunity-grantees"
     ],
     "connectionIds": [
       "glenn-dubin",
-      "mention-glenn-dubin-sergey-brin"
+      "mention-glenn-dubin-sergey-brin",
+      "page-brin-google-epstein-727"
     ],
-    "sources": []
+    "sources": [
+      "EFTA-Wolff"
+    ]
   },
   {
     "id": "peter-thiel",
@@ -15125,6 +15387,663 @@
     ],
     "connectionIds": [
       "althani-epstein"
+    ],
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ]
+  },
+  {
+    "id": "antoine-verglas",
+    "name": "Antoine Verglas",
+    "aliases": [],
+    "category": "other",
+    "summary": "Fashion and celebrity photographer. Documented as the originator of a forwarded email chain that delivered a detailed scopolamine article to Epstein's inbox on January 27, 2015 (EFTA00865569). Verglas operated a studio at 14-16 Wooster Street, 2nd Floor, New York NY 10013. The email originated on December 3, 2014 and was forwarded to an intermediary, who forwarded it to Epstein on January 27, 2015.",
+    "sections": [
+      {
+        "title": "Role",
+        "content": "Fashion and celebrity photographer based in New York. Documented as the originator of a forwarded email chain that delivered a detailed Daily Mail article about scopolamine to Epstein's inbox on January 27, 2015. Verglas operated a studio at 14-16 Wooster Street, 2nd Floor, New York NY 10013.\n\nThe email chain originated on December 3, 2014. Verglas forwarded it to an intermediary (redacted in EFTA), who then forwarded it to Epstein on January 27, 2015 — one month after the Manzaro scopolamine incident.",
+        "sources": [
+          "DOJ"
+        ],
+        "efta": [
+          "EFTA00865569"
+        ]
+      },
+      {
+        "title": "Source",
+        "content": "DOJ EFTA document corpus — Email chain EFTA00865569\n\n---",
+        "sources": [
+          "DOJ"
+        ]
+      }
+    ],
+    "timelineEventIds": [
+      "epstein-scopolamine-article-2015"
+    ],
+    "themeIds": [
+      "chemical-drugging"
+    ],
+    "connectionIds": [
+      "verglas-epstein-scopolamine-article"
+    ],
+    "sources": [
+      "DOJ"
+    ]
+  },
+  {
+    "id": "anne-rodriguez",
+    "name": "Anne Rodriguez",
+    "aliases": [
+      "Ann Rodriguez"
+    ],
+    "category": "inner-circle",
+    "summary": "Personal secretary to Jeffrey Epstein and on-site manager of Little St. James Island (USVI). Recipient of the March 3, 2014 \"ask Chris about my trumpet plants at nursery\" email (EFTA00984429) and the November 11, 2013 \"trumpet flowers\" landscaping instructions for Little St. James (EFTA01950280). Her role placed her at the operational core of the enterprise.",
+    "sections": [
+      {
+        "title": "Role",
+        "content": "Anne Rodriguez served as both a personal secretary to Jeffrey Epstein and as one of the on-site managers of Little St. James Island (USVI). Her role placed her at the operational core of the enterprise — she was not peripheral staff.\n\nRodriguez was the direct recipient of multiple landscaping-related emails from Epstein, including the March 3, 2014 \"ask Chris about my trumpet plants at nursery\" email (EFTA00984429) and the November 11, 2013 email instructing staff about \"trumpet flowers\" at the Little St. James pool area (EFTA01950280).",
+        "sources": [
+          "DOJ"
+        ],
+        "efta": [
+          "EFTA00984429",
+          "EFTA01950280"
+        ]
+      },
+      {
+        "title": "Source",
+        "content": "DOJ EFTA document corpus — multiple Bates-stamped emails\n\n---",
+        "sources": [
+          "DOJ"
+        ]
+      }
+    ],
+    "timelineEventIds": [
+      "lsj-trumpet-flowers-2013"
+    ],
+    "themeIds": [
+      "chemical-drugging"
+    ],
+    "connectionIds": [
+      "rodriguez-epstein-inner-circle"
+    ],
+    "sources": [
+      "DOJ"
+    ]
+  },
+  {
+    "id": "peggy-siegel",
+    "name": "Peggy Siegel",
+    "aliases": [],
+    "category": "media",
+    "summary": "New York-based Hollywood film publicist known for high-profile film premieres and charity event organization. Documented in 489 EFTA results. Verified EFTA documents show ongoing contact with Epstein from at least August 2009 through February 2012 — spanning his conviction, house arrest, and post-release periods. Contacts include visits to Epstein's home, urgent outreach while at a Tina Brown-hosted women's conference where press was discussing Epstein, and a documented three-way connection to Harvey Weinstein involving a potential shared flight to Europe.",
+    "mentionCount": 489,
+    "sections": [
+      {
+        "title": "Role",
+        "content": "New York-based Hollywood film publicist known for high-profile film premieres and charity event organization. Documented post-conviction social contact with Epstein. Shared social network with Harvey Weinstein and Tina Brown.",
+        "sources": [
+          "DOJ"
+        ]
+      },
+      {
+        "title": "Verified Contact Cluster (2009-2012)",
+        "content": "Ten EFTA Bates-stamped documents confirm ongoing contact with Epstein from August 2009 through February 2012:\n\n**August 11, 2009** — Siegel's assistant sends Epstein a DVD; Siegel requests a phone call (EFTA_R1_01515305). Lesley Groff references \"FSF\" as an alternate delivery address.\n\n**November 19-20, 2010** — Two same-day contacts: Siegel visits Epstein's house at 4:30 PM, and arranges a return lunch the following day (EFTA_R1_01466989, EFTA_R1_01467831).\n\n**March 11, 2011** — Most contextually significant. Siegel is physically present at Tina Brown's \"Women in the World\" conference where Jeanine Pirro is moderating and press is actively discussing Epstein. She urgently contacts his staff: \"Peggy Siegel wants to speak with him asap...the press is there and they are talking about you\" (EFTA_R1_00890273, EFTA00436877).\n\n**May 24, 2011** — Siegel returns Epstein's phone call (EFTA00433527).\n\n**October 28, 2011** — Siegel calls to speak with Epstein at the house (EFTA_R1_00552834).\n\n**November 7, 2011** — Siegel available to speak after 11:45 (EFTA00424533).\n\n**February 8, 2012** — \"Please call peggy Siegel through office or on her cell\" (EFTA00929621).\n\nAll contacts occurred during or after Epstein's legal jeopardy period (convicted 2008, released from house arrest 2010).",
+        "verificationStatus": "verified",
+        "sources": [
+          "DOJ"
+        ],
+        "efta": [
+          "EFTA_R1_01515305",
+          "EFTA_R1_01466989",
+          "EFTA_R1_01467831",
+          "EFTA_R1_00890273",
+          "EFTA00436877",
+          "EFTA00433527",
+          "EFTA_R1_00552834",
+          "EFTA00424533",
+          "EFTA00929621"
+        ]
+      },
+      {
+        "title": "Harvey Weinstein Connection",
+        "content": "An EFTA document (EFTA_R1_00265226) records Harvey Weinstein calling Siegel to ask if she might be flying to Europe that night and whether they could split the ride. Siegel asked her assistant to contact Epstein's office on Weinstein's behalf. This documents a three-way social and logistical connection but does not establish Weinstein as an Epstein network member, trafficking participant, or client. The exact date is unclear due to OCR degradation.",
+        "verificationStatus": "verified",
+        "sources": [
+          "DOJ"
+        ],
+        "efta": [
+          "EFTA_R1_00265226"
+        ]
+      },
+      {
+        "title": "Open Research Questions",
+        "content": "- August 7, 2010 Epstein-Siegel email (\"100% Jewish\" / JPMorgan response) — claimed in community research but not yet confirmed by Bates-stamped document. Separate probe.\n- \"FSF\" abbreviation in Epstein staff communications (first appears Aug 2009, EFTA_R1_01515305) — meaning not established.\n- Date of Harvey Weinstein flight-splitting email (EFTA_R1_00265226) — OCR shows \"Thu\" but month/year unclear.\n- Nature of Siegel's March 2011 urgent contact during conference — whether press monitoring, early warning, or social alarm is not specified.",
+        "sources": [
+          "DOJ"
+        ]
+      },
+      {
+        "title": "Source",
+        "content": "DOJ EFTA document corpus — 10 Bates-stamped documents. DOJ Epstein Library search returns 489 results.\n\n---",
+        "sources": [
+          "DOJ"
+        ]
+      }
+    ],
+    "timelineEventIds": [
+      "siegel-epstein-contact-aug-2009",
+      "siegel-visits-epstein-house-nov-2010",
+      "siegel-women-in-world-epstein-press-march-2011",
+      "weinstein-siegel-epstein-flight-europe"
+    ],
+    "themeIds": [
+      "financial-crimes-money-laundering"
+    ],
+    "connectionIds": [
+      "epstein-peggy-siegel-post-conviction",
+      "siegel-harvey-weinstein-flight"
+    ],
+    "sources": [
+      "DOJ"
+    ]
+  },
+  {
+    "id": "harvey-weinstein",
+    "name": "Harvey Weinstein",
+    "aliases": [],
+    "category": "media",
+    "summary": "Hollywood film producer and convicted sex offender (convicted 2020, second conviction 2023). One verified EFTA document (EFTA_R1_00265226) places Weinstein in contact with Peggy Siegel while attempting to arrange a shared private flight to Europe via Epstein. The document does not characterize Weinstein as an Epstein network member, trafficking participant, or client — it is a social and logistical contact between individuals with overlapping social circles. Weinstein's own criminal convictions are independently established.",
+    "sections": [
+      {
+        "title": "Role",
+        "content": "Hollywood film producer. Convicted sex offender (convicted 2020, second conviction 2023). Documented social overlap with Epstein via Peggy Siegel flight arrangement.",
+        "sources": [
+          "DOJ"
+        ]
+      },
+      {
+        "title": "Epstein Connection — Siegel Flight Document",
+        "content": "One verified EFTA document (EFTA_R1_00265226) documents the following: Harvey Weinstein called Peggy Siegel and asked whether she might be flying to Europe that night and whether they could split the ride. Siegel then asked her assistant to contact Epstein's office with the question.\n\nThis document establishes social and logistical overlap between three individuals — it does not characterize Weinstein as an Epstein trafficking network member or client. Any additional Epstein-Weinstein connection should be verified by separate EFTA document.",
+        "verificationStatus": "verified",
+        "sources": [
+          "DOJ"
+        ],
+        "efta": [
+          "EFTA_R1_00265226"
+        ]
+      },
+      {
+        "title": "Open Research Questions",
+        "content": "- Search EFTA for direct Epstein-Weinstein correspondence. Any direct communication would significantly strengthen this connection.\n- Identify the date and destination of the Europe flight (EFTA_R1_00265226). Cross-reference against Epstein flight logs and Weinstein's travel schedule.\n- Locate the Daily Beast article on Epstein-Weinstein connection referenced in CC_GUIDE_RICE.",
+        "sources": [
+          "DOJ"
+        ]
+      },
+      {
+        "title": "Source",
+        "content": "DOJ EFTA document corpus — single Bates-stamped document (EFTA_R1_00265226). Conservative characterization: social overlap only.\n\n---",
+        "sources": [
+          "DOJ"
+        ]
+      }
+    ],
+    "timelineEventIds": [
+      "weinstein-siegel-epstein-flight-europe"
+    ],
+    "themeIds": [],
+    "connectionIds": [
+      "weinstein-epstein-social-overlap",
+      "siegel-harvey-weinstein-flight"
+    ],
+    "sources": [
+      "DOJ"
+    ]
+  },
+  {
+    "id": "brock-pierce",
+    "name": "Brock Pierce",
+    "aliases": [],
+    "category": "financial",
+    "summary": "Former child actor, co-founder of Digital Entertainment Network (DEN) — which had a documented underage sex abuse scandal — later reinvented as leading Bitcoin investor. Present in Epstein's dining room explaining Bitcoin to Larry Summers during UN week, September 2014.",
+    "sections": [
+      {
+        "title": "Role",
+        "content": "Former child actor who became a \"dotcom high flyer\" as a principal in Digital Entertainment Network (DEN), an early internet video company that collapsed amid a documented underage sex abuse scandal involving its co-founders. Pierce subsequently reinvented himself as \"the most active investor\" in Bitcoin.\n\nIn late September 2014, Pierce was present in Epstein's Manhattan dining room as a paying visitor/advisee, explaining Bitcoin to Larry Summers. Wolff describes Pierce as running a Bitcoin explanation meeting that Summers joined.\n\nThe DEN sex scandal connection is buried by Wolff in a subordinate clause — the author's choice to minimize this connection to Epstein is notable. Pierce's presence in Epstein's inner circle, given DEN's abuse history, warrants further investigation.\n\n---",
+        "sources": [
+          "EFTA-Wolff"
+        ],
+        "verificationStatus": "verified"
+      }
+    ],
+    "timelineEventIds": [
+      "2014-09-late-summers-bitcoin-pierce"
+    ],
+    "themeIds": [
+      "political-intelligence-network"
+    ],
+    "connectionIds": [
+      "pierce-epstein-financial-advisory",
+      "pierce-summers-bitcoin-meeting"
+    ],
+    "sources": [
+      "EFTA-Wolff"
+    ]
+  },
+  {
+    "id": "thorbjorn-jagland",
+    "name": "Thorbjørn Jagland",
+    "aliases": [
+      "Thorbjorn Jagland"
+    ],
+    "category": "political",
+    "summary": "Head of the Nobel Peace Prize Committee. Attended Epstein cocktail party during UN week 2014. Offered critique of U.S. diplomacy and defended Obama's Peace Prize. Epstein offered him a ride back to Europe on his jet.",
+    "sections": [
+      {
+        "title": "Role",
+        "content": "Thorbjørn Jagland, head of the Nobel Peace Prize Committee, attended a small cocktail party at Epstein's Manhattan home during UN week in late September 2014, alongside former Australian PM Kevin Rudd.\n\nJagland offered \"affable, but general scathing, critique of U.S. diplomacy\" and defended Obama's Peace Prize. At the end of the evening, Epstein offered Jagland a ride back to Europe on his private jet — demonstrating the jet-as-leverage/access pattern documented throughout the EFTA files.\n\n---",
+        "sources": [
+          "EFTA-Wolff"
+        ],
+        "verificationStatus": "verified"
+      }
+    ],
+    "timelineEventIds": [
+      "2014-09-late-rudd-jagland-cocktail"
+    ],
+    "themeIds": [
+      "political-intelligence-network"
+    ],
+    "connectionIds": [
+      "jagland-epstein-social"
+    ],
+    "sources": [
+      "EFTA-Wolff"
+    ]
+  },
+  {
+    "id": "reid-weingarten",
+    "name": "Reid Weingarten",
+    "aliases": [],
+    "category": "legal",
+    "summary": "Attorney who represented WorldCom's Bernie Ebbers and Goldman Sachs's Lloyd Blankfein. Regular visitor to Epstein's dining room; when asked why powerful people keep returning to Epstein, said: \"Why we camp out here? I find that question as mysterious as you do.\"",
+    "sections": [
+      {
+        "title": "Role",
+        "content": "High-profile defense attorney who had represented WorldCom's Bernie Ebbers and Goldman Sachs's Lloyd Blankfein. Joined Epstein for breakfast the morning after the Qatari delegation visit during UN week, late September 2014. He had just returned from unsuccessfully defending Connecticut Governor John Rowland.\n\nWeingarten was asked to remain in the dining room while journalist Michael Wolff was temporarily removed — indicating private business was transacted.\n\nWhen asked why powerful people keep returning to Epstein despite everything: \"Why we camp out here? I find that question as mysterious as you do.\"\n\n---",
+        "sources": [
+          "EFTA-Wolff"
+        ],
+        "verificationStatus": "verified"
+      }
+    ],
+    "timelineEventIds": [],
+    "themeIds": [
+      "political-intelligence-network"
+    ],
+    "connectionIds": [
+      "weingarten-epstein-legal"
+    ],
+    "sources": [
+      "EFTA-Wolff"
+    ]
+  },
+  {
+    "id": "kevin-rudd",
+    "name": "Kevin Rudd",
+    "aliases": [],
+    "category": "political",
+    "summary": "Former Australian Prime Minister. Attended a small cocktail party at Epstein's Manhattan home during UN week, late September 2014, alongside Nobel Peace Prize Committee chairman Thorbjørn Jagland.",
+    "sections": [
+      {
+        "title": "Role",
+        "content": "Former Australian Prime Minister who attended a small cocktail party at Epstein's Manhattan home during UN week in late September 2014, alongside Thorbjørn Jagland (Nobel Peace Prize Committee head).\n\n---",
+        "sources": [
+          "EFTA-Wolff"
+        ],
+        "verificationStatus": "verified"
+      }
+    ],
+    "timelineEventIds": [
+      "2014-09-late-rudd-jagland-cocktail"
+    ],
+    "themeIds": [
+      "political-intelligence-network"
+    ],
+    "connectionIds": [
+      "rudd-epstein-social"
+    ],
+    "sources": [
+      "EFTA-Wolff"
+    ]
+  },
+  {
+    "id": "graydon-carter",
+    "name": "Graydon Carter",
+    "aliases": [],
+    "category": "media",
+    "summary": "Vanity Fair editor who allegedly seeded the \"Epstein secretly films his guests\" rumor. Warned Wolff against visiting Epstein's house. Told Epstein: \"Then you should live in a two bedroom apartment in Queens\" when Epstein expressed second thoughts about being a public figure.",
+    "sections": [
+      {
+        "title": "Role",
+        "content": "Editor of Vanity Fair. According to Wolff's profile (EFTA01132579), Carter deliberately seeded the \"Epstein secretly films his guests\" rumor and warned Wolff against going to Epstein's house or riding in his car: \"least I risk being blackmailed.\" Carter told Wolff: \"For you have no idea\" regarding what blackmail material might exist.\n\nWhen Epstein called Carter to say he was having second thoughts about being a public figure, Carter responded: \"Then you should live in a two bedroom apartment in Queens.\"\n\nCarter is framed by Wolff as both an antagonist and someone with knowledge of Epstein's methods. He previously oversaw the spiking of Vicki Ward's investigative Vanity Fair piece on Epstein, which removed allegations from three named sources.\n\n---",
+        "sources": [
+          "EFTA-Wolff",
+          "OSINT"
+        ],
+        "verificationStatus": "verified"
+      }
+    ],
+    "timelineEventIds": [],
+    "themeIds": [
+      "political-intelligence-network",
+      "media-congressional-investigations"
+    ],
+    "connectionIds": [
+      "carter-epstein-media"
+    ],
+    "sources": [
+      "EFTA-Wolff",
+      "OSINT"
+    ]
+  },
+  {
+    "id": "larry-page",
+    "name": "Larry Page",
+    "aliases": [],
+    "category": "financial",
+    "summary": "Google co-founder who visited Epstein's Boeing 727 at TED conference 2002 with Sergey Brin, when Google was still in its infancy. Pitched Epstein on a \"Google bras\" brand extension.",
+    "sections": [
+      {
+        "title": "Role",
+        "content": "Google co-founder who visited Epstein's Boeing 727 at the TED conference in 2002, alongside co-founder Sergey Brin. Google was \"still in its infancy\" at the time. Per Wolff's account (EFTA01132579), both Page and Brin ran \"whooping\" from one end of the plane to the other and pitched Epstein on a \"Google bras\" brand extension — Wolff notes uncertainty whether this was a joke or genuine pitch. They claimed the name \"Google\" was chosen because men focus on words with two O's.\n\nThis is the earliest documented Google/Epstein connection in the EFTA files.\n\n---",
+        "sources": [
+          "EFTA-Wolff"
+        ],
+        "verificationStatus": "verified"
+      }
+    ],
+    "timelineEventIds": [
+      "2002-ted-google-founders-epstein-727"
+    ],
+    "themeIds": [
+      "political-intelligence-network"
+    ],
+    "connectionIds": [
+      "page-epstein-social",
+      "page-brin-google-epstein-727"
+    ],
+    "sources": [
+      "EFTA-Wolff"
+    ]
+  },
+  {
+    "id": "elisa-new",
+    "name": "Elisa New",
+    "aliases": [],
+    "category": "academic-scientific",
+    "summary": "Harvard American poetry professor and wife of Larry Summers. Present at Epstein's during UN week September 2014, seeking Epstein's advice on finding funding for a WGBH poetry series.",
+    "sections": [
+      {
+        "title": "Role",
+        "content": "Harvard professor of American poetry and wife of Larry Summers. Present at Epstein's Manhattan townhouse during UN week in late September 2014, seeking Epstein's advice on finding funding for a WGBH poetry series. Per Wolff's account (EFTA01132579), Epstein \"makes mince meat of her budget.\"\n\n---",
+        "sources": [
+          "EFTA-Wolff"
+        ],
+        "verificationStatus": "verified"
+      }
+    ],
+    "timelineEventIds": [
+      "2014-09-late-summers-bitcoin-pierce"
+    ],
+    "themeIds": [
+      "political-intelligence-network"
+    ],
+    "connectionIds": [
+      "new-epstein-academic"
+    ],
+    "sources": [
+      "EFTA-Wolff"
+    ]
+  },
+  {
+    "id": "eric-holder",
+    "name": "Eric Holder",
+    "aliases": [],
+    "category": "political",
+    "summary": "U.S. Attorney General (2009–2015). Epstein told Wolff that Holder would resign by end of week during UN week September 2014 — which proved accurate. Demonstrates Epstein's real-time political intelligence network.",
+    "sections": [
+      {
+        "title": "Role",
+        "content": "U.S. Attorney General under President Obama (2009–2015). After attorney Reid Weingarten left Epstein's dining room during UN week (late September 2014), Epstein told journalist Michael Wolff that Eric Holder would resign by the end of the week — which he did (announced September 25, 2014).\n\nThis is a concrete example of Epstein's political intelligence network operating in real time. Epstein had advance knowledge of a sitting U.S. Attorney General's resignation before it was publicly announced. The source of this information warrants investigation.\n\n---",
+        "sources": [
+          "EFTA-Wolff"
+        ],
+        "verificationStatus": "verified"
+      }
+    ],
+    "timelineEventIds": [
+      "2014-09-late-holder-resignation-prediction"
+    ],
+    "themeIds": [
+      "political-intelligence-network"
+    ],
+    "connectionIds": [],
+    "sources": [
+      "EFTA-Wolff"
+    ]
+  },
+  {
+    "id": "sheikh-hamad-qatar-fm",
+    "name": "Sheikh Hamad bin Jassim bin Jaber Al Thani",
+    "aliases": [
+      "Sheikh Hamad",
+      "HBJ"
+    ],
+    "category": "political",
+    "summary": "Qatar's former Prime Minister and Foreign Minister. Lived directly across the street from Epstein's Manhattan townhouse; shared the same interior decorator. Hosted by Epstein during UN week 2014; pressed on ISIS financing and World Cup bribery allegations.",
+    "sections": [
+      {
+        "title": "Role",
+        "content": "Qatar's former Prime Minister and Foreign Minister. Per Wolff's account (EFTA01132579), Sheikh Hamad lived directly across the street from Epstein's Manhattan townhouse — they shared the same interior decorator, resulting in identically furnished houses facing each other.\n\nEpstein hosted a Qatari delegation including Hamad the evening of UN week (late September 2014). Epstein pressed Hamad directly: \"Why are you financing the bad guys? What do you get out of that?\" The Qataris present were most concerned about World Cup bribery allegations potentially compromising their bid.\n\nThe cross-street residential/operational proximity between a sitting foreign minister and Epstein warrants investigation into the nature and duration of this relationship.\n\n---",
+        "sources": [
+          "EFTA-Wolff"
+        ],
+        "verificationStatus": "verified"
+      }
+    ],
+    "timelineEventIds": [
+      "2014-09-late-qatar-delegation"
+    ],
+    "themeIds": [
+      "political-intelligence-network",
+      "intelligence-connections"
+    ],
+    "connectionIds": [
+      "hamad-epstein-political"
+    ],
+    "sources": [
+      "EFTA-Wolff"
+    ]
+  },
+  {
+    "id": "keith-frankel",
+    "name": "Keith Frankel",
+    "aliases": [],
+    "category": "financial",
+    "summary": "New Jersey-based businessman documented in 460+ EFTA email records. Confirmed visitor to Epstein's Palm Beach residence (EFTA02429595: March 7, 2010). Maintained regular email contact regarding commercial ventures including a product licensing pitch to Victoria's Secret. The widely-flagged \"body boxes\" phrase refers to product packaging for a body sculpting supplement line — not trafficking terminology. Father Ed Frankel is chairman of Tikva Children's Home in Odessa, Ukraine (EIN 22-3779212).",
+    "sections": [
+      {
+        "title": "Role & Business Relationship",
+        "content": "Businessman who maintained regular email contact with Epstein, documented in 460+ EFTA records (confirmed via Jmail.world full-text search). Confirmed visitor to Epstein's Palm Beach residence: EFTA02429595 (DataSet 11) records that \"Keith Frankel is confirmed to be at the PB house this Sunday, March 7th\" (email from Story Cowles, sent March 5, 2010).\n\nFrankel proposed product licensing deals to Epstein involving Victoria's Secret. The relationship was active post-conviction (2010 onward).\n\n---",
+        "sources": [
+          "DOJ",
+          "JMail"
+        ],
+        "verificationStatus": "verified",
+        "efta": [
+          "EFTA02429595",
+          "EFTA02409201",
+          "EFTA00737715"
+        ]
+      },
+      {
+        "title": "\"Body Boxes\" Product Pitch (EFTA00764733)",
+        "content": "The phrase \"body boxes\" that community researchers flagged as suspicious is fully explained by two EFTA documents:\n\n- **EFTA00764733** (Feb 10, 2010): Keith Frankel → Jeffrey Epstein. Subject: \"FW: The Body Boxes.\" Body: \"SO- NU?\" with attachment `The_BODY_Box.pdf`\n- **EFTA00764728** (Feb 10–11, 2010): Multi-message chain. Frankel pitches Epstein on \"THE BODY — 28 DAY BODY SCULPTING SYSTEM\" — a health/supplement product line modeled on QuickTrim. Epstein replies: \"don't waste your time with the box. ingredients. concepts. box design and girls would be vs.\"\n\nFrankel's follow-up: \"THIS IS THE PRODUCT SUGGESTION: LET ME DO WHAT I KNOW HOW TO DO... CORE ITEM DESIGNED AROUND CLEANSING AND BURNING LIKE QUICK TRIM.\"\n\nA separate March 2010 chain (EFTA02683530 / EFTA_R1_02001115–02001118) shows Frankel writing: \"We are getting hounded, we are going to lose the deal and VS is going to end up buying from a broker.\" The chain includes a forwarded email from Shelly Marchetti (APA Talent and Literary Agency, Beverly Hills) referencing \"the lingerie company... they operate under international intimates for private label with Victoria Secrets.\"\n\n**Conclusion:** \"The Body Boxes\" refers to product packaging for a body sculpting supplement line being pitched to Victoria's Secret. The phrase has no ambiguous or sinister meaning in context.\n\n---",
+        "sources": [
+          "DOJ"
+        ],
+        "verificationStatus": "verified",
+        "efta": [
+          "EFTA00764733",
+          "EFTA00764728",
+          "EFTA02683530"
+        ]
+      },
+      {
+        "title": "Frankel Family — Tikva Children's Home Connection",
+        "content": "Keith Frankel's father Ed Frankel is chairman of the board of Tikva Children's Home, a registered 501(c)(3) Jewish charity (EIN 22-3779212, West Caldwell, NJ) serving at-risk Jewish children in Odessa, Ukraine. Founded in 1996 by Rabbi Shlomo Bakst. Per Sun Sentinel (April 24, 2017), the organization has helped more than 500 children from Tikva's homes and schools in Odessa relocate to Israel. Tikva serves approximately 2,500 Jewish children in Odessa who are at risk of homelessness, trafficking, and exploitation.\n\nThe Ed Frankel–Keith Frankel familial relationship is based on community researcher claims and surname match but has not been independently confirmed via public record.\n\nIMPORTANT: Tikva Children's Home is a legitimate humanitarian organization. This entry exists to document the factual public record and allow future researchers to independently verify or refute community claims.\n\n---",
+        "sources": [
+          "DOJ",
+          "OSINT"
+        ],
+        "verificationStatus": "unverified"
+      }
+    ],
+    "timelineEventIds": [
+      "2010-02-10-frankel-body-boxes",
+      "2010-03-07-frankel-pb-visit"
+    ],
+    "themeIds": [
+      "the-trafficking-operation",
+      "international-consequences-fallout"
+    ],
+    "connectionIds": [
+      "frankel-epstein-business",
+      "frankel-bondi-social",
+      "frankel-ed-familial"
+    ],
+    "sources": [
+      "DOJ",
+      "JMail",
+      "OSINT"
+    ]
+  },
+  {
+    "id": "ed-frankel",
+    "name": "Ed Frankel",
+    "aliases": [],
+    "category": "other",
+    "summary": "Chairman of the board of Tikva Children's Home (EIN 22-3779212), a registered 501(c)(3) Jewish charity serving at-risk children in Odessa, Ukraine. Believed to be Keith Frankel's father. Ed Frankel himself does not appear in the EFTA document set. Inclusion is for research context only — no evidence of wrongdoing.",
+    "sections": [
+      {
+        "title": "Role",
+        "content": "Chairman of the board of Tikva Children's Home, a registered 501(c)(3) Jewish charity (EIN 22-3779212, West Caldwell, NJ) serving at-risk Jewish children in Odessa, Ukraine. Founded in 1996 by Rabbi Shlomo Bakst. Per Sun Sentinel (April 24, 2017), Ed Frankel stated the organization has helped more than 500 children relocate to Israel. A 2016 Newswire press release lists \"Ed & Leah Frankel\" as sponsors of Tikva's 20th Anniversary Gala.\n\nEd Frankel does not appear in the EFTA document set. His inclusion in this database is solely because of the familial relationship to confirmed Epstein associate Keith Frankel (460+ EFTA mentions). There is NO evidence that Ed Frankel, Tikva Children's Home, or the Frankel family's Ukraine philanthropy is connected to trafficking or wrongdoing.\n\n---",
+        "sources": [
+          "OSINT"
+        ],
+        "verificationStatus": "unverified"
+      }
+    ],
+    "timelineEventIds": [],
+    "themeIds": [
+      "international-consequences-fallout"
+    ],
+    "connectionIds": [
+      "frankel-ed-familial"
+    ],
+    "sources": [
+      "OSINT"
+    ]
+  },
+  {
+    "id": "david-stern-epstein",
+    "name": "David Stern (Epstein contact)",
+    "aliases": [],
+    "category": "other",
+    "summary": "Sender of a July 15, 2011 email to Jeffrey Epstein discussing a potential trip, referencing \"filling a boat with P\" and asking \"when are we going to Odessa?\" Identity unknown — multiple public figures share this name. Bates number unknown.",
+    "sections": [
+      {
+        "title": "Odessa Email (July 2011)",
+        "content": "Sender of a July 15, 2011 email to Jeffrey Epstein (jeevacation@gmail.com). Subject: \"Re: [no subject].\" Full body:\n\n> \"OK. Wed 3rd would be great. we can then go down to the south, take a big boat and I fill it with P for you..... You don't like boats so it can stay at the port... and also the South is not our type of place. But the P is unbelievable... Talking about P: when are we going to Odessa?\"\n\nThis is a reply to a prior Epstein email (parent thread not yet reviewed). \"Odessa\" is a major port city in Ukraine. The meaning of \"P\" and the significance of the Odessa reference are ambiguous without additional email thread context.\n\nMultiple public figures named David Stern exist. This person has not been identified. Bates number unknown — search Jmail for \"Stern\" + \"Odessa\" to confirm.\n\n---",
+        "sources": [
+          "DOJ"
+        ],
+        "verificationStatus": "unverified"
+      }
+    ],
+    "timelineEventIds": [
+      "2011-07-15-stern-odessa-email"
+    ],
+    "themeIds": [
+      "the-trafficking-operation"
+    ],
+    "connectionIds": [
+      "stern-epstein-correspondence"
+    ],
+    "sources": [
+      "DOJ"
+    ]
+  },
+  {
+    "id": "christopher-poole",
+    "name": "Christopher Poole",
+    "aliases": [
+      "moot"
+    ],
+    "category": "media",
+    "summary": "Founder of 4chan.org (launched 2003), known online as \"moot.\" Introduced to Epstein by Boris Nikolic in October 2011. Nikolic explicitly cited \"the potential for manipulation is huge\" in EFTA emails. /pol/ launched October 23, 2011 — three days after the introduction email. Poole met Epstein once for \"an unmemorable lunch meeting\" per his own February 2026 statement. No contact documented after February 2012.",
+    "sections": [
+      {
+        "title": "Nikolic Introduction & /pol/ Timeline (October 2011)",
+        "content": "Boris Nikolic — Harvard physician, biotech investor, and Chief Advisor for Science and Technology to Bill Gates at bgC3 (Kirkland, WA) — met Christopher Poole in San Francisco and immediately emailed Epstein on October 20, 2011: \"There is a cool guy (KID) that you should meet\" with a link to Poole's Wikipedia page (EFTA_R1_00486371).\n\nThree days later, on **October 23, 2011**, Poole launched 4chan's **/pol/ (Politically Incorrect)** board — confirmed by moot's own announcement post preserved via WebCite archive.\n\nBy October 24, Nikolic asked Epstein \"How did you like moot?\" and Epstein replied \"I liked him a lot\" (EFTA01852812) — confirming an in-person social encounter had occurred around October 22–24.\n\nOn October 25, Nikolic planned a three-way meeting at Epstein's NYC townhouse for November 10–12, plus a covert Seattle trip with Poole: \"he does NOT know that yet — please keep it confidential\" (EFTA_R1_00498434).\n\nOn October 28, Nikolic sent Epstein a Washington Post article about 4chan's capacity for anonymous mass manipulation with the message: **\"The potential for manipulation is huge\"** (EFTA_R1_00482682).\n\nThe community claim that /pol/ launched on \"the same day\" as the Epstein-Poole meeting is contradicted: /pol/ launched October 23, three days after the introduction email. Same-week proximity is confirmed.\n\n---",
+        "sources": [
+          "DOJ"
+        ],
+        "verificationStatus": "verified",
+        "efta": [
+          "EFTA_R1_00486371",
+          "EFTA01852812",
+          "EFTA_R1_00498434",
+          "EFTA_R1_00482682"
+        ]
+      },
+      {
+        "title": "Meeting Attempts & Contact Window (Oct 2011 – Feb 2012)",
+        "content": "In January 2012, Epstein's assistant contacted Poole to schedule a direct meeting (\"come see Jeffrey\"). Poole confirmed Sunday January 29 at 3pm, then cancelled when a friend passed away (EFTA_R1_00861920/00861921). The assistant's response — \"We will get you together one of these days\" — implies prior scheduling attempts had also failed.\n\nA final meeting attempt is referenced in EFTA00420456 (February 2012), after which contact goes cold. Ryan Broderick (Garbage Day) reports \"nearly a hundred emails going back and forth about how Poole kept flaking on them.\"\n\nNo evidence of Epstein-Poole contact after approximately February 2012 exists in 3.5 million released EFTA pages. Poole does not appear in flight logs or the \"little black book.\"\n\nPoole's own statement (The Verge, February 13, 2026): \"His assistant reached out to me afterward, and I met with him one time for an unmemorable lunch meeting. I did not meet him again nor maintain contact.\"\n\n---",
+        "sources": [
+          "DOJ",
+          "OSINT"
+        ],
+        "verificationStatus": "verified",
+        "efta": [
+          "EFTA_R1_00861920",
+          "EFTA_R1_00861921",
+          "EFTA00420456"
+        ]
+      },
+      {
+        "title": "Epstein's Continued 4chan Interest (Post-Poole)",
+        "content": "Despite losing contact with Poole, Epstein's interest in 4chan persisted. In 2017, Epstein sent girlfriend Karyna Shuliak a 4chan link with explicit content. That same year, journalist Michael Wolff connected Epstein with Steve Bannon; they subsequently discussed using 4chan and cryptocurrency for populist/nationalist coalition-building. In 2015, Epstein intermediaries corresponded with far-right YouTuber Jean-François Gariépy, offering PR/marketing advice.\n\n---",
+        "sources": [
+          "DOJ",
+          "OSINT"
+        ],
+        "verificationStatus": "unverified"
+      }
+    ],
+    "timelineEventIds": [
+      "2011-10-20-nikolic-introduces-poole",
+      "2012-01-27-poole-meeting-cancelled"
+    ],
+    "themeIds": [
+      "intelligence-connections",
+      "media-congressional-investigations"
+    ],
+    "connectionIds": [
+      "poole-epstein-scheduled",
+      "nikolic-poole-broker"
     ],
     "sources": [
       "DOJ",

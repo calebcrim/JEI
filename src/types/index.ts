@@ -21,7 +21,8 @@ export type SourceTag =
   | 'Maxwell-trial' | 'Giuffre-deposition' | 'Palm-Beach-PD'
   | 'ForensicFinance'
   | 'FBI-Mogilevich'
-  | 'EFTA-Science';
+  | 'EFTA-Science'
+  | 'EFTA-Wolff';
 
 export interface Person {
   id: string;

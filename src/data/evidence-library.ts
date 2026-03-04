@@ -483,7 +483,7 @@ export const evidenceLibrary: EvidenceEntry[] = [
     category: 'congressional',
     type: 'transcript',
     title: 'AG Barr Deposition Transcript — September 2025',
-    description: 'The deposition transcript of former Attorney General William Barr, released September 16, 2025. Barr served as AG during Epstein\'s 2019 arrest and death; his father Donald Barr hired Epstein at Dalton School in 1974. The deposition covered Barr\'s decision to call the death a suicide and close the primary prosecution.',
+    description: 'The deposition transcript of former Attorney General William Barr, released September 16, 2025. Barr served as AG during Epstein\'s 2019 arrest and death; his father Donald Barr was headmaster of the Dalton School until June 30, 1974 — seven months before Epstein began teaching there in September 1974. Whether Barr made the hiring decision in advance is unverified; Peter Branch (interim headmaster from July 1, 1974) is the more likely hiring authority. The deposition covered Barr\'s decision to call the death a suicide and close the primary prosecution.',
     url: 'https://oversight.house.gov',
     date: 'September 16, 2025',
     verificationNote: 'Access via House Oversight Committee website.',

@@ -24,6 +24,7 @@ const SOURCE_LABELS: Record<SourceTagType, string> = {
   ForensicFinance: 'epstein-forensic-finance by Randall Scott Taylor (CC BY 4.0) — computational forensic accounting of EFTA corpus',
   'FBI-Mogilevich': 'FBI Organized Crime Intelligence Report — Semion Mogilevich Organization (1996)',
   'EFTA-Science': 'EFTA corpus science network analysis — DOJ releases, Harvard/MIT reports, and credible journalism documenting Epstein\'s scientific philanthropy and pandemic-adjacent connections',
+  'EFTA-Wolff': 'EFTA01132579 — Michael Wolff draft profile of Jeffrey Epstein (~late 2014/early 2015), DOJ Dataset 11, Bates-stamped primary source',
 };
 
 interface Props {

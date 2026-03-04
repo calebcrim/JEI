@@ -1,8 +1,24 @@
 # CC_GUIDE — Reels 2–5: Bondi/Frankel · 4chan/Moot · JPMorgan Snow White · Corcoran Group
 ## Epstein Files Research Database — New Content Series
 
-**Sources:** Four Instagram Reels (community investigative analysis)  
-**Channels:** [unlabeled], ginotheghost, not.an.official.news.source, bubba.bosco  
+---
+## ⚠️ CORRECTION — CLUSTER C (Snow White / Sender Identity)
+
+**Date of correction:** 2026-03-04
+**Resolved by:** CC_GUIDE_SNOWWHITE_STALEY_RESOLVED.md
+
+The sender identified in this guide as "Jess Stolle" (a community inference from Instagram researcher not.an.official.news.source) has been **corrected** by primary EFTA documents and a federal court filing.
+
+**The sender is Jes Staley** — then-head of JPMorgan Chase's Private Bank, later CEO of Barclays. His name appears in full in the email headers (EFTA00188290 / EFTA00188291), and the full exchange is quoted at paragraph 61 of the USVI v. JPMorgan Second Amended Complaint (Case 1:22-cv-10904-JSR, Document 119, filed April 12, 2023).
+
+**The community researcher's visual comparison to the painting and the "Jess Stolle" identification were incorrect.** This is not a minor correction — Jes Staley is a substantially more significant figure than the community inference suggested. All Cluster C implementation should use the Jes Staley person node, not a Jess Stolle node.
+
+See `CC_GUIDE_SNOWWHITE_STALEY_RESOLVED.md` for the complete corrected implementation.
+
+---
+
+**Sources:** Four Instagram Reels (community investigative analysis)
+**Channels:** [unlabeled], ginotheghost, not.an.official.news.source, bubba.bosco
 **Reel IDs:** DUlp1H7ki3Y · DUTbNfFCZw_ · DUvFJdmDNlI · DUrQRjDDUFA
 
 **Purpose:** Integrate four distinct content clusters surfaced by community researchers.
@@ -43,11 +59,11 @@ The reel alleges the following specific, document-anchored facts:
 
 | Claim | Status | Notes |
 |-------|--------|-------|
-| Keith Frankel ↔ Epstein email, Feb 10, 2010 | ⚠️ NEEDS VERIFICATION | Specific date given — search EFTA set for Frankel + this date. Bates number unknown. |
-| "Body boxes" phrase in Epstein correspondence | ⚠️ NEEDS VERIFICATION | Highly specific claim. Search Jmail.world for "body boxes" + "Frankel". |
-| Frankel visited Epstein's house multiple times | ⚠️ NEEDS VERIFICATION | Visitor logs, phone records, or email references needed. |
-| Ukraine child trafficking reference in EFTA files | ⚠️ NEEDS VERIFICATION | Plausible given scope of documents. Search EFTA for Ukraine + trafficking references. |
-| Frankel family children's home / Ukraine operations | ⚠️ NEEDS VERIFICATION | Requires independent confirmation via corporate records, NGO registration, or news coverage. |
+| Keith Frankel ↔ Epstein email, Feb 10, 2010 | ✅ VERIFIED | EFTA00764733 confirmed. "Body Boxes" is a product name for body sculpting supplement. 460+ EFTA mentions via Jmail. |
+| "Body boxes" phrase in Epstein correspondence | ✅ VERIFIED | EFTA00764733 + EFTA00764728 confirm: "THE BODY — 28 DAY BODY SCULPTING SYSTEM" — product packaging, not trafficking terminology. |
+| Frankel visited Epstein's house multiple times | ✅ VERIFIED | EFTA02429595 confirms Palm Beach visit March 7, 2010. 460+ EFTA email references confirm regular contact. |
+| Ukraine child trafficking reference in EFTA files | ⚠️ PARTIALLY VERIFIED | EFTA00214249 (DataSet 9) — heavily redacted Eastern European victim article confirmed. David Stern/Odessa email (July 2011) source-documented but Bates unknown. |
+| Frankel family children's home / Ukraine operations | ✅ CORROBORATED | Tikva Children's Home, Odessa, Ukraine. EIN 22-3779212 (501(c)(3)). Ed Frankel, chairman. Sun Sentinel 2017; NJ Jewish News. Legitimate humanitarian org. |
 | Pam Bondi photographed with Frankel | ⚠️ COMMUNITY CLAIM | Image referenced but not linked to an EFTA document. Verify via public record. |
 
 ### Phase A-1: New Person Node — Keith Frankel
@@ -156,6 +172,20 @@ Check `src/data/themes.json`. If no Ukraine-specific theme exists, add:
 ## CLUSTER B — Epstein, Moot (4chan Founder) & the /pol/ Launch
 **Reel ID:** DUTbNfFCZw_ · Channel: ginotheghost
 
+### ✅ PROBE FULLY RESOLVED — 2026-03-04
+
+**Documents Found:** 4 EFTA PDFs (6 Bates pages) + supplementary EFTA references
+**Status Upgrade:** UNVERIFIED COMMUNITY CLAIM → PARTIALLY VERIFIED (factual anchor); COMMUNITY HYPOTHESIS (interpretive framework)
+**Key Findings:**
+- Boris Nikolic is the confirmed bridge; "the potential for manipulation is huge" (EFTA_R1_00482682, Oct 28, 2011) is in the EFTA record
+- /pol/ launched October 23, 2011 — NOT same day as introduction; same-week proximity confirmed
+- WaPo article = "4chan users seize Internet's power for mass disruptions" (Cha, Aug 10, 2010) — documented 4chan as anonymous mass manipulation engine
+- Seattle trip almost certainly a Gates/bgC3 introduction; unconfirmed whether trip occurred
+- No post-February 2012 Epstein–Poole contact across 3.5M released pages; Poole's own statement: "I did not meet him again nor maintain contact"
+
+**Bates Anchors:** EFTA_R1_00486371, EFTA_R1_00498434, EFTA_R1_00482682, EFTA_R1_00861920, EFTA_R1_00861921, EFTA01852812
+**Integration Guide:** CC_GUIDE_POOLE_NIKOLIC_INTEGRATED.md
+
 ### What Was Claimed
 
 The reel makes one highly specific factual claim that anchors the rest of the editorial analysis:
@@ -179,8 +209,8 @@ The rest of the reel is opinion/interpretation, not document citation.
 
 | Claim | Status | Notes |
 |-------|--------|-------|
-| Epstein ↔ Christopher Poole ("moot") meeting was scheduled | ⚠️ NEEDS VERIFICATION | Highly specific. Search EFTA/Jmail for "moot," "4chan," "Christopher Poole," "Poole." |
-| Meeting date ↔ /pol/ launch date are the same day | ⚠️ NEEDS VERIFICATION | /pol/ launched October 2011. Find email/calendar entry to check date alignment. |
+| Epstein ↔ Christopher Poole ("moot") meeting was scheduled | ✅ VERIFIED | EFTA-confirmed: Boris Nikolic introduced Poole Oct 20, 2011. Epstein met Poole ~Oct 22–24. Meeting scheduled Jan 2012 (cancelled). 4 EFTA PDFs. |
+| Meeting date ↔ /pol/ launch date are the same day | ❌ CONTRADICTED (same week confirmed) | /pol/ launched Oct 23, 2011 — three days after intro email, ~1 day before in-person meeting. "Same day" claim contradicted; same-week confirmed. |
 | QAnon originated on /pol/ | ✅ PUBLIC RECORD | Q first posted on /pol/ in October 2017. Not disputed. |
 | Pizzagate as political psyop | ⚠️ EDITORIAL / OPINION | Community interpretation — not document-sourced. Flag as commentary. |
 | Epstein as architect of online radicalization | ⚠️ SPECULATIVE | Inferential argument based on the meeting claim. Not independently sourced. |
@@ -582,11 +612,12 @@ site's "Open Research Threads" section if one exists:
 | Item | Status |
 |------|--------|
 | Pam Bondi declined Epstein multistate investigation (2013) | ✅ VERIFIED (public record) |
-| Keith Frankel ↔ Epstein "body boxes" email, Feb 10, 2010 | ❌ UNVERIFIED |
-| Frankel family Ukraine children's home | ❌ UNVERIFIED |
-| Ukraine trafficking references in EFTA | ⚠️ ASSERTED (no Bates number) |
-| Epstein ↔ Christopher Poole meeting scheduled | ❌ UNVERIFIED |
-| /pol/ launch date = meeting date | ❌ UNVERIFIED |
+| Keith Frankel ↔ Epstein "body boxes" email, Feb 10, 2010 | ✅ VERIFIED — EFTA00764733 confirmed. "Body boxes" = product name. |
+| Frankel visited Epstein's house multiple times | ✅ VERIFIED — EFTA02429595 confirms PB visit March 7, 2010. 460+ EFTA mentions. |
+| Frankel family Ukraine children's home | ✅ CORROBORATED — Tikva Children's Home, Odessa. EIN 22-3779212. Ed Frankel, chairman. |
+| Ukraine trafficking references in EFTA | ⚠️ PARTIALLY VERIFIED — EFTA00214249 (Eastern European victim) confirmed. David Stern/Odessa email source-documented. |
+| Epstein ↔ Christopher Poole meeting scheduled | ✅ VERIFIED — EFTA-confirmed via Boris Nikolic introduction (4 EFTA PDFs). Poole met Epstein ~Oct 22–24, 2011. |
+| /pol/ launch date = meeting date | ❌ CONTRADICTED — /pol/ launched Oct 23; intro email Oct 20; meeting ~Oct 24. Same week, NOT same day. |
 | "Snow White" email, July 9, 2010 in Epstein Library | ⚠️ PARTIALLY VERIFIED (no Bates number) |
 | "Jess" = Jess Stolle | ⚠️ COMMUNITY INFERENCE |
 | Jess Stolle JPMorgan, 1990–2013 | ⚠️ NEEDS INDEPENDENT VERIFICATION |

@@ -6187,5 +6187,322 @@
     ],
     "verificationStatus": "verified",
     "activeEras": []
+  },
+  {
+    "id": "verglas-epstein-scopolamine-article",
+    "sourcePersonId": "antoine-verglas",
+    "targetPersonId": "jeffrey-epstein",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Forwarded scopolamine article chain that reached Epstein via intermediary, January 2015 (EFTA00865569)",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
+  },
+  {
+    "id": "rodriguez-epstein-inner-circle",
+    "sourcePersonId": "anne-rodriguez",
+    "targetPersonId": "jeffrey-epstein",
+    "relationshipType": "employer-employee",
+    "strength": 3,
+    "description": "Personal secretary and Little St. James property manager. Recipient of trumpet plant and landscaping emails (EFTA00984429, EFTA01950280).",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
+  },
+  {
+    "id": "staley-epstein-snow-white",
+    "sourcePersonId": "jes-staley",
+    "targetPersonId": "jeffrey-epstein",
+    "relationshipType": "social",
+    "strength": 3,
+    "description": "Approximately 1,200 emails exchanged via JPMorgan corporate account, 2008–2012. July 2010 Snow White email exchange confirmed at EFTA00188290–00188291. USVI lawsuit cited as suggesting Staley \"may have been involved in Epstein's sex-trafficking operation.\" Visited Epstein's Little St. James property and Palm Beach residence.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
+  },
+  {
+    "id": "staley-dubin-epstein-introduction",
+    "sourcePersonId": "jes-staley",
+    "targetPersonId": "glenn-dubin",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Epstein introduced Staley to Glenn Dubin (Highbridge Capital Management) in 2004, facilitating JPMorgan's subsequent acquisition of Highbridge and advancing Staley's career.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2001-2007",
+      "2008-2018"
+    ]
+  },
+  {
+    "id": "epstein-peggy-siegel-post-conviction",
+    "sourcePersonId": "jeffrey-epstein",
+    "targetPersonId": "peggy-siegel",
+    "relationshipType": "social",
+    "strength": 2,
+    "description": "Ongoing social contact, August 2009 – February 2012. Multiple EFTA documents show visits to Epstein's home, phone-tag via staff (Lesley Groff, Rich Bame), and Siegel's urgent contact during a conference where press was discussing Epstein. 489 DOJ EFTA results for \"peggy siegel.\"",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
+  },
+  {
+    "id": "siegel-harvey-weinstein-flight",
+    "sourcePersonId": "peggy-siegel",
+    "targetPersonId": "harvey-weinstein",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Weinstein contacted Siegel about sharing Epstein's private flight to Europe. Siegel relayed the request to Epstein's office via her assistant. Social and logistical overlap documented; no operational trafficking connection established (EFTA_R1_00265226).",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
+  },
+  {
+    "id": "weinstein-epstein-social-overlap",
+    "sourcePersonId": "harvey-weinstein",
+    "targetPersonId": "jeffrey-epstein",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "One verified EFTA document shows Weinstein contacted Peggy Siegel to attempt to share Epstein's flight to Europe. Social overlap confirmed; operational network membership not established (EFTA_R1_00265226).",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified",
+    "activeEras": [
+      "2008-2018"
+    ]
+  },
+  {
+    "id": "pierce-epstein-financial-advisory",
+    "sourcePersonId": "brock-pierce",
+    "targetPersonId": "jeffrey-epstein",
+    "relationshipType": "financial",
+    "strength": 2,
+    "description": "Brock Pierce was present in Epstein's dining room as a paying visitor/advisee, explaining Bitcoin to Larry Summers during UN week September 2014. Former DEN co-founder with documented sex abuse scandal history.",
+    "sources": [
+      "EFTA-Wolff"
+    ],
+    "verificationStatus": "verified",
+    "activeEras": []
+  },
+  {
+    "id": "jagland-epstein-social",
+    "sourcePersonId": "thorbjorn-jagland",
+    "targetPersonId": "jeffrey-epstein",
+    "relationshipType": "social",
+    "strength": 2,
+    "description": "Nobel Peace Prize Committee chairman attended Epstein cocktail party during UN week 2014. Epstein offered him a ride back to Europe on his private jet.",
+    "sources": [
+      "EFTA-Wolff"
+    ],
+    "verificationStatus": "verified",
+    "activeEras": []
+  },
+  {
+    "id": "weingarten-epstein-legal",
+    "sourcePersonId": "reid-weingarten",
+    "targetPersonId": "jeffrey-epstein",
+    "relationshipType": "associate",
+    "strength": 2,
+    "description": "High-profile defense attorney who regularly visited Epstein's dining room; when asked why powerful people keep returning to Epstein, said: \"Why we camp out here? I find that question as mysterious as you do.\"",
+    "sources": [
+      "EFTA-Wolff"
+    ],
+    "verificationStatus": "verified",
+    "activeEras": []
+  },
+  {
+    "id": "rudd-epstein-social",
+    "sourcePersonId": "kevin-rudd",
+    "targetPersonId": "jeffrey-epstein",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Former Australian PM attended Epstein cocktail party during UN week, September 2014.",
+    "sources": [
+      "EFTA-Wolff"
+    ],
+    "verificationStatus": "verified",
+    "activeEras": []
+  },
+  {
+    "id": "carter-epstein-media",
+    "sourcePersonId": "graydon-carter",
+    "targetPersonId": "jeffrey-epstein",
+    "relationshipType": "associate",
+    "strength": 2,
+    "description": "Vanity Fair editor who allegedly seeded the \"Epstein secretly films guests\" rumor; warned Wolff against visiting. Previously oversaw spiking of Vicki Ward's investigative piece on Epstein.",
+    "sources": [
+      "EFTA-Wolff",
+      "OSINT"
+    ],
+    "verificationStatus": "verified",
+    "activeEras": []
+  },
+  {
+    "id": "page-epstein-social",
+    "sourcePersonId": "larry-page",
+    "targetPersonId": "jeffrey-epstein",
+    "relationshipType": "social",
+    "strength": 2,
+    "description": "Google co-founder visited Epstein's Boeing 727 at TED conference 2002; pitched \"Google bras\" brand extension. Earliest documented Google/Epstein connection.",
+    "sources": [
+      "EFTA-Wolff"
+    ],
+    "verificationStatus": "verified",
+    "activeEras": []
+  },
+  {
+    "id": "new-epstein-academic",
+    "sourcePersonId": "elisa-new",
+    "targetPersonId": "jeffrey-epstein",
+    "relationshipType": "academic",
+    "strength": 1,
+    "description": "Harvard poetry professor and wife of Larry Summers; sought Epstein's advice on WGBH poetry series funding during UN week 2014.",
+    "sources": [
+      "EFTA-Wolff"
+    ],
+    "verificationStatus": "verified",
+    "activeEras": []
+  },
+  {
+    "id": "hamad-epstein-political",
+    "sourcePersonId": "sheikh-hamad-qatar-fm",
+    "targetPersonId": "jeffrey-epstein",
+    "relationshipType": "social",
+    "strength": 3,
+    "description": "Qatar FM lived directly across the street from Epstein's Manhattan townhouse; shared the same interior decorator. Hosted by Epstein during UN week 2014; Epstein pressed on ISIS financing.",
+    "sources": [
+      "EFTA-Wolff"
+    ],
+    "verificationStatus": "verified",
+    "activeEras": []
+  },
+  {
+    "id": "page-brin-google-epstein-727",
+    "sourcePersonId": "larry-page",
+    "targetPersonId": "sergey-brin",
+    "relationshipType": "associate",
+    "strength": 3,
+    "description": "Google co-founders both visited Epstein's 727 at TED conference 2002 and pitched \"Google bras\" to Epstein.",
+    "sources": [
+      "EFTA-Wolff"
+    ],
+    "verificationStatus": "verified",
+    "activeEras": []
+  },
+  {
+    "id": "pierce-summers-bitcoin-meeting",
+    "sourcePersonId": "brock-pierce",
+    "targetPersonId": "larry-summers",
+    "relationshipType": "associate",
+    "strength": 1,
+    "description": "Pierce explained Bitcoin to Summers in Epstein's dining room during UN week September 2014.",
+    "sources": [
+      "EFTA-Wolff"
+    ],
+    "verificationStatus": "verified",
+    "activeEras": []
+  },
+  {
+    "id": "frankel-epstein-business",
+    "sourcePersonId": "keith-frankel",
+    "targetPersonId": "jeffrey-epstein",
+    "relationshipType": "financial",
+    "strength": 3,
+    "description": "460+ EFTA email references. Confirmed Palm Beach house visitor (March 7, 2010, EFTA02429595). Discussed product licensing deal with Victoria's Secret (\"The Body Boxes\" email chain, Feb–Mar 2010).",
+    "sources": [
+      "DOJ",
+      "JMail"
+    ],
+    "verificationStatus": "verified",
+    "activeEras": []
+  },
+  {
+    "id": "frankel-bondi-social",
+    "sourcePersonId": "keith-frankel",
+    "targetPersonId": "pam-bondi",
+    "relationshipType": "social",
+    "strength": 1,
+    "description": "Photographed together per community researcher. Relationship nature unspecified.",
+    "sources": [
+      "OSINT"
+    ],
+    "verificationStatus": "unverified",
+    "activeEras": []
+  },
+  {
+    "id": "frankel-ed-familial",
+    "sourcePersonId": "keith-frankel",
+    "targetPersonId": "ed-frankel",
+    "relationshipType": "associate",
+    "strength": 2,
+    "description": "Believed to be father-son relationship based on community researcher claims and surname match. Ed Frankel is chairman of Tikva Children's Home (Odessa, Ukraine). Not independently confirmed via public record.",
+    "sources": [
+      "OSINT"
+    ],
+    "verificationStatus": "unverified",
+    "activeEras": []
+  },
+  {
+    "id": "stern-epstein-correspondence",
+    "sourcePersonId": "david-stern-epstein",
+    "targetPersonId": "jeffrey-epstein",
+    "relationshipType": "associate",
+    "strength": 1,
+    "description": "July 15, 2011 email to Epstein referencing a planned meeting, \"filling a boat with P,\" and asking \"when are we going to Odessa?\" Identity of sender unknown.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "unverified",
+    "activeEras": []
+  },
+  {
+    "id": "nikolic-poole-broker",
+    "sourcePersonId": "boris-nikolic",
+    "targetPersonId": "christopher-poole",
+    "relationshipType": "associate",
+    "strength": 3,
+    "description": "Nikolic met Poole in San Francisco and introduced him to Epstein in October 2011, sharing his Wikipedia bio and explicitly citing \"the potential for manipulation is huge.\" Planned coordinated meetings at Epstein's NYC townhouse and a covert Seattle trip. EFTA-verified.",
+    "sources": [
+      "DOJ"
+    ],
+    "verificationStatus": "verified",
+    "activeEras": []
+  },
+  {
+    "id": "poole-epstein-scheduled",
+    "sourcePersonId": "christopher-poole",
+    "targetPersonId": "jeffrey-epstein",
+    "relationshipType": "associate",
+    "strength": 2,
+    "description": "Boris Nikolic brokered introduction Oct 2011. Epstein met Poole at a social event ~Oct 22–24 and \"liked him a lot.\" Direct meeting scheduled via Epstein's office Jan 2012 (cancelled). No confirmed contact after ~Feb 2012. Poole: \"I met with him one time for an unmemorable lunch meeting.\"",
+    "sources": [
+      "DOJ",
+      "OSINT"
+    ],
+    "verificationStatus": "verified",
+    "activeEras": []
   }
 ]
